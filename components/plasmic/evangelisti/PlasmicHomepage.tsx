@@ -161,7 +161,7 @@ function PlasmicHomepage__RenderFunc(props: {
               sty.h1
             )}
           >
-            {"Hello World"}
+            {"Hello World test commit"}
           </h1>
         </div>
       </div>
