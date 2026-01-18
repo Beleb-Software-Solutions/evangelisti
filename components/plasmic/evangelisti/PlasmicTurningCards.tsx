@@ -69,10 +69,19 @@ import sty from "./PlasmicTurningCards.module.css"; // plasmic-import: WRX8WwTCu
 
 createPlasmicElementProxy;
 
-export type PlasmicTurningCards__VariantMembers = {};
-export type PlasmicTurningCards__VariantsArgs = {};
+export type PlasmicTurningCards__VariantMembers = {
+  others: "_1st" | "_2nd" | "_3rd";
+  open: "open";
+};
+export type PlasmicTurningCards__VariantsArgs = {
+  others?: SingleChoiceArg<"_1st" | "_2nd" | "_3rd">;
+  open?: SingleBooleanChoiceArg<"open">;
+};
 type VariantPropType = keyof PlasmicTurningCards__VariantsArgs;
-export const PlasmicTurningCards__VariantProps = new Array<VariantPropType>();
+export const PlasmicTurningCards__VariantProps = new Array<VariantPropType>(
+  "others",
+  "open"
+);
 
 export type PlasmicTurningCards__ArgsType = {};
 type ArgPropType = keyof PlasmicTurningCards__ArgsType;
@@ -101,21 +110,23 @@ export type PlasmicTurningCards__OverridesType = {
   group1321315459?: Flex__<"div">;
   rectangle217?: Flex__<"div">;
   image22?: Flex__<"div">;
-  _1st?: Flex__<"div">;
-  image23?: Flex__<"div">;
-  jetpackStudio2?: Flex__<"div">;
-  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition2?: Flex__<"div">;
-  _2nd?: Flex__<"div">;
-  image10?: Flex__<"div">;
-  jetpackStudio3?: Flex__<"div">;
-  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition3?: Flex__<"div">;
-  _3rd?: Flex__<"div">;
-  image6?: Flex__<"div">;
-  jetpackStudio4?: Flex__<"div">;
-  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition4?: Flex__<"div">;
+  _1st2?: Flex__<"div">;
+  image24?: Flex__<"div">;
+  jetpackStudio5?: Flex__<"div">;
+  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5?: Flex__<"div">;
+  _2nd2?: Flex__<"div">;
+  image11?: Flex__<"div">;
+  jetpackStudio6?: Flex__<"div">;
+  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6?: Flex__<"div">;
+  _3rd2?: Flex__<"div">;
+  image7?: Flex__<"div">;
+  jetpackStudio7?: Flex__<"div">;
+  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7?: Flex__<"div">;
 };
 
 export interface DefaultTurningCardsProps {
+  others?: SingleChoiceArg<"_1st" | "_2nd" | "_3rd">;
+  open?: SingleBooleanChoiceArg<"open">;
   className?: string;
 }
 
@@ -165,6 +176,12 @@ function PlasmicTurningCards__RenderFunc(props: {
         type: "private",
         variableType: "variant",
         initFunc: ({ $props, $state, $queries, $ctx }) => $props.others
+      },
+      {
+        path: "open",
+        type: "private",
+        variableType: "variant",
+        initFunc: ({ $props, $state, $queries, $ctx }) => $props.open
       }
     ],
     [$props, $ctx, $refs]
@@ -190,7 +207,11 @@ function PlasmicTurningCards__RenderFunc(props: {
         projectcss.plasmic_default_styles,
         projectcss.plasmic_mixins,
         styleTokensClassNames,
-        sty.root
+        sty.root,
+        {
+          [sty.rootothers__2nd]: hasVariant($state, "others", "_2nd"),
+          [sty.rootothers__3rd]: hasVariant($state, "others", "_3rd")
+        }
       )}
     >
       <div className={classNames(projectcss.all, sty.freeBox__i23Vi)}>
@@ -395,29 +416,137 @@ function PlasmicTurningCards__RenderFunc(props: {
           </div>
         </div>
       </div>
-      <div className={classNames(projectcss.all, sty.freeBox___4YMNj)}>
+      <div
+        className={classNames(projectcss.all, sty.freeBox__tx2NQ, {
+          [sty.freeBoxopen__tx2NQ28Mpr]: hasVariant($state, "open", "open"),
+          [sty.freeBoxothers__1st__tx2NQfZMww]: hasVariant(
+            $state,
+            "others",
+            "_1st"
+          ),
+          [sty.freeBoxothers__2nd__tx2NQxhPVk]: hasVariant(
+            $state,
+            "others",
+            "_2nd"
+          ),
+          [sty.freeBoxothers__3rd__tx2NQu390H]: hasVariant(
+            $state,
+            "others",
+            "_3rd"
+          )
+        })}
+        onMouseEnter={async event => {
+          const $steps = {};
+
+          $steps["updateOthers"] = true
+            ? (() => {
+                const actionArgs = {
+                  vgroup: "others",
+                  operation: 0,
+                  value: "_1st"
+                };
+                return (({ vgroup, value }) => {
+                  if (typeof value === "string") {
+                    value = [value];
+                  }
+
+                  $stateSet($state, vgroup, value);
+                  return value;
+                })?.apply(null, [actionArgs]);
+              })()
+            : undefined;
+          if (
+            $steps["updateOthers"] != null &&
+            typeof $steps["updateOthers"] === "object" &&
+            typeof $steps["updateOthers"].then === "function"
+          ) {
+            $steps["updateOthers"] = await $steps["updateOthers"];
+          }
+        }}
+        onMouseLeave={async event => {
+          const $steps = {};
+
+          $steps["updateOthers"] = true
+            ? (() => {
+                const actionArgs = {
+                  vgroup: "others",
+                  operation: 0,
+                  value: []
+                };
+                return (({ vgroup, value }) => {
+                  if (typeof value === "string") {
+                    value = [value];
+                  }
+
+                  $stateSet($state, vgroup, value);
+                  return value;
+                })?.apply(null, [actionArgs]);
+              })()
+            : undefined;
+          if (
+            $steps["updateOthers"] != null &&
+            typeof $steps["updateOthers"] === "object" &&
+            typeof $steps["updateOthers"].then === "function"
+          ) {
+            $steps["updateOthers"] = await $steps["updateOthers"];
+          }
+        }}
+      >
         <div
-          data-plasmic-name={"_1st"}
-          data-plasmic-override={overrides._1st}
-          className={classNames(projectcss.all, sty._1st)}
+          data-plasmic-name={"_1st2"}
+          data-plasmic-override={overrides._1st2}
+          className={classNames(projectcss.all, sty._1St2, {
+            [sty._1St2open]: hasVariant($state, "open", "open"),
+            [sty._1St2others__1st]: hasVariant($state, "others", "_1st"),
+            [sty._1St2others__2nd]: hasVariant($state, "others", "_2nd"),
+            [sty._1St2others__3rd]: hasVariant($state, "others", "_3rd")
+          })}
+          onClick={async event => {
+            const $steps = {};
+
+            $steps["updateOthers"] = true
+              ? (() => {
+                  const actionArgs = {
+                    vgroup: "others",
+                    operation: 0,
+                    value: "_1st"
+                  };
+                  return (({ vgroup, value }) => {
+                    if (typeof value === "string") {
+                      value = [value];
+                    }
+
+                    $stateSet($state, vgroup, value);
+                    return value;
+                  })?.apply(null, [actionArgs]);
+                })()
+              : undefined;
+            if (
+              $steps["updateOthers"] != null &&
+              typeof $steps["updateOthers"] === "object" &&
+              typeof $steps["updateOthers"].then === "function"
+            ) {
+              $steps["updateOthers"] = await $steps["updateOthers"];
+            }
+          }}
         >
-          <div className={classNames(projectcss.all, sty.freeBox__oxXgZ)}>
+          <div className={classNames(projectcss.all, sty.freeBox__okzeC)}>
             <div
-              data-plasmic-name={"image23"}
-              data-plasmic-override={overrides.image23}
-              className={classNames(projectcss.all, sty.image23)}
+              data-plasmic-name={"image24"}
+              data-plasmic-override={overrides.image24}
+              className={classNames(projectcss.all, sty.image24)}
             />
           </div>
           <div
-            data-plasmic-name={"jetpackStudio2"}
-            data-plasmic-override={overrides.jetpackStudio2}
-            className={classNames(projectcss.all, sty.jetpackStudio2)}
+            data-plasmic-name={"jetpackStudio5"}
+            data-plasmic-override={overrides.jetpackStudio5}
+            className={classNames(projectcss.all, sty.jetpackStudio5)}
           >
             <div
               className={classNames(
                 projectcss.all,
                 projectcss.__wab_text,
-                sty.text__yEbik
+                sty.text__g3DPn
               )}
             >
               {"Jetpack Studio"}
@@ -425,21 +554,21 @@ function PlasmicTurningCards__RenderFunc(props: {
           </div>
           <div
             data-plasmic-name={
-              "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition2"
+              "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5"
             }
             data-plasmic-override={
-              overrides.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition2
+              overrides.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5
             }
             className={classNames(
               projectcss.all,
-              sty.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition2
+              sty.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5
             )}
           >
             <div
               className={classNames(
                 projectcss.all,
                 projectcss.__wab_text,
-                sty.text__mPpTn
+                sty.text__gjXfc
               )}
             >
               {
@@ -449,26 +578,61 @@ function PlasmicTurningCards__RenderFunc(props: {
           </div>
         </div>
         <div
-          data-plasmic-name={"_2nd"}
-          data-plasmic-override={overrides._2nd}
-          className={classNames(projectcss.all, sty._2nd)}
+          data-plasmic-name={"_2nd2"}
+          data-plasmic-override={overrides._2nd2}
+          className={classNames(projectcss.all, sty._2Nd2, {
+            [sty._2Nd2open]: hasVariant($state, "open", "open"),
+            [sty._2Nd2others__1st]: hasVariant($state, "others", "_1st"),
+            [sty._2Nd2others__2nd]: hasVariant($state, "others", "_2nd"),
+            [sty._2Nd2others__3rd]: hasVariant($state, "others", "_3rd")
+          })}
+          onClick={async event => {
+            const $steps = {};
+
+            $steps["updateOthers"] = true
+              ? (() => {
+                  const actionArgs = {
+                    vgroup: "others",
+                    operation: 0,
+                    value: "_3rd"
+                  };
+                  return (({ vgroup, value }) => {
+                    if (typeof value === "string") {
+                      value = [value];
+                    }
+
+                    $stateSet($state, vgroup, value);
+                    return value;
+                  })?.apply(null, [actionArgs]);
+                })()
+              : undefined;
+            if (
+              $steps["updateOthers"] != null &&
+              typeof $steps["updateOthers"] === "object" &&
+              typeof $steps["updateOthers"].then === "function"
+            ) {
+              $steps["updateOthers"] = await $steps["updateOthers"];
+            }
+          }}
         >
           <div
-            data-plasmic-name={"image10"}
-            data-plasmic-override={overrides.image10}
-            className={classNames(projectcss.all, sty.image10)}
+            data-plasmic-name={"image11"}
+            data-plasmic-override={overrides.image11}
+            className={classNames(projectcss.all, sty.image11, {
+              [sty.image11others__3rd]: hasVariant($state, "others", "_3rd")
+            })}
           />
 
           <div
-            data-plasmic-name={"jetpackStudio3"}
-            data-plasmic-override={overrides.jetpackStudio3}
-            className={classNames(projectcss.all, sty.jetpackStudio3)}
+            data-plasmic-name={"jetpackStudio6"}
+            data-plasmic-override={overrides.jetpackStudio6}
+            className={classNames(projectcss.all, sty.jetpackStudio6)}
           >
             <div
               className={classNames(
                 projectcss.all,
                 projectcss.__wab_text,
-                sty.text__ton8Y
+                sty.text__fX6Rd
               )}
             >
               {"Marina Capital"}
@@ -476,21 +640,21 @@ function PlasmicTurningCards__RenderFunc(props: {
           </div>
           <div
             data-plasmic-name={
-              "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition3"
+              "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6"
             }
             data-plasmic-override={
-              overrides.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition3
+              overrides.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6
             }
             className={classNames(
               projectcss.all,
-              sty.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition3
+              sty.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6
             )}
           >
             <div
               className={classNames(
                 projectcss.all,
                 projectcss.__wab_text,
-                sty.text__hG1Cb
+                sty.text__juw08
               )}
             >
               {
@@ -500,26 +664,59 @@ function PlasmicTurningCards__RenderFunc(props: {
           </div>
         </div>
         <div
-          data-plasmic-name={"_3rd"}
-          data-plasmic-override={overrides._3rd}
-          className={classNames(projectcss.all, sty._3rd)}
+          data-plasmic-name={"_3rd2"}
+          data-plasmic-override={overrides._3rd2}
+          className={classNames(projectcss.all, sty._3Rd2, {
+            [sty._3Rd2open]: hasVariant($state, "open", "open"),
+            [sty._3Rd2others__1st]: hasVariant($state, "others", "_1st"),
+            [sty._3Rd2others__2nd]: hasVariant($state, "others", "_2nd"),
+            [sty._3Rd2others__3rd]: hasVariant($state, "others", "_3rd")
+          })}
+          onClick={async event => {
+            const $steps = {};
+
+            $steps["updateOthers"] = true
+              ? (() => {
+                  const actionArgs = {
+                    vgroup: "others",
+                    operation: 0,
+                    value: "_2nd"
+                  };
+                  return (({ vgroup, value }) => {
+                    if (typeof value === "string") {
+                      value = [value];
+                    }
+
+                    $stateSet($state, vgroup, value);
+                    return value;
+                  })?.apply(null, [actionArgs]);
+                })()
+              : undefined;
+            if (
+              $steps["updateOthers"] != null &&
+              typeof $steps["updateOthers"] === "object" &&
+              typeof $steps["updateOthers"].then === "function"
+            ) {
+              $steps["updateOthers"] = await $steps["updateOthers"];
+            }
+          }}
         >
           <div
-            data-plasmic-name={"image6"}
-            data-plasmic-override={overrides.image6}
-            className={classNames(projectcss.all, sty.image6)}
+            data-plasmic-name={"image7"}
+            data-plasmic-override={overrides.image7}
+            className={classNames(projectcss.all, sty.image7)}
           />
 
           <div
-            data-plasmic-name={"jetpackStudio4"}
-            data-plasmic-override={overrides.jetpackStudio4}
-            className={classNames(projectcss.all, sty.jetpackStudio4)}
+            data-plasmic-name={"jetpackStudio7"}
+            data-plasmic-override={overrides.jetpackStudio7}
+            className={classNames(projectcss.all, sty.jetpackStudio7)}
           >
             <div
               className={classNames(
                 projectcss.all,
                 projectcss.__wab_text,
-                sty.text__uZnex
+                sty.text__ljplp
               )}
             >
               {"blue pool capital"}
@@ -527,21 +724,21 @@ function PlasmicTurningCards__RenderFunc(props: {
           </div>
           <div
             data-plasmic-name={
-              "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition4"
+              "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7"
             }
             data-plasmic-override={
-              overrides.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition4
+              overrides.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7
             }
             className={classNames(
               projectcss.all,
-              sty.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition4
+              sty.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7
             )}
           >
             <div
               className={classNames(
                 projectcss.all,
                 projectcss.__wab_text,
-                sty.text__d23Mh
+                sty.text___0BeK8
               )}
             >
               {"as Lead Investor in the\n\u20ac80m Series F of GYG"}
@@ -550,12 +747,62 @@ function PlasmicTurningCards__RenderFunc(props: {
         </div>
       </div>
       <div className={classNames(projectcss.all, sty.freeBox__aYxJa)}>
-        <div className={classNames(projectcss.all, sty.freeBox__aj3Zh)}>
-          <div className={classNames(projectcss.all, sty.freeBox__slKmr)} />
+        <div className={classNames(projectcss.all, sty.freeBox__yLvLr)}>
+          <div
+            className={classNames(projectcss.all, sty.freeBox__aj3Zh, {
+              [sty.freeBoxothers__2nd__aj3ZhxhPVk]: hasVariant(
+                $state,
+                "others",
+                "_2nd"
+              ),
+              [sty.freeBoxothers__3rd__aj3ZhU390H]: hasVariant(
+                $state,
+                "others",
+                "_3rd"
+              )
+            })}
+          >
+            <div className={classNames(projectcss.all, sty.freeBox__slKmr)} />
 
-          <div className={classNames(projectcss.all, sty.freeBox__hYzp)} />
+            <div className={classNames(projectcss.all, sty.freeBox__k9Ar)} />
 
-          <div className={classNames(projectcss.all, sty.freeBox__k9Ar)} />
+            <div className={classNames(projectcss.all, sty.freeBox__hYzp)} />
+          </div>
+          <div
+            className={classNames(projectcss.all, sty.freeBox___2VEaf, {
+              [sty.freeBoxothers__3rd___2VEafU390H]: hasVariant(
+                $state,
+                "others",
+                "_3rd"
+              )
+            })}
+          >
+            <div className={classNames(projectcss.all, sty.freeBox__jKpEp)} />
+
+            <div className={classNames(projectcss.all, sty.freeBox__qmzOn)} />
+
+            <div className={classNames(projectcss.all, sty.freeBox__r1Hgh)} />
+          </div>
+          <div
+            className={classNames(projectcss.all, sty.freeBox__hmqkE, {
+              [sty.freeBoxothers__2nd__hmqkExhPVk]: hasVariant(
+                $state,
+                "others",
+                "_2nd"
+              ),
+              [sty.freeBoxothers__3rd__hmqkEu390H]: hasVariant(
+                $state,
+                "others",
+                "_3rd"
+              )
+            })}
+          >
+            <div className={classNames(projectcss.all, sty.freeBox__mrRjL)} />
+
+            <div className={classNames(projectcss.all, sty.freeBox__n9Vap)} />
+
+            <div className={classNames(projectcss.all, sty.freeBox__qMaUv)} />
+          </div>
         </div>
       </div>
     </div>
@@ -586,18 +833,18 @@ const PlasmicDescendants = {
     "group1321315459",
     "rectangle217",
     "image22",
-    "_1st",
-    "image23",
-    "jetpackStudio2",
-    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition2",
-    "_2nd",
-    "image10",
-    "jetpackStudio3",
-    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition3",
-    "_3rd",
-    "image6",
-    "jetpackStudio4",
-    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition4"
+    "_1st2",
+    "image24",
+    "jetpackStudio5",
+    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5",
+    "_2nd2",
+    "image11",
+    "jetpackStudio6",
+    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6",
+    "_3rd2",
+    "image7",
+    "jetpackStudio7",
+    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7"
   ],
   group1321315481: [
     "group1321315481",
@@ -685,41 +932,41 @@ const PlasmicDescendants = {
   group1321315459: ["group1321315459", "rectangle217", "image22"],
   rectangle217: ["rectangle217"],
   image22: ["image22"],
-  _1st: [
-    "_1st",
-    "image23",
-    "jetpackStudio2",
-    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition2"
+  _1st2: [
+    "_1st2",
+    "image24",
+    "jetpackStudio5",
+    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5"
   ],
-  image23: ["image23"],
-  jetpackStudio2: ["jetpackStudio2"],
-  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition2:
+  image24: ["image24"],
+  jetpackStudio5: ["jetpackStudio5"],
+  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5:
     [
-      "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition2"
+      "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5"
     ],
-  _2nd: [
-    "_2nd",
-    "image10",
-    "jetpackStudio3",
-    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition3"
+  _2nd2: [
+    "_2nd2",
+    "image11",
+    "jetpackStudio6",
+    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6"
   ],
-  image10: ["image10"],
-  jetpackStudio3: ["jetpackStudio3"],
-  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition3:
+  image11: ["image11"],
+  jetpackStudio6: ["jetpackStudio6"],
+  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6:
     [
-      "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition3"
+      "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6"
     ],
-  _3rd: [
-    "_3rd",
-    "image6",
-    "jetpackStudio4",
-    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition4"
+  _3rd2: [
+    "_3rd2",
+    "image7",
+    "jetpackStudio7",
+    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7"
   ],
-  image6: ["image6"],
-  jetpackStudio4: ["jetpackStudio4"],
-  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition4:
+  image7: ["image7"],
+  jetpackStudio7: ["jetpackStudio7"],
+  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7:
     [
-      "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition4"
+      "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7"
     ]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
@@ -748,18 +995,18 @@ type NodeDefaultElementType = {
   group1321315459: "div";
   rectangle217: "div";
   image22: "div";
-  _1st: "div";
-  image23: "div";
-  jetpackStudio2: "div";
-  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition2: "div";
-  _2nd: "div";
-  image10: "div";
-  jetpackStudio3: "div";
-  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition3: "div";
-  _3rd: "div";
-  image6: "div";
-  jetpackStudio4: "div";
-  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition4: "div";
+  _1st2: "div";
+  image24: "div";
+  jetpackStudio5: "div";
+  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5: "div";
+  _2nd2: "div";
+  image11: "div";
+  jetpackStudio6: "div";
+  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6: "div";
+  _3rd2: "div";
+  image7: "div";
+  jetpackStudio7: "div";
+  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -852,26 +1099,26 @@ export const PlasmicTurningCards = Object.assign(
     group1321315459: makeNodeComponent("group1321315459"),
     rectangle217: makeNodeComponent("rectangle217"),
     image22: makeNodeComponent("image22"),
-    _1st: makeNodeComponent("_1st"),
-    image23: makeNodeComponent("image23"),
-    jetpackStudio2: makeNodeComponent("jetpackStudio2"),
-    gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition2:
+    _1st2: makeNodeComponent("_1st2"),
+    image24: makeNodeComponent("image24"),
+    jetpackStudio5: makeNodeComponent("jetpackStudio5"),
+    gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5:
       makeNodeComponent(
-        "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition2"
+        "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5"
       ),
-    _2nd: makeNodeComponent("_2nd"),
-    image10: makeNodeComponent("image10"),
-    jetpackStudio3: makeNodeComponent("jetpackStudio3"),
-    gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition3:
+    _2nd2: makeNodeComponent("_2nd2"),
+    image11: makeNodeComponent("image11"),
+    jetpackStudio6: makeNodeComponent("jetpackStudio6"),
+    gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6:
       makeNodeComponent(
-        "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition3"
+        "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6"
       ),
-    _3rd: makeNodeComponent("_3rd"),
-    image6: makeNodeComponent("image6"),
-    jetpackStudio4: makeNodeComponent("jetpackStudio4"),
-    gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition4:
+    _3rd2: makeNodeComponent("_3rd2"),
+    image7: makeNodeComponent("image7"),
+    jetpackStudio7: makeNodeComponent("jetpackStudio7"),
+    gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7:
       makeNodeComponent(
-        "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition4"
+        "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7"
       ),
 
     // Metadata about props expected for PlasmicTurningCards

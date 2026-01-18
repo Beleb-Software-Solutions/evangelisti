@@ -184,6 +184,7 @@ export type PlasmicHomepage__OverridesType = {
   investorGradeDocuments5?: Flex__<"div">;
   termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5?: Flex__<"div">;
   group1321315483?: Flex__<"div">;
+  preheader5?: Flex__<"div">;
   turningCards?: Flex__<typeof TurningCards>;
   section8?: Flex__<"div">;
   floatingBackground2?: Flex__<"div">;
@@ -3297,6 +3298,32 @@ function PlasmicHomepage__RenderFunc(props: {
                               sty.group1321315483
                             )}
                           >
+                            <div
+                              data-plasmic-name={"preheader5"}
+                              data-plasmic-override={overrides.preheader5}
+                              className={classNames(
+                                projectcss.all,
+                                sty.preheader5
+                              )}
+                            >
+                              <Group325Icon
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.svg__w4O7V
+                                )}
+                                role={"img"}
+                              />
+
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__nSwe
+                                )}
+                              >
+                                {"How we help in practice"}
+                              </div>
+                            </div>
                             <PlasmicImg__
                               alt={""}
                               className={classNames(sty.img__eydZl)}
@@ -3693,6 +3720,7 @@ const PlasmicDescendants = {
     "investorGradeDocuments5",
     "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5",
     "group1321315483",
+    "preheader5",
     "turningCards",
     "section8",
     "floatingBackground2",
@@ -3791,6 +3819,7 @@ const PlasmicDescendants = {
     "investorGradeDocuments5",
     "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5",
     "group1321315483",
+    "preheader5",
     "turningCards",
     "section8",
     "floatingBackground2",
@@ -3887,6 +3916,7 @@ const PlasmicDescendants = {
     "investorGradeDocuments5",
     "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5",
     "group1321315483",
+    "preheader5",
     "turningCards",
     "section8",
     "floatingBackground2",
@@ -4135,6 +4165,7 @@ const PlasmicDescendants = {
     "investorGradeDocuments5",
     "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5",
     "group1321315483",
+    "preheader5",
     "turningCards"
   ],
   _1stStep: ["_1stStep"],
@@ -4170,7 +4201,8 @@ const PlasmicDescendants = {
     [
       "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5"
     ],
-  group1321315483: ["group1321315483", "turningCards"],
+  group1321315483: ["group1321315483", "preheader5", "turningCards"],
+  preheader5: ["preheader5"],
   turningCards: ["turningCards"],
   section8: [
     "section8",
@@ -4285,6 +4317,7 @@ type NodeDefaultElementType = {
   investorGradeDocuments5: "div";
   termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5: "div";
   group1321315483: "div";
+  preheader5: "div";
   turningCards: typeof TurningCards;
   section8: "div";
   floatingBackground2: "div";
@@ -4485,6 +4518,7 @@ export const PlasmicHomepage = Object.assign(
         "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5"
       ),
     group1321315483: makeNodeComponent("group1321315483"),
+    preheader5: makeNodeComponent("preheader5"),
     turningCards: makeNodeComponent("turningCards"),
     section8: makeNodeComponent("section8"),
     floatingBackground2: makeNodeComponent("floatingBackground2"),
