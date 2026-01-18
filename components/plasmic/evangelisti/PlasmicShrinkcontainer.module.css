@@ -1,0 +1,177 @@
+.scrollShrink {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  transform: scale3d(1, 1, 1);
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.3s;
+  min-width: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  padding: 0px;
+}
+.scrollShrinkothers__1st {
+  transform: scale3d(0.99, 0.99, 1);
+}
+.scrollShrinkothers__2nd {
+  transform: scale3d(0.98, 0.98, 1);
+}
+.scrollShrinkothers__3rd {
+  transform: scale3d(0.97, 0.97, 1);
+}
+.scrollShrinkothers__4th {
+  transform: scale3d(0.96, 0.96, 1);
+}
+.scrollShrinkothers__5th {
+  transform: scale3d(0.95, 0.95, 1);
+}
+.scrollShrinkothers__6th {
+  transform: scale3d(0.94, 0.94, 1);
+}
+.scrollShrinkothers__7th {
+  transform: scale3d(0.93, 0.93, 1);
+}
+.scrollShrinkothers__8th {
+  transform: scale3d(0.92, 0.92, 1);
+}
+.scrollShrinkothers__9th {
+  transform: scale3d(0.91, 0.91, 1);
+}
+.scrollShrinkothers__10th {
+  transform: scale3d(0.9, 0.9, 1);
+}
+.freeBox__yNxFa {
+  animation: none;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 0px;
+  min-height: 489px;
+  background: url("/plasmic/evangelisti/images/rectangle190.svg") top 50% left 50% / cover repeat;
+  min-width: 0;
+  border-radius: 30px;
+}
+.freeBox__hp70A {
+  animation: none;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__ra6Bo {
+  animation: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 8px;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__vk77R {
+  animation: none;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.text___4QsHu {
+  animation: none;
+  display: block;
+  font-size: 48px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 59px;
+  color: rgba(1, 33, 54, 1);
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.freeBox__vhrJt {
+  animation: none;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.text__t0LXm {
+  animation: none;
+  display: block;
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 41px;
+  color: rgba(1, 33, 54, 1);
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.freeBox__uiAf7 {
+  animation: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox___5Khro {
+  animation: none;
+  background: url("/plasmic/evangelisti/images/geminiGeneratedImageS36Syts36Syts36S12.png") center center / cover no-repeat;
+  width: 534px;
+  height: 534px;
+  display: flex;
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-direction: column;
+  flex-shrink: 0;
+}

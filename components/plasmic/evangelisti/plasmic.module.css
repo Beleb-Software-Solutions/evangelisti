@@ -1,4 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700&family=Inconsolata%3Aital%2Cwght%400%2C400%3B0%2C600%3B0%2C700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C600%3B0%2C700&family=Inconsolata%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C600%3B0%2C700&family=Poppins%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C600%3B0%2C700&family=Outfit%3Aital%2Cwght%400%2C400%3B0%2C500%3B0%2C600%3B0%2C700&display=swap");
+
+.plasmic_tokens {
+  --token-vhGnRTP7wn0Z: #f5f5f5;
+  --plasmic-token-unnamed-style-token: var(--token-vhGnRTP7wn0Z);
+  --token-FBlilXydkLpD: #c7fa8f;
+  --plasmic-token-secondary-color: var(--token-FBlilXydkLpD);
+  --token-G9TcCti3k51b: rgba(1, 33, 54, 1);
+  --plasmic-token-main-text-color: var(--token-G9TcCti3k51b);
+  --token-xw0rVtPF67Cn: #ffffffb3;
+  --plasmic-token-brighter-white: var(--token-xw0rVtPF67Cn);
+  --token-lZXVewglMYLl: #daff7c;
+  --plasmic-token-accent-2: var(--token-lZXVewglMYLl);
+}
 
 .plasmic_tokens {
   --plsmc-standard-width: 800px;

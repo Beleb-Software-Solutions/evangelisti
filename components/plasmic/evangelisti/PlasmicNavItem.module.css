@@ -1,0 +1,56 @@
+.navItem {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  column-gap: 8px;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.3s;
+  position: relative;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  padding: 0px;
+}
+.img {
+  animation: none;
+  object-fit: cover;
+  max-width: 100%;
+  width: 36.65234375px;
+  height: 17px;
+  display: block;
+  flex-shrink: 0;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.imgnoicon {
+  display: none;
+}
+.text {
+  animation: none;
+  display: block;
+  font-size: 12.86686897277832px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0em;
+  color: rgba(1, 33, 54, 1);
+  position: relative;
+  font-style: normal;
+  text-align: left;
+  text-transform: uppercase;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  transition-property: all;
+  transition-duration: 0.3s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+}
+.navItem:hover .text {
+  color: var(--token-FBlilXydkLpD);
+}

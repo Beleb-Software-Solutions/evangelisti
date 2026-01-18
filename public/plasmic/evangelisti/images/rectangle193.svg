@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" viewBox="0 0 594 232">
+  <foreignObject width="719.68" height="357.799" x="-62.9" y="-62.9">
+    <div xmlns="http://www.w3.org/1999/xhtml" clip-path="url(#a)" style="backdrop-filter:blur(31.45px);height:100%;width:100%"/>
+  </foreignObject>
+  <path fill="#313131" fill-opacity=".1" stroke="#fff" stroke-width="2.097" d="M592.832 1.048v229.904H1.048V1.048z" data-figma-bg-blur-radius="62.9"/>
+  <defs>
+    <clipPath id="a" transform="translate(62.9 62.9)">
+      <path d="M592.832 1.048v229.904H1.048V1.048z"/>
+    </clipPath>
+  </defs>
+</svg>

@@ -9,11 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@plasmicapp/cli": "^0.1.351",
+    "@plasmicapp/cli": "^0.1.352",
     "@plasmicapp/react-web": "^0.2.412",
+    "@plasmicpkgs/antd5": "^0.0.318",
+    "@plasmicpkgs/plasmic-basic-components": "^0.0.264",
+    "@plasmicpkgs/react-slick": "^0.0.256",
     "next": "14.2.35",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-slick": "^0.31.0",
+    "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
     "@types/node": "^20",

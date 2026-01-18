@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" viewBox="0 0 919 202">
+  <path fill="url(#a)" d="M0 0h919v202H0z"/>
+  <defs>
+    <radialGradient id="a" cx="0" cy="0" r="1" gradientTransform="matrix(197.524 264.095 -1159.56 107.539 597 -14)" gradientUnits="userSpaceOnUse">
+      <stop offset=".591" stop-color="#0D1535"/>
+      <stop offset=".789" stop-color="#DAFF7C"/>
+      <stop offset=".976" stop-color="#56D9F8"/>
+    </radialGradient>
+  </defs>
+</svg>

@@ -1,0 +1,329 @@
+.header3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 652px;
+  row-gap: 16px;
+  position: relative;
+  min-width: 0;
+  padding: 0px;
+}
+.p__xarR {
+  animation: none;
+  display: block;
+  font-size: 40px;
+  text-align: left;
+  text-transform: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 80px;
+  color: #01213666;
+  transform: translate3d(0px, 0px, 0px);
+  font-style: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  transition-property: all;
+  transition-duration: 0.3s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+}
+.span__jCmPh {
+  text-transform: uppercase;
+  color: #01213666;
+}
+.spanothers__1st__jCmPhe5Ktz {
+  color: #012136;
+}
+.spanothers__2nd__jCmPHleJ3E {
+  color: #012136;
+}
+.spanothers__3rd__jCmPHibNO {
+  color: #012136;
+}
+.spanothers__4th__jCmPHnApJo {
+  color: #012136;
+}
+.spanothers__5th__jCmPHhEoGp {
+  color: #012136;
+}
+.spanothers__6th__jCmPhXkkIk {
+  color: #012136;
+}
+.spanothers__7th__jCmPHn7Brb {
+  color: #012136;
+}
+.spanothers__8th__jCmPHtQmee {
+  color: #012136;
+}
+.spanothers__9th__jCmPhiEgyQ {
+  color: #012136;
+}
+.spanothers__10th__jCmPHqLFfT {
+  color: #012136;
+}
+.spanothers__11Th__jCmPh2MkTs {
+  color: #012136;
+}
+.spanothers__12Th__jCmPhnKavM {
+  color: #012136;
+}
+.span__pri2G {
+  text-transform: uppercase;
+}
+.spanothers__2nd__pri2GleJ3E {
+  color: #012136;
+}
+.spanothers__3rd__pri2GibNO {
+  color: #012136;
+}
+.spanothers__4th__pri2GnApJo {
+  color: #012136;
+}
+.spanothers__5th__pri2GhEoGp {
+  color: #012136;
+}
+.spanothers__6th__pri2GXkkIk {
+  color: #012136;
+}
+.spanothers__7th__pri2Gn7Brb {
+  color: #012136;
+}
+.spanothers__8th__pri2GtQmee {
+  color: #012136;
+}
+.spanothers__9th__pri2GiEgyQ {
+  color: #012136;
+}
+.spanothers__10th__pri2GqLFfT {
+  color: #012136;
+}
+.spanothers__11Th__pri2G2MkTs {
+  color: #012136;
+}
+.spanothers__12Th__pri2GnKavM {
+  color: #012136;
+}
+.p__dtNi4 {
+  animation: none;
+  display: block;
+  font-size: 32px;
+  text-align: left;
+  text-transform: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 80px;
+  color: #01213666;
+  transform: translate(-0.173828125px, -0.000026702880859375px);
+  font-style: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  max-width: 562px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+}
+.span___8Pd8A {
+  font-weight: 400;
+}
+.spanothers__3rd___8Pd8AibNO {
+  color: #012136;
+}
+.spanothers__4th___8Pd8AnApJo {
+  color: #012136;
+}
+.spanothers__5th___8Pd8AhEoGp {
+  color: #012136;
+}
+.spanothers__6th___8Pd8AXkkIk {
+  color: #012136;
+}
+.spanothers__7th___8Pd8An7Brb {
+  color: #012136;
+}
+.spanothers__8th___8Pd8AtQmee {
+  color: #012136;
+}
+.spanothers__9th___8Pd8AiEgyQ {
+  color: #012136;
+}
+.spanothers__10th___8Pd8AqLFfT {
+  color: #012136;
+}
+.spanothers__11Th___8Pd8A2MkTs {
+  color: #012136;
+}
+.spanothers__12Th___8Pd8AnKavM {
+  color: #012136;
+}
+.span___2Dl0V {
+  font-weight: 400;
+}
+.spanothers__4th___2Dl0VnApJo {
+  color: #012136;
+}
+.spanothers__5th___2Dl0VhEoGp {
+  color: #012136;
+}
+.spanothers__6th___2Dl0VXkkIk {
+  color: #012136;
+}
+.spanothers__7th___2Dl0Vn7Brb {
+  color: #012136;
+}
+.spanothers__8th___2Dl0VtQmee {
+  color: #012136;
+}
+.spanothers__9th___2Dl0ViEgyQ {
+  color: #012136;
+}
+.spanothers__10th___2Dl0VqLFfT {
+  color: #012136;
+}
+.spanothers__11Th___2Dl0V2MkTs {
+  color: #012136;
+}
+.spanothers__12Th___2Dl0VnKavM {
+  color: #012136;
+}
+.span__aOdH {
+  font-weight: 400;
+}
+.spanothers__5th__aOdHhEoGp {
+  color: #012136;
+}
+.spanothers__6th__aOdHXkkIk {
+  color: #012136;
+}
+.spanothers__7th__aOdHn7Brb {
+  color: #012136;
+}
+.spanothers__8th__aOdHtQmee {
+  color: #012136;
+}
+.spanothers__9th__aOdHIEgyQ {
+  color: #012136;
+}
+.spanothers__10th__aOdHqLFfT {
+  color: #012136;
+}
+.spanothers__11Th__aOdH2MkTs {
+  color: #012136;
+}
+.spanothers__12Th__aOdHNKavM {
+  color: #012136;
+}
+.span__gvnvF {
+  font-weight: 400;
+}
+.spanothers__6th__gvnvFXkkIk {
+  color: #012136;
+}
+.spanothers__7th__gvnvFn7Brb {
+  color: #012136;
+}
+.spanothers__8th__gvnvFtQmee {
+  color: #012136;
+}
+.spanothers__9th__gvnvFiEgyQ {
+  color: #012136;
+}
+.spanothers__10th__gvnvFqLFfT {
+  color: #012136;
+}
+.spanothers__11Th__gvnvF2MkTs {
+  color: #012136;
+}
+.spanothers__12Th__gvnvFnKavM {
+  color: #012136;
+}
+.span__fA9I {
+  font-weight: 400;
+}
+.spanothers__7th__fA9In7Brb {
+  color: #012136;
+}
+.spanothers__8th__fA9ItQmee {
+  color: #012136;
+}
+.spanothers__9th__fA9IIEgyQ {
+  color: #012136;
+}
+.spanothers__10th__fA9IqLFfT {
+  color: #012136;
+}
+.spanothers__11Th__fA9I2MkTs {
+  color: #012136;
+}
+.spanothers__12Th__fA9INKavM {
+  color: #012136;
+}
+.span__y4T1P {
+  font-weight: 400;
+}
+.spanothers__8th__y4T1PtQmee {
+  color: #012136;
+}
+.spanothers__9th__y4T1PIEgyQ {
+  color: #012136;
+}
+.spanothers__10th__y4T1PqLFfT {
+  color: #012136;
+}
+.spanothers__11Th__y4T1P2MkTs {
+  color: #012136;
+}
+.spanothers__12Th__y4T1PNKavM {
+  color: #012136;
+}
+.span__qpxah {
+  font-weight: 400;
+}
+.spanothers__9th__qpxahIEgyQ {
+  color: #012136;
+}
+.spanothers__10th__qpxahqLFfT {
+  color: #012136;
+}
+.spanothers__11Th__qpxah2MkTs {
+  color: #012136;
+}
+.spanothers__12Th__qpxahNKavM {
+  color: #012136;
+}
+.span__hWzoX {
+  font-weight: 400;
+}
+.spanothers__10th__hWzoXqLFfT {
+  color: #012136;
+}
+.spanothers__11Th__hWzoX2MkTs {
+  color: #012136;
+}
+.spanothers__12Th__hWzoXnKavM {
+  color: #012136;
+}
+.span___4Csp3 {
+  font-weight: 400;
+}
+.spanothers__11Th___4Csp32MkTs {
+  color: #012136;
+}
+.spanothers__12Th___4Csp3NKavM {
+  color: #012136;
+}
+.span__jwinb {
+  font-weight: 400;
+}
+.spanothers__12Th__jwinbNKavM {
+  color: #012136;
+}

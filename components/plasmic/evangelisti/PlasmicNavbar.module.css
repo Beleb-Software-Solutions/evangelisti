@@ -1,0 +1,157 @@
+.navContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  background: #ffffff00;
+  box-shadow: 0px 4px 8px 0px transparent;
+  transition-property: all;
+  transition-duration: 0.6s;
+  min-width: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.6s;
+  padding: 0px 0px 0px 20px;
+  border-bottom: 2px solid transparent;
+}
+.navContainerchanges_scroll {
+  background: #ffffff;
+  border-bottom-color: #00000040;
+  box-shadow: 0px 4px 12px 0px #00000026;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 1410px;
+  min-width: 0;
+  padding: 20px 10px 20px 50px;
+}
+.navContents {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  background: none;
+  min-width: 0;
+  padding: 0px;
+}
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+.img {
+  object-fit: cover;
+  max-width: 100%;
+  width: 212px;
+  height: 42px;
+  flex-shrink: 0;
+}
+.img > picture > img {
+  object-fit: cover;
+}
+.freeBox {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.span {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 1px;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  flex-shrink: 0;
+  padding: 0px;
+}
+.navItemsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  column-gap: 18px;
+  padding: 0px;
+}
+.navItem___00P2K:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.navItem___6JOup:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.navItem__pIpdz:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.navItem___4EGo5:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.navItem__caIfL:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.navItem__lgKwb:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.navItem___0MPhn:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.ctaButtonContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+.ctaButton:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}

@@ -59,6 +59,14 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
+import Navbar from "../../Navbar"; // plasmic-import: qGv4u8jlOy8Y/component
+import Step1 from "../../Step1"; // plasmic-import: AYJGLkp1JcXf/component
+import CtaButton from "../../CtaButton"; // plasmic-import: XaC-VjV5Z764/component
+import Shrinkcontainer from "../../Shrinkcontainer"; // plasmic-import: 2BkUWwmz_K01/component
+import SwitchingLetters from "../../SwitchingLetters"; // plasmic-import: jzvN_9UyJix7/component
+import Switchingcards from "../../Switchingcards"; // plasmic-import: b-UKtaLO3ybb/component
+import { SideEffect } from "@plasmicpkgs/plasmic-basic-components";
+import { Fetcher } from "@plasmicapp/react-web/lib/data-sources";
 import { _useGlobalVariants } from "./plasmic"; // plasmic-import: psTfKC1KCEpawf41964R83/projectModule
 import { _useStyleTokens } from "./PlasmicStyleTokensProvider"; // plasmic-import: psTfKC1KCEpawf41964R83/styleTokensProvider
 
@@ -66,6 +74,13 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 
 import projectcss from "./plasmic.module.css"; // plasmic-import: psTfKC1KCEpawf41964R83/projectcss
 import sty from "./PlasmicHomepage.module.css"; // plasmic-import: EGysTR51Uqbc/css
+
+import Group323Icon from "./icons/PlasmicIcon__Group323"; // plasmic-import: kfnKVrVipjLb/icon
+import Group325Icon from "./icons/PlasmicIcon__Group325"; // plasmic-import: VpgRTTbzi6cX/icon
+import Group321Icon from "./icons/PlasmicIcon__Group321"; // plasmic-import: XFJyHya7lf3b/icon
+import Group322Icon from "./icons/PlasmicIcon__Group322"; // plasmic-import: OAYvWkcwthhC/icon
+import SubtractIcon from "./icons/PlasmicIcon__Subtract"; // plasmic-import: XgA_RVGwiqKb/icon
+import Ellipse97Icon from "./icons/PlasmicIcon__Ellipse97"; // plasmic-import: qxy8p1nuxCUN/icon
 
 createPlasmicElementProxy;
 
@@ -80,7 +95,122 @@ export const PlasmicHomepage__ArgProps = new Array<ArgPropType>();
 
 export type PlasmicHomepage__OverridesType = {
   root?: Flex__<"div">;
+  section?: Flex__<"section">;
+  major?: Flex__<"div">;
+  navbarAndHero?: Flex__<"div">;
+  navbar?: Flex__<typeof Navbar>;
+  heroSection?: Flex__<"div">;
+  corporateTransactionsStrategicAdvisory?: Flex__<"div">;
+  corporateTransactionsStrategicAdvisory2?: Flex__<"h2">;
   h1?: Flex__<"h1">;
+  rectangle223?: Flex__<"div">;
+  float?: Flex__<"div">;
+  section2?: Flex__<"div">;
+  floatingBackground?: Flex__<"div">;
+  content?: Flex__<"div">;
+  sectionHeader2?: Flex__<"div">;
+  sectionHeader?: Flex__<"div">;
+  ctaButtonContainer?: Flex__<"div">;
+  section3?: Flex__<"div">;
+  content2?: Flex__<"div">;
+  contentBox?: Flex__<"div">;
+  head?: Flex__<"div">;
+  header?: Flex__<"div">;
+  h2?: Flex__<"h2">;
+  header2?: Flex__<"div">;
+  geminiGeneratedImageS36Syts36Syts36S11?: Flex__<"div">;
+  geminiGeneratedImageS36Syts36Syts36S12?: Flex__<"div">;
+  geminiGeneratedImageS36Syts36Syts36S13?: Flex__<"div">;
+  geminiGeneratedImageS36Syts36Syts36S14?: Flex__<"div">;
+  geminiGeneratedImageS36Syts36Syts36S15?: Flex__<"div">;
+  switchingLetters?: Flex__<typeof SwitchingLetters>;
+  section4?: Flex__<"div">;
+  theGoldenRulesOfStrategicLegalCounsel?: Flex__<"div">;
+  everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities?: Flex__<"div">;
+  rectangle191?: Flex__<"div">;
+  rectangle192?: Flex__<"div">;
+  rectangle193?: Flex__<"div">;
+  rectangle194?: Flex__<"div">;
+  rectangle195?: Flex__<"div">;
+  rectangle196?: Flex__<"div">;
+  rectangle197?: Flex__<"div">;
+  rectangle198?: Flex__<"div">;
+  section5?: Flex__<"div">;
+  background?: Flex__<"div">;
+  geminiGeneratedImage8Omrmb8Omrmb8Omr1?: Flex__<"div">;
+  group1321315494?: Flex__<"div">;
+  geminiGeneratedImage8Omrmb8Omrmb8Omr2?: Flex__<"div">;
+  rectangle34624178?: Flex__<"div">;
+  rectangle34624179?: Flex__<"div">;
+  main?: Flex__<"div">;
+  content3?: Flex__<"div">;
+  preheader?: Flex__<"div">;
+  switchingcards?: Flex__<typeof Switchingcards>;
+  preheader2?: Flex__<"div">;
+  image18?: Flex__<"div">;
+  image21?: Flex__<"div">;
+  image19?: Flex__<"div">;
+  preheader3?: Flex__<"div">;
+  ourCommandmentsOfTransactionAdvisory?: Flex__<"div">;
+  section6?: Flex__<"div">;
+  forGermanMittelstand?: Flex__<"div">;
+  preheader4?: Flex__<"div">;
+  frame505?: Flex__<"div">;
+  frame506?: Flex__<"div">;
+  frame507?: Flex__<"div">;
+  frame508?: Flex__<"div">;
+  frame509?: Flex__<"div">;
+  frame510?: Flex__<"div">;
+  image1?: Flex__<"div">;
+  image2?: Flex__<"div">;
+  section7?: Flex__<"div">;
+  _1stStep?: Flex__<"div">;
+  background2?: Flex__<"div">;
+  asset13X87?: Flex__<"div">;
+  bonsai?: Flex__<"div">;
+  investorGradeDocuments?: Flex__<"div">;
+  termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag?: Flex__<"div">;
+  bonsai2?: Flex__<"div">;
+  investorGradeDocuments2?: Flex__<"div">;
+  termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag2?: Flex__<"div">;
+  bonsai3?: Flex__<"div">;
+  investorGradeDocuments3?: Flex__<"div">;
+  termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag3?: Flex__<"div">;
+  bonsai4?: Flex__<"div">;
+  investorGradeDocuments4?: Flex__<"div">;
+  termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag4?: Flex__<"div">;
+  bonsai5?: Flex__<"div">;
+  investorGradeDocuments5?: Flex__<"div">;
+  termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5?: Flex__<"div">;
+  group1321315483?: Flex__<"div">;
+  group1321315481?: Flex__<"div">;
+  group1321315478?: Flex__<"div">;
+  group1321315457?: Flex__<"div">;
+  rectangle273?: Flex__<"div">;
+  jetpackStudio?: Flex__<"div">;
+  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition?: Flex__<"div">;
+  group1321315459?: Flex__<"div">;
+  rectangle217?: Flex__<"div">;
+  image22?: Flex__<"div">;
+  group1321315479?: Flex__<"div">;
+  group1321315458?: Flex__<"div">;
+  rectangle272?: Flex__<"div">;
+  marinaCapital?: Flex__<"div">;
+  onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech?: Flex__<"div">;
+  image9?: Flex__<"div">;
+  group1321315480?: Flex__<"div">;
+  group1321315433?: Flex__<"div">;
+  rectangle271?: Flex__<"div">;
+  bluePoolCapital?: Flex__<"div">;
+  asLeadInvestorInThe80MSeriesFOfGyg?: Flex__<"div">;
+  image5?: Flex__<"div">;
+  section8?: Flex__<"div">;
+  floatingBackground2?: Flex__<"div">;
+  content4?: Flex__<"div">;
+  sectionHeader3?: Flex__<"div">;
+  sectionHeader4?: Flex__<"div">;
+  ctaButtonContainer2?: Flex__<"div">;
+  sideEffect?: Flex__<typeof SideEffect>;
 };
 
 export interface DefaultHomepageProps {}
@@ -124,6 +254,37 @@ function PlasmicHomepage__RenderFunc(props: {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
 
+  const stateSpecs: Parameters<typeof useDollarState>[0] = React.useMemo(
+    () => [
+      {
+        path: "scroll",
+        type: "private",
+        variableType: "text",
+        initFunc: ({ $props, $state, $queries, $ctx }) =>
+          (() => {
+            try {
+              return 0;
+            } catch (e) {
+              if (
+                e instanceof TypeError ||
+                e?.plasmicType === "PlasmicUndefinedDataError"
+              ) {
+                return undefined;
+              }
+              throw e;
+            }
+          })()
+      }
+    ],
+    [$props, $ctx, $refs]
+  );
+  const $state = useDollarState(stateSpecs, {
+    $props,
+    $ctx,
+    $queries: {},
+    $refs
+  });
+
   const styleTokensClassNames = _useStyleTokens();
 
   return (
@@ -151,18 +312,3587 @@ function PlasmicHomepage__RenderFunc(props: {
             sty.root
           )}
         >
-          <h1
-            data-plasmic-name={"h1"}
-            data-plasmic-override={overrides.h1}
-            className={classNames(
-              projectcss.all,
-              projectcss.h1,
-              projectcss.__wab_text,
-              sty.h1
-            )}
+          <section
+            data-plasmic-name={"section"}
+            data-plasmic-override={overrides.section}
+            className={classNames(projectcss.all, sty.section)}
           >
-            {"Hello World test commit"}
-          </h1>
+            <div
+              data-plasmic-name={"major"}
+              data-plasmic-override={overrides.major}
+              className={classNames(projectcss.all, sty.major)}
+            >
+              <div className={classNames(projectcss.all, sty.freeBox__gfvS)}>
+                <div
+                  data-plasmic-name={"navbarAndHero"}
+                  data-plasmic-override={overrides.navbarAndHero}
+                  className={classNames(projectcss.all, sty.navbarAndHero)}
+                >
+                  <Navbar
+                    data-plasmic-name={"navbar"}
+                    data-plasmic-override={overrides.navbar}
+                    changes={(() => {
+                      try {
+                        return $state.scroll > 100 ? "scroll" : undefined;
+                      } catch (e) {
+                        if (
+                          e instanceof TypeError ||
+                          e?.plasmicType === "PlasmicUndefinedDataError"
+                        ) {
+                          return "scroll";
+                        }
+                        throw e;
+                      }
+                    })()}
+                    className={classNames("__wab_instance", sty.navbar)}
+                  />
+
+                  <div
+                    data-plasmic-name={"heroSection"}
+                    data-plasmic-override={overrides.heroSection}
+                    className={classNames(projectcss.all, sty.heroSection)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__mPeQq)}
+                    >
+                      <div
+                        data-plasmic-name={
+                          "corporateTransactionsStrategicAdvisory"
+                        }
+                        data-plasmic-override={
+                          overrides.corporateTransactionsStrategicAdvisory
+                        }
+                        className={classNames(
+                          projectcss.all,
+                          sty.corporateTransactionsStrategicAdvisory
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__hCdsy
+                          )}
+                        >
+                          <h2
+                            data-plasmic-name={
+                              "corporateTransactionsStrategicAdvisory2"
+                            }
+                            data-plasmic-override={
+                              overrides.corporateTransactionsStrategicAdvisory2
+                            }
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h2,
+                              projectcss.__wab_text,
+                              sty.corporateTransactionsStrategicAdvisory2
+                            )}
+                          >
+                            {"Corporate. Transactions. Strategic Advisory "}
+                          </h2>
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__tIcrg
+                          )}
+                        >
+                          <h1
+                            data-plasmic-name={"h1"}
+                            data-plasmic-override={overrides.h1}
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h1,
+                              projectcss.__wab_text,
+                              sty.h1
+                            )}
+                          >
+                            {"SPARRING PARTNER\nENTREUPRENEUR\nLAWYER"}
+                          </h1>
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__j1WcL
+                          )}
+                        >
+                          <h3
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.h3,
+                              projectcss.__wab_text,
+                              sty.h3__k8DcM
+                            )}
+                          >
+                            {
+                              "I combine legal excellence with an entrepreneurial mindset -\nto make visions legally and strategically achievable."
+                            }
+                          </h3>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__lXylF)}
+                    >
+                      <div
+                        data-plasmic-name={"rectangle223"}
+                        data-plasmic-override={overrides.rectangle223}
+                        className={classNames(projectcss.all, sty.rectangle223)}
+                      />
+                    </div>
+                    <div
+                      data-plasmic-name={"float"}
+                      data-plasmic-override={overrides.float}
+                      className={classNames(projectcss.all, sty.float)}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img__rJ3Ts)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/evangelisti/images/asset13X83Png.png",
+                          fullWidth: 682,
+                          fullHeight: 832,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-plasmic-name={"section2"}
+                  data-plasmic-override={overrides.section2}
+                  className={classNames(projectcss.all, sty.section2)}
+                >
+                  <div
+                    data-plasmic-name={"floatingBackground"}
+                    data-plasmic-override={overrides.floatingBackground}
+                    className={classNames(
+                      projectcss.all,
+                      sty.floatingBackground
+                    )}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__yBwxN)}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img__mn8Sg)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/evangelisti/images/group280.svg",
+                          fullWidth: 6051,
+                          fullHeight: 1237,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img__mXnhj)}
+                        displayHeight={"100%"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"100%"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/evangelisti/images/vector.svg",
+                          fullWidth: 1647,
+                          fullHeight: 1019,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </div>
+                  </div>
+                  <div
+                    data-plasmic-name={"content"}
+                    data-plasmic-override={overrides.content}
+                    className={classNames(projectcss.all, sty.content)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__sQVd6)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__avgCx
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"sectionHeader2"}
+                          data-plasmic-override={overrides.sectionHeader2}
+                          className={classNames(
+                            projectcss.all,
+                            sty.sectionHeader2
+                          )}
+                        >
+                          <div
+                            data-plasmic-name={"sectionHeader"}
+                            data-plasmic-override={overrides.sectionHeader}
+                            className={classNames(
+                              projectcss.all,
+                              sty.sectionHeader
+                            )}
+                          >
+                            <h3
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.h3,
+                                projectcss.__wab_text,
+                                sty.h3__lRvo9
+                              )}
+                            >
+                              {
+                                "The problem isn't the law\nit's how lawyers think."
+                              }
+                            </h3>
+                          </div>
+                        </div>
+                        <Step1
+                          className={classNames(
+                            "__wab_instance",
+                            sty.step1__cphqo
+                          )}
+                          others={(() => {
+                            try {
+                              return $state.scroll >= 1400
+                                ? "_29th"
+                                : $state.scroll >= 1370
+                                  ? "_28th"
+                                  : $state.scroll >= 1340
+                                    ? "_27th"
+                                    : $state.scroll >= 1310
+                                      ? "_26th"
+                                      : $state.scroll >= 1280
+                                        ? "_25th"
+                                        : $state.scroll >= 1250
+                                          ? "_24th"
+                                          : $state.scroll >= 1160
+                                            ? "_23rd"
+                                            : $state.scroll >= 1130
+                                              ? "_22nd"
+                                              : $state.scroll >= 1100
+                                                ? "_21Th"
+                                                : $state.scroll >= 1070
+                                                  ? "_20th"
+                                                  : $state.scroll >= 1040
+                                                    ? "_19th"
+                                                    : $state.scroll >= 1010
+                                                      ? "_18th"
+                                                      : $state.scroll >= 980
+                                                        ? "_17th"
+                                                        : $state.scroll >= 950
+                                                          ? "_16th"
+                                                          : $state.scroll >= 860
+                                                            ? "_15th"
+                                                            : $state.scroll >=
+                                                                830
+                                                              ? "_14th"
+                                                              : $state.scroll >=
+                                                                  800
+                                                                ? "_13Th"
+                                                                : $state.scroll >=
+                                                                    770
+                                                                  ? "_12Th"
+                                                                  : $state.scroll >=
+                                                                      740
+                                                                    ? "_11Th"
+                                                                    : $state.scroll >=
+                                                                        710
+                                                                      ? "_10th"
+                                                                      : $state.scroll >=
+                                                                          680
+                                                                        ? "_9th"
+                                                                        : $state.scroll >=
+                                                                            650
+                                                                          ? "_8th"
+                                                                          : $state.scroll >=
+                                                                              620
+                                                                            ? "_7th"
+                                                                            : $state.scroll >=
+                                                                                590
+                                                                              ? "_6th"
+                                                                              : $state.scroll >=
+                                                                                  560
+                                                                                ? "_5th"
+                                                                                : $state.scroll >=
+                                                                                    530
+                                                                                  ? "_4th"
+                                                                                  : $state.scroll >=
+                                                                                      500
+                                                                                    ? "_3rd"
+                                                                                    : $state.scroll >=
+                                                                                        470
+                                                                                      ? "_2nd"
+                                                                                      : $state.scroll >=
+                                                                                          440
+                                                                                        ? "_1st"
+                                                                                        : "_30th";
+                            } catch (e) {
+                              if (
+                                e instanceof TypeError ||
+                                e?.plasmicType === "PlasmicUndefinedDataError"
+                              ) {
+                                return "_7th";
+                              }
+                              throw e;
+                            }
+                          })()}
+                        />
+
+                        <div
+                          data-plasmic-name={"ctaButtonContainer"}
+                          data-plasmic-override={overrides.ctaButtonContainer}
+                          className={classNames(
+                            projectcss.all,
+                            sty.ctaButtonContainer
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__d7DAl
+                            )}
+                          >
+                            <CtaButton
+                              className={classNames(
+                                "__wab_instance",
+                                sty.ctaButton__jjctq
+                              )}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-plasmic-name={"section3"}
+                  data-plasmic-override={overrides.section3}
+                  className={classNames(projectcss.all, sty.section3)}
+                >
+                  <div
+                    data-plasmic-name={"content2"}
+                    data-plasmic-override={overrides.content2}
+                    className={classNames(projectcss.all, sty.content2)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___91Tab
+                      )}
+                    >
+                      <div
+                        data-plasmic-name={"contentBox"}
+                        data-plasmic-override={overrides.contentBox}
+                        className={classNames(projectcss.all, sty.contentBox)}
+                      >
+                        <div
+                          data-plasmic-name={"head"}
+                          data-plasmic-override={overrides.head}
+                          className={classNames(projectcss.all, sty.head)}
+                        >
+                          <div
+                            data-plasmic-name={"header"}
+                            data-plasmic-override={overrides.header}
+                            className={classNames(projectcss.all, sty.header)}
+                          >
+                            <h2
+                              data-plasmic-name={"h2"}
+                              data-plasmic-override={overrides.h2}
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.h2,
+                                projectcss.__wab_text,
+                                sty.h2
+                              )}
+                            >
+                              {
+                                "Outcomes, not paper. \nPartner-led. Entrepreneurial."
+                              }
+                            </h2>
+                          </div>
+                          <div
+                            data-plasmic-name={"header2"}
+                            data-plasmic-override={overrides.header2}
+                            className={classNames(projectcss.all, sty.header2)}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__olzvk
+                              )}
+                            >
+                              {"No overhead \u2014 just accountable execution."}
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox___785Va
+                          )}
+                        >
+                          <Shrinkcontainer
+                            className={classNames(
+                              "__wab_instance",
+                              sty.shrinkcontainer___9COgx
+                            )}
+                            others={(() => {
+                              try {
+                                return $state.scroll >= 5356
+                                  ? "_10th"
+                                  : $state.scroll >= 5030
+                                    ? "_9th"
+                                    : $state.scroll >= 4704
+                                      ? "_8th"
+                                      : $state.scroll >= 4378
+                                        ? "_7th"
+                                        : $state.scroll >= 4052
+                                          ? "_6th"
+                                          : $state.scroll >= 3726
+                                            ? "_5th"
+                                            : $state.scroll >= 3400
+                                              ? "_4th"
+                                              : $state.scroll >= 3074
+                                                ? "_3rd"
+                                                : $state.scroll >= 2748
+                                                  ? "_2nd"
+                                                  : $state.scroll >= 2420
+                                                    ? "_1st"
+                                                    : "_11th";
+                              } catch (e) {
+                                if (
+                                  e instanceof TypeError ||
+                                  e?.plasmicType === "PlasmicUndefinedDataError"
+                                ) {
+                                  return "_10th";
+                                }
+                                throw e;
+                              }
+                            })()}
+                            scrollShrink2={
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox__va3EQ
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox___6FUo7
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox___8XKbz
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.freeBox__fLuX5
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__nprJ
+                                        )}
+                                      >
+                                        {"Economics\nbefore formality."}
+                                      </div>
+                                    </div>
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.freeBox__li75E
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text___6G5EO
+                                        )}
+                                      >
+                                        {
+                                          "We map price, timeline, and real risks first\nanddraft only what creates leverage."
+                                        }
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__aPYcw
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={
+                                        "geminiGeneratedImageS36Syts36Syts36S11"
+                                      }
+                                      data-plasmic-override={
+                                        overrides.geminiGeneratedImageS36Syts36Syts36S11
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.geminiGeneratedImageS36Syts36Syts36S11
+                                      )}
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            }
+                          />
+
+                          <Shrinkcontainer
+                            className={classNames(
+                              "__wab_instance",
+                              sty.shrinkcontainer___7L4Ss
+                            )}
+                            others={(() => {
+                              try {
+                                return $state.scroll >= 5356
+                                  ? "_8th"
+                                  : $state.scroll >= 5038
+                                    ? "_7th"
+                                    : $state.scroll >= 4720
+                                      ? "_6th"
+                                      : $state.scroll >= 4402
+                                        ? "_5th"
+                                        : $state.scroll >= 4084
+                                          ? "_4th"
+                                          : $state.scroll >= 3766
+                                            ? "_3rd"
+                                            : $state.scroll >= 3448
+                                              ? "_2nd"
+                                              : $state.scroll >= 3130
+                                                ? "_1st"
+                                                : "_11th";
+                              } catch (e) {
+                                if (
+                                  e instanceof TypeError ||
+                                  e?.plasmicType === "PlasmicUndefinedDataError"
+                                ) {
+                                  return [];
+                                }
+                                throw e;
+                              }
+                            })()}
+                            scrollShrink2={
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox__bfCke
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__eko3S
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__umB
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.freeBox__up4G
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__wazcx
+                                        )}
+                                      >
+                                        {"Partner-led clarity"}
+                                      </div>
+                                    </div>
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.freeBox__rus87
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__bcIiM
+                                        )}
+                                      >
+                                        {
+                                          "One accountable counsel. Short cycles.\nNo overhead,no training on your mandate."
+                                        }
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__ejWsg
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={
+                                        "geminiGeneratedImageS36Syts36Syts36S12"
+                                      }
+                                      data-plasmic-override={
+                                        overrides.geminiGeneratedImageS36Syts36Syts36S12
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.geminiGeneratedImageS36Syts36Syts36S12
+                                      )}
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            }
+                          />
+
+                          <Shrinkcontainer
+                            className={classNames(
+                              "__wab_instance",
+                              sty.shrinkcontainer__wfUYf
+                            )}
+                            others={(() => {
+                              try {
+                                return $state.scroll >= 5356
+                                  ? "_6th"
+                                  : $state.scroll >= 5054
+                                    ? "_5th"
+                                    : $state.scroll >= 4752
+                                      ? "_4th"
+                                      : $state.scroll >= 4450
+                                        ? "_3rd"
+                                        : $state.scroll >= 4148
+                                          ? "_2nd"
+                                          : $state.scroll >= 3844
+                                            ? "_1st"
+                                            : "_11th";
+                              } catch (e) {
+                                if (
+                                  e instanceof TypeError ||
+                                  e?.plasmicType === "PlasmicUndefinedDataError"
+                                ) {
+                                  return [];
+                                }
+                                throw e;
+                              }
+                            })()}
+                            scrollShrink2={
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox__q956S
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox___10T2Y
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__vePag
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.freeBox__aiD4
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__nyRIa
+                                        )}
+                                      >
+                                        {"Enforceable, not verbose."}
+                                      </div>
+                                    </div>
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.freeBox__l424
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__cxubc
+                                        )}
+                                      >
+                                        {
+                                          "Contracts designed to carry in negotiation \nand if needed, in disputes."
+                                        }
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__dis99
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={
+                                        "geminiGeneratedImageS36Syts36Syts36S13"
+                                      }
+                                      data-plasmic-override={
+                                        overrides.geminiGeneratedImageS36Syts36Syts36S13
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.geminiGeneratedImageS36Syts36Syts36S13
+                                      )}
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            }
+                          />
+
+                          <Shrinkcontainer
+                            className={classNames(
+                              "__wab_instance",
+                              sty.shrinkcontainer__dhgdO
+                            )}
+                            others={(() => {
+                              try {
+                                return $state.scroll >= 5356
+                                  ? "_4th"
+                                  : $state.scroll >= 5085
+                                    ? "_3rd"
+                                    : $state.scroll >= 4814
+                                      ? "_2nd"
+                                      : $state.scroll >= 4544
+                                        ? "_1st"
+                                        : "_11th";
+                              } catch (e) {
+                                if (
+                                  e instanceof TypeError ||
+                                  e?.plasmicType === "PlasmicUndefinedDataError"
+                                ) {
+                                  return [];
+                                }
+                                throw e;
+                              }
+                            })()}
+                            scrollShrink2={
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox__j0Cbz
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__eyFfd
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__ibo4M
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.freeBox___7YeYg
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text___7HHUz
+                                        )}
+                                      >
+                                        {"Speed with control."}
+                                      </div>
+                                    </div>
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.freeBox__x1U96
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__mk6BA
+                                        )}
+                                      >
+                                        {
+                                          "Focused DD, management preparation,\nlean loops, and post-closing continuity."
+                                        }
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__w3TEj
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={
+                                        "geminiGeneratedImageS36Syts36Syts36S14"
+                                      }
+                                      data-plasmic-override={
+                                        overrides.geminiGeneratedImageS36Syts36Syts36S14
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.geminiGeneratedImageS36Syts36Syts36S14
+                                      )}
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            }
+                          />
+
+                          <Shrinkcontainer
+                            className={classNames(
+                              "__wab_instance",
+                              sty.shrinkcontainer__yf5UX
+                            )}
+                            scrollShrink2={
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox__ifGyz
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__brV9B
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__c7NwO
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.freeBox__j3O7M
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__dZmI9
+                                        )}
+                                      >
+                                        {"Cross-stage,\ncross-border."}
+                                      </div>
+                                    </div>
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.freeBox__odVoI
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__iuI23
+                                        )}
+                                      >
+                                        {
+                                          "From seed rounds to M&A, IPOs, and de- SPACs."
+                                        }
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__oNqom
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={
+                                        "geminiGeneratedImageS36Syts36Syts36S15"
+                                      }
+                                      data-plasmic-override={
+                                        overrides.geminiGeneratedImageS36Syts36Syts36S15
+                                      }
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.geminiGeneratedImageS36Syts36Syts36S15
+                                      )}
+                                    />
+                                  </div>
+                                </div>
+                              </div>
+                            }
+                          />
+                        </div>
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__fm1J
+                        )}
+                      >
+                        <SwitchingLetters
+                          data-plasmic-name={"switchingLetters"}
+                          data-plasmic-override={overrides.switchingLetters}
+                          className={classNames(
+                            "__wab_instance",
+                            sty.switchingLetters
+                          )}
+                          others={(() => {
+                            try {
+                              return $state.scroll >= 5780
+                                ? "_12Th"
+                                : $state.scroll >= 5755
+                                  ? "_11Th"
+                                  : $state.scroll >= 5730
+                                    ? "_10th"
+                                    : $state.scroll >= 5705
+                                      ? "_9th"
+                                      : $state.scroll >= 5680
+                                        ? "_8th"
+                                        : $state.scroll >= 5655
+                                          ? "_7th"
+                                          : $state.scroll >= 5630
+                                            ? "_6th"
+                                            : $state.scroll >= 5605
+                                              ? "_5th"
+                                              : $state.scroll >= 5580
+                                                ? "_4th"
+                                                : $state.scroll >= 5555
+                                                  ? "_3rd"
+                                                  : $state.scroll >= 5530
+                                                    ? "_2nd"
+                                                    : $state.scroll >= 5500
+                                                      ? "_1st"
+                                                      : "_13Th";
+                            } catch (e) {
+                              if (
+                                e instanceof TypeError ||
+                                e?.plasmicType === "PlasmicUndefinedDataError"
+                              ) {
+                                return [];
+                              }
+                              throw e;
+                            }
+                          })()}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__cI9)}
+                  />
+                </div>
+                <div
+                  data-plasmic-name={"section4"}
+                  data-plasmic-override={overrides.section4}
+                  className={classNames(projectcss.all, sty.section4)}
+                >
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__fz2K9)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__kldG7)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__mp4th
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__pUjk
+                          )}
+                        >
+                          <Group323Icon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg___4HsI
+                            )}
+                            role={"img"}
+                          />
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__qVtxk
+                            )}
+                          >
+                            {"The Golden Rules / Tao"}
+                          </div>
+                        </div>
+                        <div
+                          data-plasmic-name={
+                            "theGoldenRulesOfStrategicLegalCounsel"
+                          }
+                          data-plasmic-override={
+                            overrides.theGoldenRulesOfStrategicLegalCounsel
+                          }
+                          className={classNames(
+                            projectcss.all,
+                            sty.theGoldenRulesOfStrategicLegalCounsel
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__oKv82
+                            )}
+                          >
+                            {"The golden rules of strategic legal counsel"}
+                          </div>
+                        </div>
+                        <div
+                          data-plasmic-name={
+                            "everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities"
+                          }
+                          data-plasmic-override={
+                            overrides.everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities
+                          }
+                          className={classNames(
+                            projectcss.all,
+                            sty.everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text___9TbLz
+                            )}
+                          >
+                            {
+                              "Every legal strategy is a business strategy. \nThese principles guide our approach to transforming complex challenges into opportunities."
+                            }
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__qofhT)}
+                    >
+                      <div
+                        data-plasmic-name={"rectangle191"}
+                        data-plasmic-override={overrides.rectangle191}
+                        className={classNames(projectcss.all, sty.rectangle191)}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__yJhOu
+                          )}
+                        >
+                          {
+                            "Premium when it matters.\nWe apply large-project standards\nto your case."
+                          }
+                        </div>
+                      </div>
+                      <div
+                        data-plasmic-name={"rectangle192"}
+                        data-plasmic-override={overrides.rectangle192}
+                        className={classNames(projectcss.all, sty.rectangle192)}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__ogDrI
+                          )}
+                        >
+                          {
+                            "Focus on real, economic risks. Relevance before formalism."
+                          }
+                        </div>
+                      </div>
+                      <div
+                        data-plasmic-name={"rectangle193"}
+                        data-plasmic-override={overrides.rectangle193}
+                        className={classNames(projectcss.all, sty.rectangle193)}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__utJ8N
+                          )}
+                        >
+                          {
+                            "We understand business models. Entrepreneurial thinking, clean legal execution."
+                          }
+                        </div>
+                      </div>
+                      <div
+                        data-plasmic-name={"rectangle194"}
+                        data-plasmic-override={overrides.rectangle194}
+                        className={classNames(projectcss.all, sty.rectangle194)}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__sJsCc
+                          )}
+                        >
+                          {
+                            "Focus on real, economic risks. Relevance before formalism."
+                          }
+                        </div>
+                      </div>
+                      <div
+                        data-plasmic-name={"rectangle195"}
+                        data-plasmic-override={overrides.rectangle195}
+                        className={classNames(projectcss.all, sty.rectangle195)}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__kYnee
+                          )}
+                        >
+                          {"Bespoke contracts. Fit-for-purpose, not templates."}
+                        </div>
+                      </div>
+                      <div
+                        data-plasmic-name={"rectangle196"}
+                        data-plasmic-override={overrides.rectangle196}
+                        className={classNames(projectcss.all, sty.rectangle196)}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__ocEPg
+                          )}
+                        >
+                          {
+                            "Pragmatic, with nuance. Simple where possible \u2014 precise where needed."
+                          }
+                        </div>
+                      </div>
+                      <div
+                        data-plasmic-name={"rectangle197"}
+                        data-plasmic-override={overrides.rectangle197}
+                        className={classNames(projectcss.all, sty.rectangle197)}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__yyBhu
+                          )}
+                        >
+                          {
+                            "Full dedication, regardless of size. Every transaction counts."
+                          }
+                        </div>
+                      </div>
+                      <div
+                        data-plasmic-name={"rectangle198"}
+                        data-plasmic-override={overrides.rectangle198}
+                        className={classNames(projectcss.all, sty.rectangle198)}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__dyoG
+                          )}
+                        >
+                          {"Agile and fast. Deals don't delay because of us."}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-plasmic-name={"section5"}
+                  data-plasmic-override={overrides.section5}
+                  className={classNames(projectcss.all, sty.section5)}
+                >
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__qxQSj)}
+                  >
+                    <div
+                      data-plasmic-name={"background"}
+                      data-plasmic-override={overrides.background}
+                      className={classNames(projectcss.all, sty.background)}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img__jwVyz)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"100%"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/evangelisti/images/rectangle15.jpg",
+                          fullWidth: 1500,
+                          fullHeight: 1008,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__ztFmg
+                        )}
+                      >
+                        <PlasmicImg__
+                          alt={""}
+                          className={classNames(sty.img__htIMw)}
+                          displayHeight={"auto"}
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={"100%"}
+                          loading={"lazy"}
+                          src={{
+                            src: "/plasmic/evangelisti/images/rectangle171Png.png",
+                            fullWidth: 1512,
+                            fullHeight: 1993,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__sLTur
+                          )}
+                        >
+                          <div
+                            data-plasmic-name={
+                              "geminiGeneratedImage8Omrmb8Omrmb8Omr1"
+                            }
+                            data-plasmic-override={
+                              overrides.geminiGeneratedImage8Omrmb8Omrmb8Omr1
+                            }
+                            className={classNames(
+                              projectcss.all,
+                              sty.geminiGeneratedImage8Omrmb8Omrmb8Omr1
+                            )}
+                          />
+
+                          <PlasmicImg__
+                            alt={""}
+                            className={classNames(sty.img___6T5V6)}
+                            displayHeight={"auto"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"100%"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"1231px"}
+                            loading={"lazy"}
+                            src={{
+                              src: "/plasmic/evangelisti/images/ellipse25.svg",
+                              fullWidth: 1231,
+                              fullHeight: 771,
+                              aspectRatio: undefined
+                            }}
+                          />
+                        </div>
+                      </div>
+                      <div
+                        data-plasmic-name={"group1321315494"}
+                        data-plasmic-override={overrides.group1321315494}
+                        className={classNames(
+                          projectcss.all,
+                          sty.group1321315494
+                        )}
+                      >
+                        <PlasmicImg__
+                          alt={""}
+                          className={classNames(sty.img__rkC2G)}
+                          displayHeight={"1993px"}
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={"100%"}
+                          loading={"lazy"}
+                          src={{
+                            src: "/plasmic/evangelisti/images/rectangle171.svg",
+                            fullWidth: 1550,
+                            fullHeight: 1993,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          data-plasmic-name={
+                            "geminiGeneratedImage8Omrmb8Omrmb8Omr2"
+                          }
+                          data-plasmic-override={
+                            overrides.geminiGeneratedImage8Omrmb8Omrmb8Omr2
+                          }
+                          className={classNames(
+                            projectcss.all,
+                            sty.geminiGeneratedImage8Omrmb8Omrmb8Omr2
+                          )}
+                        />
+
+                        <div
+                          data-plasmic-name={"rectangle34624178"}
+                          data-plasmic-override={overrides.rectangle34624178}
+                          className={classNames(
+                            projectcss.all,
+                            sty.rectangle34624178
+                          )}
+                        />
+
+                        <div
+                          data-plasmic-name={"rectangle34624179"}
+                          data-plasmic-override={overrides.rectangle34624179}
+                          className={classNames(
+                            projectcss.all,
+                            sty.rectangle34624179
+                          )}
+                        />
+
+                        <PlasmicImg__
+                          alt={""}
+                          className={classNames(sty.img___8QnLj)}
+                          displayHeight={"771px"}
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={"1231px"}
+                          loading={"lazy"}
+                          src={{
+                            src: "/plasmic/evangelisti/images/ellipse25.svg",
+                            fullWidth: 1231,
+                            fullHeight: 771,
+                            aspectRatio: undefined
+                          }}
+                        />
+                      </div>
+                    </div>
+                    <div
+                      data-plasmic-name={"main"}
+                      data-plasmic-override={overrides.main}
+                      className={classNames(projectcss.all, sty.main)}
+                    >
+                      <div
+                        data-plasmic-name={"content3"}
+                        data-plasmic-override={overrides.content3}
+                        className={classNames(projectcss.all, sty.content3)}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox___8Ez1H
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__fAkti
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"preheader"}
+                              data-plasmic-override={overrides.preheader}
+                              className={classNames(
+                                projectcss.all,
+                                sty.preheader
+                              )}
+                            >
+                              <Group325Icon
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.svg__xujin
+                                )}
+                                role={"img"}
+                              />
+
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__lxad8
+                                )}
+                              >
+                                {"WHAT WE DO"}
+                              </div>
+                            </div>
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.freeBox__rwdb3
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__gf2T7
+                                )}
+                              >
+                                {
+                                  "M&A for the German Market. \ncross-boarder & domestic"
+                                }
+                              </div>
+                            </div>
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__ii5BC
+                              )}
+                            >
+                              {
+                                "We advise (international) companies, financial sponsors and funds active within German market. From Start-ups to German Mittelstands, from acquisitions to exits, buy-side or sell-side.\n\n\nOur trademark is understanding businesses and advising sector agnostic for a well-rounded approach."
+                              }
+                            </div>
+                          </div>
+                        </div>
+                        <Switchingcards
+                          data-plasmic-name={"switchingcards"}
+                          data-plasmic-override={overrides.switchingcards}
+                          className={classNames(
+                            "__wab_instance",
+                            sty.switchingcards
+                          )}
+                        />
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__uigBh
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__xDlJu
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox___2Tc1A
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"preheader2"}
+                              data-plasmic-override={overrides.preheader2}
+                              className={classNames(
+                                projectcss.all,
+                                sty.preheader2
+                              )}
+                            >
+                              <Group321Icon
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.svg__gg9Cr
+                                )}
+                                role={"img"}
+                              />
+
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__vqtm4
+                                )}
+                              >
+                                {"Representative matters"}
+                              </div>
+                            </div>
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.freeBox__psy1X
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox__zb76L
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__kEpiO
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__bcxsa
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={"image18"}
+                                      data-plasmic-override={overrides.image18}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.image18
+                                      )}
+                                    />
+
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text___9Q3Yv
+                                      )}
+                                    >
+                                      {"indurad -> Hexagon\n(sell-side)"}
+                                    </div>
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text___6JouZ
+                                      )}
+                                    >
+                                      {
+                                        "indurad founders and RCF Jolimont in its sale to Swedish publicly-listed Hexagon AB"
+                                      }
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox___3WBi7
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__l3Bi
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={"image21"}
+                                      data-plasmic-override={overrides.image21}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.image21
+                                      )}
+                                    />
+
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__vOqRz
+                                      )}
+                                    >
+                                      {"enercity AG \n(JV / cross boarder)"}
+                                    </div>
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__bi4Vj
+                                      )}
+                                    >
+                                      {
+                                        "in its joint venture and sale of Lynqtech GmbH via call option to Hanwha Q-Cells"
+                                      }
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__lYnVb
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__a7Qx1
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={"image19"}
+                                      data-plasmic-override={overrides.image19}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.image19
+                                      )}
+                                    />
+
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__ymEet
+                                      )}
+                                    >
+                                      {
+                                        "Porsche Automobil \nHolding SE (buy-side)"
+                                      }
+                                    </div>
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__q6Zp
+                                      )}
+                                    >
+                                      {
+                                        "\u20ac10.1bn acquistion for 25% in Porsche AG from Volkswagen AG concurrent with the Porsche IPO"
+                                      }
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__veTzR
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"preheader3"}
+                              data-plasmic-override={overrides.preheader3}
+                              className={classNames(
+                                projectcss.all,
+                                sty.preheader3
+                              )}
+                            >
+                              <Group321Icon
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.svg__buFx
+                                )}
+                                role={"img"}
+                              />
+
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__bt5Jx
+                                )}
+                              >
+                                {"Our commandments of transaction advisory"}
+                              </div>
+                            </div>
+                            <div
+                              data-plasmic-name={
+                                "ourCommandmentsOfTransactionAdvisory"
+                              }
+                              data-plasmic-override={
+                                overrides.ourCommandmentsOfTransactionAdvisory
+                              }
+                              className={classNames(
+                                projectcss.all,
+                                sty.ourCommandmentsOfTransactionAdvisory
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox__vNrq8
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox___6GStt
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__td5Kd
+                                    )}
+                                  >
+                                    {
+                                      "Focus on economic risks, not legal pseudo-risks"
+                                    }
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox__qa7Lg
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__rfDln
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__p2Pfa
+                                    )}
+                                  >
+                                    {
+                                      "Bridge valuation gaps with legal design (Risk Allocation, Optionality, Financing Structures)"
+                                    }
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox__cXFl
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox___0AhNg
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__lk9Ba
+                                    )}
+                                  >
+                                    {
+                                      "Creative structuring to defuse hardened positions \u2014 or prevent escalation early"
+                                    }
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox__rdnVi
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox___3UaVk
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__zxj2T
+                                    )}
+                                  >
+                                    {
+                                      "Communicate at the right time with the right people \u2014 avoid trench warfare"
+                                    }
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox__ygM2D
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox___7Z8Ht
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__q1C34
+                                    )}
+                                  >
+                                    {
+                                      "Collaboration over confrontation to create shared deal security"
+                                    }
+                                  </div>
+                                </div>
+                              </div>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox___06Kp
+                                )}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__hTdy
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__a7Ksm
+                                    )}
+                                  >
+                                    {
+                                      "Sensitivity for rules that pass \u2014 and those that backfire"
+                                    }
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__tAr3H
+                            )}
+                          >
+                            <CtaButton
+                              className={classNames(
+                                "__wab_instance",
+                                sty.ctaButton__fsyfW
+                              )}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-plasmic-name={"section6"}
+                  data-plasmic-override={overrides.section6}
+                  className={classNames(projectcss.all, sty.section6)}
+                >
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__vf5Ur)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__opJOq)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox___4RQdo
+                        )}
+                      >
+                        <PlasmicImg__
+                          alt={""}
+                          className={classNames(sty.img__xAc5X)}
+                          displayHeight={"23px"}
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={"154px"}
+                          loading={"lazy"}
+                          src={{
+                            src: "/plasmic/evangelisti/images/group329.svg",
+                            fullWidth: 154,
+                            fullHeight: 23,
+                            aspectRatio: undefined
+                          }}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__pnvzO
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__slVx8
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"forGermanMittelstand"}
+                              data-plasmic-override={
+                                overrides.forGermanMittelstand
+                              }
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.forGermanMittelstand
+                              )}
+                            >
+                              {" For german Mittelstand"}
+                            </div>
+                          </div>
+                        </div>
+                        <PlasmicImg__
+                          alt={""}
+                          className={classNames(sty.img__lNTvw)}
+                          displayHeight={"23px"}
+                          displayMaxHeight={"none"}
+                          displayMaxWidth={"100%"}
+                          displayMinHeight={"0"}
+                          displayMinWidth={"0"}
+                          displayWidth={"154px"}
+                          loading={"lazy"}
+                          src={{
+                            src: "/plasmic/evangelisti/images/group329.svg",
+                            fullWidth: 154,
+                            fullHeight: 23,
+                            aspectRatio: undefined
+                          }}
+                        />
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__tvW8K
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__kcT3B
+                          )}
+                        >
+                          {
+                            "Contract design that protects value \n and creates negotiation leverage."
+                          }
+                        </div>
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__b65SC
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__qDrbv
+                          )}
+                        >
+                          <React.Fragment>
+                            <React.Fragment>
+                              {
+                                'We know what buyers look for \u2014 and how "legally weak" contracts read: ambigous wording, unclear termination rights, poor IP allocations, liability loopholes. That costs money, leverage, and time. \n\n'
+                              }
+                            </React.Fragment>
+                            {
+                              <span
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.span,
+                                  projectcss.__wab_text,
+                                  projectcss.plasmic_default__inline,
+                                  sty.span__sgmn4
+                                )}
+                              >
+                                {"We fix it."}
+                              </span>
+                            }
+                            <React.Fragment>{""}</React.Fragment>
+                          </React.Fragment>
+                        </div>
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__mEs7X
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"preheader4"}
+                          data-plasmic-override={overrides.preheader4}
+                          className={classNames(projectcss.all, sty.preheader4)}
+                        >
+                          <Group325Icon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg___6Z3V6
+                            )}
+                            role={"img"}
+                          />
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text___462Op
+                            )}
+                          >
+                            {"How we help in practice"}
+                          </div>
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__inVm1
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__cPggl
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"frame505"}
+                              data-plasmic-override={overrides.frame505}
+                              className={classNames(
+                                projectcss.all,
+                                sty.frame505
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__fQ4Ma
+                                )}
+                              >
+                                {
+                                  "Customer Agreements \nLegal head start for product and market success"
+                                }
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__maYpD
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"frame506"}
+                              data-plasmic-override={overrides.frame506}
+                              className={classNames(
+                                projectcss.all,
+                                sty.frame506
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__rptF4
+                                )}
+                              >
+                                {
+                                  "Employment Agreements \nEmployer-focused, risk-tight, scalable"
+                                }
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox___8DS
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"frame507"}
+                              data-plasmic-override={overrides.frame507}
+                              className={classNames(
+                                projectcss.all,
+                                sty.frame507
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__qeBig
+                                )}
+                              >
+                                {
+                                  "Supplier Agreements\nMaximize value, minimize risk, avoid pressure"
+                                }
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__frbhD
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"frame508"}
+                              data-plasmic-override={overrides.frame508}
+                              className={classNames(
+                                projectcss.all,
+                                sty.frame508
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text___5Izsb
+                                )}
+                              >
+                                {
+                                  "Customer Agreements \nLegal head start for product and market success"
+                                }
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__iMd71
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"frame509"}
+                              data-plasmic-override={overrides.frame509}
+                              className={classNames(
+                                projectcss.all,
+                                sty.frame509
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__mqPxU
+                                )}
+                              >
+                                {
+                                  "Project Agreements\nthe right legal language saves trouble when the project booms"
+                                }
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__bth8Q
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"frame510"}
+                              data-plasmic-override={overrides.frame510}
+                              className={classNames(
+                                projectcss.all,
+                                sty.frame510
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__huSJv
+                                )}
+                              >
+                                {
+                                  "Cooperation Agreements\nClean legal back-end  for successful product & market launches"
+                                }
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__eKlfG
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__iZFk
+                            )}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.freeBox__kaCxt
+                              )}
+                            >
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.freeBox__sGf5N
+                                )}
+                              >
+                                <Group322Icon
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.svg__pmNc
+                                  )}
+                                  role={"img"}
+                                />
+
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__nT4M
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      projectcss.__wab_text,
+                                      sty.text__kJf5
+                                    )}
+                                  >
+                                    {"Case study"}
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              data-plasmic-name={"image1"}
+                              data-plasmic-override={overrides.image1}
+                              className={classNames(projectcss.all, sty.image1)}
+                            >
+                              <div
+                                data-plasmic-name={"image2"}
+                                data-plasmic-override={overrides.image2}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.image2
+                                )}
+                              />
+
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__lAxax
+                                )}
+                              >
+                                <React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"Mi-Jack Europe GmbH (formerly Yardeye)"}
+                                  </span>
+                                  <React.Fragment>
+                                    {
+                                      "\nTrusted advisor for operational contracts, \nUS/Europe group structures, HR topics and all things IP"
+                                    }
+                                  </React.Fragment>
+                                </React.Fragment>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___0ZW70
+                      )}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__aI6Jr
+                        )}
+                      >
+                        <Group322Icon
+                          className={classNames(
+                            projectcss.all,
+                            sty.svg___6GaiD
+                          )}
+                          role={"img"}
+                        />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__u3Zmw
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__xhfNc
+                            )}
+                          >
+                            {
+                              "Why our individual contracts are the non-plus-ultra"
+                            }
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__m7Ai9
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__arNa5
+                          )}
+                        >
+                          <PlasmicImg__
+                            alt={""}
+                            className={classNames(sty.img__bQjz)}
+                            displayHeight={"50px"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"100%"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"50px"}
+                            loading={"lazy"}
+                            src={{
+                              src: "/plasmic/evangelisti/images/compassPng.png",
+                              fullWidth: 50,
+                              fullHeight: 51,
+                              aspectRatio: undefined
+                            }}
+                          />
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__jSrBm
+                            )}
+                          >
+                            {
+                              "We take time to understand your business model and think through risks."
+                            }
+                          </div>
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__ptRed
+                          )}
+                        >
+                          <PlasmicImg__
+                            alt={""}
+                            className={classNames(sty.img__oKQ2)}
+                            displayHeight={"50px"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"100%"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"50px"}
+                            loading={"lazy"}
+                            src={{
+                              src: "/plasmic/evangelisti/images/protectPng.png",
+                              fullWidth: 44,
+                              fullHeight: 45,
+                              aspectRatio: undefined
+                            }}
+                          />
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__faMm3
+                            )}
+                          >
+                            {
+                              "We design contracts To Put You \nin the Best Possible Position"
+                            }
+                          </div>
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__pMspu
+                          )}
+                        >
+                          <PlasmicImg__
+                            alt={""}
+                            className={classNames(sty.img__y4H9A)}
+                            displayHeight={"50px"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"100%"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"50px"}
+                            loading={"lazy"}
+                            src={{
+                              src: "/plasmic/evangelisti/images/brainPng.png",
+                              fullWidth: 60,
+                              fullHeight: 61,
+                              aspectRatio: undefined
+                            }}
+                          />
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__q4Roo
+                            )}
+                          >
+                            {
+                              "Sensitivity Applied. No Unnecessary \nProvocation of Your Business Partner"
+                            }
+                          </div>
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox___89Y2A
+                          )}
+                        >
+                          <PlasmicImg__
+                            alt={""}
+                            className={classNames(sty.img__uBc3K)}
+                            displayHeight={"50px"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"100%"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"50px"}
+                            loading={"lazy"}
+                            src={{
+                              src: "/plasmic/evangelisti/images/speedPng.png",
+                              fullWidth: 49,
+                              fullHeight: 49,
+                              aspectRatio: undefined
+                            }}
+                          />
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__liRwr
+                            )}
+                          >
+                            {
+                              "modular regimes (moderate \u2194 aggressive) \nto match Business Partner and situation."
+                            }
+                          </div>
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__cipKq
+                          )}
+                        >
+                          <PlasmicImg__
+                            alt={""}
+                            className={classNames(sty.img__dsU7)}
+                            displayHeight={"50px"}
+                            displayMaxHeight={"none"}
+                            displayMaxWidth={"100%"}
+                            displayMinHeight={"0"}
+                            displayMinWidth={"0"}
+                            displayWidth={"50px"}
+                            loading={"lazy"}
+                            src={{
+                              src: "/plasmic/evangelisti/images/growthAndFlagPng.png",
+                              fullWidth: 52,
+                              fullHeight: 52,
+                              aspectRatio: undefined
+                            }}
+                          />
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__bJw1U
+                            )}
+                          >
+                            {
+                              "Contracts scale with your company and\nserve as a reliable reference."
+                            }
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-plasmic-name={"section7"}
+                  data-plasmic-override={overrides.section7}
+                  className={classNames(projectcss.all, sty.section7)}
+                >
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox___2OAcV)}
+                  >
+                    <div
+                      data-plasmic-name={"_1stStep"}
+                      data-plasmic-override={overrides._1stStep}
+                      className={classNames(projectcss.all, sty._1stStep)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__ie7A5
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__ifMak
+                          )}
+                        >
+                          <React.Fragment>
+                            <React.Fragment>
+                              {
+                                "\u201dWell, I don\u2019t know as I want\na lawyear to tell me what I\ncannot do. "
+                              }
+                            </React.Fragment>
+                            {
+                              <span
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.span,
+                                  projectcss.__wab_text,
+                                  projectcss.plasmic_default__inline,
+                                  sty.span__efSio
+                                )}
+                              >
+                                {"I hire him to tell"}
+                              </span>
+                            }
+                            <React.Fragment>{"\n"}</React.Fragment>
+                            {
+                              <span
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.span,
+                                  projectcss.__wab_text,
+                                  projectcss.plasmic_default__inline,
+                                  sty.span__mTSs
+                                )}
+                              >
+                                {"how to do what I want to do."}
+                              </span>
+                            }
+                            <React.Fragment>{"\u201d"}</React.Fragment>
+                          </React.Fragment>
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__yJiIw
+                          )}
+                        >
+                          {"-J.P.Morgan"}
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__qw2Qc)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__h6UO0
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"background2"}
+                          data-plasmic-override={overrides.background2}
+                          className={classNames(
+                            projectcss.all,
+                            sty.background2
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__ipTPd
+                            )}
+                          >
+                            <SubtractIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__gqEos
+                              )}
+                              role={"img"}
+                            />
+                          </div>
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__mKKcC
+                            )}
+                          >
+                            <Ellipse97Icon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__iIxZj
+                              )}
+                              role={"img"}
+                            />
+                          </div>
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__yI7M
+                            )}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.freeBox__lhcXm
+                              )}
+                            >
+                              <div
+                                data-plasmic-name={"asset13X87"}
+                                data-plasmic-override={overrides.asset13X87}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.asset13X87
+                                )}
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__oDnxq
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__ywNyW
+                            )}
+                          >
+                            <React.Fragment>
+                              <React.Fragment>
+                                {"One-stop counsel\nfor "}
+                              </React.Fragment>
+                              {
+                                <span
+                                  className={classNames(
+                                    projectcss.all,
+                                    projectcss.span,
+                                    projectcss.__wab_text,
+                                    projectcss.plasmic_default__inline,
+                                    sty.span__z1C9
+                                  )}
+                                >
+                                  {"venture Capital."}
+                                </span>
+                              }
+                              <React.Fragment>
+                                {" fast, \nthorough, and hands-on."}
+                              </React.Fragment>
+                            </React.Fragment>
+                          </div>
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text__aQyMo
+                            )}
+                          >
+                            {
+                              "We give you an edge with our blend of M&A and IPO experience and years of mentoring start-ups. Strategic, forward-thinking legal advice \u2014 from acquisition to exit, and on portfolio level"
+                            }
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__fxUd2
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__syl8
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__uxNaM
+                            )}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.freeBox__vApeN
+                              )}
+                            >
+                              <div
+                                data-plasmic-name={"bonsai"}
+                                data-plasmic-override={overrides.bonsai}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.bonsai
+                                )}
+                              />
+
+                              <div
+                                data-plasmic-name={"investorGradeDocuments"}
+                                data-plasmic-override={
+                                  overrides.investorGradeDocuments
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.investorGradeDocuments
+                                )}
+                              >
+                                {"Bespoke Deals"}
+                              </div>
+                              <div
+                                data-plasmic-name={
+                                  "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag"
+                                }
+                                data-plasmic-override={
+                                  overrides.termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag
+                                )}
+                              >
+                                {
+                                  "when templates are not sufficient, and standard does not work, clients call us."
+                                }
+                              </div>
+                            </div>
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.freeBox__liXlf
+                              )}
+                            >
+                              <div
+                                data-plasmic-name={"bonsai2"}
+                                data-plasmic-override={overrides.bonsai2}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.bonsai2
+                                )}
+                              />
+
+                              <div
+                                data-plasmic-name={"investorGradeDocuments2"}
+                                data-plasmic-override={
+                                  overrides.investorGradeDocuments2
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.investorGradeDocuments2
+                                )}
+                              >
+                                {"Portfolio ops"}
+                              </div>
+                              <div
+                                data-plasmic-name={
+                                  "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag2"
+                                }
+                                data-plasmic-override={
+                                  overrides.termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag2
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag2
+                                )}
+                              >
+                                {
+                                  "Experienced in commercial contracts to support your start-ups beyond financing rounds."
+                                }
+                              </div>
+                            </div>
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.freeBox__dJfyC
+                              )}
+                            >
+                              <div
+                                data-plasmic-name={"bonsai3"}
+                                data-plasmic-override={overrides.bonsai3}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.bonsai3
+                                )}
+                              />
+
+                              <div
+                                data-plasmic-name={"investorGradeDocuments3"}
+                                data-plasmic-override={
+                                  overrides.investorGradeDocuments3
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.investorGradeDocuments3
+                                )}
+                              >
+                                {"Speed + depth"}
+                              </div>
+                              <div
+                                data-plasmic-name={
+                                  "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag3"
+                                }
+                                data-plasmic-override={
+                                  overrides.termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag3
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag3
+                                )}
+                              >
+                                {
+                                  "Keeping transactions in flow through sensitive deal management \u201eSmart Money Style.\u201c"
+                                }
+                              </div>
+                            </div>
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.freeBox__fgNkw
+                              )}
+                            >
+                              <div
+                                data-plasmic-name={"bonsai4"}
+                                data-plasmic-override={overrides.bonsai4}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.bonsai4
+                                )}
+                              />
+
+                              <div
+                                data-plasmic-name={"investorGradeDocuments4"}
+                                data-plasmic-override={
+                                  overrides.investorGradeDocuments4
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.investorGradeDocuments4
+                                )}
+                              >
+                                {"Lifecycle support"}
+                              </div>
+                              <div
+                                data-plasmic-name={
+                                  "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag4"
+                                }
+                                data-plasmic-override={
+                                  overrides.termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag4
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag4
+                                )}
+                              >
+                                {
+                                  "Experience in M&A, de-SPACs and IPOs for your headstart. From Pre-Seed to Series F. "
+                                }
+                              </div>
+                            </div>
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.freeBox__fvYcf
+                              )}
+                            >
+                              <div
+                                data-plasmic-name={"bonsai5"}
+                                data-plasmic-override={overrides.bonsai5}
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.bonsai5
+                                )}
+                              />
+
+                              <div
+                                data-plasmic-name={"investorGradeDocuments5"}
+                                data-plasmic-override={
+                                  overrides.investorGradeDocuments5
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.investorGradeDocuments5
+                                )}
+                              >
+                                {"Smaller mandates welcome"}
+                              </div>
+                              <div
+                                data-plasmic-name={
+                                  "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5"
+                                }
+                                data-plasmic-override={
+                                  overrides.termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5
+                                )}
+                              >
+                                {
+                                  "Strategic and tactical advise for Angels based on their decision-making style."
+                                }
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            data-plasmic-name={"group1321315483"}
+                            data-plasmic-override={overrides.group1321315483}
+                            className={classNames(
+                              projectcss.all,
+                              sty.group1321315483
+                            )}
+                          >
+                            <PlasmicImg__
+                              alt={""}
+                              className={classNames(sty.img__eydZl)}
+                              displayHeight={"auto"}
+                              displayMaxHeight={"none"}
+                              displayMaxWidth={"100%"}
+                              displayMinHeight={"0"}
+                              displayMinWidth={"0"}
+                              displayWidth={"auto"}
+                              loading={"lazy"}
+                              src={{
+                                src: "/plasmic/evangelisti/images/ellipse112.svg",
+                                fullWidth: 1346,
+                                fullHeight: 934,
+                                aspectRatio: undefined
+                              }}
+                            />
+
+                            <div
+                              data-plasmic-name={"group1321315481"}
+                              data-plasmic-override={overrides.group1321315481}
+                              className={classNames(
+                                projectcss.all,
+                                sty.group1321315481
+                              )}
+                            >
+                              <div
+                                data-plasmic-name={"group1321315478"}
+                                data-plasmic-override={
+                                  overrides.group1321315478
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.group1321315478
+                                )}
+                              >
+                                <div
+                                  data-plasmic-name={"group1321315457"}
+                                  data-plasmic-override={
+                                    overrides.group1321315457
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.group1321315457
+                                  )}
+                                >
+                                  <div
+                                    data-plasmic-name={"rectangle273"}
+                                    data-plasmic-override={
+                                      overrides.rectangle273
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.rectangle273
+                                    )}
+                                  />
+
+                                  <div
+                                    data-plasmic-name={"jetpackStudio"}
+                                    data-plasmic-override={
+                                      overrides.jetpackStudio
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.jetpackStudio
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__bPyC8
+                                      )}
+                                    >
+                                      {"Jetpack Studio"}
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={
+                                      "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition"
+                                    }
+                                    data-plasmic-override={
+                                      overrides.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__zArc6
+                                      )}
+                                    >
+                                      {
+                                        "GmbH in connection with multiple investments such as Merlin Digital Solutions, Rooms Technologies, Glorya , NOBS Nutrition."
+                                      }
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  data-plasmic-name={"group1321315459"}
+                                  data-plasmic-override={
+                                    overrides.group1321315459
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.group1321315459
+                                  )}
+                                >
+                                  <div
+                                    data-plasmic-name={"rectangle217"}
+                                    data-plasmic-override={
+                                      overrides.rectangle217
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.rectangle217
+                                    )}
+                                  />
+
+                                  <div
+                                    data-plasmic-name={"image22"}
+                                    data-plasmic-override={overrides.image22}
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.image22
+                                    )}
+                                  />
+                                </div>
+                              </div>
+                              <div
+                                data-plasmic-name={"group1321315479"}
+                                data-plasmic-override={
+                                  overrides.group1321315479
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.group1321315479
+                                )}
+                              >
+                                <div
+                                  data-plasmic-name={"group1321315458"}
+                                  data-plasmic-override={
+                                    overrides.group1321315458
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.group1321315458
+                                  )}
+                                >
+                                  <div
+                                    data-plasmic-name={"rectangle272"}
+                                    data-plasmic-override={
+                                      overrides.rectangle272
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.rectangle272
+                                    )}
+                                  />
+
+                                  <div
+                                    data-plasmic-name={"marinaCapital"}
+                                    data-plasmic-override={
+                                      overrides.marinaCapital
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.marinaCapital
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__eJgvT
+                                      )}
+                                    >
+                                      {"Marina Capital"}
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={
+                                      "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech"
+                                    }
+                                    data-plasmic-override={
+                                      overrides.onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__wEGxd
+                                      )}
+                                    >
+                                      {
+                                        "on its bespoke founding investment in Rokksta\n- German mining Tech."
+                                      }
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  data-plasmic-name={"image9"}
+                                  data-plasmic-override={overrides.image9}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.image9
+                                  )}
+                                />
+                              </div>
+                              <div
+                                data-plasmic-name={"group1321315480"}
+                                data-plasmic-override={
+                                  overrides.group1321315480
+                                }
+                                className={classNames(
+                                  projectcss.all,
+                                  sty.group1321315480
+                                )}
+                              >
+                                <div
+                                  data-plasmic-name={"group1321315433"}
+                                  data-plasmic-override={
+                                    overrides.group1321315433
+                                  }
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.group1321315433
+                                  )}
+                                >
+                                  <div
+                                    data-plasmic-name={"rectangle271"}
+                                    data-plasmic-override={
+                                      overrides.rectangle271
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.rectangle271
+                                    )}
+                                  />
+
+                                  <div
+                                    data-plasmic-name={"bluePoolCapital"}
+                                    data-plasmic-override={
+                                      overrides.bluePoolCapital
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.bluePoolCapital
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__gBUb7
+                                      )}
+                                    >
+                                      {"blue pool capital"}
+                                    </div>
+                                  </div>
+                                  <div
+                                    data-plasmic-name={
+                                      "asLeadInvestorInThe80MSeriesFOfGyg"
+                                    }
+                                    data-plasmic-override={
+                                      overrides.asLeadInvestorInThe80MSeriesFOfGyg
+                                    }
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.asLeadInvestorInThe80MSeriesFOfGyg
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        projectcss.__wab_text,
+                                        sty.text__jcusW
+                                      )}
+                                    >
+                                      {
+                                        "as Lead Investor in the\n\u20ac80m Series F of GYG"
+                                      }
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  data-plasmic-name={"image5"}
+                                  data-plasmic-override={overrides.image5}
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.image5
+                                  )}
+                                />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-plasmic-name={"section8"}
+                  data-plasmic-override={overrides.section8}
+                  className={classNames(projectcss.all, sty.section8)}
+                >
+                  <div
+                    data-plasmic-name={"floatingBackground2"}
+                    data-plasmic-override={overrides.floatingBackground2}
+                    className={classNames(
+                      projectcss.all,
+                      sty.floatingBackground2
+                    )}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___852Ua
+                      )}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img__aWbex)}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/evangelisti/images/group280.svg",
+                          fullWidth: 6051,
+                          fullHeight: 1237,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img___5K1Ar)}
+                        displayHeight={"100%"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"100%"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/evangelisti/images/vector.svg",
+                          fullWidth: 1647,
+                          fullHeight: 1019,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </div>
+                  </div>
+                  <div
+                    data-plasmic-name={"content4"}
+                    data-plasmic-override={overrides.content4}
+                    className={classNames(projectcss.all, sty.content4)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox___1SCn)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__mDgqs
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"sectionHeader3"}
+                          data-plasmic-override={overrides.sectionHeader3}
+                          className={classNames(
+                            projectcss.all,
+                            sty.sectionHeader3
+                          )}
+                        >
+                          <div
+                            data-plasmic-name={"sectionHeader4"}
+                            data-plasmic-override={overrides.sectionHeader4}
+                            className={classNames(
+                              projectcss.all,
+                              sty.sectionHeader4
+                            )}
+                          >
+                            <h3
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.h3,
+                                projectcss.__wab_text,
+                                sty.h3__qIBpC
+                              )}
+                            >
+                              {
+                                "The problem isn't the law\nit's how lawyers think."
+                              }
+                            </h3>
+                          </div>
+                        </div>
+                        <Step1
+                          className={classNames(
+                            "__wab_instance",
+                            sty.step1__eitdo
+                          )}
+                          others={(() => {
+                            try {
+                              return $state.scroll >= 1400
+                                ? "_29th"
+                                : $state.scroll >= 1370
+                                  ? "_28th"
+                                  : $state.scroll >= 1340
+                                    ? "_27th"
+                                    : $state.scroll >= 1310
+                                      ? "_26th"
+                                      : $state.scroll >= 1280
+                                        ? "_25th"
+                                        : $state.scroll >= 1250
+                                          ? "_24th"
+                                          : $state.scroll >= 1160
+                                            ? "_23rd"
+                                            : $state.scroll >= 1130
+                                              ? "_22nd"
+                                              : $state.scroll >= 1100
+                                                ? "_21Th"
+                                                : $state.scroll >= 1070
+                                                  ? "_20th"
+                                                  : $state.scroll >= 1040
+                                                    ? "_19th"
+                                                    : $state.scroll >= 1010
+                                                      ? "_18th"
+                                                      : $state.scroll >= 980
+                                                        ? "_17th"
+                                                        : $state.scroll >= 950
+                                                          ? "_16th"
+                                                          : $state.scroll >= 860
+                                                            ? "_15th"
+                                                            : $state.scroll >=
+                                                                830
+                                                              ? "_14th"
+                                                              : $state.scroll >=
+                                                                  800
+                                                                ? "_13Th"
+                                                                : $state.scroll >=
+                                                                    770
+                                                                  ? "_12Th"
+                                                                  : $state.scroll >=
+                                                                      740
+                                                                    ? "_11Th"
+                                                                    : $state.scroll >=
+                                                                        710
+                                                                      ? "_10th"
+                                                                      : $state.scroll >=
+                                                                          680
+                                                                        ? "_9th"
+                                                                        : $state.scroll >=
+                                                                            650
+                                                                          ? "_8th"
+                                                                          : $state.scroll >=
+                                                                              620
+                                                                            ? "_7th"
+                                                                            : $state.scroll >=
+                                                                                590
+                                                                              ? "_6th"
+                                                                              : $state.scroll >=
+                                                                                  560
+                                                                                ? "_5th"
+                                                                                : $state.scroll >=
+                                                                                    530
+                                                                                  ? "_4th"
+                                                                                  : $state.scroll >=
+                                                                                      500
+                                                                                    ? "_3rd"
+                                                                                    : $state.scroll >=
+                                                                                        470
+                                                                                      ? "_2nd"
+                                                                                      : $state.scroll >=
+                                                                                          440
+                                                                                        ? "_1st"
+                                                                                        : "_30th";
+                            } catch (e) {
+                              if (
+                                e instanceof TypeError ||
+                                e?.plasmicType === "PlasmicUndefinedDataError"
+                              ) {
+                                return "_7th";
+                              }
+                              throw e;
+                            }
+                          })()}
+                        />
+
+                        <div
+                          data-plasmic-name={"ctaButtonContainer2"}
+                          data-plasmic-override={overrides.ctaButtonContainer2}
+                          className={classNames(
+                            projectcss.all,
+                            sty.ctaButtonContainer2
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__sQcx7
+                            )}
+                          >
+                            <CtaButton
+                              className={classNames(
+                                "__wab_instance",
+                                sty.ctaButton___3FmO4
+                              )}
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <SideEffect
+            data-plasmic-name={"sideEffect"}
+            data-plasmic-override={overrides.sideEffect}
+            className={classNames("__wab_instance", sty.sideEffect)}
+            onMount={async () => {
+              const $steps = {};
+
+              $steps["updateScroll"] = true
+                ? (() => {
+                    const actionArgs = {
+                      variable: {
+                        objRoot: $state,
+                        variablePath: ["scroll"]
+                      },
+                      operation: 0,
+                      value: (() => {
+                        window.addEventListener(
+                          "scroll",
+                          function () {
+                            $state.scroll = window.scrollY;
+                          },
+                          { passive: true }
+                        );
+                        return ($state.scroll = window.scrollY);
+                      })()
+                    };
+                    return (({ variable, value, startIndex, deleteCount }) => {
+                      if (!variable) {
+                        return;
+                      }
+                      const { objRoot, variablePath } = variable;
+
+                      $stateSet(objRoot, variablePath, value);
+                      return value;
+                    })?.apply(null, [actionArgs]);
+                  })()
+                : undefined;
+              if (
+                $steps["updateScroll"] != null &&
+                typeof $steps["updateScroll"] === "object" &&
+                typeof $steps["updateScroll"].then === "function"
+              ) {
+                $steps["updateScroll"] = await $steps["updateScroll"];
+              }
+            }}
+          />
         </div>
       </div>
     </React.Fragment>
@@ -170,15 +3900,904 @@ function PlasmicHomepage__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "h1"],
-  h1: ["h1"]
+  root: [
+    "root",
+    "section",
+    "major",
+    "navbarAndHero",
+    "navbar",
+    "heroSection",
+    "corporateTransactionsStrategicAdvisory",
+    "corporateTransactionsStrategicAdvisory2",
+    "h1",
+    "rectangle223",
+    "float",
+    "section2",
+    "floatingBackground",
+    "content",
+    "sectionHeader2",
+    "sectionHeader",
+    "ctaButtonContainer",
+    "section3",
+    "content2",
+    "contentBox",
+    "head",
+    "header",
+    "h2",
+    "header2",
+    "geminiGeneratedImageS36Syts36Syts36S11",
+    "geminiGeneratedImageS36Syts36Syts36S12",
+    "geminiGeneratedImageS36Syts36Syts36S13",
+    "geminiGeneratedImageS36Syts36Syts36S14",
+    "geminiGeneratedImageS36Syts36Syts36S15",
+    "switchingLetters",
+    "section4",
+    "theGoldenRulesOfStrategicLegalCounsel",
+    "everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities",
+    "rectangle191",
+    "rectangle192",
+    "rectangle193",
+    "rectangle194",
+    "rectangle195",
+    "rectangle196",
+    "rectangle197",
+    "rectangle198",
+    "section5",
+    "background",
+    "geminiGeneratedImage8Omrmb8Omrmb8Omr1",
+    "group1321315494",
+    "geminiGeneratedImage8Omrmb8Omrmb8Omr2",
+    "rectangle34624178",
+    "rectangle34624179",
+    "main",
+    "content3",
+    "preheader",
+    "switchingcards",
+    "preheader2",
+    "image18",
+    "image21",
+    "image19",
+    "preheader3",
+    "ourCommandmentsOfTransactionAdvisory",
+    "section6",
+    "forGermanMittelstand",
+    "preheader4",
+    "frame505",
+    "frame506",
+    "frame507",
+    "frame508",
+    "frame509",
+    "frame510",
+    "image1",
+    "image2",
+    "section7",
+    "_1stStep",
+    "background2",
+    "asset13X87",
+    "bonsai",
+    "investorGradeDocuments",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag",
+    "bonsai2",
+    "investorGradeDocuments2",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag2",
+    "bonsai3",
+    "investorGradeDocuments3",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag3",
+    "bonsai4",
+    "investorGradeDocuments4",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag4",
+    "bonsai5",
+    "investorGradeDocuments5",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5",
+    "group1321315483",
+    "group1321315481",
+    "group1321315478",
+    "group1321315457",
+    "rectangle273",
+    "jetpackStudio",
+    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition",
+    "group1321315459",
+    "rectangle217",
+    "image22",
+    "group1321315479",
+    "group1321315458",
+    "rectangle272",
+    "marinaCapital",
+    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech",
+    "image9",
+    "group1321315480",
+    "group1321315433",
+    "rectangle271",
+    "bluePoolCapital",
+    "asLeadInvestorInThe80MSeriesFOfGyg",
+    "image5",
+    "section8",
+    "floatingBackground2",
+    "content4",
+    "sectionHeader3",
+    "sectionHeader4",
+    "ctaButtonContainer2",
+    "sideEffect"
+  ],
+  section: [
+    "section",
+    "major",
+    "navbarAndHero",
+    "navbar",
+    "heroSection",
+    "corporateTransactionsStrategicAdvisory",
+    "corporateTransactionsStrategicAdvisory2",
+    "h1",
+    "rectangle223",
+    "float",
+    "section2",
+    "floatingBackground",
+    "content",
+    "sectionHeader2",
+    "sectionHeader",
+    "ctaButtonContainer",
+    "section3",
+    "content2",
+    "contentBox",
+    "head",
+    "header",
+    "h2",
+    "header2",
+    "geminiGeneratedImageS36Syts36Syts36S11",
+    "geminiGeneratedImageS36Syts36Syts36S12",
+    "geminiGeneratedImageS36Syts36Syts36S13",
+    "geminiGeneratedImageS36Syts36Syts36S14",
+    "geminiGeneratedImageS36Syts36Syts36S15",
+    "switchingLetters",
+    "section4",
+    "theGoldenRulesOfStrategicLegalCounsel",
+    "everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities",
+    "rectangle191",
+    "rectangle192",
+    "rectangle193",
+    "rectangle194",
+    "rectangle195",
+    "rectangle196",
+    "rectangle197",
+    "rectangle198",
+    "section5",
+    "background",
+    "geminiGeneratedImage8Omrmb8Omrmb8Omr1",
+    "group1321315494",
+    "geminiGeneratedImage8Omrmb8Omrmb8Omr2",
+    "rectangle34624178",
+    "rectangle34624179",
+    "main",
+    "content3",
+    "preheader",
+    "switchingcards",
+    "preheader2",
+    "image18",
+    "image21",
+    "image19",
+    "preheader3",
+    "ourCommandmentsOfTransactionAdvisory",
+    "section6",
+    "forGermanMittelstand",
+    "preheader4",
+    "frame505",
+    "frame506",
+    "frame507",
+    "frame508",
+    "frame509",
+    "frame510",
+    "image1",
+    "image2",
+    "section7",
+    "_1stStep",
+    "background2",
+    "asset13X87",
+    "bonsai",
+    "investorGradeDocuments",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag",
+    "bonsai2",
+    "investorGradeDocuments2",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag2",
+    "bonsai3",
+    "investorGradeDocuments3",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag3",
+    "bonsai4",
+    "investorGradeDocuments4",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag4",
+    "bonsai5",
+    "investorGradeDocuments5",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5",
+    "group1321315483",
+    "group1321315481",
+    "group1321315478",
+    "group1321315457",
+    "rectangle273",
+    "jetpackStudio",
+    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition",
+    "group1321315459",
+    "rectangle217",
+    "image22",
+    "group1321315479",
+    "group1321315458",
+    "rectangle272",
+    "marinaCapital",
+    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech",
+    "image9",
+    "group1321315480",
+    "group1321315433",
+    "rectangle271",
+    "bluePoolCapital",
+    "asLeadInvestorInThe80MSeriesFOfGyg",
+    "image5",
+    "section8",
+    "floatingBackground2",
+    "content4",
+    "sectionHeader3",
+    "sectionHeader4",
+    "ctaButtonContainer2"
+  ],
+  major: [
+    "major",
+    "navbarAndHero",
+    "navbar",
+    "heroSection",
+    "corporateTransactionsStrategicAdvisory",
+    "corporateTransactionsStrategicAdvisory2",
+    "h1",
+    "rectangle223",
+    "float",
+    "section2",
+    "floatingBackground",
+    "content",
+    "sectionHeader2",
+    "sectionHeader",
+    "ctaButtonContainer",
+    "section3",
+    "content2",
+    "contentBox",
+    "head",
+    "header",
+    "h2",
+    "header2",
+    "geminiGeneratedImageS36Syts36Syts36S11",
+    "geminiGeneratedImageS36Syts36Syts36S12",
+    "geminiGeneratedImageS36Syts36Syts36S13",
+    "geminiGeneratedImageS36Syts36Syts36S14",
+    "geminiGeneratedImageS36Syts36Syts36S15",
+    "switchingLetters",
+    "section4",
+    "theGoldenRulesOfStrategicLegalCounsel",
+    "everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities",
+    "rectangle191",
+    "rectangle192",
+    "rectangle193",
+    "rectangle194",
+    "rectangle195",
+    "rectangle196",
+    "rectangle197",
+    "rectangle198",
+    "section5",
+    "background",
+    "geminiGeneratedImage8Omrmb8Omrmb8Omr1",
+    "group1321315494",
+    "geminiGeneratedImage8Omrmb8Omrmb8Omr2",
+    "rectangle34624178",
+    "rectangle34624179",
+    "main",
+    "content3",
+    "preheader",
+    "switchingcards",
+    "preheader2",
+    "image18",
+    "image21",
+    "image19",
+    "preheader3",
+    "ourCommandmentsOfTransactionAdvisory",
+    "section6",
+    "forGermanMittelstand",
+    "preheader4",
+    "frame505",
+    "frame506",
+    "frame507",
+    "frame508",
+    "frame509",
+    "frame510",
+    "image1",
+    "image2",
+    "section7",
+    "_1stStep",
+    "background2",
+    "asset13X87",
+    "bonsai",
+    "investorGradeDocuments",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag",
+    "bonsai2",
+    "investorGradeDocuments2",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag2",
+    "bonsai3",
+    "investorGradeDocuments3",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag3",
+    "bonsai4",
+    "investorGradeDocuments4",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag4",
+    "bonsai5",
+    "investorGradeDocuments5",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5",
+    "group1321315483",
+    "group1321315481",
+    "group1321315478",
+    "group1321315457",
+    "rectangle273",
+    "jetpackStudio",
+    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition",
+    "group1321315459",
+    "rectangle217",
+    "image22",
+    "group1321315479",
+    "group1321315458",
+    "rectangle272",
+    "marinaCapital",
+    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech",
+    "image9",
+    "group1321315480",
+    "group1321315433",
+    "rectangle271",
+    "bluePoolCapital",
+    "asLeadInvestorInThe80MSeriesFOfGyg",
+    "image5",
+    "section8",
+    "floatingBackground2",
+    "content4",
+    "sectionHeader3",
+    "sectionHeader4",
+    "ctaButtonContainer2"
+  ],
+  navbarAndHero: [
+    "navbarAndHero",
+    "navbar",
+    "heroSection",
+    "corporateTransactionsStrategicAdvisory",
+    "corporateTransactionsStrategicAdvisory2",
+    "h1",
+    "rectangle223",
+    "float"
+  ],
+  navbar: ["navbar"],
+  heroSection: [
+    "heroSection",
+    "corporateTransactionsStrategicAdvisory",
+    "corporateTransactionsStrategicAdvisory2",
+    "h1",
+    "rectangle223",
+    "float"
+  ],
+  corporateTransactionsStrategicAdvisory: [
+    "corporateTransactionsStrategicAdvisory",
+    "corporateTransactionsStrategicAdvisory2",
+    "h1"
+  ],
+  corporateTransactionsStrategicAdvisory2: [
+    "corporateTransactionsStrategicAdvisory2"
+  ],
+  h1: ["h1"],
+  rectangle223: ["rectangle223"],
+  float: ["float"],
+  section2: [
+    "section2",
+    "floatingBackground",
+    "content",
+    "sectionHeader2",
+    "sectionHeader",
+    "ctaButtonContainer"
+  ],
+  floatingBackground: ["floatingBackground"],
+  content: ["content", "sectionHeader2", "sectionHeader", "ctaButtonContainer"],
+  sectionHeader2: ["sectionHeader2", "sectionHeader"],
+  sectionHeader: ["sectionHeader"],
+  ctaButtonContainer: ["ctaButtonContainer"],
+  section3: [
+    "section3",
+    "content2",
+    "contentBox",
+    "head",
+    "header",
+    "h2",
+    "header2",
+    "geminiGeneratedImageS36Syts36Syts36S11",
+    "geminiGeneratedImageS36Syts36Syts36S12",
+    "geminiGeneratedImageS36Syts36Syts36S13",
+    "geminiGeneratedImageS36Syts36Syts36S14",
+    "geminiGeneratedImageS36Syts36Syts36S15",
+    "switchingLetters"
+  ],
+  content2: [
+    "content2",
+    "contentBox",
+    "head",
+    "header",
+    "h2",
+    "header2",
+    "geminiGeneratedImageS36Syts36Syts36S11",
+    "geminiGeneratedImageS36Syts36Syts36S12",
+    "geminiGeneratedImageS36Syts36Syts36S13",
+    "geminiGeneratedImageS36Syts36Syts36S14",
+    "geminiGeneratedImageS36Syts36Syts36S15",
+    "switchingLetters"
+  ],
+  contentBox: [
+    "contentBox",
+    "head",
+    "header",
+    "h2",
+    "header2",
+    "geminiGeneratedImageS36Syts36Syts36S11",
+    "geminiGeneratedImageS36Syts36Syts36S12",
+    "geminiGeneratedImageS36Syts36Syts36S13",
+    "geminiGeneratedImageS36Syts36Syts36S14",
+    "geminiGeneratedImageS36Syts36Syts36S15"
+  ],
+  head: ["head", "header", "h2", "header2"],
+  header: ["header", "h2"],
+  h2: ["h2"],
+  header2: ["header2"],
+  geminiGeneratedImageS36Syts36Syts36S11: [
+    "geminiGeneratedImageS36Syts36Syts36S11"
+  ],
+  geminiGeneratedImageS36Syts36Syts36S12: [
+    "geminiGeneratedImageS36Syts36Syts36S12"
+  ],
+  geminiGeneratedImageS36Syts36Syts36S13: [
+    "geminiGeneratedImageS36Syts36Syts36S13"
+  ],
+  geminiGeneratedImageS36Syts36Syts36S14: [
+    "geminiGeneratedImageS36Syts36Syts36S14"
+  ],
+  geminiGeneratedImageS36Syts36Syts36S15: [
+    "geminiGeneratedImageS36Syts36Syts36S15"
+  ],
+  switchingLetters: ["switchingLetters"],
+  section4: [
+    "section4",
+    "theGoldenRulesOfStrategicLegalCounsel",
+    "everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities",
+    "rectangle191",
+    "rectangle192",
+    "rectangle193",
+    "rectangle194",
+    "rectangle195",
+    "rectangle196",
+    "rectangle197",
+    "rectangle198"
+  ],
+  theGoldenRulesOfStrategicLegalCounsel: [
+    "theGoldenRulesOfStrategicLegalCounsel"
+  ],
+  everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities:
+    [
+      "everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities"
+    ],
+  rectangle191: ["rectangle191"],
+  rectangle192: ["rectangle192"],
+  rectangle193: ["rectangle193"],
+  rectangle194: ["rectangle194"],
+  rectangle195: ["rectangle195"],
+  rectangle196: ["rectangle196"],
+  rectangle197: ["rectangle197"],
+  rectangle198: ["rectangle198"],
+  section5: [
+    "section5",
+    "background",
+    "geminiGeneratedImage8Omrmb8Omrmb8Omr1",
+    "group1321315494",
+    "geminiGeneratedImage8Omrmb8Omrmb8Omr2",
+    "rectangle34624178",
+    "rectangle34624179",
+    "main",
+    "content3",
+    "preheader",
+    "switchingcards",
+    "preheader2",
+    "image18",
+    "image21",
+    "image19",
+    "preheader3",
+    "ourCommandmentsOfTransactionAdvisory"
+  ],
+  background: [
+    "background",
+    "geminiGeneratedImage8Omrmb8Omrmb8Omr1",
+    "group1321315494",
+    "geminiGeneratedImage8Omrmb8Omrmb8Omr2",
+    "rectangle34624178",
+    "rectangle34624179"
+  ],
+  geminiGeneratedImage8Omrmb8Omrmb8Omr1: [
+    "geminiGeneratedImage8Omrmb8Omrmb8Omr1"
+  ],
+  group1321315494: [
+    "group1321315494",
+    "geminiGeneratedImage8Omrmb8Omrmb8Omr2",
+    "rectangle34624178",
+    "rectangle34624179"
+  ],
+  geminiGeneratedImage8Omrmb8Omrmb8Omr2: [
+    "geminiGeneratedImage8Omrmb8Omrmb8Omr2"
+  ],
+  rectangle34624178: ["rectangle34624178"],
+  rectangle34624179: ["rectangle34624179"],
+  main: [
+    "main",
+    "content3",
+    "preheader",
+    "switchingcards",
+    "preheader2",
+    "image18",
+    "image21",
+    "image19",
+    "preheader3",
+    "ourCommandmentsOfTransactionAdvisory"
+  ],
+  content3: ["content3", "preheader", "switchingcards"],
+  preheader: ["preheader"],
+  switchingcards: ["switchingcards"],
+  preheader2: ["preheader2"],
+  image18: ["image18"],
+  image21: ["image21"],
+  image19: ["image19"],
+  preheader3: ["preheader3"],
+  ourCommandmentsOfTransactionAdvisory: [
+    "ourCommandmentsOfTransactionAdvisory"
+  ],
+  section6: [
+    "section6",
+    "forGermanMittelstand",
+    "preheader4",
+    "frame505",
+    "frame506",
+    "frame507",
+    "frame508",
+    "frame509",
+    "frame510",
+    "image1",
+    "image2"
+  ],
+  forGermanMittelstand: ["forGermanMittelstand"],
+  preheader4: ["preheader4"],
+  frame505: ["frame505"],
+  frame506: ["frame506"],
+  frame507: ["frame507"],
+  frame508: ["frame508"],
+  frame509: ["frame509"],
+  frame510: ["frame510"],
+  image1: ["image1", "image2"],
+  image2: ["image2"],
+  section7: [
+    "section7",
+    "_1stStep",
+    "background2",
+    "asset13X87",
+    "bonsai",
+    "investorGradeDocuments",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag",
+    "bonsai2",
+    "investorGradeDocuments2",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag2",
+    "bonsai3",
+    "investorGradeDocuments3",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag3",
+    "bonsai4",
+    "investorGradeDocuments4",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag4",
+    "bonsai5",
+    "investorGradeDocuments5",
+    "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5",
+    "group1321315483",
+    "group1321315481",
+    "group1321315478",
+    "group1321315457",
+    "rectangle273",
+    "jetpackStudio",
+    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition",
+    "group1321315459",
+    "rectangle217",
+    "image22",
+    "group1321315479",
+    "group1321315458",
+    "rectangle272",
+    "marinaCapital",
+    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech",
+    "image9",
+    "group1321315480",
+    "group1321315433",
+    "rectangle271",
+    "bluePoolCapital",
+    "asLeadInvestorInThe80MSeriesFOfGyg",
+    "image5"
+  ],
+  _1stStep: ["_1stStep"],
+  background2: ["background2", "asset13X87"],
+  asset13X87: ["asset13X87"],
+  bonsai: ["bonsai"],
+  investorGradeDocuments: ["investorGradeDocuments"],
+  termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag:
+    [
+      "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag"
+    ],
+  bonsai2: ["bonsai2"],
+  investorGradeDocuments2: ["investorGradeDocuments2"],
+  termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag2:
+    [
+      "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag2"
+    ],
+  bonsai3: ["bonsai3"],
+  investorGradeDocuments3: ["investorGradeDocuments3"],
+  termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag3:
+    [
+      "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag3"
+    ],
+  bonsai4: ["bonsai4"],
+  investorGradeDocuments4: ["investorGradeDocuments4"],
+  termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag4:
+    [
+      "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag4"
+    ],
+  bonsai5: ["bonsai5"],
+  investorGradeDocuments5: ["investorGradeDocuments5"],
+  termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5:
+    [
+      "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5"
+    ],
+  group1321315483: [
+    "group1321315483",
+    "group1321315481",
+    "group1321315478",
+    "group1321315457",
+    "rectangle273",
+    "jetpackStudio",
+    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition",
+    "group1321315459",
+    "rectangle217",
+    "image22",
+    "group1321315479",
+    "group1321315458",
+    "rectangle272",
+    "marinaCapital",
+    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech",
+    "image9",
+    "group1321315480",
+    "group1321315433",
+    "rectangle271",
+    "bluePoolCapital",
+    "asLeadInvestorInThe80MSeriesFOfGyg",
+    "image5"
+  ],
+  group1321315481: [
+    "group1321315481",
+    "group1321315478",
+    "group1321315457",
+    "rectangle273",
+    "jetpackStudio",
+    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition",
+    "group1321315459",
+    "rectangle217",
+    "image22",
+    "group1321315479",
+    "group1321315458",
+    "rectangle272",
+    "marinaCapital",
+    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech",
+    "image9",
+    "group1321315480",
+    "group1321315433",
+    "rectangle271",
+    "bluePoolCapital",
+    "asLeadInvestorInThe80MSeriesFOfGyg",
+    "image5"
+  ],
+  group1321315478: [
+    "group1321315478",
+    "group1321315457",
+    "rectangle273",
+    "jetpackStudio",
+    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition",
+    "group1321315459",
+    "rectangle217",
+    "image22"
+  ],
+  group1321315457: [
+    "group1321315457",
+    "rectangle273",
+    "jetpackStudio",
+    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition"
+  ],
+  rectangle273: ["rectangle273"],
+  jetpackStudio: ["jetpackStudio"],
+  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition:
+    [
+      "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition"
+    ],
+  group1321315459: ["group1321315459", "rectangle217", "image22"],
+  rectangle217: ["rectangle217"],
+  image22: ["image22"],
+  group1321315479: [
+    "group1321315479",
+    "group1321315458",
+    "rectangle272",
+    "marinaCapital",
+    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech",
+    "image9"
+  ],
+  group1321315458: [
+    "group1321315458",
+    "rectangle272",
+    "marinaCapital",
+    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech"
+  ],
+  rectangle272: ["rectangle272"],
+  marinaCapital: ["marinaCapital"],
+  onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech: [
+    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech"
+  ],
+  image9: ["image9"],
+  group1321315480: [
+    "group1321315480",
+    "group1321315433",
+    "rectangle271",
+    "bluePoolCapital",
+    "asLeadInvestorInThe80MSeriesFOfGyg",
+    "image5"
+  ],
+  group1321315433: [
+    "group1321315433",
+    "rectangle271",
+    "bluePoolCapital",
+    "asLeadInvestorInThe80MSeriesFOfGyg"
+  ],
+  rectangle271: ["rectangle271"],
+  bluePoolCapital: ["bluePoolCapital"],
+  asLeadInvestorInThe80MSeriesFOfGyg: ["asLeadInvestorInThe80MSeriesFOfGyg"],
+  image5: ["image5"],
+  section8: [
+    "section8",
+    "floatingBackground2",
+    "content4",
+    "sectionHeader3",
+    "sectionHeader4",
+    "ctaButtonContainer2"
+  ],
+  floatingBackground2: ["floatingBackground2"],
+  content4: [
+    "content4",
+    "sectionHeader3",
+    "sectionHeader4",
+    "ctaButtonContainer2"
+  ],
+  sectionHeader3: ["sectionHeader3", "sectionHeader4"],
+  sectionHeader4: ["sectionHeader4"],
+  ctaButtonContainer2: ["ctaButtonContainer2"],
+  sideEffect: ["sideEffect"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
   (typeof PlasmicDescendants)[T][number];
 type NodeDefaultElementType = {
   root: "div";
+  section: "section";
+  major: "div";
+  navbarAndHero: "div";
+  navbar: typeof Navbar;
+  heroSection: "div";
+  corporateTransactionsStrategicAdvisory: "div";
+  corporateTransactionsStrategicAdvisory2: "h2";
   h1: "h1";
+  rectangle223: "div";
+  float: "div";
+  section2: "div";
+  floatingBackground: "div";
+  content: "div";
+  sectionHeader2: "div";
+  sectionHeader: "div";
+  ctaButtonContainer: "div";
+  section3: "div";
+  content2: "div";
+  contentBox: "div";
+  head: "div";
+  header: "div";
+  h2: "h2";
+  header2: "div";
+  geminiGeneratedImageS36Syts36Syts36S11: "div";
+  geminiGeneratedImageS36Syts36Syts36S12: "div";
+  geminiGeneratedImageS36Syts36Syts36S13: "div";
+  geminiGeneratedImageS36Syts36Syts36S14: "div";
+  geminiGeneratedImageS36Syts36Syts36S15: "div";
+  switchingLetters: typeof SwitchingLetters;
+  section4: "div";
+  theGoldenRulesOfStrategicLegalCounsel: "div";
+  everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities: "div";
+  rectangle191: "div";
+  rectangle192: "div";
+  rectangle193: "div";
+  rectangle194: "div";
+  rectangle195: "div";
+  rectangle196: "div";
+  rectangle197: "div";
+  rectangle198: "div";
+  section5: "div";
+  background: "div";
+  geminiGeneratedImage8Omrmb8Omrmb8Omr1: "div";
+  group1321315494: "div";
+  geminiGeneratedImage8Omrmb8Omrmb8Omr2: "div";
+  rectangle34624178: "div";
+  rectangle34624179: "div";
+  main: "div";
+  content3: "div";
+  preheader: "div";
+  switchingcards: typeof Switchingcards;
+  preheader2: "div";
+  image18: "div";
+  image21: "div";
+  image19: "div";
+  preheader3: "div";
+  ourCommandmentsOfTransactionAdvisory: "div";
+  section6: "div";
+  forGermanMittelstand: "div";
+  preheader4: "div";
+  frame505: "div";
+  frame506: "div";
+  frame507: "div";
+  frame508: "div";
+  frame509: "div";
+  frame510: "div";
+  image1: "div";
+  image2: "div";
+  section7: "div";
+  _1stStep: "div";
+  background2: "div";
+  asset13X87: "div";
+  bonsai: "div";
+  investorGradeDocuments: "div";
+  termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag: "div";
+  bonsai2: "div";
+  investorGradeDocuments2: "div";
+  termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag2: "div";
+  bonsai3: "div";
+  investorGradeDocuments3: "div";
+  termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag3: "div";
+  bonsai4: "div";
+  investorGradeDocuments4: "div";
+  termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag4: "div";
+  bonsai5: "div";
+  investorGradeDocuments5: "div";
+  termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5: "div";
+  group1321315483: "div";
+  group1321315481: "div";
+  group1321315478: "div";
+  group1321315457: "div";
+  rectangle273: "div";
+  jetpackStudio: "div";
+  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition: "div";
+  group1321315459: "div";
+  rectangle217: "div";
+  image22: "div";
+  group1321315479: "div";
+  group1321315458: "div";
+  rectangle272: "div";
+  marinaCapital: "div";
+  onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech: "div";
+  image9: "div";
+  group1321315480: "div";
+  group1321315433: "div";
+  rectangle271: "div";
+  bluePoolCapital: "div";
+  asLeadInvestorInThe80MSeriesFOfGyg: "div";
+  image5: "div";
+  section8: "div";
+  floatingBackground2: "div";
+  content4: "div";
+  sectionHeader3: "div";
+  sectionHeader4: "div";
+  ctaButtonContainer2: "div";
+  sideEffect: typeof SideEffect;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -243,7 +4862,169 @@ export const PlasmicHomepage = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
+    section: makeNodeComponent("section"),
+    major: makeNodeComponent("major"),
+    navbarAndHero: makeNodeComponent("navbarAndHero"),
+    navbar: makeNodeComponent("navbar"),
+    heroSection: makeNodeComponent("heroSection"),
+    corporateTransactionsStrategicAdvisory: makeNodeComponent(
+      "corporateTransactionsStrategicAdvisory"
+    ),
+    corporateTransactionsStrategicAdvisory2: makeNodeComponent(
+      "corporateTransactionsStrategicAdvisory2"
+    ),
     h1: makeNodeComponent("h1"),
+    rectangle223: makeNodeComponent("rectangle223"),
+    float: makeNodeComponent("float"),
+    section2: makeNodeComponent("section2"),
+    floatingBackground: makeNodeComponent("floatingBackground"),
+    content: makeNodeComponent("content"),
+    sectionHeader2: makeNodeComponent("sectionHeader2"),
+    sectionHeader: makeNodeComponent("sectionHeader"),
+    ctaButtonContainer: makeNodeComponent("ctaButtonContainer"),
+    section3: makeNodeComponent("section3"),
+    content2: makeNodeComponent("content2"),
+    contentBox: makeNodeComponent("contentBox"),
+    head: makeNodeComponent("head"),
+    header: makeNodeComponent("header"),
+    h2: makeNodeComponent("h2"),
+    header2: makeNodeComponent("header2"),
+    geminiGeneratedImageS36Syts36Syts36S11: makeNodeComponent(
+      "geminiGeneratedImageS36Syts36Syts36S11"
+    ),
+    geminiGeneratedImageS36Syts36Syts36S12: makeNodeComponent(
+      "geminiGeneratedImageS36Syts36Syts36S12"
+    ),
+    geminiGeneratedImageS36Syts36Syts36S13: makeNodeComponent(
+      "geminiGeneratedImageS36Syts36Syts36S13"
+    ),
+    geminiGeneratedImageS36Syts36Syts36S14: makeNodeComponent(
+      "geminiGeneratedImageS36Syts36Syts36S14"
+    ),
+    geminiGeneratedImageS36Syts36Syts36S15: makeNodeComponent(
+      "geminiGeneratedImageS36Syts36Syts36S15"
+    ),
+    switchingLetters: makeNodeComponent("switchingLetters"),
+    section4: makeNodeComponent("section4"),
+    theGoldenRulesOfStrategicLegalCounsel: makeNodeComponent(
+      "theGoldenRulesOfStrategicLegalCounsel"
+    ),
+    everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities:
+      makeNodeComponent(
+        "everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities"
+      ),
+    rectangle191: makeNodeComponent("rectangle191"),
+    rectangle192: makeNodeComponent("rectangle192"),
+    rectangle193: makeNodeComponent("rectangle193"),
+    rectangle194: makeNodeComponent("rectangle194"),
+    rectangle195: makeNodeComponent("rectangle195"),
+    rectangle196: makeNodeComponent("rectangle196"),
+    rectangle197: makeNodeComponent("rectangle197"),
+    rectangle198: makeNodeComponent("rectangle198"),
+    section5: makeNodeComponent("section5"),
+    background: makeNodeComponent("background"),
+    geminiGeneratedImage8Omrmb8Omrmb8Omr1: makeNodeComponent(
+      "geminiGeneratedImage8Omrmb8Omrmb8Omr1"
+    ),
+    group1321315494: makeNodeComponent("group1321315494"),
+    geminiGeneratedImage8Omrmb8Omrmb8Omr2: makeNodeComponent(
+      "geminiGeneratedImage8Omrmb8Omrmb8Omr2"
+    ),
+    rectangle34624178: makeNodeComponent("rectangle34624178"),
+    rectangle34624179: makeNodeComponent("rectangle34624179"),
+    main: makeNodeComponent("main"),
+    content3: makeNodeComponent("content3"),
+    preheader: makeNodeComponent("preheader"),
+    switchingcards: makeNodeComponent("switchingcards"),
+    preheader2: makeNodeComponent("preheader2"),
+    image18: makeNodeComponent("image18"),
+    image21: makeNodeComponent("image21"),
+    image19: makeNodeComponent("image19"),
+    preheader3: makeNodeComponent("preheader3"),
+    ourCommandmentsOfTransactionAdvisory: makeNodeComponent(
+      "ourCommandmentsOfTransactionAdvisory"
+    ),
+    section6: makeNodeComponent("section6"),
+    forGermanMittelstand: makeNodeComponent("forGermanMittelstand"),
+    preheader4: makeNodeComponent("preheader4"),
+    frame505: makeNodeComponent("frame505"),
+    frame506: makeNodeComponent("frame506"),
+    frame507: makeNodeComponent("frame507"),
+    frame508: makeNodeComponent("frame508"),
+    frame509: makeNodeComponent("frame509"),
+    frame510: makeNodeComponent("frame510"),
+    image1: makeNodeComponent("image1"),
+    image2: makeNodeComponent("image2"),
+    section7: makeNodeComponent("section7"),
+    _1stStep: makeNodeComponent("_1stStep"),
+    background2: makeNodeComponent("background2"),
+    asset13X87: makeNodeComponent("asset13X87"),
+    bonsai: makeNodeComponent("bonsai"),
+    investorGradeDocuments: makeNodeComponent("investorGradeDocuments"),
+    termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag:
+      makeNodeComponent(
+        "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag"
+      ),
+    bonsai2: makeNodeComponent("bonsai2"),
+    investorGradeDocuments2: makeNodeComponent("investorGradeDocuments2"),
+    termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag2:
+      makeNodeComponent(
+        "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag2"
+      ),
+    bonsai3: makeNodeComponent("bonsai3"),
+    investorGradeDocuments3: makeNodeComponent("investorGradeDocuments3"),
+    termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag3:
+      makeNodeComponent(
+        "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag3"
+      ),
+    bonsai4: makeNodeComponent("bonsai4"),
+    investorGradeDocuments4: makeNodeComponent("investorGradeDocuments4"),
+    termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag4:
+      makeNodeComponent(
+        "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag4"
+      ),
+    bonsai5: makeNodeComponent("bonsai5"),
+    investorGradeDocuments5: makeNodeComponent("investorGradeDocuments5"),
+    termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5:
+      makeNodeComponent(
+        "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5"
+      ),
+    group1321315483: makeNodeComponent("group1321315483"),
+    group1321315481: makeNodeComponent("group1321315481"),
+    group1321315478: makeNodeComponent("group1321315478"),
+    group1321315457: makeNodeComponent("group1321315457"),
+    rectangle273: makeNodeComponent("rectangle273"),
+    jetpackStudio: makeNodeComponent("jetpackStudio"),
+    gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition:
+      makeNodeComponent(
+        "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition"
+      ),
+    group1321315459: makeNodeComponent("group1321315459"),
+    rectangle217: makeNodeComponent("rectangle217"),
+    image22: makeNodeComponent("image22"),
+    group1321315479: makeNodeComponent("group1321315479"),
+    group1321315458: makeNodeComponent("group1321315458"),
+    rectangle272: makeNodeComponent("rectangle272"),
+    marinaCapital: makeNodeComponent("marinaCapital"),
+    onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech: makeNodeComponent(
+      "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech"
+    ),
+    image9: makeNodeComponent("image9"),
+    group1321315480: makeNodeComponent("group1321315480"),
+    group1321315433: makeNodeComponent("group1321315433"),
+    rectangle271: makeNodeComponent("rectangle271"),
+    bluePoolCapital: makeNodeComponent("bluePoolCapital"),
+    asLeadInvestorInThe80MSeriesFOfGyg: makeNodeComponent(
+      "asLeadInvestorInThe80MSeriesFOfGyg"
+    ),
+    image5: makeNodeComponent("image5"),
+    section8: makeNodeComponent("section8"),
+    floatingBackground2: makeNodeComponent("floatingBackground2"),
+    content4: makeNodeComponent("content4"),
+    sectionHeader3: makeNodeComponent("sectionHeader3"),
+    sectionHeader4: makeNodeComponent("sectionHeader4"),
+    ctaButtonContainer2: makeNodeComponent("ctaButtonContainer2"),
+    sideEffect: makeNodeComponent("sideEffect"),
 
     // Metadata about props expected for PlasmicHomepage
     internalVariantProps: PlasmicHomepage__VariantProps,
