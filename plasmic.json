@@ -173,6 +173,19 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/new-3"
+        },
+        {
+          "id": "WRX8WwTCusqp",
+          "name": "TurningCards",
+          "type": "managed",
+          "projectId": "psTfKC1KCEpawf41964R83",
+          "renderModuleFilePath": "plasmic/evangelisti/PlasmicTurningCards.tsx",
+          "importSpec": {
+            "modulePath": "TurningCards.tsx"
+          },
+          "cssFilePath": "plasmic/evangelisti/PlasmicTurningCards.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

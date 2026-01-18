@@ -65,6 +65,7 @@ import CtaButton from "../../CtaButton"; // plasmic-import: XaC-VjV5Z764/compone
 import Shrinkcontainer from "../../Shrinkcontainer"; // plasmic-import: 2BkUWwmz_K01/component
 import SwitchingLetters from "../../SwitchingLetters"; // plasmic-import: jzvN_9UyJix7/component
 import Switchingcards from "../../Switchingcards"; // plasmic-import: b-UKtaLO3ybb/component
+import TurningCards from "../../TurningCards"; // plasmic-import: WRX8WwTCusqp/component
 import { SideEffect } from "@plasmicpkgs/plasmic-basic-components";
 import { Fetcher } from "@plasmicapp/react-web/lib/data-sources";
 import { _useGlobalVariants } from "./plasmic"; // plasmic-import: psTfKC1KCEpawf41964R83/projectModule
@@ -183,27 +184,7 @@ export type PlasmicHomepage__OverridesType = {
   investorGradeDocuments5?: Flex__<"div">;
   termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5?: Flex__<"div">;
   group1321315483?: Flex__<"div">;
-  group1321315481?: Flex__<"div">;
-  group1321315478?: Flex__<"div">;
-  group1321315457?: Flex__<"div">;
-  rectangle273?: Flex__<"div">;
-  jetpackStudio?: Flex__<"div">;
-  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition?: Flex__<"div">;
-  group1321315459?: Flex__<"div">;
-  rectangle217?: Flex__<"div">;
-  image22?: Flex__<"div">;
-  group1321315479?: Flex__<"div">;
-  group1321315458?: Flex__<"div">;
-  rectangle272?: Flex__<"div">;
-  marinaCapital?: Flex__<"div">;
-  onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech?: Flex__<"div">;
-  image9?: Flex__<"div">;
-  group1321315480?: Flex__<"div">;
-  group1321315433?: Flex__<"div">;
-  rectangle271?: Flex__<"div">;
-  bluePoolCapital?: Flex__<"div">;
-  asLeadInvestorInThe80MSeriesFOfGyg?: Flex__<"div">;
-  image5?: Flex__<"div">;
+  turningCards?: Flex__<typeof TurningCards>;
   section8?: Flex__<"div">;
   floatingBackground2?: Flex__<"div">;
   content4?: Flex__<"div">;
@@ -3334,292 +3315,14 @@ function PlasmicHomepage__RenderFunc(props: {
                               }}
                             />
 
-                            <div
-                              data-plasmic-name={"group1321315481"}
-                              data-plasmic-override={overrides.group1321315481}
+                            <TurningCards
+                              data-plasmic-name={"turningCards"}
+                              data-plasmic-override={overrides.turningCards}
                               className={classNames(
-                                projectcss.all,
-                                sty.group1321315481
+                                "__wab_instance",
+                                sty.turningCards
                               )}
-                            >
-                              <div
-                                data-plasmic-name={"group1321315478"}
-                                data-plasmic-override={
-                                  overrides.group1321315478
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.group1321315478
-                                )}
-                              >
-                                <div
-                                  data-plasmic-name={"group1321315457"}
-                                  data-plasmic-override={
-                                    overrides.group1321315457
-                                  }
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.group1321315457
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"rectangle273"}
-                                    data-plasmic-override={
-                                      overrides.rectangle273
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.rectangle273
-                                    )}
-                                  />
-
-                                  <div
-                                    data-plasmic-name={"jetpackStudio"}
-                                    data-plasmic-override={
-                                      overrides.jetpackStudio
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.jetpackStudio
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__bPyC8
-                                      )}
-                                    >
-                                      {"Jetpack Studio"}
-                                    </div>
-                                  </div>
-                                  <div
-                                    data-plasmic-name={
-                                      "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition"
-                                    }
-                                    data-plasmic-override={
-                                      overrides.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__zArc6
-                                      )}
-                                    >
-                                      {
-                                        "GmbH in connection with multiple investments such as Merlin Digital Solutions, Rooms Technologies, Glorya , NOBS Nutrition."
-                                      }
-                                    </div>
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"group1321315459"}
-                                  data-plasmic-override={
-                                    overrides.group1321315459
-                                  }
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.group1321315459
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"rectangle217"}
-                                    data-plasmic-override={
-                                      overrides.rectangle217
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.rectangle217
-                                    )}
-                                  />
-
-                                  <div
-                                    data-plasmic-name={"image22"}
-                                    data-plasmic-override={overrides.image22}
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.image22
-                                    )}
-                                  />
-                                </div>
-                              </div>
-                              <div
-                                data-plasmic-name={"group1321315479"}
-                                data-plasmic-override={
-                                  overrides.group1321315479
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.group1321315479
-                                )}
-                              >
-                                <div
-                                  data-plasmic-name={"group1321315458"}
-                                  data-plasmic-override={
-                                    overrides.group1321315458
-                                  }
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.group1321315458
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"rectangle272"}
-                                    data-plasmic-override={
-                                      overrides.rectangle272
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.rectangle272
-                                    )}
-                                  />
-
-                                  <div
-                                    data-plasmic-name={"marinaCapital"}
-                                    data-plasmic-override={
-                                      overrides.marinaCapital
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.marinaCapital
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__eJgvT
-                                      )}
-                                    >
-                                      {"Marina Capital"}
-                                    </div>
-                                  </div>
-                                  <div
-                                    data-plasmic-name={
-                                      "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech"
-                                    }
-                                    data-plasmic-override={
-                                      overrides.onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__wEGxd
-                                      )}
-                                    >
-                                      {
-                                        "on its bespoke founding investment in Rokksta\n- German mining Tech."
-                                      }
-                                    </div>
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"image9"}
-                                  data-plasmic-override={overrides.image9}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.image9
-                                  )}
-                                />
-                              </div>
-                              <div
-                                data-plasmic-name={"group1321315480"}
-                                data-plasmic-override={
-                                  overrides.group1321315480
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.group1321315480
-                                )}
-                              >
-                                <div
-                                  data-plasmic-name={"group1321315433"}
-                                  data-plasmic-override={
-                                    overrides.group1321315433
-                                  }
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.group1321315433
-                                  )}
-                                >
-                                  <div
-                                    data-plasmic-name={"rectangle271"}
-                                    data-plasmic-override={
-                                      overrides.rectangle271
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.rectangle271
-                                    )}
-                                  />
-
-                                  <div
-                                    data-plasmic-name={"bluePoolCapital"}
-                                    data-plasmic-override={
-                                      overrides.bluePoolCapital
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.bluePoolCapital
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__gBUb7
-                                      )}
-                                    >
-                                      {"blue pool capital"}
-                                    </div>
-                                  </div>
-                                  <div
-                                    data-plasmic-name={
-                                      "asLeadInvestorInThe80MSeriesFOfGyg"
-                                    }
-                                    data-plasmic-override={
-                                      overrides.asLeadInvestorInThe80MSeriesFOfGyg
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.asLeadInvestorInThe80MSeriesFOfGyg
-                                    )}
-                                  >
-                                    <div
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.__wab_text,
-                                        sty.text__jcusW
-                                      )}
-                                    >
-                                      {
-                                        "as Lead Investor in the\n\u20ac80m Series F of GYG"
-                                      }
-                                    </div>
-                                  </div>
-                                </div>
-                                <div
-                                  data-plasmic-name={"image5"}
-                                  data-plasmic-override={overrides.image5}
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.image5
-                                  )}
-                                />
-                              </div>
-                            </div>
+                            />
                           </div>
                         </div>
                       </div>
@@ -3990,27 +3693,7 @@ const PlasmicDescendants = {
     "investorGradeDocuments5",
     "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5",
     "group1321315483",
-    "group1321315481",
-    "group1321315478",
-    "group1321315457",
-    "rectangle273",
-    "jetpackStudio",
-    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition",
-    "group1321315459",
-    "rectangle217",
-    "image22",
-    "group1321315479",
-    "group1321315458",
-    "rectangle272",
-    "marinaCapital",
-    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech",
-    "image9",
-    "group1321315480",
-    "group1321315433",
-    "rectangle271",
-    "bluePoolCapital",
-    "asLeadInvestorInThe80MSeriesFOfGyg",
-    "image5",
+    "turningCards",
     "section8",
     "floatingBackground2",
     "content4",
@@ -4108,27 +3791,7 @@ const PlasmicDescendants = {
     "investorGradeDocuments5",
     "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5",
     "group1321315483",
-    "group1321315481",
-    "group1321315478",
-    "group1321315457",
-    "rectangle273",
-    "jetpackStudio",
-    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition",
-    "group1321315459",
-    "rectangle217",
-    "image22",
-    "group1321315479",
-    "group1321315458",
-    "rectangle272",
-    "marinaCapital",
-    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech",
-    "image9",
-    "group1321315480",
-    "group1321315433",
-    "rectangle271",
-    "bluePoolCapital",
-    "asLeadInvestorInThe80MSeriesFOfGyg",
-    "image5",
+    "turningCards",
     "section8",
     "floatingBackground2",
     "content4",
@@ -4224,27 +3887,7 @@ const PlasmicDescendants = {
     "investorGradeDocuments5",
     "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5",
     "group1321315483",
-    "group1321315481",
-    "group1321315478",
-    "group1321315457",
-    "rectangle273",
-    "jetpackStudio",
-    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition",
-    "group1321315459",
-    "rectangle217",
-    "image22",
-    "group1321315479",
-    "group1321315458",
-    "rectangle272",
-    "marinaCapital",
-    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech",
-    "image9",
-    "group1321315480",
-    "group1321315433",
-    "rectangle271",
-    "bluePoolCapital",
-    "asLeadInvestorInThe80MSeriesFOfGyg",
-    "image5",
+    "turningCards",
     "section8",
     "floatingBackground2",
     "content4",
@@ -4492,27 +4135,7 @@ const PlasmicDescendants = {
     "investorGradeDocuments5",
     "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5",
     "group1321315483",
-    "group1321315481",
-    "group1321315478",
-    "group1321315457",
-    "rectangle273",
-    "jetpackStudio",
-    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition",
-    "group1321315459",
-    "rectangle217",
-    "image22",
-    "group1321315479",
-    "group1321315458",
-    "rectangle272",
-    "marinaCapital",
-    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech",
-    "image9",
-    "group1321315480",
-    "group1321315433",
-    "rectangle271",
-    "bluePoolCapital",
-    "asLeadInvestorInThe80MSeriesFOfGyg",
-    "image5"
+    "turningCards"
   ],
   _1stStep: ["_1stStep"],
   background2: ["background2", "asset13X87"],
@@ -4547,116 +4170,8 @@ const PlasmicDescendants = {
     [
       "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5"
     ],
-  group1321315483: [
-    "group1321315483",
-    "group1321315481",
-    "group1321315478",
-    "group1321315457",
-    "rectangle273",
-    "jetpackStudio",
-    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition",
-    "group1321315459",
-    "rectangle217",
-    "image22",
-    "group1321315479",
-    "group1321315458",
-    "rectangle272",
-    "marinaCapital",
-    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech",
-    "image9",
-    "group1321315480",
-    "group1321315433",
-    "rectangle271",
-    "bluePoolCapital",
-    "asLeadInvestorInThe80MSeriesFOfGyg",
-    "image5"
-  ],
-  group1321315481: [
-    "group1321315481",
-    "group1321315478",
-    "group1321315457",
-    "rectangle273",
-    "jetpackStudio",
-    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition",
-    "group1321315459",
-    "rectangle217",
-    "image22",
-    "group1321315479",
-    "group1321315458",
-    "rectangle272",
-    "marinaCapital",
-    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech",
-    "image9",
-    "group1321315480",
-    "group1321315433",
-    "rectangle271",
-    "bluePoolCapital",
-    "asLeadInvestorInThe80MSeriesFOfGyg",
-    "image5"
-  ],
-  group1321315478: [
-    "group1321315478",
-    "group1321315457",
-    "rectangle273",
-    "jetpackStudio",
-    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition",
-    "group1321315459",
-    "rectangle217",
-    "image22"
-  ],
-  group1321315457: [
-    "group1321315457",
-    "rectangle273",
-    "jetpackStudio",
-    "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition"
-  ],
-  rectangle273: ["rectangle273"],
-  jetpackStudio: ["jetpackStudio"],
-  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition:
-    [
-      "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition"
-    ],
-  group1321315459: ["group1321315459", "rectangle217", "image22"],
-  rectangle217: ["rectangle217"],
-  image22: ["image22"],
-  group1321315479: [
-    "group1321315479",
-    "group1321315458",
-    "rectangle272",
-    "marinaCapital",
-    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech",
-    "image9"
-  ],
-  group1321315458: [
-    "group1321315458",
-    "rectangle272",
-    "marinaCapital",
-    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech"
-  ],
-  rectangle272: ["rectangle272"],
-  marinaCapital: ["marinaCapital"],
-  onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech: [
-    "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech"
-  ],
-  image9: ["image9"],
-  group1321315480: [
-    "group1321315480",
-    "group1321315433",
-    "rectangle271",
-    "bluePoolCapital",
-    "asLeadInvestorInThe80MSeriesFOfGyg",
-    "image5"
-  ],
-  group1321315433: [
-    "group1321315433",
-    "rectangle271",
-    "bluePoolCapital",
-    "asLeadInvestorInThe80MSeriesFOfGyg"
-  ],
-  rectangle271: ["rectangle271"],
-  bluePoolCapital: ["bluePoolCapital"],
-  asLeadInvestorInThe80MSeriesFOfGyg: ["asLeadInvestorInThe80MSeriesFOfGyg"],
-  image5: ["image5"],
+  group1321315483: ["group1321315483", "turningCards"],
+  turningCards: ["turningCards"],
   section8: [
     "section8",
     "floatingBackground2",
@@ -4770,27 +4285,7 @@ type NodeDefaultElementType = {
   investorGradeDocuments5: "div";
   termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5: "div";
   group1321315483: "div";
-  group1321315481: "div";
-  group1321315478: "div";
-  group1321315457: "div";
-  rectangle273: "div";
-  jetpackStudio: "div";
-  gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition: "div";
-  group1321315459: "div";
-  rectangle217: "div";
-  image22: "div";
-  group1321315479: "div";
-  group1321315458: "div";
-  rectangle272: "div";
-  marinaCapital: "div";
-  onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech: "div";
-  image9: "div";
-  group1321315480: "div";
-  group1321315433: "div";
-  rectangle271: "div";
-  bluePoolCapital: "div";
-  asLeadInvestorInThe80MSeriesFOfGyg: "div";
-  image5: "div";
+  turningCards: typeof TurningCards;
   section8: "div";
   floatingBackground2: "div";
   content4: "div";
@@ -4990,34 +4485,7 @@ export const PlasmicHomepage = Object.assign(
         "termSheetsShAsSideLettersDownsideProtectedWithoutStallingRoundsLiqPrefsControlInformationRightsAntiDilutionProRataTagDrag5"
       ),
     group1321315483: makeNodeComponent("group1321315483"),
-    group1321315481: makeNodeComponent("group1321315481"),
-    group1321315478: makeNodeComponent("group1321315478"),
-    group1321315457: makeNodeComponent("group1321315457"),
-    rectangle273: makeNodeComponent("rectangle273"),
-    jetpackStudio: makeNodeComponent("jetpackStudio"),
-    gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition:
-      makeNodeComponent(
-        "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition"
-      ),
-    group1321315459: makeNodeComponent("group1321315459"),
-    rectangle217: makeNodeComponent("rectangle217"),
-    image22: makeNodeComponent("image22"),
-    group1321315479: makeNodeComponent("group1321315479"),
-    group1321315458: makeNodeComponent("group1321315458"),
-    rectangle272: makeNodeComponent("rectangle272"),
-    marinaCapital: makeNodeComponent("marinaCapital"),
-    onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech: makeNodeComponent(
-      "onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech"
-    ),
-    image9: makeNodeComponent("image9"),
-    group1321315480: makeNodeComponent("group1321315480"),
-    group1321315433: makeNodeComponent("group1321315433"),
-    rectangle271: makeNodeComponent("rectangle271"),
-    bluePoolCapital: makeNodeComponent("bluePoolCapital"),
-    asLeadInvestorInThe80MSeriesFOfGyg: makeNodeComponent(
-      "asLeadInvestorInThe80MSeriesFOfGyg"
-    ),
-    image5: makeNodeComponent("image5"),
+    turningCards: makeNodeComponent("turningCards"),
     section8: makeNodeComponent("section8"),
     floatingBackground2: makeNodeComponent("floatingBackground2"),
     content4: makeNodeComponent("content4"),

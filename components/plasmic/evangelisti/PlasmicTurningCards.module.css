@@ -1,0 +1,760 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 60px;
+  position: relative;
+  min-width: 0;
+  padding: 0px 50px;
+}
+.freeBox__i23Vi {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.group1321315481 {
+  animation: none;
+  transform: translate(0.001220703125px, 0px);
+  width: 500px;
+  height: 500px;
+  display: block;
+  flex-shrink: 0;
+}
+.group1321315480 {
+  animation: none;
+  transform: scale(1.0000000101778412, 1.0000000101778412)
+    rotate(10.326304859810062deg) translate(-0.1111602783203125px, 0px);
+  width: 379px;
+  height: 417px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 0px;
+  left: 202px;
+}
+.group1321315433 {
+  animation: none;
+  transform: translate(0px, -1.8189894035458565e-12px);
+  width: 379px;
+  height: 417px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.rectangle271 {
+  animation: none;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(217, 217, 217, 1);
+  transform: translate(0px, -1.8189894035458565e-12px);
+  width: 379px;
+  height: 417px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 29.648502349853516px;
+}
+.bluePoolCapital {
+  animation: none;
+  position: absolute;
+  top: 45.08%;
+  left: 22.42%;
+  width: 55.4%;
+  height: 14.38%;
+  transform: translate(0px, -1.8189894035458565e-12px);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__yp5Ks {
+  animation: none;
+  display: block;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 28px;
+  color: rgba(21, 40, 115, 1);
+  font-style: normal;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.asLeadInvestorInThe80MSeriesFOfGyg {
+  animation: none;
+  position: absolute;
+  top: 59.71%;
+  left: 11.34%;
+  width: 83.9%;
+  height: 15.1%;
+  transform: translate(0px, 0.286132812498181px);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__cbSpu {
+  animation: none;
+  display: block;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: rgba(24, 24, 24, 1);
+  font-style: normal;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.image5 {
+  animation: none;
+  background: url("/plasmic/evangelisti/images/image5.png") center center / cover no-repeat;
+  transform: translate(0px, -1.8189894035458565e-12px);
+  width: 114px;
+  height: 147px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 42px;
+  left: 133px;
+}
+.group1321315479 {
+  animation: none;
+  transform: scale(1.0000000247752145, 1.0000000247752145)
+    rotate(7.549081169399486deg)
+    translate(0.33049774169921875px, 0.3818359375px);
+  width: 379px;
+  height: 417px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 4px;
+  left: 105px;
+}
+.group1321315458 {
+  animation: none;
+  width: 379px;
+  height: 417px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.rectangle272 {
+  animation: none;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(217, 217, 217, 1);
+  width: 379px;
+  height: 417px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 29.648502349853516px;
+}
+.marinaCapital {
+  animation: none;
+  position: absolute;
+  top: 45.32%;
+  left: 22.42%;
+  width: 55.4%;
+  height: 14.38%;
+  transform: translate(0px, 0.021484375px);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__t07Zi {
+  animation: none;
+  display: block;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 28px;
+  color: rgba(21, 40, 115, 1);
+  font-style: normal;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.onItsBespokeFoundingInvestmentInRokkstaGermanMiningTech {
+  animation: none;
+  position: absolute;
+  top: 62.82%;
+  left: 7.38%;
+  width: 83.9%;
+  height: 16.78%;
+  transform: translate(0px, -0.456542968751819px);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text___1Emm6 {
+  animation: none;
+  display: block;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: rgba(55, 65, 81, 1);
+  font-style: normal;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.image9 {
+  animation: none;
+  background: url("/plasmic/evangelisti/images/image11.png") 0px -290px / 417px 439px no-repeat;
+  transform: translate(0px, -1.8189894035458565e-12px);
+  width: 281px;
+  height: 58px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 100px;
+  left: 49px;
+  border-radius: 9.659746170043945px;
+}
+.group1321315478 {
+  animation: none;
+  transform: scale(0.999999973803856, 0.999999973803856)
+    rotate(2.532079918402364deg) translate(0.42223167419433594px, 0.419921875px);
+  width: 379px;
+  height: 417px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 36px;
+  left: 18px;
+}
+.group1321315457 {
+  animation: none;
+  transform: scale(1.0000000000000002, 1.0000000000000002)
+    translate(2.2737367544323206e-13px, 1.8189894035458565e-12px);
+  width: 379px;
+  height: 417px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.rectangle273 {
+  animation: none;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: inset 0px 0px 0px 1px rgba(217, 217, 217, 1);
+  transform: scale(1.0000000000000002, 1.0000000000000002)
+    translate(2.2737367544323206e-13px, 1.8189894035458565e-12px);
+  width: 379px;
+  height: 417px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 29.648502349853516px;
+}
+.jetpackStudio {
+  animation: none;
+  position: absolute;
+  top: 45.08%;
+  left: 23.74%;
+  width: 55.4%;
+  height: 14.38%;
+  transform: scale(1.0000000000000002, 1.0000000000000002)
+    translate(2.2737367544323206e-13px, 1.8189894035458565e-12px);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text___7B0G {
+  animation: none;
+  display: block;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 28px;
+  color: rgba(21, 40, 115, 1);
+  font-style: normal;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition {
+  animation: none;
+  position: absolute;
+  top: 62.82%;
+  left: 9.23%;
+  width: 83.9%;
+  height: 28.29%;
+  transform: scale(1.0000000000000002, 1.0000000000000002)
+    translate(0px, -0.456542968748181px);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__rm5P3 {
+  animation: none;
+  display: block;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: rgba(55, 65, 81, 1);
+  font-style: normal;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.group1321315459 {
+  animation: none;
+  transform: scale(1.0000000000000002, 1.0000000000000002)
+    translate(2.2737367544323206e-13px, 0px);
+  width: 192px;
+  height: 78px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 76px;
+  left: 99px;
+}
+.rectangle217 {
+  animation: none;
+  background: rgba(0, 0, 0, 1);
+  transform: scale(1.0000000000000002, 1.0000000000000002)
+    translate(2.2737367544323206e-13px, 0px);
+  width: 192px;
+  height: 78px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 7px;
+}
+.image22 {
+  animation: none;
+  background: url("/plasmic/evangelisti/images/image22.png") center center / cover no-repeat;
+  transform: scale(1.0000000000000002, 1.0000000000000002)
+    translate(2.2737367544323206e-13px, 1.8189894035458565e-12px);
+  width: 183px;
+  height: 67px;
+  display: block;
+  transform-origin: top left;
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  border-radius: 9.65751838684082px;
+}
+.freeBox___4YMNj {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+._1st {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 379px;
+  height: 417px;
+  box-shadow: 0px 0px 0px 1px #d9d9d9;
+  row-gap: 24px;
+  background: #ffffff;
+  z-index: 3;
+  flex-shrink: 0;
+  border-radius: 29.6px;
+  padding: 20px 20px 28px;
+}
+.freeBox__oxXgZ {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 192px;
+  height: 78px;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  top: auto;
+  left: auto;
+  background: #000000;
+  flex-shrink: 0;
+  border-radius: 7px;
+  padding: 8px;
+  margin: 12px;
+}
+.image23 {
+  animation: none;
+  background: url("/plasmic/evangelisti/images/image22.png") center center / cover no-repeat;
+  transform: scale(1.0000000000000002, 1.0000000000000002)
+    translate(2.2737367544323206e-13px, 1.8189894035458565e-12px);
+  width: 183px;
+  height: 67px;
+  display: block;
+  transform-origin: top left;
+  flex-shrink: 0;
+  border-radius: 9.65751838684082px;
+}
+.jetpackStudio2 {
+  animation: none;
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 55.4%;
+  height: 14.38%;
+  transform: scale(1.0000000000000002, 1.0000000000000002)
+    translate(2.2737367544323206e-13px, 1.8189894035458565e-12px);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__yEbik {
+  animation: none;
+  display: block;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 28px;
+  color: rgba(21, 40, 115, 1);
+  font-style: normal;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition2 {
+  animation: none;
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 83.9%;
+  height: auto;
+  transform: scale(1.0000000000000002, 1.0000000000000002)
+    translate(0px, -0.456542968748181px);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__mPpTn {
+  animation: none;
+  display: block;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: rgba(55, 65, 81, 1);
+  font-style: normal;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+._2nd {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 379px;
+  height: 417px;
+  box-shadow: 0px 0px 0px 1px #d9d9d9;
+  row-gap: 24px;
+  background: #ffffff;
+  z-index: 2;
+  flex-shrink: 0;
+  border-radius: 29.6px;
+  padding: 20px 20px 28px;
+}
+.image10 {
+  animation: none;
+  background: url("/plasmic/evangelisti/images/image11.png") 0px -290px / 417px 439px no-repeat;
+  transform: translate(0px, -1.8189894035458565e-12px);
+  width: 281px;
+  height: 58px;
+  display: block;
+  transform-origin: top left;
+  position: relative;
+  top: auto;
+  left: auto;
+  margin-bottom: 24px;
+  flex-shrink: 0;
+  border-radius: 9.659746170043945px;
+}
+.jetpackStudio3 {
+  animation: none;
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 55.4%;
+  height: 14.38%;
+  transform: scale(1.0000000000000002, 1.0000000000000002)
+    translate(2.2737367544323206e-13px, 1.8189894035458565e-12px);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__ton8Y {
+  animation: none;
+  display: block;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 28px;
+  color: rgba(21, 40, 115, 1);
+  font-style: normal;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition3 {
+  animation: none;
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 83.9%;
+  height: auto;
+  transform: scale(1.0000000000000002, 1.0000000000000002)
+    translate(0px, -0.456542968748181px);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__hG1Cb {
+  animation: none;
+  display: block;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: rgba(55, 65, 81, 1);
+  font-style: normal;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+._3rd {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 379px;
+  height: 417px;
+  box-shadow: 0px 0px 0px 1px #d9d9d9;
+  row-gap: 24px;
+  background: #ffffff;
+  flex-shrink: 0;
+  border-radius: 29.6px;
+  padding: 20px 20px 28px;
+}
+.image6 {
+  animation: none;
+  background: url("/plasmic/evangelisti/images/image5.png") center center / cover no-repeat;
+  transform: translate(0px, -1.8189894035458565e-12px);
+  width: 114px;
+  height: 147px;
+  display: block;
+  transform-origin: top left;
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}
+.jetpackStudio4 {
+  animation: none;
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 55.4%;
+  height: 14.38%;
+  transform: scale(1.0000000000000002, 1.0000000000000002)
+    translate(2.2737367544323206e-13px, 1.8189894035458565e-12px);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__uZnex {
+  animation: none;
+  display: block;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 28px;
+  color: rgba(21, 40, 115, 1);
+  font-style: normal;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition4 {
+  animation: none;
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 83.9%;
+  height: auto;
+  transform: scale(1.0000000000000002, 1.0000000000000002)
+    translate(0px, -0.456542968748181px);
+  transform-origin: top left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text__d23Mh {
+  animation: none;
+  display: block;
+  font-size: 21px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0px;
+  line-height: 26px;
+  color: rgba(55, 65, 81, 1);
+  font-style: normal;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.freeBox__aYxJa {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__aj3Zh {
+  animation: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  column-gap: 24px;
+  padding: 0px;
+}
+.freeBox__slKmr {
+  animation: none;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 12px;
+  height: 12px;
+  background: #e2e2e2;
+  flex-shrink: 0;
+  border-radius: 50%;
+  padding: 0px;
+}
+.freeBox__hYzp {
+  animation: none;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 12px;
+  height: 12px;
+  max-width: 100%;
+  background: #e2e2e2;
+  flex-shrink: 0;
+  border-radius: 50%;
+  padding: 0px;
+}
+.freeBox__k9Ar {
+  animation: none;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 18px;
+  height: 18px;
+  max-width: 100%;
+  background: #daff7c;
+  flex-shrink: 0;
+  border-radius: 50%;
+  padding: 0px;
+  border: 5px solid #012136;
+}
