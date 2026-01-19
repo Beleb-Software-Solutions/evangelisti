@@ -1,0 +1,329 @@
+.header3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 652px;
+  row-gap: 16px;
+  position: relative;
+  min-width: 0;
+  padding: 0px;
+}
+.p__dCmZb {
+  animation: none;
+  display: block;
+  font-size: 32px;
+  text-align: left;
+  text-transform: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 80px;
+  color: var(--token-G9TcCti3k51b);
+  transform: translate3d(0px, 0px, 0px);
+  font-style: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  transition-property: all;
+  transition-duration: 0.3s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+}
+.span__cPmL8 {
+  text-transform: uppercase;
+  color: var(--token-G9TcCti3k51b);
+}
+.spanothers__1st__cPmL8GMo4 {
+  color: #012136;
+}
+.spanothers__2nd__cPmL8DEx8O {
+  color: #012136;
+}
+.spanothers__3rd__cPmL8RddDg {
+  color: #012136;
+}
+.spanothers__4th__cPmL83Fm8S {
+  color: #012136;
+}
+.spanothers__5th__cPmL8ENk9G {
+  color: #012136;
+}
+.spanothers__6th__cPmL85FIpz {
+  color: #012136;
+}
+.spanothers__7th__cPmL81CzE7 {
+  color: #012136;
+}
+.spanothers__8th__cPmL8D9Xmf {
+  color: #012136;
+}
+.spanothers__9th__cPmL8OCpoh {
+  color: #012136;
+}
+.spanothers__10th__cPmL8C0Ofa {
+  color: #012136;
+}
+.spanothers__11Th__cPmL84Uvt3 {
+  color: #012136;
+}
+.spanothers__12Th__cPmL8AbeYz {
+  color: #012136;
+}
+.span__zj9OL {
+  text-transform: uppercase;
+}
+.spanothers__2nd__zj9OLdEx8O {
+  color: #012136;
+}
+.spanothers__3rd__zj9OLRddDg {
+  color: #012136;
+}
+.spanothers__4th__zj9OL3Fm8S {
+  color: #012136;
+}
+.spanothers__5th__zj9OLeNk9G {
+  color: #012136;
+}
+.spanothers__6th__zj9OL5FIpz {
+  color: #012136;
+}
+.spanothers__7th__zj9OL1CzE7 {
+  color: #012136;
+}
+.spanothers__8th__zj9OLd9Xmf {
+  color: #012136;
+}
+.spanothers__9th__zj9OLoCpoh {
+  color: #012136;
+}
+.spanothers__10th__zj9OLc0Ofa {
+  color: #012136;
+}
+.spanothers__11Th__zj9OL4Uvt3 {
+  color: #012136;
+}
+.spanothers__12Th__zj9OLAbeYz {
+  color: #012136;
+}
+.p__vEbBs {
+  animation: none;
+  display: block;
+  font-size: 26px;
+  text-align: left;
+  text-transform: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 2.5;
+  color: var(--token-G9TcCti3k51b);
+  transform: translate(-0.173828125px, -0.000026702880859375px);
+  font-style: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  max-width: 562px;
+  transition-property: all;
+  transition-duration: 0.3s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+}
+.span__z9JVo {
+  font-weight: 400;
+}
+.spanothers__3rd__z9JVoRddDg {
+  color: #012136;
+}
+.spanothers__4th__z9JVo3Fm8S {
+  color: #012136;
+}
+.spanothers__5th__z9JVoeNk9G {
+  color: #012136;
+}
+.spanothers__6th__z9JVo5FIpz {
+  color: #012136;
+}
+.spanothers__7th__z9JVo1CzE7 {
+  color: #012136;
+}
+.spanothers__8th__z9JVoD9Xmf {
+  color: #012136;
+}
+.spanothers__9th__z9JVoOCpoh {
+  color: #012136;
+}
+.spanothers__10th__z9JVoc0Ofa {
+  color: #012136;
+}
+.spanothers__11Th__z9JVo4Uvt3 {
+  color: #012136;
+}
+.spanothers__12Th__z9JVoAbeYz {
+  color: #012136;
+}
+.span__hwlum {
+  font-weight: 400;
+}
+.spanothers__4th__hwlum3Fm8S {
+  color: #012136;
+}
+.spanothers__5th__hwlumeNk9G {
+  color: #012136;
+}
+.spanothers__6th__hwlum5FIpz {
+  color: #012136;
+}
+.spanothers__7th__hwlum1CzE7 {
+  color: #012136;
+}
+.spanothers__8th__hwlumD9Xmf {
+  color: #012136;
+}
+.spanothers__9th__hwlumOCpoh {
+  color: #012136;
+}
+.spanothers__10th__hwlumc0Ofa {
+  color: #012136;
+}
+.spanothers__11Th__hwlum4Uvt3 {
+  color: #012136;
+}
+.spanothers__12Th__hwlumAbeYz {
+  color: #012136;
+}
+.span___3I3KX {
+  font-weight: 400;
+}
+.spanothers__5th___3I3KXeNk9G {
+  color: #012136;
+}
+.spanothers__6th___3I3KX5FIpz {
+  color: #012136;
+}
+.spanothers__7th___3I3KX1CzE7 {
+  color: #012136;
+}
+.spanothers__8th___3I3KXd9Xmf {
+  color: #012136;
+}
+.spanothers__9th___3I3KXoCpoh {
+  color: #012136;
+}
+.spanothers__10th___3I3KXc0Ofa {
+  color: #012136;
+}
+.spanothers__11Th___3I3KX4Uvt3 {
+  color: #012136;
+}
+.spanothers__12Th___3I3KXAbeYz {
+  color: #012136;
+}
+.span__cORjC {
+  font-weight: 400;
+}
+.spanothers__6th__cORjC5FIpz {
+  color: #012136;
+}
+.spanothers__7th__cORjC1CzE7 {
+  color: #012136;
+}
+.spanothers__8th__cORjCd9Xmf {
+  color: #012136;
+}
+.spanothers__9th__cORjCoCpoh {
+  color: #012136;
+}
+.spanothers__10th__cORjCc0Ofa {
+  color: #012136;
+}
+.spanothers__11Th__cORjC4Uvt3 {
+  color: #012136;
+}
+.spanothers__12Th__cORjCAbeYz {
+  color: #012136;
+}
+.span__yu8Xx {
+  font-weight: 400;
+}
+.spanothers__7th__yu8Xx1CzE7 {
+  color: #012136;
+}
+.spanothers__8th__yu8XxD9Xmf {
+  color: #012136;
+}
+.spanothers__9th__yu8XxOCpoh {
+  color: #012136;
+}
+.spanothers__10th__yu8Xxc0Ofa {
+  color: #012136;
+}
+.spanothers__11Th__yu8Xx4Uvt3 {
+  color: #012136;
+}
+.spanothers__12Th__yu8XxAbeYz {
+  color: #012136;
+}
+.span__dr6NH {
+  font-weight: 400;
+}
+.spanothers__8th__dr6NHd9Xmf {
+  color: #012136;
+}
+.spanothers__9th__dr6NHoCpoh {
+  color: #012136;
+}
+.spanothers__10th__dr6NHc0Ofa {
+  color: #012136;
+}
+.spanothers__11Th__dr6NH4Uvt3 {
+  color: #012136;
+}
+.spanothers__12Th__dr6NHAbeYz {
+  color: #012136;
+}
+.span___2YWpk {
+  font-weight: 400;
+}
+.spanothers__9th___2YWpkOCpoh {
+  color: #012136;
+}
+.spanothers__10th___2YWpkc0Ofa {
+  color: #012136;
+}
+.spanothers__11Th___2YWpk4Uvt3 {
+  color: #012136;
+}
+.spanothers__12Th___2YWpkAbeYz {
+  color: #012136;
+}
+.span__jCzzo {
+  font-weight: 400;
+}
+.spanothers__10th__jCzzoc0Ofa {
+  color: #012136;
+}
+.spanothers__11Th__jCzzo4Uvt3 {
+  color: #012136;
+}
+.spanothers__12Th__jCzzoAbeYz {
+  color: #012136;
+}
+.span___9Olsg {
+  font-weight: 400;
+}
+.spanothers__11Th___9Olsg4Uvt3 {
+  color: #012136;
+}
+.spanothers__12Th___9OlsgAbeYz {
+  color: #012136;
+}
+.span__zlWy8 {
+  font-weight: 400;
+}
+.spanothers__12Th__zlWy8AbeYz {
+  color: #012136;
+}

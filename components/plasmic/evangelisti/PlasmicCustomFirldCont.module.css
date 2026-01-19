@@ -1,0 +1,109 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.3s;
+  row-gap: 24px;
+  min-width: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  padding: 0px;
+  border-bottom: 3.4px solid #cdcdcd;
+}
+.rootothers_message {
+  border-bottom-color: #cdcdcd00;
+  border-bottom-width: 0px;
+}
+.root:hover {
+  border-bottom-color: var(--token-lZXVewglMYLl);
+}
+.root:not(:focus-within):active:hover {
+  border-bottom-color: var(--token-lZXVewglMYLl);
+  outline: none;
+}
+.freeBox__liWuN {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.assistiveText6 {
+  animation: none;
+  display: block;
+  flex-grow: 1;
+  font-size: 27.296411514282227px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  letter-spacing: 0px;
+  line-height: 27.296411514282227px;
+  color: rgba(205, 205, 205, 1);
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  transition-property: all;
+  transition-duration: 0.3s;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+}
+.root:hover .assistiveText6 {
+  color: #152874;
+  font-size: 30.7px;
+}
+.root:not(:focus-within):active:hover .assistiveText6 {
+  font-size: 30.7px;
+  color: #152874;
+  outline: none;
+}
+.freeBox___1ItbO {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  padding: 0px;
+  margin: 0px;
+}
+.formField__ocqPz:global(.__wab_instance) {
+  animation: none;
+  width: 100%;
+  min-width: 0;
+  margin: 0px;
+}
+.freeBox__qwWDc {
+  animation: none;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.input__s8LdT:global(.__wab_instance) {
+  animation: none;
+  max-width: 100%;
+  object-fit: cover;
+}

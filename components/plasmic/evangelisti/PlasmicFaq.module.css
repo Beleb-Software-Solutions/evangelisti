@@ -1,0 +1,190 @@
+.frame515 {
+  animation: none;
+  background: rgba(13, 21, 53, 1);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition-property: all;
+  transition-duration: 0.4s;
+  min-width: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  border-radius: 12px;
+  padding: 40px 24px;
+}
+.frame515open {
+  row-gap: 30px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  column-gap: 0px;
+}
+.frame427321884 {
+  animation: none;
+  width: 100%;
+  height: 32px;
+  display: flex;
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-direction: row;
+  column-gap: 37px;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1163px;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.freeBox__uirVr {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 0px;
+}
+.text___0V5KS {
+  animation: none;
+  display: block;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.30000001192092896px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 1);
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.icon {
+  animation: none;
+  background: rgba(13, 21, 53, 0.5299999713897705);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  flex-direction: row;
+  column-gap: 8px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  border-radius: 12px;
+  padding: 6px;
+}
+.svg___5Nzrg {
+  animation: none;
+  object-fit: cover;
+  max-width: 100%;
+  color: #daff7c;
+  width: 16px;
+  height: 16px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  transition-property: all;
+  transition-duration: 0.3s;
+  flex-shrink: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+}
+.svg__phPlk {
+  animation: none;
+  object-fit: cover;
+  max-width: 100%;
+  color: #daff7c;
+  width: 16px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  overflow: hidden;
+  left: 8px;
+  top: 8px;
+  right: 0;
+  transform: rotate3d(0, 0, 1, 90deg);
+  transition-property: all;
+  transition-duration: 0.3s;
+  flex-shrink: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
+}
+.svgopen__phPlk57Jjc {
+  transform: rotate3d(0, 0, 0, 90deg);
+}
+.freeBox__gTdYp {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  height: 1px;
+  max-width: 1163px;
+  top: auto;
+  left: auto;
+  overflow: hidden;
+  transition-property: all;
+  transition-duration: 0.4s;
+  min-width: 0;
+  flex-shrink: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.4s;
+  padding: 0px;
+}
+.freeBoxopen__gTdYp57Jjc {
+  height: 500px;
+  flex-shrink: 0;
+}
+.text__fo6Lo {
+  animation: none;
+  display: block;
+  font-size: 16px;
+  letter-spacing: -0.30000001192092896px;
+  line-height: 1.5;
+  color: rgba(160, 160, 160, 1);
+  width: 529px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  flex-shrink: 0;
+}
+.text__k2Xdt {
+  animation: none;
+  display: block;
+  font-size: 16px;
+  letter-spacing: -0.30000001192092896px;
+  line-height: 1.5;
+  color: rgba(160, 160, 160, 1);
+  position: relative;
+  top: auto;
+  left: auto;
+  width: 529px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  flex-shrink: 0;
+}

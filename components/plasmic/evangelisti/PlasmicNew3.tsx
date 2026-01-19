@@ -59,6 +59,7 @@ import {
   useGlobalActions
 } from "@plasmicapp/react-web/lib/host";
 
+import { AntdButton } from "@plasmicpkgs/antd5/skinny/registerButton";
 import { _useGlobalVariants } from "./plasmic"; // plasmic-import: psTfKC1KCEpawf41964R83/projectModule
 import { _useStyleTokens } from "./PlasmicStyleTokensProvider"; // plasmic-import: psTfKC1KCEpawf41964R83/styleTokensProvider
 
@@ -83,6 +84,19 @@ import Group330Icon from "./icons/PlasmicIcon__Group330"; // plasmic-import: 4rA
 import Line8Icon from "./icons/PlasmicIcon__Line8"; // plasmic-import: ay_I7BjF1GO4/icon
 import Ellipse17Icon from "./icons/PlasmicIcon__Ellipse17"; // plasmic-import: pMweaNOjmOLO/icon
 import FrameIcon from "./icons/PlasmicIcon__Frame"; // plasmic-import: 79lptLX2B24e/icon
+import Vector2Icon from "./icons/PlasmicIcon__Vector2"; // plasmic-import: 1vkenPBMAvMc/icon
+import Vector3Icon from "./icons/PlasmicIcon__Vector3"; // plasmic-import: PpHpK9cvCFD3/icon
+import Vector4Icon from "./icons/PlasmicIcon__Vector4"; // plasmic-import: 3IdZIOhpsWyR/icon
+import Vector5Icon from "./icons/PlasmicIcon__Vector5"; // plasmic-import: nF9qwbY4aGRo/icon
+import Vector6Icon from "./icons/PlasmicIcon__Vector6"; // plasmic-import: gip8kBVK6JDK/icon
+import Vector7Icon from "./icons/PlasmicIcon__Vector7"; // plasmic-import: MR9ohttp7vGq/icon
+import Vector8Icon from "./icons/PlasmicIcon__Vector8"; // plasmic-import: cUskdMbAEERQ/icon
+import Vector9Icon from "./icons/PlasmicIcon__Vector9"; // plasmic-import: wNdK3T8Hc-7g/icon
+import Vector10Icon from "./icons/PlasmicIcon__Vector10"; // plasmic-import: iCfth1SBeZWN/icon
+import Vector11Icon from "./icons/PlasmicIcon__Vector11"; // plasmic-import: CSacns_2K9Hx/icon
+import Vector12Icon from "./icons/PlasmicIcon__Vector12"; // plasmic-import: 7pBfmr7OGopF/icon
+import Vector13Icon from "./icons/PlasmicIcon__Vector13"; // plasmic-import: X65GasMpaTbE/icon
+import Group253Icon from "./icons/PlasmicIcon__Group253"; // plasmic-import: tYuEZBQfkaeU/icon
 
 createPlasmicElementProxy;
 
@@ -511,6 +525,60 @@ export type PlasmicNew3__OverridesType = {
   frame427321886?: Flex__<"div">;
   icon3?: Flex__<"div">;
   _468SpacIiSe468CapitalOnItsDeSpacTransactionAndBusinessCombinationWithAustralianSecuritiesExchangeListedGermanTechCompanyMarleySpoonSeEuropeanHealthcareAcquisitionGrowthCompanyBVOnItsDefinitiveAgreementToEnterIntoABusinessCombinationWithAustriaBasedCromaPharmaGmbHGarryKrugljakowAsSponsorInConnectionWithTheImplementationOfAifinyoAGsBitcoinTreasuryStrategySilverLakeInConnectionWithTheAddOnAcquisitionOfAGermanMidMarketCompanyTricorBraunHoldingsIncInTheAcquisitionOfGermanMidMarketCompanies?: Flex__<"div">;
+  group1321315486?: Flex__<"div">;
+  rectangle218?: Flex__<"div">;
+  group401?: Flex__<"div">;
+  group357?: Flex__<"div">;
+  frame1?: Flex__<"div">;
+  textField?: Flex__<"div">;
+  frame?: Flex__<"div">;
+  assistiveText?: Flex__<"div">;
+  frame13?: Flex__<"div">;
+  frame14?: Flex__<"div">;
+  frame4?: Flex__<"div">;
+  label?: Flex__<"div">;
+  textField2?: Flex__<"div">;
+  frame5?: Flex__<"div">;
+  assistiveText2?: Flex__<"div">;
+  frame6?: Flex__<"div">;
+  frame7?: Flex__<"div">;
+  frame8?: Flex__<"div">;
+  label2?: Flex__<"div">;
+  textField3?: Flex__<"div">;
+  frame9?: Flex__<"div">;
+  assistiveText3?: Flex__<"div">;
+  frame10?: Flex__<"div">;
+  frame11?: Flex__<"div">;
+  frame12?: Flex__<"div">;
+  button?: Flex__<typeof AntdButton>;
+  heading?: Flex__<"div">;
+  group1321315508?: Flex__<"div">;
+  rectangle219?: Flex__<"div">;
+  group402?: Flex__<"div">;
+  group368?: Flex__<"div">;
+  frame15?: Flex__<"div">;
+  textField4?: Flex__<"div">;
+  frame16?: Flex__<"div">;
+  assistiveText4?: Flex__<"div">;
+  frame17?: Flex__<"div">;
+  frame18?: Flex__<"div">;
+  frame19?: Flex__<"div">;
+  label3?: Flex__<"div">;
+  textField5?: Flex__<"div">;
+  frame20?: Flex__<"div">;
+  assistiveText5?: Flex__<"div">;
+  frame21?: Flex__<"div">;
+  frame22?: Flex__<"div">;
+  frame23?: Flex__<"div">;
+  label4?: Flex__<"div">;
+  textField6?: Flex__<"div">;
+  frame24?: Flex__<"div">;
+  assistiveText6?: Flex__<"div">;
+  frame25?: Flex__<"div">;
+  frame26?: Flex__<"div">;
+  frame27?: Flex__<"div">;
+  button2?: Flex__<typeof AntdButton>;
+  heading3?: Flex__<"div">;
 };
 
 export interface DefaultNew3Props {}
@@ -5576,6 +5644,667 @@ function PlasmicNew3__RenderFunc(props: {
                 </div>
               </div>
             </div>
+            <div
+              data-plasmic-name={"group1321315486"}
+              data-plasmic-override={overrides.group1321315486}
+              className={classNames(projectcss.all, sty.group1321315486)}
+            >
+              <div
+                data-plasmic-name={"rectangle218"}
+                data-plasmic-override={overrides.rectangle218}
+                className={classNames(projectcss.all, sty.rectangle218)}
+              />
+
+              <div
+                data-plasmic-name={"group401"}
+                data-plasmic-override={overrides.group401}
+                className={classNames(projectcss.all, sty.group401)}
+              >
+                <Vector2Icon
+                  className={classNames(projectcss.all, sty.svg__cE4E)}
+                  role={"img"}
+                />
+
+                <Vector3Icon
+                  className={classNames(projectcss.all, sty.svg__xIlW3)}
+                  role={"img"}
+                />
+
+                <Vector4Icon
+                  className={classNames(projectcss.all, sty.svg___6LYkf)}
+                  role={"img"}
+                />
+
+                <Vector5Icon
+                  className={classNames(projectcss.all, sty.svg__yAXmC)}
+                  role={"img"}
+                />
+
+                <Vector6Icon
+                  className={classNames(projectcss.all, sty.svg__aEo0P)}
+                  role={"img"}
+                />
+
+                <Vector7Icon
+                  className={classNames(projectcss.all, sty.svg__yNWe)}
+                  role={"img"}
+                />
+
+                <Vector8Icon
+                  className={classNames(projectcss.all, sty.svg__jzBor)}
+                  role={"img"}
+                />
+
+                <Vector9Icon
+                  className={classNames(projectcss.all, sty.svg___7XEof)}
+                  role={"img"}
+                />
+
+                <Vector10Icon
+                  className={classNames(projectcss.all, sty.svg__udzJf)}
+                  role={"img"}
+                />
+
+                <Vector11Icon
+                  className={classNames(projectcss.all, sty.svg__rdBVa)}
+                  role={"img"}
+                />
+
+                <Vector12Icon
+                  className={classNames(projectcss.all, sty.svg__qTSnA)}
+                  role={"img"}
+                />
+
+                <div
+                  data-plasmic-name={"group357"}
+                  data-plasmic-override={overrides.group357}
+                  className={classNames(projectcss.all, sty.group357)}
+                >
+                  <Vector13Icon
+                    className={classNames(projectcss.all, sty.svg___8ImSc)}
+                    role={"img"}
+                  />
+
+                  <Group253Icon
+                    className={classNames(projectcss.all, sty.svg__cTk5P)}
+                    role={"img"}
+                  />
+                </div>
+              </div>
+              <div
+                data-plasmic-name={"frame1"}
+                data-plasmic-override={overrides.frame1}
+                className={classNames(projectcss.all, sty.frame1)}
+              >
+                <div
+                  data-plasmic-name={"textField"}
+                  data-plasmic-override={overrides.textField}
+                  className={classNames(projectcss.all, sty.textField)}
+                >
+                  <div
+                    data-plasmic-name={"frame"}
+                    data-plasmic-override={overrides.frame}
+                    className={classNames(projectcss.all, sty.frame)}
+                  >
+                    <div
+                      data-plasmic-name={"assistiveText"}
+                      data-plasmic-override={overrides.assistiveText}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.assistiveText
+                      )}
+                    >
+                      {"Your name"}
+                    </div>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__vVYa)}
+                  >
+                    <div
+                      data-plasmic-name={"frame13"}
+                      data-plasmic-override={overrides.frame13}
+                      className={classNames(projectcss.all, sty.frame13)}
+                    >
+                      <div
+                        data-plasmic-name={"frame14"}
+                        data-plasmic-override={overrides.frame14}
+                        className={classNames(projectcss.all, sty.frame14)}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__bChwp
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"frame4"}
+                          data-plasmic-override={overrides.frame4}
+                          className={classNames(projectcss.all, sty.frame4)}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__mmOsn
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"label"}
+                              data-plasmic-override={overrides.label}
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.label
+                              )}
+                            >
+                              {"Jhon Smith"}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-plasmic-name={"textField2"}
+                  data-plasmic-override={overrides.textField2}
+                  className={classNames(projectcss.all, sty.textField2)}
+                >
+                  <div
+                    data-plasmic-name={"frame5"}
+                    data-plasmic-override={overrides.frame5}
+                    className={classNames(projectcss.all, sty.frame5)}
+                  >
+                    <div
+                      data-plasmic-name={"assistiveText2"}
+                      data-plasmic-override={overrides.assistiveText2}
+                      className={classNames(
+                        projectcss.all,
+                        projectcss.__wab_text,
+                        sty.assistiveText2
+                      )}
+                    >
+                      {"Your email"}
+                    </div>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__r4N8J)}
+                  >
+                    <div
+                      data-plasmic-name={"frame6"}
+                      data-plasmic-override={overrides.frame6}
+                      className={classNames(projectcss.all, sty.frame6)}
+                    >
+                      <div
+                        data-plasmic-name={"frame7"}
+                        data-plasmic-override={overrides.frame7}
+                        className={classNames(projectcss.all, sty.frame7)}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__caShL
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"frame8"}
+                          data-plasmic-override={overrides.frame8}
+                          className={classNames(projectcss.all, sty.frame8)}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__mMJw
+                            )}
+                          >
+                            <div
+                              data-plasmic-name={"label2"}
+                              data-plasmic-override={overrides.label2}
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.label2
+                              )}
+                            >
+                              {"email@gmail.com"}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  data-plasmic-name={"textField3"}
+                  data-plasmic-override={overrides.textField3}
+                  className={classNames(projectcss.all, sty.textField3)}
+                >
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__wNw9X)}
+                  >
+                    <div
+                      data-plasmic-name={"frame9"}
+                      data-plasmic-override={overrides.frame9}
+                      className={classNames(projectcss.all, sty.frame9)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__xo1Zu
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"assistiveText3"}
+                          data-plasmic-override={overrides.assistiveText3}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.assistiveText3
+                          )}
+                        >
+                          {"Your message"}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__nDVlF)}
+                  >
+                    <div
+                      data-plasmic-name={"frame10"}
+                      data-plasmic-override={overrides.frame10}
+                      className={classNames(projectcss.all, sty.frame10)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox___5Bjn
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"frame11"}
+                          data-plasmic-override={overrides.frame11}
+                          className={classNames(projectcss.all, sty.frame11)}
+                        />
+                      </div>
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__cftzq
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"frame12"}
+                          data-plasmic-override={overrides.frame12}
+                          className={classNames(projectcss.all, sty.frame12)}
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <AntdButton
+                  data-plasmic-name={"button"}
+                  data-plasmic-override={overrides.button}
+                  className={classNames("__wab_instance", sty.button)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__m1Suv
+                    )}
+                  >
+                    {"Button"}
+                  </div>
+                </AntdButton>
+                <div
+                  data-plasmic-name={"heading"}
+                  data-plasmic-override={overrides.heading}
+                  className={classNames(projectcss.all, sty.heading)}
+                >
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__wnwai
+                    )}
+                  >
+                    {"Connect with us"}
+                  </div>
+                  <div
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.text__rxmq
+                    )}
+                  >
+                    {"Fill the form so that our team can reach out to you"}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            data-plasmic-name={"group1321315508"}
+            data-plasmic-override={overrides.group1321315508}
+            className={classNames(projectcss.all, sty.group1321315508)}
+          >
+            <div
+              data-plasmic-name={"rectangle219"}
+              data-plasmic-override={overrides.rectangle219}
+              className={classNames(projectcss.all, sty.rectangle219)}
+            />
+
+            <div
+              data-plasmic-name={"group402"}
+              data-plasmic-override={overrides.group402}
+              className={classNames(projectcss.all, sty.group402)}
+            >
+              <Vector2Icon
+                className={classNames(projectcss.all, sty.svg__pI3KF)}
+                role={"img"}
+              />
+
+              <Vector3Icon
+                className={classNames(projectcss.all, sty.svg__hwZe)}
+                role={"img"}
+              />
+
+              <Vector4Icon
+                className={classNames(projectcss.all, sty.svg__jNheB)}
+                role={"img"}
+              />
+
+              <Vector5Icon
+                className={classNames(projectcss.all, sty.svg__g8GUy)}
+                role={"img"}
+              />
+
+              <Vector6Icon
+                className={classNames(projectcss.all, sty.svg__iBZt)}
+                role={"img"}
+              />
+
+              <Vector7Icon
+                className={classNames(projectcss.all, sty.svg__xRq0N)}
+                role={"img"}
+              />
+
+              <Vector8Icon
+                className={classNames(projectcss.all, sty.svg__jtJ6D)}
+                role={"img"}
+              />
+
+              <Vector9Icon
+                className={classNames(projectcss.all, sty.svg__lpZTd)}
+                role={"img"}
+              />
+
+              <Vector10Icon
+                className={classNames(projectcss.all, sty.svg__kFRyt)}
+                role={"img"}
+              />
+
+              <Vector11Icon
+                className={classNames(projectcss.all, sty.svg__mAdh)}
+                role={"img"}
+              />
+
+              <Vector12Icon
+                className={classNames(projectcss.all, sty.svg__d15O8)}
+                role={"img"}
+              />
+
+              <div
+                data-plasmic-name={"group368"}
+                data-plasmic-override={overrides.group368}
+                className={classNames(projectcss.all, sty.group368)}
+              >
+                <Vector13Icon
+                  className={classNames(projectcss.all, sty.svg__aCbvi)}
+                  role={"img"}
+                />
+
+                <Group253Icon
+                  className={classNames(projectcss.all, sty.svg__z7IKd)}
+                  role={"img"}
+                />
+              </div>
+            </div>
+            <div
+              data-plasmic-name={"frame15"}
+              data-plasmic-override={overrides.frame15}
+              className={classNames(projectcss.all, sty.frame15)}
+            >
+              <div
+                data-plasmic-name={"textField4"}
+                data-plasmic-override={overrides.textField4}
+                className={classNames(projectcss.all, sty.textField4)}
+              >
+                <div
+                  data-plasmic-name={"frame16"}
+                  data-plasmic-override={overrides.frame16}
+                  className={classNames(projectcss.all, sty.frame16)}
+                >
+                  <div
+                    data-plasmic-name={"assistiveText4"}
+                    data-plasmic-override={overrides.assistiveText4}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.assistiveText4
+                    )}
+                  >
+                    {"Your name"}
+                  </div>
+                </div>
+                <div className={classNames(projectcss.all, sty.freeBox__sxTD)}>
+                  <div
+                    data-plasmic-name={"frame17"}
+                    data-plasmic-override={overrides.frame17}
+                    className={classNames(projectcss.all, sty.frame17)}
+                  >
+                    <div
+                      data-plasmic-name={"frame18"}
+                      data-plasmic-override={overrides.frame18}
+                      className={classNames(projectcss.all, sty.frame18)}
+                    />
+
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__nlrC2)}
+                    >
+                      <div
+                        data-plasmic-name={"frame19"}
+                        data-plasmic-override={overrides.frame19}
+                        className={classNames(projectcss.all, sty.frame19)}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__hurRz
+                          )}
+                        >
+                          <div
+                            data-plasmic-name={"label3"}
+                            data-plasmic-override={overrides.label3}
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.label3
+                            )}
+                          >
+                            {"Jhon Smith"}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                data-plasmic-name={"textField5"}
+                data-plasmic-override={overrides.textField5}
+                className={classNames(projectcss.all, sty.textField5)}
+              >
+                <div
+                  data-plasmic-name={"frame20"}
+                  data-plasmic-override={overrides.frame20}
+                  className={classNames(projectcss.all, sty.frame20)}
+                >
+                  <div
+                    data-plasmic-name={"assistiveText5"}
+                    data-plasmic-override={overrides.assistiveText5}
+                    className={classNames(
+                      projectcss.all,
+                      projectcss.__wab_text,
+                      sty.assistiveText5
+                    )}
+                  >
+                    {"Your email"}
+                  </div>
+                </div>
+                <div
+                  className={classNames(projectcss.all, sty.freeBox___4GWz2)}
+                >
+                  <div
+                    data-plasmic-name={"frame21"}
+                    data-plasmic-override={overrides.frame21}
+                    className={classNames(projectcss.all, sty.frame21)}
+                  >
+                    <div
+                      data-plasmic-name={"frame22"}
+                      data-plasmic-override={overrides.frame22}
+                      className={classNames(projectcss.all, sty.frame22)}
+                    />
+
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__baVl)}
+                    >
+                      <div
+                        data-plasmic-name={"frame23"}
+                        data-plasmic-override={overrides.frame23}
+                        className={classNames(projectcss.all, sty.frame23)}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox__qieG3
+                          )}
+                        >
+                          <div
+                            data-plasmic-name={"label4"}
+                            data-plasmic-override={overrides.label4}
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.label4
+                            )}
+                          >
+                            {"email@gmail.com"}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                data-plasmic-name={"textField6"}
+                data-plasmic-override={overrides.textField6}
+                className={classNames(projectcss.all, sty.textField6)}
+              >
+                <div className={classNames(projectcss.all, sty.freeBox__lbhPb)}>
+                  <div
+                    data-plasmic-name={"frame24"}
+                    data-plasmic-override={overrides.frame24}
+                    className={classNames(projectcss.all, sty.frame24)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__d6OGf)}
+                    >
+                      <div
+                        data-plasmic-name={"assistiveText6"}
+                        data-plasmic-override={overrides.assistiveText6}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.__wab_text,
+                          sty.assistiveText6
+                        )}
+                      >
+                        {"Your message"}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className={classNames(projectcss.all, sty.freeBox__cX6Rd)}>
+                  <div
+                    data-plasmic-name={"frame25"}
+                    data-plasmic-override={overrides.frame25}
+                    className={classNames(projectcss.all, sty.frame25)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__fImmu)}
+                    >
+                      <div
+                        data-plasmic-name={"frame26"}
+                        data-plasmic-override={overrides.frame26}
+                        className={classNames(projectcss.all, sty.frame26)}
+                      />
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__v1O3F)}
+                    >
+                      <div
+                        data-plasmic-name={"frame27"}
+                        data-plasmic-override={overrides.frame27}
+                        className={classNames(projectcss.all, sty.frame27)}
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <AntdButton
+                data-plasmic-name={"button2"}
+                data-plasmic-override={overrides.button2}
+                className={classNames("__wab_instance", sty.button2)}
+              >
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__gDpKq
+                  )}
+                >
+                  {"Button"}
+                </div>
+              </AntdButton>
+              <div
+                data-plasmic-name={"heading3"}
+                data-plasmic-override={overrides.heading3}
+                className={classNames(projectcss.all, sty.heading3)}
+              >
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text___918Vs
+                  )}
+                >
+                  {"Connect with us"}
+                </div>
+                <div
+                  className={classNames(
+                    projectcss.all,
+                    projectcss.__wab_text,
+                    sty.text__olSqj
+                  )}
+                >
+                  {"Fill the form so that our team can reach out to you"}
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -5999,7 +6728,61 @@ const PlasmicDescendants = {
     "frame3",
     "frame427321886",
     "icon3",
-    "_468SpacIiSe468CapitalOnItsDeSpacTransactionAndBusinessCombinationWithAustralianSecuritiesExchangeListedGermanTechCompanyMarleySpoonSeEuropeanHealthcareAcquisitionGrowthCompanyBVOnItsDefinitiveAgreementToEnterIntoABusinessCombinationWithAustriaBasedCromaPharmaGmbHGarryKrugljakowAsSponsorInConnectionWithTheImplementationOfAifinyoAGsBitcoinTreasuryStrategySilverLakeInConnectionWithTheAddOnAcquisitionOfAGermanMidMarketCompanyTricorBraunHoldingsIncInTheAcquisitionOfGermanMidMarketCompanies"
+    "_468SpacIiSe468CapitalOnItsDeSpacTransactionAndBusinessCombinationWithAustralianSecuritiesExchangeListedGermanTechCompanyMarleySpoonSeEuropeanHealthcareAcquisitionGrowthCompanyBVOnItsDefinitiveAgreementToEnterIntoABusinessCombinationWithAustriaBasedCromaPharmaGmbHGarryKrugljakowAsSponsorInConnectionWithTheImplementationOfAifinyoAGsBitcoinTreasuryStrategySilverLakeInConnectionWithTheAddOnAcquisitionOfAGermanMidMarketCompanyTricorBraunHoldingsIncInTheAcquisitionOfGermanMidMarketCompanies",
+    "group1321315486",
+    "rectangle218",
+    "group401",
+    "group357",
+    "frame1",
+    "textField",
+    "frame",
+    "assistiveText",
+    "frame13",
+    "frame14",
+    "frame4",
+    "label",
+    "textField2",
+    "frame5",
+    "assistiveText2",
+    "frame6",
+    "frame7",
+    "frame8",
+    "label2",
+    "textField3",
+    "frame9",
+    "assistiveText3",
+    "frame10",
+    "frame11",
+    "frame12",
+    "button",
+    "heading",
+    "group1321315508",
+    "rectangle219",
+    "group402",
+    "group368",
+    "frame15",
+    "textField4",
+    "frame16",
+    "assistiveText4",
+    "frame17",
+    "frame18",
+    "frame19",
+    "label3",
+    "textField5",
+    "frame20",
+    "assistiveText5",
+    "frame21",
+    "frame22",
+    "frame23",
+    "label4",
+    "textField6",
+    "frame24",
+    "assistiveText6",
+    "frame25",
+    "frame26",
+    "frame27",
+    "button2",
+    "heading3"
   ],
   englishVersion: [
     "englishVersion",
@@ -6415,7 +7198,34 @@ const PlasmicDescendants = {
     "frame3",
     "frame427321886",
     "icon3",
-    "_468SpacIiSe468CapitalOnItsDeSpacTransactionAndBusinessCombinationWithAustralianSecuritiesExchangeListedGermanTechCompanyMarleySpoonSeEuropeanHealthcareAcquisitionGrowthCompanyBVOnItsDefinitiveAgreementToEnterIntoABusinessCombinationWithAustriaBasedCromaPharmaGmbHGarryKrugljakowAsSponsorInConnectionWithTheImplementationOfAifinyoAGsBitcoinTreasuryStrategySilverLakeInConnectionWithTheAddOnAcquisitionOfAGermanMidMarketCompanyTricorBraunHoldingsIncInTheAcquisitionOfGermanMidMarketCompanies"
+    "_468SpacIiSe468CapitalOnItsDeSpacTransactionAndBusinessCombinationWithAustralianSecuritiesExchangeListedGermanTechCompanyMarleySpoonSeEuropeanHealthcareAcquisitionGrowthCompanyBVOnItsDefinitiveAgreementToEnterIntoABusinessCombinationWithAustriaBasedCromaPharmaGmbHGarryKrugljakowAsSponsorInConnectionWithTheImplementationOfAifinyoAGsBitcoinTreasuryStrategySilverLakeInConnectionWithTheAddOnAcquisitionOfAGermanMidMarketCompanyTricorBraunHoldingsIncInTheAcquisitionOfGermanMidMarketCompanies",
+    "group1321315486",
+    "rectangle218",
+    "group401",
+    "group357",
+    "frame1",
+    "textField",
+    "frame",
+    "assistiveText",
+    "frame13",
+    "frame14",
+    "frame4",
+    "label",
+    "textField2",
+    "frame5",
+    "assistiveText2",
+    "frame6",
+    "frame7",
+    "frame8",
+    "label2",
+    "textField3",
+    "frame9",
+    "assistiveText3",
+    "frame10",
+    "frame11",
+    "frame12",
+    "button",
+    "heading"
   ],
   group1321315487: [
     "group1321315487",
@@ -8290,7 +9100,211 @@ const PlasmicDescendants = {
   _468SpacIiSe468CapitalOnItsDeSpacTransactionAndBusinessCombinationWithAustralianSecuritiesExchangeListedGermanTechCompanyMarleySpoonSeEuropeanHealthcareAcquisitionGrowthCompanyBVOnItsDefinitiveAgreementToEnterIntoABusinessCombinationWithAustriaBasedCromaPharmaGmbHGarryKrugljakowAsSponsorInConnectionWithTheImplementationOfAifinyoAGsBitcoinTreasuryStrategySilverLakeInConnectionWithTheAddOnAcquisitionOfAGermanMidMarketCompanyTricorBraunHoldingsIncInTheAcquisitionOfGermanMidMarketCompanies:
     [
       "_468SpacIiSe468CapitalOnItsDeSpacTransactionAndBusinessCombinationWithAustralianSecuritiesExchangeListedGermanTechCompanyMarleySpoonSeEuropeanHealthcareAcquisitionGrowthCompanyBVOnItsDefinitiveAgreementToEnterIntoABusinessCombinationWithAustriaBasedCromaPharmaGmbHGarryKrugljakowAsSponsorInConnectionWithTheImplementationOfAifinyoAGsBitcoinTreasuryStrategySilverLakeInConnectionWithTheAddOnAcquisitionOfAGermanMidMarketCompanyTricorBraunHoldingsIncInTheAcquisitionOfGermanMidMarketCompanies"
-    ]
+    ],
+  group1321315486: [
+    "group1321315486",
+    "rectangle218",
+    "group401",
+    "group357",
+    "frame1",
+    "textField",
+    "frame",
+    "assistiveText",
+    "frame13",
+    "frame14",
+    "frame4",
+    "label",
+    "textField2",
+    "frame5",
+    "assistiveText2",
+    "frame6",
+    "frame7",
+    "frame8",
+    "label2",
+    "textField3",
+    "frame9",
+    "assistiveText3",
+    "frame10",
+    "frame11",
+    "frame12",
+    "button",
+    "heading"
+  ],
+  rectangle218: ["rectangle218"],
+  group401: ["group401", "group357"],
+  group357: ["group357"],
+  frame1: [
+    "frame1",
+    "textField",
+    "frame",
+    "assistiveText",
+    "frame13",
+    "frame14",
+    "frame4",
+    "label",
+    "textField2",
+    "frame5",
+    "assistiveText2",
+    "frame6",
+    "frame7",
+    "frame8",
+    "label2",
+    "textField3",
+    "frame9",
+    "assistiveText3",
+    "frame10",
+    "frame11",
+    "frame12",
+    "button",
+    "heading"
+  ],
+  textField: [
+    "textField",
+    "frame",
+    "assistiveText",
+    "frame13",
+    "frame14",
+    "frame4",
+    "label"
+  ],
+  frame: ["frame", "assistiveText"],
+  assistiveText: ["assistiveText"],
+  frame13: ["frame13", "frame14", "frame4", "label"],
+  frame14: ["frame14"],
+  frame4: ["frame4", "label"],
+  label: ["label"],
+  textField2: [
+    "textField2",
+    "frame5",
+    "assistiveText2",
+    "frame6",
+    "frame7",
+    "frame8",
+    "label2"
+  ],
+  frame5: ["frame5", "assistiveText2"],
+  assistiveText2: ["assistiveText2"],
+  frame6: ["frame6", "frame7", "frame8", "label2"],
+  frame7: ["frame7"],
+  frame8: ["frame8", "label2"],
+  label2: ["label2"],
+  textField3: [
+    "textField3",
+    "frame9",
+    "assistiveText3",
+    "frame10",
+    "frame11",
+    "frame12"
+  ],
+  frame9: ["frame9", "assistiveText3"],
+  assistiveText3: ["assistiveText3"],
+  frame10: ["frame10", "frame11", "frame12"],
+  frame11: ["frame11"],
+  frame12: ["frame12"],
+  button: ["button"],
+  heading: ["heading"],
+  group1321315508: [
+    "group1321315508",
+    "rectangle219",
+    "group402",
+    "group368",
+    "frame15",
+    "textField4",
+    "frame16",
+    "assistiveText4",
+    "frame17",
+    "frame18",
+    "frame19",
+    "label3",
+    "textField5",
+    "frame20",
+    "assistiveText5",
+    "frame21",
+    "frame22",
+    "frame23",
+    "label4",
+    "textField6",
+    "frame24",
+    "assistiveText6",
+    "frame25",
+    "frame26",
+    "frame27",
+    "button2",
+    "heading3"
+  ],
+  rectangle219: ["rectangle219"],
+  group402: ["group402", "group368"],
+  group368: ["group368"],
+  frame15: [
+    "frame15",
+    "textField4",
+    "frame16",
+    "assistiveText4",
+    "frame17",
+    "frame18",
+    "frame19",
+    "label3",
+    "textField5",
+    "frame20",
+    "assistiveText5",
+    "frame21",
+    "frame22",
+    "frame23",
+    "label4",
+    "textField6",
+    "frame24",
+    "assistiveText6",
+    "frame25",
+    "frame26",
+    "frame27",
+    "button2",
+    "heading3"
+  ],
+  textField4: [
+    "textField4",
+    "frame16",
+    "assistiveText4",
+    "frame17",
+    "frame18",
+    "frame19",
+    "label3"
+  ],
+  frame16: ["frame16", "assistiveText4"],
+  assistiveText4: ["assistiveText4"],
+  frame17: ["frame17", "frame18", "frame19", "label3"],
+  frame18: ["frame18"],
+  frame19: ["frame19", "label3"],
+  label3: ["label3"],
+  textField5: [
+    "textField5",
+    "frame20",
+    "assistiveText5",
+    "frame21",
+    "frame22",
+    "frame23",
+    "label4"
+  ],
+  frame20: ["frame20", "assistiveText5"],
+  assistiveText5: ["assistiveText5"],
+  frame21: ["frame21", "frame22", "frame23", "label4"],
+  frame22: ["frame22"],
+  frame23: ["frame23", "label4"],
+  label4: ["label4"],
+  textField6: [
+    "textField6",
+    "frame24",
+    "assistiveText6",
+    "frame25",
+    "frame26",
+    "frame27"
+  ],
+  frame24: ["frame24", "assistiveText6"],
+  assistiveText6: ["assistiveText6"],
+  frame25: ["frame25", "frame26", "frame27"],
+  frame26: ["frame26"],
+  frame27: ["frame27"],
+  button2: ["button2"],
+  heading3: ["heading3"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -8711,6 +9725,60 @@ type NodeDefaultElementType = {
   frame427321886: "div";
   icon3: "div";
   _468SpacIiSe468CapitalOnItsDeSpacTransactionAndBusinessCombinationWithAustralianSecuritiesExchangeListedGermanTechCompanyMarleySpoonSeEuropeanHealthcareAcquisitionGrowthCompanyBVOnItsDefinitiveAgreementToEnterIntoABusinessCombinationWithAustriaBasedCromaPharmaGmbHGarryKrugljakowAsSponsorInConnectionWithTheImplementationOfAifinyoAGsBitcoinTreasuryStrategySilverLakeInConnectionWithTheAddOnAcquisitionOfAGermanMidMarketCompanyTricorBraunHoldingsIncInTheAcquisitionOfGermanMidMarketCompanies: "div";
+  group1321315486: "div";
+  rectangle218: "div";
+  group401: "div";
+  group357: "div";
+  frame1: "div";
+  textField: "div";
+  frame: "div";
+  assistiveText: "div";
+  frame13: "div";
+  frame14: "div";
+  frame4: "div";
+  label: "div";
+  textField2: "div";
+  frame5: "div";
+  assistiveText2: "div";
+  frame6: "div";
+  frame7: "div";
+  frame8: "div";
+  label2: "div";
+  textField3: "div";
+  frame9: "div";
+  assistiveText3: "div";
+  frame10: "div";
+  frame11: "div";
+  frame12: "div";
+  button: typeof AntdButton;
+  heading: "div";
+  group1321315508: "div";
+  rectangle219: "div";
+  group402: "div";
+  group368: "div";
+  frame15: "div";
+  textField4: "div";
+  frame16: "div";
+  assistiveText4: "div";
+  frame17: "div";
+  frame18: "div";
+  frame19: "div";
+  label3: "div";
+  textField5: "div";
+  frame20: "div";
+  assistiveText5: "div";
+  frame21: "div";
+  frame22: "div";
+  frame23: "div";
+  label4: "div";
+  textField6: "div";
+  frame24: "div";
+  assistiveText6: "div";
+  frame25: "div";
+  frame26: "div";
+  frame27: "div";
+  button2: typeof AntdButton;
+  heading3: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -9276,6 +10344,60 @@ export const PlasmicNew3 = Object.assign(
       makeNodeComponent(
         "_468SpacIiSe468CapitalOnItsDeSpacTransactionAndBusinessCombinationWithAustralianSecuritiesExchangeListedGermanTechCompanyMarleySpoonSeEuropeanHealthcareAcquisitionGrowthCompanyBVOnItsDefinitiveAgreementToEnterIntoABusinessCombinationWithAustriaBasedCromaPharmaGmbHGarryKrugljakowAsSponsorInConnectionWithTheImplementationOfAifinyoAGsBitcoinTreasuryStrategySilverLakeInConnectionWithTheAddOnAcquisitionOfAGermanMidMarketCompanyTricorBraunHoldingsIncInTheAcquisitionOfGermanMidMarketCompanies"
       ),
+    group1321315486: makeNodeComponent("group1321315486"),
+    rectangle218: makeNodeComponent("rectangle218"),
+    group401: makeNodeComponent("group401"),
+    group357: makeNodeComponent("group357"),
+    frame1: makeNodeComponent("frame1"),
+    textField: makeNodeComponent("textField"),
+    frame: makeNodeComponent("frame"),
+    assistiveText: makeNodeComponent("assistiveText"),
+    frame13: makeNodeComponent("frame13"),
+    frame14: makeNodeComponent("frame14"),
+    frame4: makeNodeComponent("frame4"),
+    label: makeNodeComponent("label"),
+    textField2: makeNodeComponent("textField2"),
+    frame5: makeNodeComponent("frame5"),
+    assistiveText2: makeNodeComponent("assistiveText2"),
+    frame6: makeNodeComponent("frame6"),
+    frame7: makeNodeComponent("frame7"),
+    frame8: makeNodeComponent("frame8"),
+    label2: makeNodeComponent("label2"),
+    textField3: makeNodeComponent("textField3"),
+    frame9: makeNodeComponent("frame9"),
+    assistiveText3: makeNodeComponent("assistiveText3"),
+    frame10: makeNodeComponent("frame10"),
+    frame11: makeNodeComponent("frame11"),
+    frame12: makeNodeComponent("frame12"),
+    button: makeNodeComponent("button"),
+    heading: makeNodeComponent("heading"),
+    group1321315508: makeNodeComponent("group1321315508"),
+    rectangle219: makeNodeComponent("rectangle219"),
+    group402: makeNodeComponent("group402"),
+    group368: makeNodeComponent("group368"),
+    frame15: makeNodeComponent("frame15"),
+    textField4: makeNodeComponent("textField4"),
+    frame16: makeNodeComponent("frame16"),
+    assistiveText4: makeNodeComponent("assistiveText4"),
+    frame17: makeNodeComponent("frame17"),
+    frame18: makeNodeComponent("frame18"),
+    frame19: makeNodeComponent("frame19"),
+    label3: makeNodeComponent("label3"),
+    textField5: makeNodeComponent("textField5"),
+    frame20: makeNodeComponent("frame20"),
+    assistiveText5: makeNodeComponent("assistiveText5"),
+    frame21: makeNodeComponent("frame21"),
+    frame22: makeNodeComponent("frame22"),
+    frame23: makeNodeComponent("frame23"),
+    label4: makeNodeComponent("label4"),
+    textField6: makeNodeComponent("textField6"),
+    frame24: makeNodeComponent("frame24"),
+    assistiveText6: makeNodeComponent("assistiveText6"),
+    frame25: makeNodeComponent("frame25"),
+    frame26: makeNodeComponent("frame26"),
+    frame27: makeNodeComponent("frame27"),
+    button2: makeNodeComponent("button2"),
+    heading3: makeNodeComponent("heading3"),
 
     // Metadata about props expected for PlasmicNew3
     internalVariantProps: PlasmicNew3__VariantProps,

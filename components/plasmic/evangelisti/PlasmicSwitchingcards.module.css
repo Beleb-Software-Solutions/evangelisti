@@ -72,6 +72,12 @@
   min-width: 0;
   padding: 0px;
 }
+@media (max-width: 1023px) {
+  .freeBox__b4Gq {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
 .card10 {
   display: flex;
   flex-direction: row;
@@ -202,6 +208,12 @@
   max-width: 687px;
   min-width: 0;
   padding: 0px;
+}
+@media (max-width: 1023px) {
+  .freeBox__gdN5 {
+    justify-content: center;
+    align-items: flex-start;
+  }
 }
 .card9 {
   display: flex;
@@ -335,6 +347,12 @@
   min-width: 0;
   padding: 0px;
 }
+@media (max-width: 1023px) {
+  .freeBox__twhy {
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
 .card8 {
   display: flex;
   flex-direction: row;
@@ -436,6 +454,12 @@
   align-items: flex-start;
   min-width: 0;
   padding: 0px;
+}
+@media (max-width: 1023px) {
+  .freeBox__dp1Ru {
+    align-items: center;
+    justify-content: flex-start;
+  }
 }
 .freeBox___0OZob {
   display: flex;
