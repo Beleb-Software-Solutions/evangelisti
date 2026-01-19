@@ -71,6 +71,7 @@ import Switchingcards from "../../Switchingcards"; // plasmic-import: b-UKtaLO3y
 import TurningCards from "../../TurningCards"; // plasmic-import: WRX8WwTCusqp/component
 import TurningCards2 from "../../TurningCards2"; // plasmic-import: V2c94nqSTYeI/component
 import PoppingScrollAnimation from "../../PoppingScrollAnimation"; // plasmic-import: 68rA_srnr6X-/component
+import PoppingScrollAnimation2 from "../../PoppingScrollAnimation2"; // plasmic-import: 4KZR63u771JT/component
 import Faq from "../../Faq"; // plasmic-import: oLYVPsXQxEKj/component
 import { FormWrapper } from "@plasmicpkgs/antd5/skinny/Form";
 import { formHelpers as FormWrapper_Helpers } from "@plasmicpkgs/antd5/skinny/Form";
@@ -236,6 +237,7 @@ export type PlasmicHomepage__OverridesType = {
   geminiGeneratedImageDr2Ipcdr2Ipcdr2I1?: Flex__<"div">;
   section10?: Flex__<"div">;
   poppingScrollAnimation?: Flex__<typeof PoppingScrollAnimation>;
+  poppingScrollAnimation2?: Flex__<typeof PoppingScrollAnimation2>;
   section11?: Flex__<"div">;
   rectangle215?: Flex__<"div">;
   _66B404Db1C2916E041Ac94D2NicoTrans1?: Flex__<"div">;
@@ -4961,6 +4963,17 @@ function PlasmicHomepage__RenderFunc(props: {
                               }
                             })()}
                           />
+
+                          <PoppingScrollAnimation2
+                            data-plasmic-name={"poppingScrollAnimation2"}
+                            data-plasmic-override={
+                              overrides.poppingScrollAnimation2
+                            }
+                            className={classNames(
+                              "__wab_instance",
+                              sty.poppingScrollAnimation2
+                            )}
+                          />
                         </div>
                       </div>
                     </Reveal>
@@ -6243,6 +6256,7 @@ const PlasmicDescendants = {
     "geminiGeneratedImageDr2Ipcdr2Ipcdr2I1",
     "section10",
     "poppingScrollAnimation",
+    "poppingScrollAnimation2",
     "section11",
     "rectangle215",
     "_66B404Db1C2916E041Ac94D2NicoTrans1",
@@ -6404,6 +6418,7 @@ const PlasmicDescendants = {
     "geminiGeneratedImageDr2Ipcdr2Ipcdr2I1",
     "section10",
     "poppingScrollAnimation",
+    "poppingScrollAnimation2",
     "section11",
     "rectangle215",
     "_66B404Db1C2916E041Ac94D2NicoTrans1",
@@ -6563,6 +6578,7 @@ const PlasmicDescendants = {
     "geminiGeneratedImageDr2Ipcdr2Ipcdr2I1",
     "section10",
     "poppingScrollAnimation",
+    "poppingScrollAnimation2",
     "section11",
     "rectangle215",
     "_66B404Db1C2916E041Ac94D2NicoTrans1",
@@ -6996,6 +7012,7 @@ const PlasmicDescendants = {
   section10: [
     "section10",
     "poppingScrollAnimation",
+    "poppingScrollAnimation2",
     "section11",
     "rectangle215",
     "_66B404Db1C2916E041Ac94D2NicoTrans1",
@@ -7004,6 +7021,7 @@ const PlasmicDescendants = {
     "asset13X88"
   ],
   poppingScrollAnimation: ["poppingScrollAnimation"],
+  poppingScrollAnimation2: ["poppingScrollAnimation2"],
   section11: [
     "section11",
     "rectangle215",
@@ -7258,6 +7276,7 @@ type NodeDefaultElementType = {
   geminiGeneratedImageDr2Ipcdr2Ipcdr2I1: "div";
   section10: "div";
   poppingScrollAnimation: typeof PoppingScrollAnimation;
+  poppingScrollAnimation2: typeof PoppingScrollAnimation2;
   section11: "div";
   rectangle215: "div";
   _66B404Db1C2916E041Ac94D2NicoTrans1: "div";
@@ -7529,6 +7548,7 @@ export const PlasmicHomepage = Object.assign(
     ),
     section10: makeNodeComponent("section10"),
     poppingScrollAnimation: makeNodeComponent("poppingScrollAnimation"),
+    poppingScrollAnimation2: makeNodeComponent("poppingScrollAnimation2"),
     section11: makeNodeComponent("section11"),
     rectangle215: makeNodeComponent("rectangle215"),
     _66B404Db1C2916E041Ac94D2NicoTrans1: makeNodeComponent(

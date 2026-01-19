@@ -1,0 +1,178 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 24px;
+  position: relative;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__x4S2D {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  top: auto;
+  left: auto;
+  min-width: 0;
+  padding: 0px;
+}
+.bigLawExperience {
+  animation: none;
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 90px;
+  color: rgba(21, 40, 116, 1);
+  width: 100%;
+  font-style: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  transform: translate3d(0px, 0px, 0px);
+  transition-property: all;
+  transition-duration: 0.2s;
+  min-width: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.2s;
+}
+.bigLawExperienceothers__2nd {
+  font-size: 52px;
+  color: #151d3e99;
+}
+.bigLawExperienceothers__3rd {
+  font-size: 40px;
+  color: #11182733;
+}
+.bigLawExperienceothers__4th {
+  color: #11182733;
+  font-size: 40px;
+}
+.bigLawExperienceothers__5th {
+  color: #11182733;
+  font-size: 40px;
+}
+.bigLawExperienceothers__6th {
+  color: #11182733;
+  font-size: 40px;
+}
+.bigLawExperienceothers__7th {
+  font-size: 40px;
+  color: #11182733;
+}
+.bigLawExperienceothers__8th {
+  font-size: 40px;
+  color: #11182733;
+}
+.bigLawExperienceothers__9th {
+  font-size: 40px;
+  color: #11182733;
+}
+.freeBox__bprbr {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  top: auto;
+  left: auto;
+  min-width: 0;
+  padding: 0px;
+}
+.bigLawExperience2 {
+  animation: none;
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 90px;
+  color: #152874;
+  width: 100%;
+  font-style: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  transform: translate3d(0px, 0px, 0px);
+  transition-property: all;
+  transition-duration: 0.2s;
+  min-width: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.2s;
+}
+.bigLawExperience2others__4th {
+  font-size: 52px;
+  color: #151d3e99;
+}
+.bigLawExperience2others__5th {
+  font-size: 64px;
+  color: #152874;
+}
+.bigLawExperience2others__6th {
+  font-size: 52px;
+  color: #151d3e99;
+}
+.freeBox__ejt3S {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  top: auto;
+  left: auto;
+  min-width: 0;
+  padding: 0px;
+}
+.bigLawExperience3 {
+  animation: none;
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 90px;
+  color: #152874;
+  width: 100%;
+  font-style: normal;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  transition-property: all;
+  transition-duration: 0.2s;
+  min-width: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.2s;
+}
+.bigLawExperience3others__8th {
+  font-size: 52px;
+  color: #151d3e99;
+}
+.bigLawExperience3others__9th {
+  font-size: 64px;
+  color: #152874;
+}

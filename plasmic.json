@@ -278,6 +278,19 @@
           "cssFilePath": "plasmic/evangelisti/PlasmicSwitchingLettersMobile.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "4KZR63u771JT",
+          "name": "PoppingScrollAnimation2",
+          "type": "managed",
+          "projectId": "psTfKC1KCEpawf41964R83",
+          "renderModuleFilePath": "plasmic/evangelisti/PlasmicPoppingScrollAnimation2.tsx",
+          "importSpec": {
+            "modulePath": "PoppingScrollAnimation2.tsx"
+          },
+          "cssFilePath": "plasmic/evangelisti/PlasmicPoppingScrollAnimation2.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [
