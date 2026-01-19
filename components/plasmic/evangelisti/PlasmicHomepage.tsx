@@ -256,6 +256,8 @@ export type PlasmicHomepage__OverridesType = {
   group1321315509?: Flex__<"div">;
   frame270?: Flex__<"div">;
   frame268?: Flex__<"div">;
+  frame280?: Flex__<"div">;
+  frame281?: Flex__<"div">;
   frame273?: Flex__<"div">;
   frame269?: Flex__<"div">;
   frame274?: Flex__<"div">;
@@ -266,6 +268,8 @@ export type PlasmicHomepage__OverridesType = {
   frame277?: Flex__<"div">;
   frame278?: Flex__<"div">;
   frame279?: Flex__<"div">;
+  frame282?: Flex__<"div">;
+  frame283?: Flex__<"div">;
   container2?: Flex__<"div">;
   margin?: Flex__<"div">;
   linkXMargin?: Flex__<"div">;
@@ -5868,6 +5872,27 @@ function PlasmicHomepage__RenderFunc(props: {
                           </div>
                         </div>
                         <div
+                          data-plasmic-name={"frame280"}
+                          data-plasmic-override={overrides.frame280}
+                          className={classNames(projectcss.all, sty.frame280)}
+                        >
+                          <div
+                            data-plasmic-name={"frame281"}
+                            data-plasmic-override={overrides.frame281}
+                            className={classNames(projectcss.all, sty.frame281)}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__p19TS
+                              )}
+                            >
+                              {"STARTUPS"}
+                            </div>
+                          </div>
+                        </div>
+                        <div
                           data-plasmic-name={"frame273"}
                           data-plasmic-override={overrides.frame273}
                           className={classNames(projectcss.all, sty.frame273)}
@@ -5973,13 +5998,25 @@ function PlasmicHomepage__RenderFunc(props: {
                           </div>
                         </div>
                         <div
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.__wab_text,
-                            sty.text__o5Klp
-                          )}
+                          data-plasmic-name={"frame282"}
+                          data-plasmic-override={overrides.frame282}
+                          className={classNames(projectcss.all, sty.frame282)}
                         >
-                          {"ABOUT US"}
+                          <div
+                            data-plasmic-name={"frame283"}
+                            data-plasmic-override={overrides.frame283}
+                            className={classNames(projectcss.all, sty.frame283)}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                projectcss.__wab_text,
+                                sty.text__yey9Q
+                              )}
+                            >
+                              {"ABOUT US"}
+                            </div>
+                          </div>
                         </div>
                       </div>
                       <div
@@ -6275,6 +6312,8 @@ const PlasmicDescendants = {
     "group1321315509",
     "frame270",
     "frame268",
+    "frame280",
+    "frame281",
     "frame273",
     "frame269",
     "frame274",
@@ -6285,6 +6324,8 @@ const PlasmicDescendants = {
     "frame277",
     "frame278",
     "frame279",
+    "frame282",
+    "frame283",
     "container2",
     "margin",
     "linkXMargin",
@@ -6437,6 +6478,8 @@ const PlasmicDescendants = {
     "group1321315509",
     "frame270",
     "frame268",
+    "frame280",
+    "frame281",
     "frame273",
     "frame269",
     "frame274",
@@ -6447,6 +6490,8 @@ const PlasmicDescendants = {
     "frame277",
     "frame278",
     "frame279",
+    "frame282",
+    "frame283",
     "container2",
     "margin",
     "linkXMargin",
@@ -6597,6 +6642,8 @@ const PlasmicDescendants = {
     "group1321315509",
     "frame270",
     "frame268",
+    "frame280",
+    "frame281",
     "frame273",
     "frame269",
     "frame274",
@@ -6607,6 +6654,8 @@ const PlasmicDescendants = {
     "frame277",
     "frame278",
     "frame279",
+    "frame282",
+    "frame283",
     "container2",
     "margin",
     "linkXMargin",
@@ -7048,6 +7097,8 @@ const PlasmicDescendants = {
     "group1321315509",
     "frame270",
     "frame268",
+    "frame280",
+    "frame281",
     "frame273",
     "frame269",
     "frame274",
@@ -7058,6 +7109,8 @@ const PlasmicDescendants = {
     "frame277",
     "frame278",
     "frame279",
+    "frame282",
+    "frame283",
     "container2",
     "margin",
     "linkXMargin",
@@ -7078,6 +7131,8 @@ const PlasmicDescendants = {
     "group1321315509",
     "frame270",
     "frame268",
+    "frame280",
+    "frame281",
     "frame273",
     "frame269",
     "frame274",
@@ -7088,6 +7143,8 @@ const PlasmicDescendants = {
     "frame277",
     "frame278",
     "frame279",
+    "frame282",
+    "frame283",
     "container2",
     "margin",
     "linkXMargin",
@@ -7102,6 +7159,8 @@ const PlasmicDescendants = {
     "group1321315509",
     "frame270",
     "frame268",
+    "frame280",
+    "frame281",
     "frame273",
     "frame269",
     "frame274",
@@ -7111,10 +7170,14 @@ const PlasmicDescendants = {
     "frame276",
     "frame277",
     "frame278",
-    "frame279"
+    "frame279",
+    "frame282",
+    "frame283"
   ],
   frame270: ["frame270", "frame268"],
   frame268: ["frame268"],
+  frame280: ["frame280", "frame281"],
+  frame281: ["frame281"],
   frame273: ["frame273", "frame269"],
   frame269: ["frame269"],
   frame274: ["frame274", "frame271"],
@@ -7125,6 +7188,8 @@ const PlasmicDescendants = {
   frame277: ["frame277"],
   frame278: ["frame278", "frame279"],
   frame279: ["frame279"],
+  frame282: ["frame282", "frame283"],
+  frame283: ["frame283"],
   container2: [
     "container2",
     "margin",
@@ -7295,6 +7360,8 @@ type NodeDefaultElementType = {
   group1321315509: "div";
   frame270: "div";
   frame268: "div";
+  frame280: "div";
+  frame281: "div";
   frame273: "div";
   frame269: "div";
   frame274: "div";
@@ -7305,6 +7372,8 @@ type NodeDefaultElementType = {
   frame277: "div";
   frame278: "div";
   frame279: "div";
+  frame282: "div";
+  frame283: "div";
   container2: "div";
   margin: "div";
   linkXMargin: "div";
@@ -7569,6 +7638,8 @@ export const PlasmicHomepage = Object.assign(
     group1321315509: makeNodeComponent("group1321315509"),
     frame270: makeNodeComponent("frame270"),
     frame268: makeNodeComponent("frame268"),
+    frame280: makeNodeComponent("frame280"),
+    frame281: makeNodeComponent("frame281"),
     frame273: makeNodeComponent("frame273"),
     frame269: makeNodeComponent("frame269"),
     frame274: makeNodeComponent("frame274"),
@@ -7579,6 +7650,8 @@ export const PlasmicHomepage = Object.assign(
     frame277: makeNodeComponent("frame277"),
     frame278: makeNodeComponent("frame278"),
     frame279: makeNodeComponent("frame279"),
+    frame282: makeNodeComponent("frame282"),
+    frame283: makeNodeComponent("frame283"),
     container2: makeNodeComponent("container2"),
     margin: makeNodeComponent("margin"),
     linkXMargin: makeNodeComponent("linkXMargin"),

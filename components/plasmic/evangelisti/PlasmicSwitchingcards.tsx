@@ -92,6 +92,8 @@ export type PlasmicSwitchingcards__OverridesType = {
   card10?: Flex__<"div">;
   card9?: Flex__<"div">;
   card8?: Flex__<"div">;
+  card11?: Flex__<"div">;
+  card12?: Flex__<"div">;
 };
 
 export interface DefaultSwitchingcardsProps {
@@ -468,6 +470,164 @@ function PlasmicSwitchingcards__RenderFunc(props: {
                   </div>
                 </div>
               </div>
+              <div
+                className={classNames(projectcss.all, sty.freeBox__tXl5, {
+                  [sty.freeBoxothers__1st__tXl58N26Z]: hasVariant(
+                    $state,
+                    "others",
+                    "_1st"
+                  )
+                })}
+              >
+                <div className={classNames(projectcss.all, sty.freeBox__g8MnQ)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__piw9M)}
+                  >
+                    <div
+                      data-plasmic-name={"card11"}
+                      data-plasmic-override={overrides.card11}
+                      className={classNames(projectcss.all, sty.card11, {
+                        [sty.card11others__1st]: hasVariant(
+                          $state,
+                          "others",
+                          "_1st"
+                        )
+                      })}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img__l1EkB, {
+                          [sty.imgothers__1st__l1EkB8N26Z]: hasVariant(
+                            $state,
+                            "others",
+                            "_1st"
+                          )
+                        })}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/evangelisti/images/rectangle193.svg",
+                          fullWidth: 594,
+                          fullHeight: 232,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__jyL35
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__wgSz2
+                          )}
+                        >
+                          {"Deal Experience"}
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__rAJto
+                          )}
+                        >
+                          {
+                            "share/asset deals, carve-outs, spin-offs,\nmergers, Joint Ventures."
+                          }
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                className={classNames(projectcss.all, sty.freeBox__am9Q3, {
+                  [sty.freeBoxothers__1st__am9Q38N26Z]: hasVariant(
+                    $state,
+                    "others",
+                    "_1st"
+                  )
+                })}
+              >
+                <div className={classNames(projectcss.all, sty.freeBox__p63Vz)}>
+                  <div
+                    className={classNames(projectcss.all, sty.freeBox__c3YPx)}
+                  >
+                    <div
+                      data-plasmic-name={"card12"}
+                      data-plasmic-override={overrides.card12}
+                      className={classNames(projectcss.all, sty.card12, {
+                        [sty.card12others__1st]: hasVariant(
+                          $state,
+                          "others",
+                          "_1st"
+                        )
+                      })}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img__d8Mm5, {
+                          [sty.imgothers__1st__d8Mm58N26Z]: hasVariant(
+                            $state,
+                            "others",
+                            "_1st"
+                          )
+                        })}
+                        displayHeight={"auto"}
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"100%"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"auto"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/evangelisti/images/rectangle193.svg",
+                          fullWidth: 594,
+                          fullHeight: 232,
+                          aspectRatio: undefined
+                        }}
+                      />
+
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__zIlq4
+                        )}
+                      >
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__xkcS
+                          )}
+                        >
+                          {"Post-Closing Support. "}
+                        </div>
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__gknyc
+                          )}
+                        >
+                          {
+                            "Based on our experience as external general counsel for Mittelstand and start-ups"
+                          }
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </SliderWrapper>
           );
         })()}
@@ -484,6 +644,33 @@ function PlasmicSwitchingcards__RenderFunc(props: {
         >
           {(() => {
             try {
+              return $state.sliderCarousel2.currentSlide === 0;
+            } catch (e) {
+              if (
+                e instanceof TypeError ||
+                e?.plasmicType === "PlasmicUndefinedDataError"
+              ) {
+                return true;
+              }
+              throw e;
+            }
+          })() ? (
+            <div className={classNames(projectcss.all, sty.freeBox__kvOo1)}>
+              <div className={classNames(projectcss.all, sty.freeBox__zwQjh)} />
+
+              <div className={classNames(projectcss.all, sty.freeBox__nJuAo)} />
+
+              <div
+                className={classNames(projectcss.all, sty.freeBox___25Nhf)}
+              />
+
+              <div className={classNames(projectcss.all, sty.freeBox__yD65S)} />
+
+              <div className={classNames(projectcss.all, sty.freeBox__t3Mij)} />
+            </div>
+          ) : null}
+          {(() => {
+            try {
               return $state.sliderCarousel2.currentSlide === 1;
             } catch (e) {
               if (
@@ -495,12 +682,18 @@ function PlasmicSwitchingcards__RenderFunc(props: {
               throw e;
             }
           })() ? (
-            <div className={classNames(projectcss.all, sty.freeBox__eGAl7)}>
-              <div className={classNames(projectcss.all, sty.freeBox__zuBrh)} />
+            <div className={classNames(projectcss.all, sty.freeBox__r9FIb)}>
+              <div
+                className={classNames(projectcss.all, sty.freeBox___8YUKq)}
+              />
 
-              <div className={classNames(projectcss.all, sty.freeBox___2HbA)} />
+              <div className={classNames(projectcss.all, sty.freeBox__zgzxc)} />
 
-              <div className={classNames(projectcss.all, sty.freeBox__q9L2Q)} />
+              <div className={classNames(projectcss.all, sty.freeBox__fptVp)} />
+
+              <div className={classNames(projectcss.all, sty.freeBox__iukMb)} />
+
+              <div className={classNames(projectcss.all, sty.freeBox__xOoVe)} />
             </div>
           ) : null}
           {(() => {
@@ -516,19 +709,27 @@ function PlasmicSwitchingcards__RenderFunc(props: {
               throw e;
             }
           })() ? (
-            <div className={classNames(projectcss.all, sty.freeBox__kvOo1)}>
-              <div className={classNames(projectcss.all, sty.freeBox__nJuAo)} />
-
-              <div className={classNames(projectcss.all, sty.freeBox__zwQjh)} />
+            <div className={classNames(projectcss.all, sty.freeBox__p3Dfb)}>
+              <div
+                className={classNames(projectcss.all, sty.freeBox___5MAjv)}
+              />
 
               <div
-                className={classNames(projectcss.all, sty.freeBox___25Nhf)}
+                className={classNames(projectcss.all, sty.freeBox___8M4Wb)}
               />
+
+              <div className={classNames(projectcss.all, sty.freeBox__bkvaX)} />
+
+              <div
+                className={classNames(projectcss.all, sty.freeBox___90BDk)}
+              />
+
+              <div className={classNames(projectcss.all, sty.freeBox__kuf6R)} />
             </div>
           ) : null}
           {(() => {
             try {
-              return $state.sliderCarousel2.currentSlide === 0;
+              return $state.sliderCarousel2.currentSlide === 3;
             } catch (e) {
               if (
                 e instanceof TypeError ||
@@ -539,12 +740,45 @@ function PlasmicSwitchingcards__RenderFunc(props: {
               throw e;
             }
           })() ? (
-            <div className={classNames(projectcss.all, sty.freeBox__xp3Na)}>
-              <div className={classNames(projectcss.all, sty.freeBox__uc7RT)} />
+            <div className={classNames(projectcss.all, sty.freeBox___1IoSr)}>
+              <div
+                className={classNames(projectcss.all, sty.freeBox___3ZvR5)}
+              />
 
-              <div className={classNames(projectcss.all, sty.freeBox__bg3Y)} />
+              <div className={classNames(projectcss.all, sty.freeBox__qmbHw)} />
 
-              <div className={classNames(projectcss.all, sty.freeBox__rc0D2)} />
+              <div className={classNames(projectcss.all, sty.freeBox__eWk6I)} />
+
+              <div
+                className={classNames(projectcss.all, sty.freeBox___8PhjN)}
+              />
+
+              <div className={classNames(projectcss.all, sty.freeBox__bFqNi)} />
+            </div>
+          ) : null}
+          {(() => {
+            try {
+              return $state.sliderCarousel2.currentSlide === 4;
+            } catch (e) {
+              if (
+                e instanceof TypeError ||
+                e?.plasmicType === "PlasmicUndefinedDataError"
+              ) {
+                return true;
+              }
+              throw e;
+            }
+          })() ? (
+            <div className={classNames(projectcss.all, sty.freeBox__j5Fuf)}>
+              <div className={classNames(projectcss.all, sty.freeBox__sBl)} />
+
+              <div className={classNames(projectcss.all, sty.freeBox__f5PfB)} />
+
+              <div className={classNames(projectcss.all, sty.freeBox__dLeEv)} />
+
+              <div className={classNames(projectcss.all, sty.freeBox__bqzba)} />
+
+              <div className={classNames(projectcss.all, sty.freeBox__n8KPr)} />
             </div>
           ) : null}
         </div>
@@ -554,11 +788,28 @@ function PlasmicSwitchingcards__RenderFunc(props: {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "sliderCarousel2", "card10", "card9", "card8"],
-  sliderCarousel2: ["sliderCarousel2", "card10", "card9", "card8"],
+  root: [
+    "root",
+    "sliderCarousel2",
+    "card10",
+    "card9",
+    "card8",
+    "card11",
+    "card12"
+  ],
+  sliderCarousel2: [
+    "sliderCarousel2",
+    "card10",
+    "card9",
+    "card8",
+    "card11",
+    "card12"
+  ],
   card10: ["card10"],
   card9: ["card9"],
-  card8: ["card8"]
+  card8: ["card8"],
+  card11: ["card11"],
+  card12: ["card12"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -569,6 +820,8 @@ type NodeDefaultElementType = {
   card10: "div";
   card9: "div";
   card8: "div";
+  card11: "div";
+  card12: "div";
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -637,6 +890,8 @@ export const PlasmicSwitchingcards = Object.assign(
     card10: makeNodeComponent("card10"),
     card9: makeNodeComponent("card9"),
     card8: makeNodeComponent("card8"),
+    card11: makeNodeComponent("card11"),
+    card12: makeNodeComponent("card12"),
 
     // Metadata about props expected for PlasmicSwitchingcards
     internalVariantProps: PlasmicSwitchingcards__VariantProps,

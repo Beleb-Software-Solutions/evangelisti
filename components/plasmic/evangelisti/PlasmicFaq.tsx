@@ -259,7 +259,14 @@ function PlasmicFaq__RenderFunc(props: {
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__fo6Lo
+                  sty.text__fo6Lo,
+                  {
+                    [sty.textopen__fo6Lo57Jjc]: hasVariant(
+                      $state,
+                      "open",
+                      "open"
+                    )
+                  }
                 )}
               >
                 <React.Fragment>
@@ -313,7 +320,14 @@ function PlasmicFaq__RenderFunc(props: {
                 className={classNames(
                   projectcss.all,
                   projectcss.__wab_text,
-                  sty.text__k2Xdt
+                  sty.text__k2Xdt,
+                  {
+                    [sty.textopen__k2Xdt57Jjc]: hasVariant(
+                      $state,
+                      "open",
+                      "open"
+                    )
+                  }
                 )}
               >
                 {

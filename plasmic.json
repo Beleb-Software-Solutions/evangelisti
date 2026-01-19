@@ -227,20 +227,6 @@
           "componentType": "component"
         },
         {
-          "id": "c-Pe_DwBjWBO",
-          "name": "DonttouchBackup",
-          "type": "managed",
-          "projectId": "psTfKC1KCEpawf41964R83",
-          "renderModuleFilePath": "plasmic/evangelisti/PlasmicDonttouchBackup.tsx",
-          "importSpec": {
-            "modulePath": "../pages/new-page-2.tsx"
-          },
-          "cssFilePath": "plasmic/evangelisti/PlasmicDonttouchBackup.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/new-page-2"
-        },
-        {
           "id": "V2c94nqSTYeI",
           "name": "TurningCards2",
           "type": "managed",
@@ -291,6 +277,20 @@
           "cssFilePath": "plasmic/evangelisti/PlasmicPoppingScrollAnimation2.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "dFVNtjaaa5OX",
+          "name": "Homepage3",
+          "type": "managed",
+          "projectId": "psTfKC1KCEpawf41964R83",
+          "renderModuleFilePath": "plasmic/evangelisti/PlasmicHomepage3.tsx",
+          "importSpec": {
+            "modulePath": "../pages/new-page-3.tsx"
+          },
+          "cssFilePath": "plasmic/evangelisti/PlasmicHomepage3.module.css",
+          "scheme": "blackbox",
+          "componentType": "page",
+          "path": "/new-page-3"
         }
       ],
       "icons": [
@@ -528,6 +528,16 @@
           "id": "EezRgQ-v1l7D",
           "name": "Group1321315510Icon",
           "moduleFilePath": "plasmic/evangelisti/icons/PlasmicIcon__Group1321315510.tsx"
+        },
+        {
+          "id": "bw-SV7gHdodD",
+          "name": "MenuSvgrepoComSvgIcon",
+          "moduleFilePath": "plasmic/evangelisti/icons/PlasmicIcon__MenuSvgrepoComSvg.tsx"
+        },
+        {
+          "id": "EOndTlxBpV27",
+          "name": "CloseSvgrepoComSvgIcon",
+          "moduleFilePath": "plasmic/evangelisti/icons/PlasmicIcon__CloseSvgrepoComSvg.tsx"
         }
       ],
       "images": [

@@ -147,6 +147,14 @@
   height: 500px;
   flex-shrink: 0;
 }
+@media (max-width: 620px) {
+  .freeBoxopen__gTdYp57Jjc {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0px;
+  }
+}
 .text__fo6Lo {
   animation: none;
   display: block;
@@ -187,4 +195,10 @@
   text-decoration-line: none;
   text-overflow: clip;
   flex-shrink: 0;
+}
+@media (max-width: 620px) {
+  .textopen__k2Xdt57Jjc {
+    left: auto;
+    top: auto;
+  }
 }

@@ -69,17 +69,23 @@ import "@plasmicapp/react-web/lib/plasmic.css";
 import projectcss from "./plasmic.module.css"; // plasmic-import: psTfKC1KCEpawf41964R83/projectcss
 import sty from "./PlasmicNavbar.module.css"; // plasmic-import: qGv4u8jlOy8Y/css
 
+import MenuSvgrepoComSvgIcon from "./icons/PlasmicIcon__MenuSvgrepoComSvg"; // plasmic-import: bw-SV7gHdodD/icon
+import CloseSvgrepoComSvgIcon from "./icons/PlasmicIcon__CloseSvgrepoComSvg"; // plasmic-import: EOndTlxBpV27/icon
+
 createPlasmicElementProxy;
 
 export type PlasmicNavbar__VariantMembers = {
   changes: "scroll";
+  open: "open";
 };
 export type PlasmicNavbar__VariantsArgs = {
   changes?: SingleChoiceArg<"scroll">;
+  open?: SingleBooleanChoiceArg<"open">;
 };
 type VariantPropType = keyof PlasmicNavbar__VariantsArgs;
 export const PlasmicNavbar__VariantProps = new Array<VariantPropType>(
-  "changes"
+  "changes",
+  "open"
 );
 
 export type PlasmicNavbar__ArgsType = {};
@@ -92,7 +98,6 @@ export type PlasmicNavbar__OverridesType = {
   navContents?: Flex__<"div">;
   logoContainer?: Flex__<"div">;
   img?: Flex__<typeof PlasmicImg__>;
-  freeBox?: Flex__<"div">;
   span?: Flex__<"div">;
   navItemsContainer?: Flex__<"div">;
   ctaButtonContainer?: Flex__<"div">;
@@ -101,6 +106,7 @@ export type PlasmicNavbar__OverridesType = {
 
 export interface DefaultNavbarProps {
   changes?: SingleChoiceArg<"scroll">;
+  open?: SingleBooleanChoiceArg<"open">;
   className?: string;
 }
 
@@ -143,6 +149,8 @@ function PlasmicNavbar__RenderFunc(props: {
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
 
+  const globalVariants = _useGlobalVariants();
+
   const stateSpecs: Parameters<typeof useDollarState>[0] = React.useMemo(
     () => [
       {
@@ -150,6 +158,12 @@ function PlasmicNavbar__RenderFunc(props: {
         type: "private",
         variableType: "variant",
         initFunc: ({ $props, $state, $queries, $ctx }) => $props.changes
+      },
+      {
+        path: "open",
+        type: "private",
+        variableType: "variant",
+        initFunc: ({ $props, $state, $queries, $ctx }) => $props.open
       }
     ],
     [$props, $ctx, $refs]
@@ -181,14 +195,17 @@ function PlasmicNavbar__RenderFunc(props: {
             $state,
             "changes",
             "scroll"
-          )
+          ),
+          [sty.navContaineropen]: hasVariant($state, "open", "open")
         }
       )}
     >
       <div
         data-plasmic-name={"navbar"}
         data-plasmic-override={overrides.navbar}
-        className={classNames(projectcss.all, sty.navbar)}
+        className={classNames(projectcss.all, sty.navbar, {
+          [sty.navbaropen]: hasVariant($state, "open", "open")
+        })}
       >
         <div
           data-plasmic-name={"navContents"}
@@ -219,11 +236,84 @@ function PlasmicNavbar__RenderFunc(props: {
                 aspectRatio: undefined
               }}
             />
+
+            <div
+              className={classNames(projectcss.all, sty.freeBox___3Op68, {
+                [sty.freeBoxopen___3Op68XbNt1]: hasVariant(
+                  $state,
+                  "open",
+                  "open"
+                )
+              })}
+              onClick={async event => {
+                const $steps = {};
+
+                $steps["updateOpen"] = true
+                  ? (() => {
+                      const actionArgs = { vgroup: "open", operation: 2 };
+                      return (({ vgroup, value }) => {
+                        if (typeof value === "string") {
+                          value = [value];
+                        }
+
+                        const oldValue = $stateGet($state, vgroup);
+                        $stateSet($state, vgroup, !oldValue);
+                        return !oldValue;
+                      })?.apply(null, [actionArgs]);
+                    })()
+                  : undefined;
+                if (
+                  $steps["updateOpen"] != null &&
+                  typeof $steps["updateOpen"] === "object" &&
+                  typeof $steps["updateOpen"].then === "function"
+                ) {
+                  $steps["updateOpen"] = await $steps["updateOpen"];
+                }
+              }}
+            >
+              <div
+                className={classNames(projectcss.all, sty.freeBox__c47Mb, {
+                  [sty.freeBoxopen__c47MbXbNt1]: hasVariant(
+                    $state,
+                    "open",
+                    "open"
+                  )
+                })}
+              >
+                <MenuSvgrepoComSvgIcon
+                  className={classNames(projectcss.all, sty.svg__u3EdK)}
+                  role={"img"}
+                />
+              </div>
+              {(
+                hasVariant($state, "open", "open") &&
+                hasVariant(globalVariants, "screen", "tablet")
+                  ? true
+                  : hasVariant(globalVariants, "screen", "tablet")
+                    ? true
+                    : false
+              ) ? (
+                <div
+                  className={classNames(projectcss.all, sty.freeBox__bx9R2, {
+                    [sty.freeBoxopen__bx9R2XbNt1]: hasVariant(
+                      $state,
+                      "open",
+                      "open"
+                    )
+                  })}
+                >
+                  <CloseSvgrepoComSvgIcon
+                    className={classNames(projectcss.all, sty.svg__l8ZcI)}
+                    role={"img"}
+                  />
+                </div>
+              ) : null}
+            </div>
           </div>
           <div
-            data-plasmic-name={"freeBox"}
-            data-plasmic-override={overrides.freeBox}
-            className={classNames(projectcss.all, sty.freeBox)}
+            className={classNames(projectcss.all, sty.freeBox__qFxhv, {
+              [sty.freeBoxopen__qFxhvXbNt1]: hasVariant($state, "open", "open")
+            })}
           >
             <div
               data-plasmic-name={"span"}
@@ -234,14 +324,22 @@ function PlasmicNavbar__RenderFunc(props: {
             <div
               data-plasmic-name={"navItemsContainer"}
               data-plasmic-override={overrides.navItemsContainer}
-              className={classNames(projectcss.all, sty.navItemsContainer)}
+              className={classNames(projectcss.all, sty.navItemsContainer, {
+                [sty.navItemsContaineropen]: hasVariant($state, "open", "open")
+              })}
             >
               <NavItem
                 className={classNames("__wab_instance", sty.navItem___00P2K)}
               />
 
               <NavItem
-                className={classNames("__wab_instance", sty.navItem___6JOup)}
+                className={classNames("__wab_instance", sty.navItem___6JOup, {
+                  [sty.navItemopen___6JOupXbNt1]: hasVariant(
+                    $state,
+                    "open",
+                    "open"
+                  )
+                })}
                 noicon={true}
                 otherLinks={"goldenRules"}
               />
@@ -279,12 +377,16 @@ function PlasmicNavbar__RenderFunc(props: {
             <div
               data-plasmic-name={"ctaButtonContainer"}
               data-plasmic-override={overrides.ctaButtonContainer}
-              className={classNames(projectcss.all, sty.ctaButtonContainer)}
+              className={classNames(projectcss.all, sty.ctaButtonContainer, {
+                [sty.ctaButtonContaineropen]: hasVariant($state, "open", "open")
+              })}
             >
               <CtaButton
                 data-plasmic-name={"ctaButton"}
                 data-plasmic-override={overrides.ctaButton}
-                className={classNames("__wab_instance", sty.ctaButton)}
+                className={classNames("__wab_instance", sty.ctaButton, {
+                  [sty.ctaButtonopen]: hasVariant($state, "open", "open")
+                })}
               />
             </div>
           </div>
@@ -301,7 +403,6 @@ const PlasmicDescendants = {
     "navContents",
     "logoContainer",
     "img",
-    "freeBox",
     "span",
     "navItemsContainer",
     "ctaButtonContainer",
@@ -312,7 +413,6 @@ const PlasmicDescendants = {
     "navContents",
     "logoContainer",
     "img",
-    "freeBox",
     "span",
     "navItemsContainer",
     "ctaButtonContainer",
@@ -322,7 +422,6 @@ const PlasmicDescendants = {
     "navContents",
     "logoContainer",
     "img",
-    "freeBox",
     "span",
     "navItemsContainer",
     "ctaButtonContainer",
@@ -330,13 +429,6 @@ const PlasmicDescendants = {
   ],
   logoContainer: ["logoContainer", "img"],
   img: ["img"],
-  freeBox: [
-    "freeBox",
-    "span",
-    "navItemsContainer",
-    "ctaButtonContainer",
-    "ctaButton"
-  ],
   span: ["span"],
   navItemsContainer: ["navItemsContainer"],
   ctaButtonContainer: ["ctaButtonContainer", "ctaButton"],
@@ -351,7 +443,6 @@ type NodeDefaultElementType = {
   navContents: "div";
   logoContainer: "div";
   img: typeof PlasmicImg__;
-  freeBox: "div";
   span: "div";
   navItemsContainer: "div";
   ctaButtonContainer: "div";
@@ -424,7 +515,6 @@ export const PlasmicNavbar = Object.assign(
     navContents: makeNodeComponent("navContents"),
     logoContainer: makeNodeComponent("logoContainer"),
     img: makeNodeComponent("img"),
-    freeBox: makeNodeComponent("freeBox"),
     span: makeNodeComponent("span"),
     navItemsContainer: makeNodeComponent("navItemsContainer"),
     ctaButtonContainer: makeNodeComponent("ctaButtonContainer"),
