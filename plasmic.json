@@ -291,6 +291,19 @@
           "scheme": "blackbox",
           "componentType": "page",
           "path": "/new-page-3"
+        },
+        {
+          "id": "IWAG93DqZ671",
+          "name": "Newsliding3Cards",
+          "type": "managed",
+          "projectId": "psTfKC1KCEpawf41964R83",
+          "renderModuleFilePath": "plasmic/evangelisti/PlasmicNewsliding3Cards.tsx",
+          "importSpec": {
+            "modulePath": "Newsliding3Cards.tsx"
+          },
+          "cssFilePath": "plasmic/evangelisti/PlasmicNewsliding3Cards.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

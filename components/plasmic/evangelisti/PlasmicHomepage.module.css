@@ -2887,6 +2887,15 @@
 }
 .switchingcards:global(.__wab_instance) {
   max-width: 100%;
+  display: none;
+}
+.newsliding3Cards:global(.__wab_instance) {
+  position: relative;
+}
+@media (max-width: 620px) {
+  .newsliding3Cards:global(.__wab_instance) {
+    width: 95%;
+  }
 }
 .freeBox__uigBh {
   display: flex;
@@ -7635,7 +7644,7 @@
   justify-content: flex-start;
   align-items: center;
   min-width: 0;
-  padding: 200px 0px;
+  padding: 200px 0px 70px;
 }
 @media (max-width: 1023px) {
   .freeBox__xao1D {

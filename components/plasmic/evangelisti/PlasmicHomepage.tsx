@@ -68,6 +68,7 @@ import Shrinkcontainer from "../../Shrinkcontainer"; // plasmic-import: 2BkUWwmz
 import SwitchingLetters from "../../SwitchingLetters"; // plasmic-import: jzvN_9UyJix7/component
 import SwitchingLettersMobile from "../../SwitchingLettersMobile"; // plasmic-import: 1s9anK6EM1jR/component
 import Switchingcards from "../../Switchingcards"; // plasmic-import: b-UKtaLO3ybb/component
+import Newsliding3Cards from "../../Newsliding3Cards"; // plasmic-import: IWAG93DqZ671/component
 import TurningCards from "../../TurningCards"; // plasmic-import: WRX8WwTCusqp/component
 import TurningCards2 from "../../TurningCards2"; // plasmic-import: V2c94nqSTYeI/component
 import PoppingScrollAnimation from "../../PoppingScrollAnimation"; // plasmic-import: 68rA_srnr6X-/component
@@ -170,6 +171,7 @@ export type PlasmicHomepage__OverridesType = {
   content3?: Flex__<"div">;
   preheader?: Flex__<"div">;
   switchingcards?: Flex__<typeof Switchingcards>;
+  newsliding3Cards?: Flex__<typeof Newsliding3Cards>;
   preheader2?: Flex__<"div">;
   image18?: Flex__<"div">;
   image21?: Flex__<"div">;
@@ -2100,6 +2102,15 @@ function PlasmicHomepage__RenderFunc(props: {
                           className={classNames(
                             "__wab_instance",
                             sty.switchingcards
+                          )}
+                        />
+
+                        <Newsliding3Cards
+                          data-plasmic-name={"newsliding3Cards"}
+                          data-plasmic-override={overrides.newsliding3Cards}
+                          className={classNames(
+                            "__wab_instance",
+                            sty.newsliding3Cards
                           )}
                         />
                       </div>
@@ -5284,7 +5295,6 @@ function PlasmicHomepage__RenderFunc(props: {
                           "__wab_instance",
                           sty.reveal__whZxZ
                         )}
-                        direction={"left"}
                         triggerOnce={true}
                       >
                         <Faq
@@ -5292,7 +5302,6 @@ function PlasmicHomepage__RenderFunc(props: {
                             "__wab_instance",
                             sty.faq__xgtDx
                           )}
-                          open={true}
                         />
                       </Reveal>
                       <Reveal
@@ -5300,7 +5309,6 @@ function PlasmicHomepage__RenderFunc(props: {
                           "__wab_instance",
                           sty.reveal__tk9Lj
                         )}
-                        direction={"right"}
                         triggerOnce={true}
                       >
                         <Faq
@@ -5308,7 +5316,6 @@ function PlasmicHomepage__RenderFunc(props: {
                             "__wab_instance",
                             sty.faq__cQurN
                           )}
-                          open={true}
                           slot={
                             <React.Fragment>
                               <div
@@ -5441,7 +5448,6 @@ function PlasmicHomepage__RenderFunc(props: {
                           "__wab_instance",
                           sty.reveal__vmqOh
                         )}
-                        direction={"left"}
                         triggerOnce={true}
                       >
                         <Faq
@@ -5449,7 +5455,6 @@ function PlasmicHomepage__RenderFunc(props: {
                             "__wab_instance",
                             sty.faq__ilMpa
                           )}
-                          open={true}
                           slot={
                             <React.Fragment>
                               <div
@@ -6357,6 +6362,7 @@ const PlasmicDescendants = {
     "content3",
     "preheader",
     "switchingcards",
+    "newsliding3Cards",
     "preheader2",
     "image18",
     "image21",
@@ -6524,6 +6530,7 @@ const PlasmicDescendants = {
     "content3",
     "preheader",
     "switchingcards",
+    "newsliding3Cards",
     "preheader2",
     "image18",
     "image21",
@@ -6689,6 +6696,7 @@ const PlasmicDescendants = {
     "content3",
     "preheader",
     "switchingcards",
+    "newsliding3Cards",
     "preheader2",
     "image18",
     "image21",
@@ -6958,6 +6966,7 @@ const PlasmicDescendants = {
     "content3",
     "preheader",
     "switchingcards",
+    "newsliding3Cards",
     "preheader2",
     "image18",
     "image21",
@@ -6992,6 +7001,7 @@ const PlasmicDescendants = {
     "content3",
     "preheader",
     "switchingcards",
+    "newsliding3Cards",
     "preheader2",
     "image18",
     "image21",
@@ -6999,9 +7009,10 @@ const PlasmicDescendants = {
     "preheader3",
     "ourCommandmentsOfTransactionAdvisory"
   ],
-  content3: ["content3", "preheader", "switchingcards"],
+  content3: ["content3", "preheader", "switchingcards", "newsliding3Cards"],
   preheader: ["preheader"],
   switchingcards: ["switchingcards"],
+  newsliding3Cards: ["newsliding3Cards"],
   preheader2: ["preheader2"],
   image18: ["image18"],
   image21: ["image21"],
@@ -7410,6 +7421,7 @@ type NodeDefaultElementType = {
   content3: "div";
   preheader: "div";
   switchingcards: typeof Switchingcards;
+  newsliding3Cards: typeof Newsliding3Cards;
   preheader2: "div";
   image18: "div";
   image21: "div";
@@ -7662,6 +7674,7 @@ export const PlasmicHomepage = Object.assign(
     content3: makeNodeComponent("content3"),
     preheader: makeNodeComponent("preheader"),
     switchingcards: makeNodeComponent("switchingcards"),
+    newsliding3Cards: makeNodeComponent("newsliding3Cards"),
     preheader2: makeNodeComponent("preheader2"),
     image18: makeNodeComponent("image18"),
     image21: makeNodeComponent("image21"),

@@ -60,6 +60,8 @@ import {
 } from "@plasmicapp/react-web/lib/host";
 
 import { AntdButton } from "@plasmicpkgs/antd5/skinny/registerButton";
+import { SliderWrapper } from "@plasmicpkgs/react-slick";
+import { sliderHelpers as SliderWrapper_Helpers } from "@plasmicpkgs/react-slick";
 import { _useGlobalVariants } from "./plasmic"; // plasmic-import: psTfKC1KCEpawf41964R83/projectModule
 import { _useStyleTokens } from "./PlasmicStyleTokensProvider"; // plasmic-import: psTfKC1KCEpawf41964R83/styleTokensProvider
 
@@ -579,6 +581,7 @@ export type PlasmicNew3__OverridesType = {
   frame27?: Flex__<"div">;
   button2?: Flex__<typeof AntdButton>;
   heading3?: Flex__<"div">;
+  sliderCarousel2?: Flex__<typeof SliderWrapper>;
 };
 
 export interface DefaultNew3Props {}
@@ -621,6 +624,27 @@ function PlasmicNew3__RenderFunc(props: {
   const $ctx = useDataEnv?.() || {};
   const refsRef = React.useRef({});
   const $refs = refsRef.current;
+
+  const stateSpecs: Parameters<typeof useDollarState>[0] = React.useMemo(
+    () => [
+      {
+        path: "sliderCarousel2.currentSlide",
+        type: "private",
+        variableType: "number",
+        initFunc: ({ $props, $state, $queries, $ctx }) => 0,
+
+        refName: "sliderCarousel2",
+        onMutate: generateOnMutateForSpec("currentSlide", SliderWrapper_Helpers)
+      }
+    ],
+    [$props, $ctx, $refs]
+  );
+  const $state = useDollarState(stateSpecs, {
+    $props,
+    $ctx,
+    $queries: {},
+    $refs
+  });
 
   const styleTokensClassNames = _useStyleTokens();
 
@@ -6306,6 +6330,128 @@ function PlasmicNew3__RenderFunc(props: {
               </div>
             </div>
           </div>
+          {(() => {
+            const child$Props = {
+              beforeChange: async (...eventArgs: any) => {
+                generateStateOnChangePropForCodeComponents(
+                  $state,
+                  "currentSlide",
+                  ["sliderCarousel2", "currentSlide"],
+                  SliderWrapper_Helpers
+                ).apply(null, eventArgs);
+              },
+              className: classNames("__wab_instance", sty.sliderCarousel2),
+              initialSlide: generateStateValueProp($state, [
+                "sliderCarousel2",
+                "currentSlide"
+              ]),
+              ref: ref => {
+                $refs["sliderCarousel2"] = ref;
+              },
+              sliderScopeClassName: sty["sliderCarousel2__slider"],
+              slidesPerRow: 3
+            };
+            initializeCodeComponentStates(
+              $state,
+              [
+                {
+                  name: "currentSlide",
+                  plasmicStateName: "sliderCarousel2.currentSlide"
+                }
+              ],
+              [],
+              SliderWrapper_Helpers ?? {},
+              child$Props
+            );
+
+            return (
+              <SliderWrapper
+                data-plasmic-name={"sliderCarousel2"}
+                data-plasmic-override={overrides.sliderCarousel2}
+                {...child$Props}
+              >
+                <div
+                  className={classNames(projectcss.all, sty.freeBox___3TVLr)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__toHRu)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    src={
+                      "https://static1.plasmic.app/components/react-slick/slide1.png"
+                    }
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.freeBox__g2R6K)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__e8DAq)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    src={
+                      "https://static1.plasmic.app/components/react-slick/slide2.png"
+                    }
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.freeBox__eL15R)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__bRmKg)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    src={
+                      "https://static1.plasmic.app/components/react-slick/slide3.png"
+                    }
+                  />
+                </div>
+                <div className={classNames(projectcss.all, sty.freeBox__x0TfN)}>
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__bkh6N)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    src={
+                      "https://static1.plasmic.app/components/react-slick/slide3.png"
+                    }
+                  />
+                </div>
+                <div
+                  className={classNames(projectcss.all, sty.freeBox___8B43T)}
+                >
+                  <PlasmicImg__
+                    alt={""}
+                    className={classNames(sty.img__inKoc)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"100%"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    src={
+                      "https://static1.plasmic.app/components/react-slick/slide3.png"
+                    }
+                  />
+                </div>
+              </SliderWrapper>
+            );
+          })()}
         </div>
       </div>
     </React.Fragment>
@@ -6782,7 +6928,8 @@ const PlasmicDescendants = {
     "frame26",
     "frame27",
     "button2",
-    "heading3"
+    "heading3",
+    "sliderCarousel2"
   ],
   englishVersion: [
     "englishVersion",
@@ -9304,7 +9451,8 @@ const PlasmicDescendants = {
   frame26: ["frame26"],
   frame27: ["frame27"],
   button2: ["button2"],
-  heading3: ["heading3"]
+  heading3: ["heading3"],
+  sliderCarousel2: ["sliderCarousel2"]
 } as const;
 type NodeNameType = keyof typeof PlasmicDescendants;
 type DescendantsType<T extends NodeNameType> =
@@ -9779,6 +9927,7 @@ type NodeDefaultElementType = {
   frame27: "div";
   button2: typeof AntdButton;
   heading3: "div";
+  sliderCarousel2: typeof SliderWrapper;
 };
 
 type ReservedPropsType = "variants" | "args" | "overrides";
@@ -10398,6 +10547,7 @@ export const PlasmicNew3 = Object.assign(
     frame27: makeNodeComponent("frame27"),
     button2: makeNodeComponent("button2"),
     heading3: makeNodeComponent("heading3"),
+    sliderCarousel2: makeNodeComponent("sliderCarousel2"),
 
     // Metadata about props expected for PlasmicNew3
     internalVariantProps: PlasmicNew3__VariantProps,
