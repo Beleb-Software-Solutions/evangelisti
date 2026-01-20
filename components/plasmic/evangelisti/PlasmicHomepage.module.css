@@ -1762,8 +1762,7 @@
   align-items: center;
   background:
     linear-gradient(0deg, #0d153500 72%, #0d1535 100%) 0% 0% / 100% 100% repeat,
-    linear-gradient(#00295f7d, #00295f7d),
-    url("/plasmic/evangelisti/images/group1321315422Png.png") top 50% left 50% / cover repeat;
+    url("/plasmic/evangelisti/images/group1321315422Png2.png") top 0% left 50% / cover repeat;
   min-width: 0;
   padding: 0px;
 }
@@ -1814,6 +1813,10 @@
 .reveal__rrZbp:global(.__wab_instance) {
   max-width: 100%;
   object-fit: cover;
+  left: 0px;
+  top: 150px;
+  z-index: 1;
+  position: sticky;
 }
 .freeBox__mp4th {
   display: flex;
@@ -2454,7 +2457,7 @@
   right: 0;
   bottom: 0;
   background: #ffffff;
-  row-gap: 70px;
+  row-gap: 0px;
   padding: 0px;
 }
 @media (max-width: 620px) {
@@ -2470,6 +2473,33 @@
 }
 .img__jwVyz > picture > img {
   object-fit: cover;
+}
+.freeBox__eLMtB {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 120px;
+  max-width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  min-width: 0;
+  flex-shrink: 0;
+  padding: 0px;
+}
+.freeBox__bYfM6 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200px;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  background: linear-gradient(0deg, #ffffff 0%, #efefefe6 100%) 0% 0% / 100%
+    100% repeat;
+  min-width: 0;
+  flex-shrink: 0;
+  padding: 0px;
 }
 .freeBox__ztFmg {
   flex-direction: column;
@@ -2887,7 +2917,7 @@
   margin-bottom: 70px;
   row-gap: 100px;
   min-width: 0;
-  padding: 200px 50px 250px;
+  padding: 170px 50px 250px;
 }
 @media (max-width: 1023px) {
   .freeBox__xDlJu {
@@ -5071,7 +5101,7 @@
   width: auto;
   height: auto;
   max-width: 100%;
-  padding: 0px 50px 0px 0px;
+  padding: 0px;
 }
 @media (max-width: 620px) {
   .freeBox__lhcXm {
@@ -8485,23 +8515,22 @@
   position: relative;
   width: 100%;
   height: auto;
-  max-width: 1076px;
+  max-width: 700px;
   justify-content: flex-start;
   align-items: center;
-  min-height: 1210px;
   background: #ffffff;
   overflow: hidden;
   row-gap: 100px;
   min-width: 0;
   border-radius: 40.945px;
-  padding: 70px;
+  padding: 50px 50px 40px;
 }
 @media (max-width: 620px) {
   .freeBox__ssy5R {
     row-gap: 40px;
     min-height: auto;
     column-gap: 0px;
-    padding: 50px 30px;
+    padding: 40px 20px;
   }
 }
 .heading5 {
@@ -8530,7 +8559,7 @@
 .text__poOor {
   animation: none;
   display: block;
-  font-size: 53.771034240722656px;
+  font-size: 48px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   letter-spacing: 0em;
@@ -8557,7 +8586,7 @@
 .text___7O4Bv {
   animation: none;
   display: block;
-  font-size: 26.158884048461914px;
+  font-size: 22px;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   letter-spacing: 0.01em;
@@ -8569,12 +8598,18 @@
   transform: translate(2.842170943040401e-14px, -0.3359375px);
   transform-origin: top left;
   font-style: normal;
-  text-align: left;
+  text-align: center;
   text-transform: none;
   white-space: pre-wrap;
   user-select: text;
   text-decoration-line: none;
   text-overflow: clip;
+}
+@media (max-width: 620px) {
+  .text___7O4Bv {
+    text-align: left;
+    font-size: 18px;
+  }
 }
 .form3:global(.__wab_instance) {
   animation: none;
@@ -8613,9 +8648,9 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 8px;
+  padding: 0px;
 }
-.input__zzahl:global(.__wab_instance) {
+.input7:global(.__wab_instance) {
   animation: none;
   max-width: 100%;
   object-fit: cover;
@@ -8642,9 +8677,9 @@
   height: auto;
   max-width: 100%;
   min-width: 0;
-  padding: 8px;
+  padding: 0px;
 }
-.input__oiLcX:global(.__wab_instance) {
+.input8:global(.__wab_instance) {
   animation: none;
   max-width: 100%;
   object-fit: cover;
@@ -8654,7 +8689,7 @@
   position: relative;
   margin: 0px;
 }
-.formField:global(.__wab_instance) {
+.formField__a75Lp:global(.__wab_instance) {
   animation: none;
   width: 100%;
   min-width: 0;
@@ -8674,7 +8709,7 @@
   min-width: 0;
   border-radius: 20.7px;
   padding: 8px;
-  border: 3.4px solid #cdcdcd;
+  border: 1.5px solid #cdcdcd;
 }
 .textArea5:global(.__wab_instance) {
   animation: none;
@@ -8686,7 +8721,7 @@
   max-width: 100%;
   object-fit: cover;
   width: 100%;
-  height: 95.59px;
+  height: 75px;
   background: linear-gradient(90deg, #53d8fb 0%, #daff7c 100%) 0% 0% / 100% 100%
     repeat;
   min-width: 0;
@@ -8695,7 +8730,7 @@
 .text__w30YZ {
   animation: none;
   display: block;
-  font-size: 30.7px;
+  font-size: 22px;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   letter-spacing: 0em;

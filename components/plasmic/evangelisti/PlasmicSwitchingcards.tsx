@@ -244,9 +244,23 @@ function PlasmicSwitchingcards__RenderFunc(props: {
                   )
                 })}
               >
-                <div className={classNames(projectcss.all, sty.freeBox__yfyv6)}>
+                <div
+                  className={classNames(projectcss.all, sty.freeBox__yfyv6, {
+                    [sty.freeBoxothers__1st__yfyv68N26Z]: hasVariant(
+                      $state,
+                      "others",
+                      "_1st"
+                    )
+                  })}
+                >
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__b4Gq)}
+                    className={classNames(projectcss.all, sty.freeBox__b4Gq, {
+                      [sty.freeBoxothers__1st__b4Gq8N26Z]: hasVariant(
+                        $state,
+                        "others",
+                        "_1st"
+                      )
+                    })}
                   >
                     <div
                       data-plasmic-name={"card10"}
