@@ -69,6 +69,8 @@ import SwitchingLetters from "../../SwitchingLetters"; // plasmic-import: jzvN_9
 import SwitchingLettersMobile from "../../SwitchingLettersMobile"; // plasmic-import: 1s9anK6EM1jR/component
 import Switchingcards from "../../Switchingcards"; // plasmic-import: b-UKtaLO3ybb/component
 import Newsliding3Cards from "../../Newsliding3Cards"; // plasmic-import: IWAG93DqZ671/component
+import { SliderWrapper } from "@plasmicpkgs/react-slick";
+import { sliderHelpers as SliderWrapper_Helpers } from "@plasmicpkgs/react-slick";
 import TurningCards from "../../TurningCards"; // plasmic-import: WRX8WwTCusqp/component
 import TurningCards2 from "../../TurningCards2"; // plasmic-import: V2c94nqSTYeI/component
 import PoppingScrollAnimation from "../../PoppingScrollAnimation"; // plasmic-import: 68rA_srnr6X-/component
@@ -172,6 +174,8 @@ export type PlasmicHomepage__OverridesType = {
   preheader?: Flex__<"div">;
   switchingcards?: Flex__<typeof Switchingcards>;
   newsliding3Cards?: Flex__<typeof Newsliding3Cards>;
+  sliderCarousel?: Flex__<typeof SliderWrapper>;
+  group269?: Flex__<"div">;
   preheader2?: Flex__<"div">;
   image18?: Flex__<"div">;
   image21?: Flex__<"div">;
@@ -390,6 +394,15 @@ function PlasmicHomepage__RenderFunc(props: {
         initFunc: ({ $props, $state, $queries, $ctx }) => undefined,
 
         onMutate: generateOnMutateForSpec("value", AntdInput_Helpers)
+      },
+      {
+        path: "sliderCarousel.currentSlide",
+        type: "private",
+        variableType: "number",
+        initFunc: ({ $props, $state, $queries, $ctx }) => 0,
+
+        refName: "sliderCarousel",
+        onMutate: generateOnMutateForSpec("currentSlide", SliderWrapper_Helpers)
       }
     ],
     [$props, $ctx, $refs]
@@ -2119,7 +2132,105 @@ function PlasmicHomepage__RenderFunc(props: {
                             projectcss.all,
                             sty.freeBox___5Mujh
                           )}
-                        />
+                        >
+                          {(() => {
+                            const child$Props = {
+                              arrows: false,
+                              autoplay: true,
+                              autoplaySpeed: 0,
+                              beforeChange: async (...eventArgs: any) => {
+                                generateStateOnChangePropForCodeComponents(
+                                  $state,
+                                  "currentSlide",
+                                  ["sliderCarousel", "currentSlide"],
+                                  SliderWrapper_Helpers
+                                ).apply(null, eventArgs);
+                              },
+                              centerMode: true,
+                              className: classNames(
+                                "__wab_instance",
+                                sty.sliderCarousel
+                              ),
+                              cssEase: "linear",
+                              initialSlide: generateStateValueProp($state, [
+                                "sliderCarousel",
+                                "currentSlide"
+                              ]),
+                              ref: ref => {
+                                $refs["sliderCarousel"] = ref;
+                              },
+                              sliderScopeClassName:
+                                sty["sliderCarousel__slider"],
+                              slidesPerRow: 3,
+                              speed: 5000
+                            };
+                            initializeCodeComponentStates(
+                              $state,
+                              [
+                                {
+                                  name: "currentSlide",
+                                  plasmicStateName:
+                                    "sliderCarousel.currentSlide"
+                                }
+                              ],
+                              [],
+                              SliderWrapper_Helpers ?? {},
+                              child$Props
+                            );
+
+                            return (
+                              <SliderWrapper
+                                data-plasmic-name={"sliderCarousel"}
+                                data-plasmic-override={overrides.sliderCarousel}
+                                {...child$Props}
+                              >
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__l2XvQ
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__xi691
+                                    )}
+                                  >
+                                    <div
+                                      data-plasmic-name={"group269"}
+                                      data-plasmic-override={overrides.group269}
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.group269
+                                      )}
+                                    >
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__sPtTw
+                                        )}
+                                      >
+                                        {"Structures that work"}
+                                      </div>
+                                      <div
+                                        className={classNames(
+                                          projectcss.all,
+                                          projectcss.__wab_text,
+                                          sty.text__sFziB
+                                        )}
+                                      >
+                                        {
+                                          "share/asset deals, carve-outs, spin-offs,\nmergers, JV structures."
+                                        }
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </SliderWrapper>
+                            );
+                          })()}
+                        </div>
                       </div>
                       <div
                         className={classNames(
@@ -4320,7 +4431,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                       )}
                                     >
                                       {
-                                        "Guiding the founder through inception of the company, receipt of first cheque and the operational (legal) architecture of the business - bespoke, with 24/7 coverage."
+                                        "Advising on founding the GmbH (Articles, Vesting), the first cheque receipt and the operational (legal) architecture of the business - bespoke, with 24/7 coverage."
                                       }
                                     </div>
                                   </div>
@@ -5330,6 +5441,147 @@ function PlasmicHomepage__RenderFunc(props: {
                             "__wab_instance",
                             sty.faq__xgtDx
                           )}
+                          slot={
+                            <React.Fragment>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__lGi7G
+                                )}
+                              >
+                                <React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"Marina Capital "}
+                                  </span>
+                                  <React.Fragment>
+                                    {
+                                      "on its investment in Rokksta GmbH through up-front convertible loan and consecutive seed-round investment.\n\n"
+                                    }
+                                  </React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"Jetpack Studio GmbH, "}
+                                  </span>
+                                  <React.Fragment>
+                                    {
+                                      "a venture studio, in its formation and the acquisition of multiple portfolio companies through founding investments, convertible loans and/or secondaries.\n\n"
+                                    }
+                                  </React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"Blue Pool Capital"}
+                                  </span>
+                                  <React.Fragment>
+                                    {
+                                      "*, the family office of one Alibaba founder, as lead investor in the \u20ac80 million Series F financing round of GetYourGuide AG, combined with a \u20ac102 million credit facility.\n\n"
+                                    }
+                                  </React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"L\u00f6wenzahn Organics GmbH"}
+                                  </span>
+                                  <React.Fragment>
+                                    {
+                                      " in connection with the exit of a family office (secondary transaction), the change of its sales model, and the concurrent investment by OysterBay.\n\n\n"
+                                    }
+                                  </React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"Xemx"}
+                                  </span>
+                                  <React.Fragment>
+                                    {
+                                      " based on workshopping through their business\u2018 needs, we created a modular customer agreement and made suggestion as to the potential monetizations of their product."
+                                    }
+                                  </React.Fragment>
+                                </React.Fragment>
+                              </div>
+                              <div
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.__wab_text,
+                                  sty.text__wzGr
+                                )}
+                              >
+                                <React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"Wholix GmbH"}
+                                  </span>
+                                  <React.Fragment>
+                                    {
+                                      " on the negotiation of the first cheque through a bespoke CLA and services for shares advisory structure\n\n"
+                                    }
+                                  </React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"Glorya GmbH "}
+                                  </span>
+                                  <React.Fragment>
+                                    {
+                                      "on the entry of late co-founders, the pre-seed financing round, and the professionalisation of its employment structures (including IP) and the implementation of a VSOP. \n\n"
+                                    }
+                                  </React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"NOBS Holding GmbH"}
+                                  </span>
+                                  <React.Fragment>
+                                    {
+                                      " in its formation and entry of founding investors through a bespoke structure.\n\n"
+                                    }
+                                  </React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"Merlin Digital Solutions GmbH"}
+                                  </span>
+                                  <React.Fragment>
+                                    {
+                                      " in the entry of an investor through the combination of secondary and convertible loan, and the optimisation of its structural setup including corporate, VSOP and employment law matters. \n\n\n\n\n*representations as part of Sullivan & Cromwell LLP"
+                                    }
+                                  </React.Fragment>
+                                </React.Fragment>
+                              </div>
+                            </React.Fragment>
+                          }
                         />
                       </Reveal>
                       <Reveal
@@ -6391,6 +6643,8 @@ const PlasmicDescendants = {
     "preheader",
     "switchingcards",
     "newsliding3Cards",
+    "sliderCarousel",
+    "group269",
     "preheader2",
     "image18",
     "image21",
@@ -6559,6 +6813,8 @@ const PlasmicDescendants = {
     "preheader",
     "switchingcards",
     "newsliding3Cards",
+    "sliderCarousel",
+    "group269",
     "preheader2",
     "image18",
     "image21",
@@ -6725,6 +6981,8 @@ const PlasmicDescendants = {
     "preheader",
     "switchingcards",
     "newsliding3Cards",
+    "sliderCarousel",
+    "group269",
     "preheader2",
     "image18",
     "image21",
@@ -6995,6 +7253,8 @@ const PlasmicDescendants = {
     "preheader",
     "switchingcards",
     "newsliding3Cards",
+    "sliderCarousel",
+    "group269",
     "preheader2",
     "image18",
     "image21",
@@ -7030,6 +7290,8 @@ const PlasmicDescendants = {
     "preheader",
     "switchingcards",
     "newsliding3Cards",
+    "sliderCarousel",
+    "group269",
     "preheader2",
     "image18",
     "image21",
@@ -7037,10 +7299,19 @@ const PlasmicDescendants = {
     "preheader3",
     "ourCommandmentsOfTransactionAdvisory"
   ],
-  content3: ["content3", "preheader", "switchingcards", "newsliding3Cards"],
+  content3: [
+    "content3",
+    "preheader",
+    "switchingcards",
+    "newsliding3Cards",
+    "sliderCarousel",
+    "group269"
+  ],
   preheader: ["preheader"],
   switchingcards: ["switchingcards"],
   newsliding3Cards: ["newsliding3Cards"],
+  sliderCarousel: ["sliderCarousel", "group269"],
+  group269: ["group269"],
   preheader2: ["preheader2"],
   image18: ["image18"],
   image21: ["image21"],
@@ -7450,6 +7721,8 @@ type NodeDefaultElementType = {
   preheader: "div";
   switchingcards: typeof Switchingcards;
   newsliding3Cards: typeof Newsliding3Cards;
+  sliderCarousel: typeof SliderWrapper;
+  group269: "div";
   preheader2: "div";
   image18: "div";
   image21: "div";
@@ -7703,6 +7976,8 @@ export const PlasmicHomepage = Object.assign(
     preheader: makeNodeComponent("preheader"),
     switchingcards: makeNodeComponent("switchingcards"),
     newsliding3Cards: makeNodeComponent("newsliding3Cards"),
+    sliderCarousel: makeNodeComponent("sliderCarousel"),
+    group269: makeNodeComponent("group269"),
     preheader2: makeNodeComponent("preheader2"),
     image18: makeNodeComponent("image18"),
     image21: makeNodeComponent("image21"),
