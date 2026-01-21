@@ -176,6 +176,8 @@ export type PlasmicHomepage__OverridesType = {
   newsliding3Cards?: Flex__<typeof Newsliding3Cards>;
   sliderCarousel?: Flex__<typeof SliderWrapper>;
   group269?: Flex__<"div">;
+  group270?: Flex__<"div">;
+  group271?: Flex__<"div">;
   preheader2?: Flex__<"div">;
   image18?: Flex__<"div">;
   image21?: Flex__<"div">;
@@ -2193,36 +2195,149 @@ function PlasmicHomepage__RenderFunc(props: {
                                   <div
                                     className={classNames(
                                       projectcss.all,
-                                      sty.freeBox__xi691
+                                      sty.freeBox__yRa
                                     )}
                                   >
                                     <div
-                                      data-plasmic-name={"group269"}
-                                      data-plasmic-override={overrides.group269}
                                       className={classNames(
                                         projectcss.all,
-                                        sty.group269
+                                        sty.freeBox__xi691
                                       )}
                                     >
                                       <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text__sPtTw
-                                        )}
-                                      >
-                                        {"Structures that work"}
-                                      </div>
-                                      <div
-                                        className={classNames(
-                                          projectcss.all,
-                                          projectcss.__wab_text,
-                                          sty.text__sFziB
-                                        )}
-                                      >
-                                        {
-                                          "share/asset deals, carve-outs, spin-offs,\nmergers, JV structures."
+                                        data-plasmic-name={"group269"}
+                                        data-plasmic-override={
+                                          overrides.group269
                                         }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.group269
+                                        )}
+                                      >
+                                        <div
+                                          className={classNames(
+                                            projectcss.all,
+                                            projectcss.__wab_text,
+                                            sty.text__sPtTw
+                                          )}
+                                        >
+                                          {"Structures that work"}
+                                        </div>
+                                        <div
+                                          className={classNames(
+                                            projectcss.all,
+                                            projectcss.__wab_text,
+                                            sty.text__sFziB
+                                          )}
+                                        >
+                                          {
+                                            "share/asset deals, carve-outs, spin-offs, mergers, JV structures."
+                                          }
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__t9Kj8
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__inPq
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.freeBox__i5FCp
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"group270"}
+                                        data-plasmic-override={
+                                          overrides.group270
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.group270
+                                        )}
+                                      >
+                                        <div
+                                          className={classNames(
+                                            projectcss.all,
+                                            projectcss.__wab_text,
+                                            sty.text__opVg
+                                          )}
+                                        >
+                                          {"Structures that work"}
+                                        </div>
+                                        <div
+                                          className={classNames(
+                                            projectcss.all,
+                                            projectcss.__wab_text,
+                                            sty.text__uRtE
+                                          )}
+                                        >
+                                          {
+                                            "share/asset deals, carve-outs, spin-offs, mergers, JV structures."
+                                          }
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__giwUy
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__m0GbX
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.freeBox__uWxgl
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"group271"}
+                                        data-plasmic-override={
+                                          overrides.group271
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.group271
+                                        )}
+                                      >
+                                        <div
+                                          className={classNames(
+                                            projectcss.all,
+                                            projectcss.__wab_text,
+                                            sty.text__uTnRx
+                                          )}
+                                        >
+                                          {"Structures that work"}
+                                        </div>
+                                        <div
+                                          className={classNames(
+                                            projectcss.all,
+                                            projectcss.__wab_text,
+                                            sty.text___8MAy
+                                          )}
+                                        >
+                                          {
+                                            "share/asset deals, carve-outs, spin-offs, mergers, JV structures."
+                                          }
+                                        </div>
                                       </div>
                                     </div>
                                   </div>
@@ -5575,7 +5690,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                   </span>
                                   <React.Fragment>
                                     {
-                                      " in the entry of an investor through the combination of secondary and convertible loan, and the optimisation of its structural setup including corporate, VSOP and employment law matters. \n\n\n\n\n*representations as part of Sullivan & Cromwell LLP"
+                                      " in the entry of an investor through the combination of secondary and convertible loan, and the optimisation of its structural setup including corporate, VSOP and employment law matters. \n\n\n\n*representations as part of Sullivan & Cromwell LLP"
                                     }
                                   </React.Fragment>
                                 </React.Fragment>
@@ -5642,7 +5757,20 @@ function PlasmicHomepage__RenderFunc(props: {
                                   </span>
                                   <React.Fragment>
                                     {
-                                      " on its establishment, in particular, the creation of bespoke articles of association and an international founding shareholder structure.\u00a0\n\nxemX materials space exploration GmbH in the development of a modular, scalable customer agreement."
+                                      " on its establishment, in particular, the creation of bespoke articles of association and an international founding shareholder structure.\u00a0\n\n"
+                                    }
+                                  </React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"xemX"}
+                                  </span>
+                                  <React.Fragment>
+                                    {
+                                      " materials space exploration GmbH in the development of a modular, scalable customer agreement."
                                     }
                                   </React.Fragment>
                                 </React.Fragment>
@@ -6645,6 +6773,8 @@ const PlasmicDescendants = {
     "newsliding3Cards",
     "sliderCarousel",
     "group269",
+    "group270",
+    "group271",
     "preheader2",
     "image18",
     "image21",
@@ -6815,6 +6945,8 @@ const PlasmicDescendants = {
     "newsliding3Cards",
     "sliderCarousel",
     "group269",
+    "group270",
+    "group271",
     "preheader2",
     "image18",
     "image21",
@@ -6983,6 +7115,8 @@ const PlasmicDescendants = {
     "newsliding3Cards",
     "sliderCarousel",
     "group269",
+    "group270",
+    "group271",
     "preheader2",
     "image18",
     "image21",
@@ -7255,6 +7389,8 @@ const PlasmicDescendants = {
     "newsliding3Cards",
     "sliderCarousel",
     "group269",
+    "group270",
+    "group271",
     "preheader2",
     "image18",
     "image21",
@@ -7292,6 +7428,8 @@ const PlasmicDescendants = {
     "newsliding3Cards",
     "sliderCarousel",
     "group269",
+    "group270",
+    "group271",
     "preheader2",
     "image18",
     "image21",
@@ -7305,13 +7443,17 @@ const PlasmicDescendants = {
     "switchingcards",
     "newsliding3Cards",
     "sliderCarousel",
-    "group269"
+    "group269",
+    "group270",
+    "group271"
   ],
   preheader: ["preheader"],
   switchingcards: ["switchingcards"],
   newsliding3Cards: ["newsliding3Cards"],
-  sliderCarousel: ["sliderCarousel", "group269"],
+  sliderCarousel: ["sliderCarousel", "group269", "group270", "group271"],
   group269: ["group269"],
+  group270: ["group270"],
+  group271: ["group271"],
   preheader2: ["preheader2"],
   image18: ["image18"],
   image21: ["image21"],
@@ -7723,6 +7865,8 @@ type NodeDefaultElementType = {
   newsliding3Cards: typeof Newsliding3Cards;
   sliderCarousel: typeof SliderWrapper;
   group269: "div";
+  group270: "div";
+  group271: "div";
   preheader2: "div";
   image18: "div";
   image21: "div";
@@ -7978,6 +8122,8 @@ export const PlasmicHomepage = Object.assign(
     newsliding3Cards: makeNodeComponent("newsliding3Cards"),
     sliderCarousel: makeNodeComponent("sliderCarousel"),
     group269: makeNodeComponent("group269"),
+    group270: makeNodeComponent("group270"),
+    group271: makeNodeComponent("group271"),
     preheader2: makeNodeComponent("preheader2"),
     image18: makeNodeComponent("image18"),
     image21: makeNodeComponent("image21"),
