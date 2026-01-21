@@ -382,13 +382,4 @@
   position: relative;
   top: auto;
   left: auto;
-  flex-shrink: 0;
-}
-.ctaButtonopen:global(.__wab_instance) {
-  flex-shrink: 0;
-}
-@media (max-width: 1023px) {
-  .ctaButtonopen:global(.__wab_instance) {
-    flex-shrink: 0;
-  }
 }

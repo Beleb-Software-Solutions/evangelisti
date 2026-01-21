@@ -8,27 +8,26 @@
     0% 0% / 100% 100% no-repeat;
   box-shadow: inset 0px 0px 0px 2.03389835357666px rgba(1, 33, 54, 1);
   transform: translate(-0.00005917139060329646px, 0.00011370317224645987px);
-  width: 249px;
-  height: 60px;
-  display: flex;
+  width: auto;
+  height: auto;
+  display: inline-flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-right: 8px;
   column-gap: 22px;
   position: relative;
   cursor: pointer;
   transition-property: all;
   transition-duration: 0.3s;
+  justify-self: flex-start;
   -webkit-transition-property: all;
   -webkit-transition-duration: 0.3s;
   border-radius: 30.097061157226562px;
+  padding: 8px 8px 8px 16px;
 }
 .ctaButton:hover {
   column-gap: 28px;
-  padding-right: 4px;
+  padding-right: 8px;
   background: linear-gradient(
       90deg,
       rgba(83, 216, 251, 1) 0%,
@@ -40,7 +39,7 @@
 .text {
   animation: none;
   display: block;
-  font-size: 18.171810150146484px;
+  font-size: 16px;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   letter-spacing: 0em;
@@ -63,8 +62,8 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 48px;
-  height: 48px;
+  width: 38px;
+  height: 38px;
   max-width: 100%;
   justify-content: center;
   align-items: center;
@@ -80,8 +79,8 @@
   padding: 0px;
 }
 .ctaButton:hover .freeBox {
-  width: 50px;
-  height: 50px;
+  width: 38px;
+  height: 38px;
   flex-shrink: 0;
 }
 .img {
@@ -89,12 +88,17 @@
   object-fit: cover;
   max-width: 100%;
   transform: translate(0.00026421836810186505px, -0.00004078190613654442px);
-  width: 32.20338821411133px;
-  height: 19.32203483581543px;
+  width: 22px;
+  height: 14px;
   display: block;
   overflow: hidden;
   flex-shrink: 0;
 }
 .img > picture > img {
   object-fit: cover;
+}
+.ctaButton:hover .img {
+  width: 28px;
+  height: 20px;
+  flex-shrink: 0;
 }

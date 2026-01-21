@@ -2557,7 +2557,6 @@ function PlasmicHomepage__RenderFunc(props: {
                               "__wab_instance",
                               sty.reveal__ioUsq
                             )}
-                            direction={"up"}
                             triggerOnce={true}
                           >
                             <div

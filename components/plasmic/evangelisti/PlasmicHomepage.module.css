@@ -96,7 +96,7 @@
   max-width: 100%;
   justify-content: flex-start;
   align-items: center;
-  background: url("/plasmic/evangelisti/images/group16Png.png") top 50% left 50% / cover repeat;
+  background: url("/plasmic/evangelisti/images/group16Png.png") top 50% left 50% / cover no-repeat;
   min-width: 0;
   padding: 0px;
 }
@@ -316,6 +316,11 @@
 }
 .img__rJ3Ts > picture > img {
   object-fit: cover;
+}
+@media (max-width: 1023px) {
+  .img__rJ3Ts {
+    display: none;
+  }
 }
 .section2 {
   display: flex;
@@ -575,7 +580,6 @@
 }
 .ctaButton__jjctq:global(.__wab_instance) {
   animation: none;
-  flex-shrink: 0;
 }
 .section3 {
   display: flex;
@@ -1775,7 +1779,7 @@
   max-width: 100%;
   justify-content: center;
   align-items: stretch;
-  column-gap: 126px;
+  column-gap: 150px;
   min-width: 0;
   padding: 70px;
 }
@@ -1824,7 +1828,7 @@
   position: sticky;
   width: 100%;
   height: auto;
-  max-width: 100%;
+  max-width: 500px;
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 20px;
@@ -1895,13 +1899,13 @@
   position: relative;
   top: auto;
   left: auto;
-  width: 556px;
-  height: 147px;
+  width: 100%;
+  height: auto;
   transform: translate(0px, 0.0937652587890625px);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-shrink: 0;
+  min-width: 0;
 }
 @media (max-width: 620px) {
   .theGoldenRulesOfStrategicLegalCounsel {
@@ -1938,12 +1942,12 @@
   position: relative;
   top: auto;
   left: auto;
-  width: 556px;
-  height: 126px;
+  width: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex-shrink: 0;
+  min-width: 0;
 }
 @media (max-width: 620px) {
   .everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities {
@@ -1968,6 +1972,8 @@
   user-select: text;
   text-decoration-line: none;
   text-overflow: clip;
+  width: 100%;
+  min-width: 0;
 }
 @media (max-width: 620px) {
   .text___9TbLz {
@@ -3643,7 +3649,6 @@
 }
 .ctaButton__fsyfW:global(.__wab_instance) {
   animation: none;
-  flex-shrink: 0;
 }
 .section6 {
   display: flex;
@@ -7596,7 +7601,6 @@
 }
 .ctaButton__bik4I:global(.__wab_instance) {
   animation: none;
-  flex-shrink: 0;
 }
 .section10 {
   display: flex;

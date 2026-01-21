@@ -162,12 +162,12 @@ function PlasmicCtaButton__RenderFunc(props: {
           data-plasmic-override={overrides.img}
           alt={""}
           className={classNames(sty.img)}
-          displayHeight={"19.32203483581543px"}
+          displayHeight={"14px"}
           displayMaxHeight={"none"}
           displayMaxWidth={"100%"}
           displayMinHeight={"0"}
           displayMinWidth={"0"}
-          displayWidth={"32.20338821411133px"}
+          displayWidth={"22px"}
           loading={"lazy"}
           src={{
             src: "/plasmic/evangelisti/images/graphicElemetns.svg",
