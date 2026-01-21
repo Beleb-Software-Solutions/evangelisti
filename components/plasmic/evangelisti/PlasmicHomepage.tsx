@@ -2113,6 +2113,13 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.newsliding3Cards
                           )}
                         />
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            sty.freeBox___5Mujh
+                          )}
+                        />
                       </div>
                       <div
                         className={classNames(
@@ -4886,9 +4893,19 @@ function PlasmicHomepage__RenderFunc(props: {
                                           sty.text__h5ELm
                                         )}
                                       >
-                                        {
-                                          "(International) startups entering or operating in Germany"
-                                        }
+                                        {hasVariant(
+                                          globalVariants,
+                                          "screen",
+                                          "mobile"
+                                        )
+                                          ? "Contract reviews, fast strategic decision, product launches"
+                                          : hasVariant(
+                                                globalVariants,
+                                                "screen",
+                                                "tablet"
+                                              )
+                                            ? "Contract reviews, fast strategic decision, product launches"
+                                            : "Contract reviews, fast strategic decision, product launches"}
                                       </div>
                                     </div>
                                   </div>
@@ -5241,7 +5258,19 @@ function PlasmicHomepage__RenderFunc(props: {
                                       sty.text___7X8GG
                                     )}
                                   >
-                                    {"EVANGELISTI\nFounding Partner"}
+                                    {hasVariant(
+                                      globalVariants,
+                                      "screen",
+                                      "mobile"
+                                    )
+                                      ? "Freshields\nCorporate"
+                                      : hasVariant(
+                                            globalVariants,
+                                            "screen",
+                                            "tablet"
+                                          )
+                                        ? "Freshfields\nCorporate"
+                                        : "Freshfields\nCorporate"}
                                   </div>
                                 </div>
                               </div>
