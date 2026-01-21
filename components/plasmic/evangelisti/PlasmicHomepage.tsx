@@ -178,6 +178,9 @@ export type PlasmicHomepage__OverridesType = {
   group269?: Flex__<"div">;
   group270?: Flex__<"div">;
   group271?: Flex__<"div">;
+  group272?: Flex__<"div">;
+  group273?: Flex__<"div">;
+  group274?: Flex__<"div">;
   preheader2?: Flex__<"div">;
   image18?: Flex__<"div">;
   image21?: Flex__<"div">;
@@ -2163,8 +2166,16 @@ function PlasmicHomepage__RenderFunc(props: {
                               },
                               sliderScopeClassName:
                                 sty["sliderCarousel__slider"],
-                              slidesPerRow: 3,
-                              speed: 5000
+                              slidesPerRow: hasVariant(
+                                globalVariants,
+                                "screen",
+                                "mobile"
+                              )
+                                ? 1
+                                : hasVariant(globalVariants, "screen", "tablet")
+                                  ? 2
+                                  : 3,
+                              speed: 10000
                             };
                             initializeCodeComponentStates(
                               $state,
@@ -2273,7 +2284,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                             sty.text__opVg
                                           )}
                                         >
-                                          {"Structures that work"}
+                                          {"Bridge valuation gaps"}
                                         </div>
                                         <div
                                           className={classNames(
@@ -2283,7 +2294,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                           )}
                                         >
                                           {
-                                            "share/asset deals, carve-outs, spin-offs, mergers, JV structures."
+                                            "call/put options and pragmatic earn-out mechanics."
                                           }
                                         </div>
                                       </div>
@@ -2325,7 +2336,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                             sty.text__uTnRx
                                           )}
                                         >
-                                          {"Structures that work"}
+                                          {"Focused DD & executive outputs"}
                                         </div>
                                         <div
                                           className={classNames(
@@ -2335,8 +2346,248 @@ function PlasmicHomepage__RenderFunc(props: {
                                           )}
                                         >
                                           {
-                                            "share/asset deals, carve-outs, spin-offs, mergers, JV structures."
+                                            "locked-box/MAC calibrated to business reality."
                                           }
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__woQn
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__q3U
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.freeBox__n4BUg
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"group272"}
+                                        data-plasmic-override={
+                                          overrides.group272
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.group272
+                                        )}
+                                      >
+                                        <div
+                                          className={classNames(
+                                            projectcss.all,
+                                            projectcss.__wab_text,
+                                            sty.text__u5A6C
+                                          )}
+                                        >
+                                          <React.Fragment>
+                                            {(() => {
+                                              try {
+                                                return "Negotiation-ready documents";
+                                              } catch (e) {
+                                                if (
+                                                  e instanceof TypeError ||
+                                                  e?.plasmicType ===
+                                                    "PlasmicUndefinedDataError"
+                                                ) {
+                                                  return "Focused DD & executive outputs";
+                                                }
+                                                throw e;
+                                              }
+                                            })()}
+                                          </React.Fragment>
+                                        </div>
+                                        <div
+                                          className={classNames(
+                                            projectcss.all,
+                                            projectcss.__wab_text,
+                                            sty.text__qCCb
+                                          )}
+                                        >
+                                          <React.Fragment>
+                                            {(() => {
+                                              try {
+                                                return "decisions fast, no report bloat.";
+                                              } catch (e) {
+                                                if (
+                                                  e instanceof TypeError ||
+                                                  e?.plasmicType ===
+                                                    "PlasmicUndefinedDataError"
+                                                ) {
+                                                  return "locked-box/MAC calibrated to business reality.";
+                                                }
+                                                throw e;
+                                              }
+                                            })()}
+                                          </React.Fragment>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__q6VHw
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__vo182
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.freeBox___1AlJe
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"group273"}
+                                        data-plasmic-override={
+                                          overrides.group273
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.group273
+                                        )}
+                                      >
+                                        <div
+                                          className={classNames(
+                                            projectcss.all,
+                                            projectcss.__wab_text,
+                                            sty.text__elWbI
+                                          )}
+                                        >
+                                          <React.Fragment>
+                                            {(() => {
+                                              try {
+                                                return "Post-closing continuity";
+                                              } catch (e) {
+                                                if (
+                                                  e instanceof TypeError ||
+                                                  e?.plasmicType ===
+                                                    "PlasmicUndefinedDataError"
+                                                ) {
+                                                  return "Focused DD & executive outputs";
+                                                }
+                                                throw e;
+                                              }
+                                            })()}
+                                          </React.Fragment>
+                                        </div>
+                                        <div
+                                          className={classNames(
+                                            projectcss.all,
+                                            projectcss.__wab_text,
+                                            sty.text__gaTx4
+                                          )}
+                                        >
+                                          <React.Fragment>
+                                            {(() => {
+                                              try {
+                                                return "smooth hand-over and governance.";
+                                              } catch (e) {
+                                                if (
+                                                  e instanceof TypeError ||
+                                                  e?.plasmicType ===
+                                                    "PlasmicUndefinedDataError"
+                                                ) {
+                                                  return "locked-box/MAC calibrated to business reality.";
+                                                }
+                                                throw e;
+                                              }
+                                            })()}
+                                          </React.Fragment>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div
+                                  className={classNames(
+                                    projectcss.all,
+                                    sty.freeBox__lvtJ6
+                                  )}
+                                >
+                                  <div
+                                    className={classNames(
+                                      projectcss.all,
+                                      sty.freeBox__pdeNn
+                                    )}
+                                  >
+                                    <div
+                                      className={classNames(
+                                        projectcss.all,
+                                        sty.freeBox__kr4Ue
+                                      )}
+                                    >
+                                      <div
+                                        data-plasmic-name={"group274"}
+                                        data-plasmic-override={
+                                          overrides.group274
+                                        }
+                                        className={classNames(
+                                          projectcss.all,
+                                          sty.group274
+                                        )}
+                                      >
+                                        <div
+                                          className={classNames(
+                                            projectcss.all,
+                                            projectcss.__wab_text,
+                                            sty.text__l2U74
+                                          )}
+                                        >
+                                          <React.Fragment>
+                                            {(() => {
+                                              try {
+                                                return "Bridge valuation gaps";
+                                              } catch (e) {
+                                                if (
+                                                  e instanceof TypeError ||
+                                                  e?.plasmicType ===
+                                                    "PlasmicUndefinedDataError"
+                                                ) {
+                                                  return "Focused DD & executive outputs";
+                                                }
+                                                throw e;
+                                              }
+                                            })()}
+                                          </React.Fragment>
+                                        </div>
+                                        <div
+                                          className={classNames(
+                                            projectcss.all,
+                                            projectcss.__wab_text,
+                                            sty.text__igs1A
+                                          )}
+                                        >
+                                          <React.Fragment>
+                                            {(() => {
+                                              try {
+                                                return "call/put options and pragmatic earn-out mechanics.";
+                                              } catch (e) {
+                                                if (
+                                                  e instanceof TypeError ||
+                                                  e?.plasmicType ===
+                                                    "PlasmicUndefinedDataError"
+                                                ) {
+                                                  return "locked-box/MAC calibrated to business reality.";
+                                                }
+                                                throw e;
+                                              }
+                                            })()}
+                                          </React.Fragment>
                                         </div>
                                       </div>
                                     </div>
@@ -2422,7 +2673,8 @@ function PlasmicHomepage__RenderFunc(props: {
                                       "__wab_instance",
                                       sty.reveal__s3Cn
                                     )}
-                                    effect={"zoom"}
+                                    duration={500}
+                                    effect={"fade"}
                                     triggerOnce={true}
                                   >
                                     <div
@@ -2476,8 +2728,9 @@ function PlasmicHomepage__RenderFunc(props: {
                                       "__wab_instance",
                                       sty.reveal__srOux
                                     )}
-                                    delay={200}
-                                    effect={"zoom"}
+                                    delay={0}
+                                    duration={500}
+                                    effect={"fade"}
                                     triggerOnce={true}
                                   >
                                     <div
@@ -2531,8 +2784,9 @@ function PlasmicHomepage__RenderFunc(props: {
                                       "__wab_instance",
                                       sty.reveal___7Rk83
                                     )}
-                                    delay={400}
-                                    effect={"zoom"}
+                                    delay={0}
+                                    duration={500}
+                                    effect={"fade"}
                                     triggerOnce={true}
                                   >
                                     <div
@@ -2585,7 +2839,7 @@ function PlasmicHomepage__RenderFunc(props: {
                               "__wab_instance",
                               sty.reveal__mgSzm
                             )}
-                            direction={"up"}
+                            duration={500}
                             triggerOnce={true}
                           >
                             <div
@@ -3775,7 +4029,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                 )}
                               >
                                 {
-                                  "when templates are not sufficient, and standard does not work, clients call us."
+                                  "Providing individual deal designs that bridge the gap between start-up and investor."
                                 }
                               </div>
                             </div>
@@ -3851,7 +4105,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                   sty.investorGradeDocuments3
                                 )}
                               >
-                                {"Speed + depth"}
+                                {"Smart Transactions"}
                               </div>
                               <div
                                 data-plasmic-name={
@@ -3867,7 +4121,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                 )}
                               >
                                 {
-                                  "Keeping transactions in flow through sensitive deal management \u201eSmart Money Style.\u201c"
+                                  "Providing deal security by not only looking at legal statutes but also attending to human nature."
                                 }
                               </div>
                             </div>
@@ -3913,7 +4167,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                 )}
                               >
                                 {
-                                  "Experience in M&A, de-SPACs and IPOs for your headstart. From Pre-Seed to Series F. "
+                                  "Advising on M&A and having advised on IPOs and de-SPACs, we provide support beyond Series C."
                                 }
                               </div>
                             </div>
@@ -3943,7 +4197,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                   sty.investorGradeDocuments5
                                 )}
                               >
-                                {"Smaller mandates welcome"}
+                                {"Angels welcome"}
                               </div>
                               <div
                                 data-plasmic-name={
@@ -3959,7 +4213,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                 )}
                               >
                                 {
-                                  "Strategic and tactical advise for Angels based on their decision-making style."
+                                  "Smaller clients deserve premium advice and support as well\n"
                                 }
                               </div>
                             </div>
@@ -6775,6 +7029,9 @@ const PlasmicDescendants = {
     "group269",
     "group270",
     "group271",
+    "group272",
+    "group273",
+    "group274",
     "preheader2",
     "image18",
     "image21",
@@ -6947,6 +7204,9 @@ const PlasmicDescendants = {
     "group269",
     "group270",
     "group271",
+    "group272",
+    "group273",
+    "group274",
     "preheader2",
     "image18",
     "image21",
@@ -7117,6 +7377,9 @@ const PlasmicDescendants = {
     "group269",
     "group270",
     "group271",
+    "group272",
+    "group273",
+    "group274",
     "preheader2",
     "image18",
     "image21",
@@ -7391,6 +7654,9 @@ const PlasmicDescendants = {
     "group269",
     "group270",
     "group271",
+    "group272",
+    "group273",
+    "group274",
     "preheader2",
     "image18",
     "image21",
@@ -7430,6 +7696,9 @@ const PlasmicDescendants = {
     "group269",
     "group270",
     "group271",
+    "group272",
+    "group273",
+    "group274",
     "preheader2",
     "image18",
     "image21",
@@ -7445,15 +7714,29 @@ const PlasmicDescendants = {
     "sliderCarousel",
     "group269",
     "group270",
-    "group271"
+    "group271",
+    "group272",
+    "group273",
+    "group274"
   ],
   preheader: ["preheader"],
   switchingcards: ["switchingcards"],
   newsliding3Cards: ["newsliding3Cards"],
-  sliderCarousel: ["sliderCarousel", "group269", "group270", "group271"],
+  sliderCarousel: [
+    "sliderCarousel",
+    "group269",
+    "group270",
+    "group271",
+    "group272",
+    "group273",
+    "group274"
+  ],
   group269: ["group269"],
   group270: ["group270"],
   group271: ["group271"],
+  group272: ["group272"],
+  group273: ["group273"],
+  group274: ["group274"],
   preheader2: ["preheader2"],
   image18: ["image18"],
   image21: ["image21"],
@@ -7867,6 +8150,9 @@ type NodeDefaultElementType = {
   group269: "div";
   group270: "div";
   group271: "div";
+  group272: "div";
+  group273: "div";
+  group274: "div";
   preheader2: "div";
   image18: "div";
   image21: "div";
@@ -8124,6 +8410,9 @@ export const PlasmicHomepage = Object.assign(
     group269: makeNodeComponent("group269"),
     group270: makeNodeComponent("group270"),
     group271: makeNodeComponent("group271"),
+    group272: makeNodeComponent("group272"),
+    group273: makeNodeComponent("group273"),
+    group274: makeNodeComponent("group274"),
     preheader2: makeNodeComponent("preheader2"),
     image18: makeNodeComponent("image18"),
     image21: makeNodeComponent("image21"),
