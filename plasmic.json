@@ -1646,6 +1646,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.352",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.352/dist/plasmic.schema.json"
+  "cliVersion": "0.1.353",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.353/dist/plasmic.schema.json"
 }
