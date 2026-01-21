@@ -2223,7 +2223,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                           sty.text___9Q3Yv
                                         )}
                                       >
-                                        {"indurad -> Hexagon\n(sell-side)"}
+                                        {"indurad -> Hexagon\n\n(sell-side)"}
                                       </div>
                                       <div
                                         className={classNames(
@@ -2856,9 +2856,9 @@ function PlasmicHomepage__RenderFunc(props: {
                                   sty.text___5Izsb
                                 )}
                               >
-                                {
-                                  "Customer Agreements \nLegal head start for product and market success"
-                                }
+                                {hasVariant(globalVariants, "screen", "tablet")
+                                  ? "License/IP Agreements\nProtecting your crown jewels or licensing new ones"
+                                  : "License/IP Agreements\nProtecting your crown jewels or licensing new ones"}
                               </div>
                             </div>
                           </div>
