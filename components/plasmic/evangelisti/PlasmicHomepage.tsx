@@ -3064,9 +3064,9 @@ function PlasmicHomepage__RenderFunc(props: {
                             displayWidth={"50px"}
                             loading={"lazy"}
                             src={{
-                              src: "/plasmic/evangelisti/images/compassPng.png",
-                              fullWidth: 50,
-                              fullHeight: 51,
+                              src: "/plasmic/evangelisti/images/compass1Png.png",
+                              fullWidth: 44,
+                              fullHeight: 42,
                               aspectRatio: undefined
                             }}
                           />
@@ -3100,9 +3100,9 @@ function PlasmicHomepage__RenderFunc(props: {
                             displayWidth={"50px"}
                             loading={"lazy"}
                             src={{
-                              src: "/plasmic/evangelisti/images/protectPng.png",
+                              src: "/plasmic/evangelisti/images/protect1Png.png",
                               fullWidth: 44,
-                              fullHeight: 45,
+                              fullHeight: 44,
                               aspectRatio: undefined
                             }}
                           />
@@ -3136,9 +3136,9 @@ function PlasmicHomepage__RenderFunc(props: {
                             displayWidth={"50px"}
                             loading={"lazy"}
                             src={{
-                              src: "/plasmic/evangelisti/images/brainPng.png",
-                              fullWidth: 60,
-                              fullHeight: 61,
+                              src: "/plasmic/evangelisti/images/scalesPng.png",
+                              fullWidth: 43,
+                              fullHeight: 43,
                               aspectRatio: undefined
                             }}
                           />
@@ -3172,9 +3172,9 @@ function PlasmicHomepage__RenderFunc(props: {
                             displayWidth={"50px"}
                             loading={"lazy"}
                             src={{
-                              src: "/plasmic/evangelisti/images/speedPng.png",
-                              fullWidth: 49,
-                              fullHeight: 49,
+                              src: "/plasmic/evangelisti/images/speed1Png.png",
+                              fullWidth: 45,
+                              fullHeight: 45,
                               aspectRatio: undefined
                             }}
                           />
@@ -3208,9 +3208,9 @@ function PlasmicHomepage__RenderFunc(props: {
                             displayWidth={"50px"}
                             loading={"lazy"}
                             src={{
-                              src: "/plasmic/evangelisti/images/growthAndFlagPng.png",
-                              fullWidth: 52,
-                              fullHeight: 52,
+                              src: "/plasmic/evangelisti/images/group62Png.png",
+                              fullWidth: 42,
+                              fullHeight: 47,
                               aspectRatio: undefined
                             }}
                           />
