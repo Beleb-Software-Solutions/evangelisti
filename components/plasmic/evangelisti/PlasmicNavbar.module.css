@@ -382,4 +382,5 @@
   position: relative;
   top: auto;
   left: auto;
+  display: none;
 }

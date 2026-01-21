@@ -1504,7 +1504,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           "__wab_instance",
                           sty.reveal__wPU9
                         )}
-                        direction={"up"}
+                        duration={500}
                         triggerOnce={true}
                       >
                         <div
@@ -1593,7 +1593,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           "__wab_instance",
                           sty.reveal__rrZbp
                         )}
-                        direction={"left"}
+                        duration={500}
                         triggerOnce={true}
                       >
                         <div
@@ -3044,6 +3044,7 @@ function PlasmicHomepage__RenderFunc(props: {
                               "__wab_instance",
                               sty.reveal__ioUsq
                             )}
+                            duration={500}
                             triggerOnce={true}
                           >
                             <div
@@ -4842,7 +4843,8 @@ function PlasmicHomepage__RenderFunc(props: {
                             "__wab_instance",
                             sty.reveal__cvIXy
                           )}
-                          effect={"zoom"}
+                          duration={500}
+                          effect={"fade"}
                           triggerOnce={true}
                         >
                           <div
@@ -4920,8 +4922,8 @@ function PlasmicHomepage__RenderFunc(props: {
                             "__wab_instance",
                             sty.reveal__gSn7D
                           )}
-                          delay={100}
-                          direction={"up"}
+                          delay={0}
+                          duration={500}
                           triggerOnce={true}
                         >
                           <div
@@ -4948,8 +4950,8 @@ function PlasmicHomepage__RenderFunc(props: {
                             "__wab_instance",
                             sty.reveal___2Qnsu
                           )}
-                          delay={200}
-                          direction={"up"}
+                          delay={0}
+                          duration={500}
                           triggerOnce={true}
                         >
                           <div
@@ -4989,8 +4991,8 @@ function PlasmicHomepage__RenderFunc(props: {
                               "__wab_instance",
                               sty.reveal__xd15Y
                             )}
-                            delay={400}
-                            direction={"up"}
+                            delay={0}
+                            duration={500}
                             triggerOnce={true}
                           >
                             <div
@@ -5082,8 +5084,7 @@ function PlasmicHomepage__RenderFunc(props: {
                               "__wab_instance",
                               sty.reveal__lxxEz
                             )}
-                            delay={400}
-                            direction={"up"}
+                            duration={500}
                             triggerOnce={true}
                           >
                             <div
@@ -5163,7 +5164,8 @@ function PlasmicHomepage__RenderFunc(props: {
                                     "__wab_instance",
                                     sty.reveal__uBzTp
                                   )}
-                                  effect={"zoom"}
+                                  duration={500}
+                                  effect={"fade"}
                                   triggerOnce={true}
                                 >
                                   <div
@@ -5239,8 +5241,8 @@ function PlasmicHomepage__RenderFunc(props: {
                                     "__wab_instance",
                                     sty.reveal__slyfm
                                   )}
-                                  delay={200}
-                                  effect={"zoom"}
+                                  duration={500}
+                                  effect={"fade"}
                                   triggerOnce={true}
                                 >
                                   <div
@@ -5316,7 +5318,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     "__wab_instance",
                                     sty.reveal__qdMdR
                                   )}
-                                  delay={400}
+                                  duration={500}
                                   triggerOnce={true}
                                 >
                                   <div
@@ -5398,6 +5400,7 @@ function PlasmicHomepage__RenderFunc(props: {
                               "__wab_instance",
                               sty.reveal__qYgo4
                             )}
+                            duration={500}
                             triggerOnce={true}
                           >
                             <div
@@ -6599,7 +6602,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           className={classNames(sty.img__eTgq)}
                           displayHeight={"auto"}
                           displayMaxHeight={"none"}
-                          displayMaxWidth={"434px"}
+                          displayMaxWidth={"250px"}
                           displayMinHeight={"0"}
                           displayMinWidth={"0"}
                           displayWidth={

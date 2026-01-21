@@ -2935,7 +2935,7 @@
   max-width: 100%;
   justify-content: flex-start;
   align-items: center;
-  background: #4d4d4d;
+  background: #c2bfbf;
   min-width: 0;
   padding: 0px;
 }
@@ -2948,7 +2948,7 @@
   max-width: 100%;
   justify-content: flex-start;
   align-items: center;
-  background: none;
+  background: #0000004d;
   backdrop-filter: blur(8px);
   min-width: 0;
   -webkit-backdrop-filter: blur(8px);
@@ -3031,7 +3031,7 @@
   max-width: 100%;
   justify-content: flex-start;
   align-items: center;
-  background: #4d4d4d;
+  background: #c2bfbf;
   min-width: 0;
   padding: 0px;
 }
@@ -3044,7 +3044,7 @@
   max-width: 100%;
   justify-content: center;
   align-items: center;
-  background: none;
+  background: #0000004d;
   backdrop-filter: blur(8px);
   min-width: 0;
   -webkit-backdrop-filter: blur(8px);
@@ -3126,7 +3126,7 @@
   max-width: 100%;
   justify-content: flex-start;
   align-items: center;
-  background: #4d4d4d;
+  background: #c2bfbf;
   min-width: 0;
   padding: 0px;
 }
@@ -3139,7 +3139,7 @@
   max-width: 100%;
   justify-content: center;
   align-items: center;
-  background: #ffffff00;
+  background: #0000004d;
   backdrop-filter: blur(8px);
   min-width: 0;
   -webkit-backdrop-filter: blur(8px);
@@ -3221,7 +3221,7 @@
   max-width: 100%;
   justify-content: flex-start;
   align-items: center;
-  background: #4d4d4d;
+  background: #c2bfbf;
   min-width: 0;
   padding: 0px;
 }
@@ -3234,7 +3234,7 @@
   max-width: 100%;
   justify-content: flex-start;
   align-items: center;
-  background: #ffffff00;
+  background: #0000004d;
   backdrop-filter: blur(8px);
   min-width: 0;
   -webkit-backdrop-filter: blur(8px);
@@ -3316,7 +3316,7 @@
   max-width: 100%;
   justify-content: flex-start;
   align-items: center;
-  background: #4d4d4d;
+  background: #c2bfbf;
   min-width: 0;
   padding: 0px;
 }
@@ -3329,7 +3329,7 @@
   max-width: 100%;
   justify-content: flex-start;
   align-items: center;
-  background: #ffffff00;
+  background: #0000004d;
   backdrop-filter: blur(8px);
   min-width: 0;
   -webkit-backdrop-filter: blur(8px);
@@ -3411,7 +3411,7 @@
   max-width: 100%;
   justify-content: flex-start;
   align-items: center;
-  background: #4d4d4d;
+  background: #c2bfbf;
   min-width: 0;
   padding: 0px;
 }
@@ -3424,7 +3424,7 @@
   max-width: 100%;
   justify-content: flex-start;
   align-items: center;
-  background: #ffffff00;
+  background: #0000004d;
   backdrop-filter: blur(8px);
   min-width: 0;
   -webkit-backdrop-filter: blur(8px);
@@ -3523,7 +3523,7 @@
   max-width: 100%;
   justify-content: flex-start;
   align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 250px;
   row-gap: 100px;
   min-width: 0;
   padding: 170px 50px 250px;
@@ -3531,6 +3531,7 @@
 @media (max-width: 1023px) {
   .freeBox__xDlJu {
     padding-top: 120px;
+    margin-bottom: 0px;
   }
 }
 @media (max-width: 620px) {
@@ -7290,7 +7291,7 @@
   transform: skew(-1.489857474034715e-21deg, 0deg)
     translate(0.000003879471478285268px, -0.000030674324079882354px);
   width: 2775px;
-  height: 2201px;
+  height: 2050px;
   display: block;
   transform-origin: top left;
   position: relative;
@@ -7550,9 +7551,11 @@
 }
 @media (max-width: 1023px) {
   .freeBox__bwDgg {
-    column-gap: 30px;
     align-items: stretch;
-    row-gap: 0px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    column-gap: 0px;
   }
 }
 @media (max-width: 620px) {
@@ -7594,6 +7597,7 @@
 @media (max-width: 1023px) {
   .frame511 {
     height: auto;
+    max-width: none;
   }
 }
 @media (max-width: 620px) {
@@ -7764,6 +7768,7 @@
 @media (max-width: 1023px) {
   .frame512 {
     height: 100%;
+    max-width: none;
     min-height: 0;
   }
 }
@@ -7787,6 +7792,13 @@
   user-select: text;
   text-decoration-line: none;
   text-overflow: clip;
+}
+@media (max-width: 1023px) {
+  .text__mg42Q {
+    width: 100%;
+    max-width: 514px;
+    min-width: 0;
+  }
 }
 @media (max-width: 620px) {
   .text__mg42Q {
@@ -8616,7 +8628,7 @@
 }
 @media (max-width: 620px) {
   .freeBox__qswOc {
-    padding: 20px;
+    padding: 20px 20px 90px;
   }
 }
 .freeBox__sw8M4 {
@@ -9096,7 +9108,7 @@
 }
 @media (max-width: 620px) {
   .footer {
-    row-gap: 200px;
+    row-gap: 400px;
     column-gap: 0px;
   }
 }
@@ -9323,6 +9335,11 @@
   padding: 8px;
   border: 1.5px solid #cdcdcd;
 }
+@media (max-width: 620px) {
+  .freeBox__vD7Ap {
+    height: 120px;
+  }
+}
 .textArea5:global(.__wab_instance) {
   animation: none;
   max-width: 100%;
@@ -9429,7 +9446,7 @@
 }
 .img__eTgq {
   object-fit: cover;
-  max-width: 434px;
+  max-width: 250px;
   width: 100%;
   min-width: 0;
 }
