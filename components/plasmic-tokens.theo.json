@@ -1051,6 +1051,26 @@
       }
     },
     {
+      "name": "main bg blue",
+      "type": "color",
+      "value": "#0D1535",
+      "category": "color",
+      "meta": {
+        "projectId": "psTfKC1KCEpawf41964R83",
+        "id": "Jp-TE-6OsUQy"
+      }
+    },
+    {
+      "name": "main blue",
+      "type": "color",
+      "value": "#152874",
+      "category": "color",
+      "meta": {
+        "projectId": "psTfKC1KCEpawf41964R83",
+        "id": "TRbwu9mFnlec"
+      }
+    },
+    {
       "name": "main text color",
       "type": "color",
       "value": "rgba(1, 33, 54, 1)",

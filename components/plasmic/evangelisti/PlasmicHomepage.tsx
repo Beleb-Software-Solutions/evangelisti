@@ -1831,15 +1831,19 @@ function PlasmicHomepage__RenderFunc(props: {
                         className={classNames(sty.img__jwVyz)}
                         displayHeight={"auto"}
                         displayMaxHeight={"none"}
-                        displayMaxWidth={"100%"}
+                        displayMaxWidth={"none"}
                         displayMinHeight={"0"}
                         displayMinWidth={"0"}
-                        displayWidth={"100%"}
+                        displayWidth={
+                          hasVariant(globalVariants, "screen", "tablet")
+                            ? "300%"
+                            : "140%"
+                        }
                         loading={"lazy"}
                         src={{
-                          src: "/plasmic/evangelisti/images/rectangle15.jpg",
-                          fullWidth: 1500,
-                          fullHeight: 1008,
+                          src: "/plasmic/evangelisti/images/hf20260120142904Ea0D8Eb604274A7AA00528Df0564Ccc41Svg.svg",
+                          fullWidth: 25320,
+                          fullHeight: 11022,
                           aspectRatio: undefined
                         }}
                       />
@@ -3072,6 +3076,41 @@ function PlasmicHomepage__RenderFunc(props: {
                   className={classNames(projectcss.all, sty.section6)}
                 >
                   <div
+                    className={classNames(projectcss.all, sty.freeBox__acTae)}
+                  >
+                    <div
+                      className={classNames(
+                        projectcss.all,
+                        sty.freeBox___0Z6Hd
+                      )}
+                    >
+                      <PlasmicImg__
+                        alt={""}
+                        className={classNames(sty.img__bpB)}
+                        displayHeight={
+                          hasVariant(globalVariants, "screen", "mobile")
+                            ? "20%"
+                            : "auto"
+                        }
+                        displayMaxHeight={"none"}
+                        displayMaxWidth={"none"}
+                        displayMinHeight={"0"}
+                        displayMinWidth={"0"}
+                        displayWidth={"110%"}
+                        loading={"lazy"}
+                        src={{
+                          src: "/plasmic/evangelisti/images/hf20260120142904Ea0D8Eb604274A7AA00528Df0564Ccc41Svg.svg",
+                          fullWidth: 25320,
+                          fullHeight: 11022,
+                          aspectRatio: undefined
+                        }}
+                      />
+                    </div>
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__trWwt)}
+                    />
+                  </div>
+                  <div
                     className={classNames(projectcss.all, sty.freeBox__vf5Ur)}
                   >
                     <div
@@ -3159,9 +3198,9 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.text__kcT3B
                           )}
                         >
-                          {
-                            "Contract design that protects value \n and creates negotiation leverage."
-                          }
+                          {hasVariant(globalVariants, "screen", "tablet")
+                            ? "Contract design that protects value and creates negotiation leverage."
+                            : "Contract design that protects value \nand creates negotiation leverage."}
                         </div>
                       </div>
                       <div

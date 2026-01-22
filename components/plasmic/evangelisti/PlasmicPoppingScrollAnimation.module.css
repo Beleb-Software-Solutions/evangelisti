@@ -49,6 +49,9 @@
   -webkit-transition-property: all;
   -webkit-transition-duration: 0.2s;
 }
+.bigLawExperienceothers__1st {
+  color: var(--token-TRbwu9mFnlec);
+}
 .bigLawExperienceothers__2nd {
   font-size: 52px;
   color: #151d3e99;

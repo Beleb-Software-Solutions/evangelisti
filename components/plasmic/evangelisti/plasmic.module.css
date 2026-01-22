@@ -11,6 +11,10 @@
   --plasmic-token-brighter-white: var(--token-xw0rVtPF67Cn);
   --token-lZXVewglMYLl: #daff7c;
   --plasmic-token-accent-2: var(--token-lZXVewglMYLl);
+  --token-TRbwu9mFnlec: #152874;
+  --plasmic-token-main-blue: var(--token-TRbwu9mFnlec);
+  --token-Jp-TE-6OsUQy: #0d1535;
+  --plasmic-token-main-bg-blue: var(--token-Jp-TE-6OsUQy);
 }
 
 .plasmic_tokens {
