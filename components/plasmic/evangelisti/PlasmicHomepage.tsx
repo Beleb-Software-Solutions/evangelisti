@@ -1171,7 +1171,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                           )}
                                         >
                                           {
-                                            "Short cycles.\nNo overhead, no training on your mandate."
+                                            "\nShort cycles.\nNo overcrowded teams, no training on your mandate."
                                           }
                                         </div>
                                       </div>
@@ -1385,7 +1385,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                           )}
                                         >
                                           {
-                                            "Focused DD, management preparation,\nlean loops, and post-closing continuity."
+                                            "Focused DD, management preparation, lean loops, and post-closing continuity."
                                           }
                                         </div>
                                       </div>
@@ -6024,7 +6024,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.text__esrW5
                           )}
                         >
-                          {"SELECTED Representative"}
+                          {"SELECTED Representations"}
                         </div>
                       </div>
                     </Reveal>
