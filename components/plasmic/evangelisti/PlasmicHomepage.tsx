@@ -1058,7 +1058,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                           )}
                                         >
                                           {
-                                            "We map price, timeline, and real risks first anddraft only what creates leverage."
+                                            "We map price, timeline, and real risks first and draft only what creates leverage."
                                           }
                                         </div>
                                       </div>
@@ -1154,7 +1154,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                             sty.text__wazcx
                                           )}
                                         >
-                                          {"Partner-led clarity"}
+                                          {"Partner-led \nclarity"}
                                         </div>
                                       </div>
                                       <div
@@ -1171,7 +1171,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                           )}
                                         >
                                           {
-                                            "\nShort cycles.\nNo overcrowded teams, no training on your mandate."
+                                            "Short cycles.\nNo overcrowded teams, no training on your mandate."
                                           }
                                         </div>
                                       </div>
@@ -1280,7 +1280,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                           )}
                                         >
                                           {
-                                            "Contracts designed to carry in negotiation \nand if needed, in disputes."
+                                            "Contracts designed to carry in negotiation and if needed, in disputes."
                                           }
                                         </div>
                                       </div>

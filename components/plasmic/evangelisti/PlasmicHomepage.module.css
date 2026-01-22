@@ -1100,6 +1100,8 @@
   user-select: text;
   text-decoration-line: none;
   text-overflow: clip;
+  height: 122px;
+  margin-top: 11px;
 }
 @media (max-width: 1023px) {
   .text__bcIiM {
