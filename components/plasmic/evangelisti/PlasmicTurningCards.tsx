@@ -568,12 +568,33 @@ function PlasmicTurningCards__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.__wab_text,
-                sty.text__gjXfc
+                sty.text__gjXfc,
+                {
+                  [sty.textopen__gjXfc28Mpr]: hasVariant(
+                    $state,
+                    "open",
+                    "open"
+                  ),
+                  [sty.textothers__1st__gjXfcfZMww]: hasVariant(
+                    $state,
+                    "others",
+                    "_1st"
+                  ),
+                  [sty.textothers__2nd__gjXfcxhPVk]: hasVariant(
+                    $state,
+                    "others",
+                    "_2nd"
+                  )
+                }
               )}
             >
-              {
-                "GmbH in connection with multiple investments such as Merlin Digital Solutions, Rooms Technologies, Glorya , NOBS Nutrition."
-              }
+              {hasVariant($state, "open", "open")
+                ? "in connection with multiple investments such as Merlin Digital Solutions, Rooms Technologies, Glorya , NOBS Nutrition."
+                : hasVariant($state, "others", "_2nd")
+                  ? "in connection with multiple investments such as Merlin Digital Solutions, Rooms Technologies, Glorya , NOBS Nutrition."
+                  : hasVariant($state, "others", "_1st")
+                    ? "in connection with multiple investments such as Merlin Digital Solutions, Rooms Technologies, Glorya , NOBS Nutrition."
+                    : "in connection with multiple investments such as Merlin Digital Solutions, Rooms Technologies, Glorya , NOBS Nutrition."}
             </div>
           </div>
         </div>
@@ -716,10 +737,40 @@ function PlasmicTurningCards__RenderFunc(props: {
               className={classNames(
                 projectcss.all,
                 projectcss.__wab_text,
-                sty.text__ljplp
+                sty.text__ljplp,
+                {
+                  [sty.textopen__ljplp28Mpr]: hasVariant(
+                    $state,
+                    "open",
+                    "open"
+                  ),
+                  [sty.textothers__1st__ljplpfZMww]: hasVariant(
+                    $state,
+                    "others",
+                    "_1st"
+                  ),
+                  [sty.textothers__2nd__ljplpxhPVk]: hasVariant(
+                    $state,
+                    "others",
+                    "_2nd"
+                  ),
+                  [sty.textothers__3rd__ljplpU390H]: hasVariant(
+                    $state,
+                    "others",
+                    "_3rd"
+                  )
+                }
               )}
             >
-              {"blue pool capital"}
+              {hasVariant($state, "open", "open")
+                ? "Blue Pool Capital"
+                : hasVariant($state, "others", "_3rd")
+                  ? "Blue Pool Capital"
+                  : hasVariant($state, "others", "_2nd")
+                    ? "Blue Pool Capital"
+                    : hasVariant($state, "others", "_1st")
+                      ? "Blue Pool Capital"
+                      : "blue pool capital"}
             </div>
           </div>
           <div

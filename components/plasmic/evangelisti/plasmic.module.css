@@ -17,6 +17,10 @@
   --plasmic-token-main-bg-blue: var(--token-Jp-TE-6OsUQy);
 }
 
+.plasmic_tokens_override.plasmic_tokens_override {
+  --token-Yq556PvPjGii: #ffffff;
+}
+
 .plasmic_tokens {
   --plsmc-standard-width: 800px;
   --plsmc-wide-width: 1280px;

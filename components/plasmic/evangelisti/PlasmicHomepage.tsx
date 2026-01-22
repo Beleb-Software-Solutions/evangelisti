@@ -586,7 +586,7 @@ function PlasmicHomepage__RenderFunc(props: {
                               )}
                             >
                               {
-                                "I combine legal excellence with an entrepreneurial mindset -\nto make visions legally and strategically achievable."
+                                "We combine legal excellence with an entrepreneurial mindset -\nto make visions legally and strategically achievable."
                               }
                             </h3>
                           </div>
@@ -1058,7 +1058,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                           )}
                                         >
                                           {
-                                            "We map price, timeline, and real risks first\nanddraft only what creates leverage."
+                                            "We map price, timeline, and real risks first anddraft only what creates leverage."
                                           }
                                         </div>
                                       </div>
@@ -1171,7 +1171,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                           )}
                                         >
                                           {
-                                            "One accountable counsel. Short cycles.\nNo overhead,no training on your mandate."
+                                            "Short cycles.\nNo overhead, no training on your mandate."
                                           }
                                         </div>
                                       </div>
@@ -1468,7 +1468,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                           )}
                                         >
                                           {
-                                            "From seed rounds to M&A, IPOs, and de- SPACs."
+                                            "From seed rounds to M&A \n(domestic/cross-border) and IPOs"
                                           }
                                         </div>
                                       </div>
@@ -2111,7 +2111,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                   )}
                                 >
                                   {
-                                    "We advise (international) companies, financial sponsors and funds active within German market. From Start-ups to German Mittelstands, from acquisitions to exits, buy-side or sell-side.\n\n\nOur trademark is understanding businesses and advising sector agnostic for a well-rounded approach."
+                                    "We advise companies, financial sponsors and funds active within the German market. \n\nThis includes German Mittelstand, SMEs and start-ups: buy-side and sell-side. \n\nOur trademark is understanding businesses and advising sector agnostic for a well-rounded approach."
                                   }
                                 </div>
                               </div>
@@ -2350,7 +2350,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                           )}
                                         >
                                           {
-                                            "locked-box/MAC calibrated to business reality."
+                                            "Modular DD and bespoke work-product. Short-form or long-form to match your preference"
                                           }
                                         </div>
                                       </div>
@@ -2829,7 +2829,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                         )}
                                       >
                                         {
-                                          "\u20ac10.1bn acquistion for 25% in Porsche AG from Volkswagen AG concurrent with the Porsche IPO"
+                                          "\u20ac10.1bn acquistion of 25% in Porsche AG from Volkswagen concurrent with the Porsche IPO"
                                         }
                                       </div>
                                     </div>
@@ -3198,9 +3198,29 @@ function PlasmicHomepage__RenderFunc(props: {
                             sty.text__kcT3B
                           )}
                         >
-                          {hasVariant(globalVariants, "screen", "tablet")
-                            ? "Contract design that protects value and creates negotiation leverage."
-                            : "Contract design that protects value \nand creates negotiation leverage."}
+                          {hasVariant(globalVariants, "screen", "tablet") ? (
+                            "Contract design that protects value and creates negotiation leverage."
+                          ) : (
+                            <React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ color: "#012136" }}
+                              >
+                                {"Contract design that protects value "}
+                              </span>
+                              <React.Fragment>{"\n"}</React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ color: "#012136" }}
+                              >
+                                {"and creates negotiation leverage."}
+                              </span>
+                            </React.Fragment>
+                          )}
                         </div>
                       </div>
                       <div
@@ -3217,11 +3237,17 @@ function PlasmicHomepage__RenderFunc(props: {
                           )}
                         >
                           <React.Fragment>
-                            <React.Fragment>
-                              {
-                                'We know what buyers look for \u2014 and how "legally weak" contracts read: ambigous wording, unclear termination rights, poor IP allocations, liability loopholes. That costs money, leverage, and time. \n\n'
+                            <span
+                              className={
+                                "plasmic_default__all plasmic_default__span"
                               }
-                            </React.Fragment>
+                              style={{ color: "#012136" }}
+                            >
+                              {
+                                'We know what buyers look for \u2014 and how "legally weak" contracts read: ambigous wording, unclear termination rights, poor IP allocations, liability loopholes. That costs money, leverage, and time. \n'
+                              }
+                            </span>
+                            <React.Fragment>{"\n"}</React.Fragment>
                             {
                               <span
                                 className={classNames(
@@ -3232,7 +3258,18 @@ function PlasmicHomepage__RenderFunc(props: {
                                   sty.span__sgmn4
                                 )}
                               >
-                                {"We fix it."}
+                                <React.Fragment>
+                                  <React.Fragment>{"We "}</React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ color: "#012136" }}
+                                  >
+                                    {"fix"}
+                                  </span>
+                                  <React.Fragment>{" it."}</React.Fragment>
+                                </React.Fragment>
                               </span>
                             }
                             <React.Fragment>{""}</React.Fragment>
@@ -3265,7 +3302,16 @@ function PlasmicHomepage__RenderFunc(props: {
                               sty.text___462Op
                             )}
                           >
-                            {"How we help in practice"}
+                            <React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ color: "#012136" }}
+                              >
+                                {"How we help in practice"}
+                              </span>
+                            </React.Fragment>
                           </div>
                         </div>
                         <div
@@ -3295,9 +3341,30 @@ function PlasmicHomepage__RenderFunc(props: {
                                   sty.text__fQ4Ma
                                 )}
                               >
-                                {
-                                  "Customer Agreements \nLegal head start for product and market success"
-                                }
+                                <React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{
+                                      fontWeight: 700,
+                                      color: "#012136"
+                                    }}
+                                  >
+                                    {"Customer Agreements "}
+                                  </span>
+                                  <React.Fragment>{"\n"}</React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ color: "#012136" }}
+                                  >
+                                    {
+                                      "Legal head start for product and market success"
+                                    }
+                                  </span>
+                                </React.Fragment>
                               </div>
                             </div>
                           </div>
@@ -3322,9 +3389,28 @@ function PlasmicHomepage__RenderFunc(props: {
                                   sty.text__rptF4
                                 )}
                               >
-                                {
-                                  "Employment Agreements \nEmployer-focused, risk-tight, scalable"
-                                }
+                                <React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{
+                                      fontWeight: 700,
+                                      color: "#012136"
+                                    }}
+                                  >
+                                    {"Employment Agreements "}
+                                  </span>
+                                  <React.Fragment>{"\n"}</React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ color: "#012136" }}
+                                  >
+                                    {"Employer-focused, risk-tight, scalable"}
+                                  </span>
+                                </React.Fragment>
                               </div>
                             </div>
                           </div>
@@ -3349,9 +3435,27 @@ function PlasmicHomepage__RenderFunc(props: {
                                   sty.text__qeBig
                                 )}
                               >
-                                {
-                                  "Supplier Agreements\nMaximize value, minimize risk, avoid pressure"
-                                }
+                                <React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {"Supplier Agreements"}
+                                  </span>
+                                  <React.Fragment>{"\n"}</React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ color: "#012136" }}
+                                  >
+                                    {
+                                      "Maximize value, minimize risk, avoid pressure"
+                                    }
+                                  </span>
+                                </React.Fragment>
                               </div>
                             </div>
                           </div>
@@ -3376,9 +3480,38 @@ function PlasmicHomepage__RenderFunc(props: {
                                   sty.text___5Izsb
                                 )}
                               >
-                                {hasVariant(globalVariants, "screen", "tablet")
-                                  ? "License/IP Agreements\nProtecting your crown jewels or licensing new ones"
-                                  : "License/IP Agreements\nProtecting your crown jewels or licensing new ones"}
+                                {hasVariant(
+                                  globalVariants,
+                                  "screen",
+                                  "tablet"
+                                ) ? (
+                                  "License/IP Agreements\nProtecting your crown jewels or licensing new ones"
+                                ) : (
+                                  <React.Fragment>
+                                    <span
+                                      className={
+                                        "plasmic_default__all plasmic_default__span"
+                                      }
+                                      style={{
+                                        fontWeight: 700,
+                                        color: "#012136"
+                                      }}
+                                    >
+                                      {"License/IP Agreements"}
+                                    </span>
+                                    <React.Fragment>{"\n"}</React.Fragment>
+                                    <span
+                                      className={
+                                        "plasmic_default__all plasmic_default__span"
+                                      }
+                                      style={{ color: "#012136" }}
+                                    >
+                                      {
+                                        "Protecting your crown jewels or licensing new ones"
+                                      }
+                                    </span>
+                                  </React.Fragment>
+                                )}
                               </div>
                             </div>
                           </div>
@@ -3403,9 +3536,30 @@ function PlasmicHomepage__RenderFunc(props: {
                                   sty.text__mqPxU
                                 )}
                               >
-                                {
-                                  "Project Agreements\nthe right legal language saves trouble when the project booms"
-                                }
+                                <React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{
+                                      fontWeight: 700,
+                                      color: "#012136"
+                                    }}
+                                  >
+                                    {"Project Agreements"}
+                                  </span>
+                                  <React.Fragment>{"\n"}</React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ color: "#012136" }}
+                                  >
+                                    {
+                                      "the right legal language saves trouble when the project booms"
+                                    }
+                                  </span>
+                                </React.Fragment>
                               </div>
                             </div>
                           </div>
@@ -3430,9 +3584,39 @@ function PlasmicHomepage__RenderFunc(props: {
                                   sty.text__huSJv
                                 )}
                               >
-                                {
-                                  "Cooperation Agreements\nClean legal back-end  for successful product & market launches"
-                                }
+                                <React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{
+                                      fontWeight: 700,
+                                      color: "#012136"
+                                    }}
+                                  >
+                                    {"Cooperation"}
+                                  </span>
+                                  <React.Fragment>{""}</React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ fontWeight: 700 }}
+                                  >
+                                    {" Agreements"}
+                                  </span>
+                                  <React.Fragment>{"\n"}</React.Fragment>
+                                  <span
+                                    className={
+                                      "plasmic_default__all plasmic_default__span"
+                                    }
+                                    style={{ color: "#012136" }}
+                                  >
+                                    {
+                                      "Clean legal back-end  for product & market launches"
+                                    }
+                                  </span>
+                                </React.Fragment>
                               </div>
                             </div>
                           </div>
@@ -3562,9 +3746,18 @@ function PlasmicHomepage__RenderFunc(props: {
                               sty.text__xhfNc
                             )}
                           >
-                            {
-                              "Why our individual contracts are the non-plus-ultra"
-                            }
+                            <React.Fragment>
+                              <span
+                                className={
+                                  "plasmic_default__all plasmic_default__span"
+                                }
+                                style={{ color: "#000000" }}
+                              >
+                                {
+                                  "Why our individual contracts are BEYOND PREMIUM"
+                                }
+                              </span>
+                            </React.Fragment>
                           </div>
                         </div>
                       </div>
@@ -3807,7 +4000,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     "mobile"
                                   )
                                     ? "I hire him to tell"
-                                    : "I hire him to tell"}
+                                    : "I hire him to tell me"}
                                 </span>
                               }
                               <React.Fragment>{""}</React.Fragment>
@@ -3836,7 +4029,7 @@ function PlasmicHomepage__RenderFunc(props: {
                             <React.Fragment>
                               <React.Fragment>
                                 {
-                                  "\u201dWell, I don\u2019t know as I want\na lawyear to tell me what I\ncannot do. "
+                                  "\u201dWell, I don\u2019t want a lawyer to tell me what I cannot do. "
                                 }
                               </React.Fragment>
                               {
@@ -3855,10 +4048,10 @@ function PlasmicHomepage__RenderFunc(props: {
                                     "mobile"
                                   )
                                     ? "I hire him to tell"
-                                    : "I hire him to tell"}
+                                    : "I hire him to tell me"}
                                 </span>
                               }
-                              <React.Fragment>{"\n"}</React.Fragment>
+                              <React.Fragment>{""}</React.Fragment>
                               {
                                 <span
                                   className={classNames(
@@ -4507,7 +4700,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                 )}
                               >
                                 {
-                                  "Don't end like founders who exit and still have little to show. \nLiq-prefs and control rights matter from the first capital raise \n(often under CLAs). \nWe keep you fundable \u2014 and in control."
+                                  "Don't end like founders who exit and still have little to show. \nLiq-prefs and control rights matter from the first capital raise. \nWe keep you fundable \u2014 and in control."
                                 }
                               </div>
                             </div>
@@ -4576,7 +4769,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     )}
                                   >
                                     {
-                                      "Focus on economic risks, not legal pseudo-risks"
+                                      "Clean founder setup & vesting; align expectations early."
                                     }
                                   </div>
                                 </div>
@@ -4601,7 +4794,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     )}
                                   >
                                     {
-                                      "Bridge valuation gaps with legal design (Risk Allocation, Optionality, Financing Structures)"
+                                      "Investor Terms that Are Fair for You  (liq-pref, control/info, anti-dilution, pro-rata, tag/drag)."
                                     }
                                   </div>
                                 </div>
@@ -4626,7 +4819,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     )}
                                   >
                                     {
-                                      "Creative structuring to defuse hardened positions \u2014 or prevent escalation early"
+                                      "Simple where sufficient. Fully bespoke where they save you later pain (and money)."
                                     }
                                   </div>
                                 </div>
@@ -4651,7 +4844,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     )}
                                   >
                                     {
-                                      "Communicate at the right time with the right people \u2014 avoid trench warfare"
+                                      "IP Agreements; Customer and Supplier Agreements; Cooperation Agreements - Structured to Protect Growth"
                                     }
                                   </div>
                                 </div>
@@ -4676,7 +4869,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     )}
                                   >
                                     {
-                                      "Collaboration over confrontation to create shared deal security"
+                                      "Corporate & dispute experience \u2014 we build structures that hold up under stress."
                                     }
                                   </div>
                                 </div>
@@ -4701,7 +4894,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     )}
                                   >
                                     {
-                                      "Sensitivity for rules that pass \u2014 and those that backfire"
+                                      "Modular Contracts that scale and serve as a reference across rounds."
                                     }
                                   </div>
                                 </div>
@@ -4790,7 +4983,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                       )}
                                     >
                                       {
-                                        "Based on workshopping through their business\u2018 needs, we create a modular customer agreement (defensive <\u2014> aggressive) and made suggestion as to potential monetizations of their product and fee structures."
+                                        "Based on workshopping through their business\u2018 needs, we created a modular customer agreement (defensive <\u2014> aggressive) and made suggestion as to potential monetizations of their product and fee structures."
                                       }
                                     </div>
                                   </div>
@@ -5659,7 +5852,7 @@ function PlasmicHomepage__RenderFunc(props: {
                               )}
                             >
                               {
-                                "Nico Evangelisti advises companies and investors on M&A and Venture Capital, buy- and sell-side. He also serves as a trusted advisor and external general counsel to startups, business angels, funds, and Mittelstand companies."
+                                "Nico Evangelisti advises companies and investors on M&A and Venture Capital, buy- and sell-side. He also serves as a trusted advisor and external general counsel to startups, business angels and Mittelstand companies."
                               }
                             </div>
                           </div>
@@ -5677,7 +5870,7 @@ function PlasmicHomepage__RenderFunc(props: {
                               )}
                             >
                               {
-                                "Background across Sullivan & Cromwell, Freshfields, and Deutsche Bank  now run as a Solo-GP model to avoid friction and ensure direct accountability."
+                                "Background across Sullivan & Cromwell, Freshfields, and Deutsche Bank, now run as a Solo-GP model to avoid friction and ensure direct accountability."
                               }
                             </div>
                           </div>
