@@ -1,0 +1,212 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  min-width: 0;
+  padding: 0px;
+}
+@media (max-width: 620px) {
+  .root {
+    padding-top: 50px;
+  }
+}
+.rootothers__1st {
+  opacity: 0.9;
+}
+.rootothers__2nd {
+  opacity: 0.8;
+}
+.rootothers__3rd {
+  opacity: 0.8;
+}
+.rootothers__4th {
+  opacity: 0.7;
+}
+.rootothers__5th {
+  opacity: 0.6;
+}
+.rootothers__6th {
+  opacity: 0.5;
+}
+.rootothers__7th {
+  opacity: 0.4;
+}
+.rootothers__8th {
+  opacity: 0.3;
+}
+.rootothers__9th {
+  opacity: 0.2;
+}
+.rootothers__10th {
+  opacity: 0.1;
+}
+.rootothers__11Th {
+  opacity: 0;
+}
+.freeBox___1D55X {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 919px;
+  justify-content: flex-start;
+  align-items: center;
+  background: url("/plasmic/evangelisti/images/rectangle208.svg") top 50% left 50% / cover repeat;
+  min-height: 212px;
+  overflow: hidden;
+  min-width: 0;
+  border-radius: 30px;
+  padding: 16px 0px 0px;
+}
+@media (max-width: 620px) {
+  .freeBox___1D55X {
+    padding-bottom: 24px;
+  }
+}
+.freeBox__lDcBx {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__g5REu {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  top: auto;
+  left: auto;
+  min-width: 0;
+  padding: 0px;
+}
+.svg {
+  animation: none;
+  object-fit: cover;
+  max-width: 100%;
+  color: #daff7c;
+  transform: translate3d(65px, 26px, 0px)
+    scale3d(1.0000000000000038, 1.0000000000000038, 1)
+    rotate3d(0, 0, 1, -179.99999502168694deg);
+  width: 65px;
+  height: 23px;
+  display: block;
+  transform-origin: top left;
+  flex-shrink: 0;
+}
+.freeBox__btjYc {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  padding: 0px 0px 0px 16px;
+}
+.text__cAi1N {
+  animation: none;
+  display: block;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 32.083335876464844px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  top: auto;
+  left: auto;
+  width: auto;
+  font-style: normal;
+  text-align: left;
+  white-space: pre;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+}
+.image1 {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px 40px 8px 90px;
+}
+@media (max-width: 1023px) {
+  .image1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    row-gap: 16px;
+    padding-top: 16px;
+    column-gap: 0px;
+  }
+}
+@media (max-width: 620px) {
+  .image1 {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.image2 {
+  animation: none;
+  background: url("/plasmic/evangelisti/images/image1.png") center center / cover no-repeat;
+  width: 217px;
+  height: 43px;
+  display: block;
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}
+@media (max-width: 1023px) {
+  .image2 {
+    left: auto;
+    top: auto;
+  }
+}
+.text__haIeN {
+  animation: none;
+  display: block;
+  font-size: undefinedpx;
+  letter-spacing: 0px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: left;
+  text-transform: none;
+  white-space: pre-wrap;
+  user-select: text;
+  text-decoration-line: none;
+  text-overflow: clip;
+  max-width: 506px;
+}
+@media (max-width: 1023px) {
+  .text__haIeN {
+    max-width: none;
+  }
+}

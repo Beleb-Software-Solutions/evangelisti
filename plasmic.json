@@ -304,6 +304,32 @@
           "cssFilePath": "plasmic/evangelisti/PlasmicNewsliding3Cards.module.css",
           "scheme": "blackbox",
           "componentType": "component"
+        },
+        {
+          "id": "CzpJjqkoJlCS",
+          "name": "Mijack",
+          "type": "managed",
+          "projectId": "psTfKC1KCEpawf41964R83",
+          "renderModuleFilePath": "plasmic/evangelisti/PlasmicMijack.tsx",
+          "importSpec": {
+            "modulePath": "Mijack.tsx"
+          },
+          "cssFilePath": "plasmic/evangelisti/PlasmicMijack.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "dNhLg95F1Nhu",
+          "name": "SectionBox",
+          "type": "managed",
+          "projectId": "psTfKC1KCEpawf41964R83",
+          "renderModuleFilePath": "plasmic/evangelisti/PlasmicSectionBox.tsx",
+          "importSpec": {
+            "modulePath": "SectionBox.tsx"
+          },
+          "cssFilePath": "plasmic/evangelisti/PlasmicSectionBox.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
         }
       ],
       "icons": [

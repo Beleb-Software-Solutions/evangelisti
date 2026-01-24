@@ -71,6 +71,8 @@ import Switchingcards from "../../Switchingcards"; // plasmic-import: b-UKtaLO3y
 import Newsliding3Cards from "../../Newsliding3Cards"; // plasmic-import: IWAG93DqZ671/component
 import { SliderWrapper } from "@plasmicpkgs/react-slick";
 import { sliderHelpers as SliderWrapper_Helpers } from "@plasmicpkgs/react-slick";
+import Mijack from "../../Mijack"; // plasmic-import: CzpJjqkoJlCS/component
+import SectionBox from "../../SectionBox"; // plasmic-import: dNhLg95F1Nhu/component
 import TurningCards from "../../TurningCards"; // plasmic-import: WRX8WwTCusqp/component
 import TurningCards2 from "../../TurningCards2"; // plasmic-import: V2c94nqSTYeI/component
 import PoppingScrollAnimation from "../../PoppingScrollAnimation"; // plasmic-import: 68rA_srnr6X-/component
@@ -98,7 +100,6 @@ import sty from "./PlasmicHomepage.module.css"; // plasmic-import: EGysTR51Uqbc/
 import Group323Icon from "./icons/PlasmicIcon__Group323"; // plasmic-import: kfnKVrVipjLb/icon
 import Group325Icon from "./icons/PlasmicIcon__Group325"; // plasmic-import: VpgRTTbzi6cX/icon
 import Group321Icon from "./icons/PlasmicIcon__Group321"; // plasmic-import: XFJyHya7lf3b/icon
-import Group322Icon from "./icons/PlasmicIcon__Group322"; // plasmic-import: OAYvWkcwthhC/icon
 import SubtractIcon from "./icons/PlasmicIcon__Subtract"; // plasmic-import: XgA_RVGwiqKb/icon
 import Ellipse97Icon from "./icons/PlasmicIcon__Ellipse97"; // plasmic-import: qxy8p1nuxCUN/icon
 import Group330Icon from "./icons/PlasmicIcon__Group330"; // plasmic-import: 4rAO0-4H60Qg/icon
@@ -196,8 +197,8 @@ export type PlasmicHomepage__OverridesType = {
   frame508?: Flex__<"div">;
   frame509?: Flex__<"div">;
   frame510?: Flex__<"div">;
-  image1?: Flex__<"div">;
-  image2?: Flex__<"div">;
+  mijack?: Flex__<typeof Mijack>;
+  sectionBox?: Flex__<typeof SectionBox>;
   section7?: Flex__<"div">;
   _1stStep?: Flex__<"div">;
   background2?: Flex__<"div">;
@@ -558,7 +559,25 @@ function PlasmicHomepage__RenderFunc(props: {
                                 sty.h1
                               )}
                             >
-                              {"SPARRING PARTNER\nENTREUPRENEUR\nLAWYER"}
+                              <React.Fragment>
+                                <span
+                                  className={
+                                    "plasmic_default__all plasmic_default__span"
+                                  }
+                                  style={{ color: "#000000" }}
+                                >
+                                  {"SPARRING PARTNER\nENTREUPRENEUR"}
+                                </span>
+                                <React.Fragment>{"\n"}</React.Fragment>
+                                <span
+                                  className={
+                                    "plasmic_default__all plasmic_default__span"
+                                  }
+                                  style={{ color: "#000000" }}
+                                >
+                                  {"LAWYER"}
+                                </span>
+                              </React.Fragment>
                             </h1>
                           </div>
                         </Reveal>
@@ -1057,9 +1076,18 @@ function PlasmicHomepage__RenderFunc(props: {
                                             sty.text___6G5EO
                                           )}
                                         >
-                                          {
-                                            "We map price, timeline, and real risks first and draft only what creates leverage."
-                                          }
+                                          <React.Fragment>
+                                            <span
+                                              className={
+                                                "plasmic_default__all plasmic_default__span"
+                                              }
+                                              style={{ color: "#000000" }}
+                                            >
+                                              {
+                                                "We map price, timeline, and real risks first and draft only what creates leverage."
+                                              }
+                                            </span>
+                                          </React.Fragment>
                                         </div>
                                       </div>
                                     </div>
@@ -3483,8 +3511,28 @@ function PlasmicHomepage__RenderFunc(props: {
                                 {hasVariant(
                                   globalVariants,
                                   "screen",
-                                  "tablet"
+                                  "mobile"
                                 ) ? (
+                                  <React.Fragment>
+                                    <span
+                                      className={
+                                        "plasmic_default__all plasmic_default__span"
+                                      }
+                                      style={{ fontWeight: 700 }}
+                                    >
+                                      {"License/IP Agreements"}
+                                    </span>
+                                    <React.Fragment>
+                                      {
+                                        "\nProtecting your crown jewels or licensing new ones"
+                                      }
+                                    </React.Fragment>
+                                  </React.Fragment>
+                                ) : hasVariant(
+                                    globalVariants,
+                                    "screen",
+                                    "tablet"
+                                  ) ? (
                                   "License/IP Agreements\nProtecting your crown jewels or licensing new ones"
                                 ) : (
                                   <React.Fragment>
@@ -3621,332 +3669,31 @@ function PlasmicHomepage__RenderFunc(props: {
                             </div>
                           </div>
                         </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__eKlfG
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__iZFk
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__kaCxt
-                              )}
-                            >
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.freeBox__sGf5N
-                                )}
-                              >
-                                <Group322Icon
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.svg__pmNc
-                                  )}
-                                  role={"img"}
-                                />
-
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__nT4M
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      projectcss.__wab_text,
-                                      sty.text__kJf5
-                                    )}
-                                  >
-                                    {"Case study"}
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            <div
-                              data-plasmic-name={"image1"}
-                              data-plasmic-override={overrides.image1}
-                              className={classNames(projectcss.all, sty.image1)}
-                            >
-                              <div
-                                data-plasmic-name={"image2"}
-                                data-plasmic-override={overrides.image2}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.image2
-                                )}
-                              />
-
-                              <div
-                                className={classNames(
-                                  projectcss.all,
-                                  projectcss.__wab_text,
-                                  sty.text__lAxax
-                                )}
-                              >
-                                <React.Fragment>
-                                  <span
-                                    className={
-                                      "plasmic_default__all plasmic_default__span"
-                                    }
-                                    style={{ fontWeight: 700 }}
-                                  >
-                                    {"Mi-Jack Europe GmbH (formerly Yardeye)"}
-                                  </span>
-                                  <React.Fragment>
-                                    {
-                                      "\nTrusted advisor for operational contracts, \nUS/Europe group structures, HR topics and all things IP"
-                                    }
-                                  </React.Fragment>
-                                </React.Fragment>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
                       </div>
                     </div>
                     <div
-                      className={classNames(
-                        projectcss.all,
-                        sty.freeBox___0ZW70
-                      )}
+                      className={classNames(projectcss.all, sty.freeBox__fEhjc)}
                     >
+                      <Mijack
+                        data-plasmic-name={"mijack"}
+                        data-plasmic-override={overrides.mijack}
+                        className={classNames("__wab_instance", sty.mijack)}
+                      />
+
                       <div
                         className={classNames(
                           projectcss.all,
-                          sty.freeBox__aI6Jr
+                          sty.freeBox__qdwTe
                         )}
                       >
-                        <Group322Icon
+                        <SectionBox
+                          data-plasmic-name={"sectionBox"}
+                          data-plasmic-override={overrides.sectionBox}
                           className={classNames(
-                            projectcss.all,
-                            sty.svg___6GaiD
+                            "__wab_instance",
+                            sty.sectionBox
                           )}
-                          role={"img"}
                         />
-
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__u3Zmw
-                          )}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__xhfNc
-                            )}
-                          >
-                            <React.Fragment>
-                              <span
-                                className={
-                                  "plasmic_default__all plasmic_default__span"
-                                }
-                                style={{ color: "#000000" }}
-                              >
-                                {
-                                  "Why our individual contracts are BEYOND PREMIUM"
-                                }
-                              </span>
-                            </React.Fragment>
-                          </div>
-                        </div>
-                      </div>
-                      <div
-                        className={classNames(
-                          projectcss.all,
-                          sty.freeBox__m7Ai9
-                        )}
-                      >
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__arNa5
-                          )}
-                        >
-                          <PlasmicImg__
-                            alt={""}
-                            className={classNames(sty.img__bQjz)}
-                            displayHeight={"50px"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"50px"}
-                            loading={"lazy"}
-                            src={{
-                              src: "/plasmic/evangelisti/images/compass1Png.png",
-                              fullWidth: 44,
-                              fullHeight: 42,
-                              aspectRatio: undefined
-                            }}
-                          />
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__jSrBm
-                            )}
-                          >
-                            {
-                              "We take time to understand your business model and think through risks."
-                            }
-                          </div>
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__ptRed
-                          )}
-                        >
-                          <PlasmicImg__
-                            alt={""}
-                            className={classNames(sty.img__oKQ2)}
-                            displayHeight={"50px"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"50px"}
-                            loading={"lazy"}
-                            src={{
-                              src: "/plasmic/evangelisti/images/protect1Png.png",
-                              fullWidth: 44,
-                              fullHeight: 44,
-                              aspectRatio: undefined
-                            }}
-                          />
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__faMm3
-                            )}
-                          >
-                            {
-                              "We design contracts To Put You \nin the Best Possible Position"
-                            }
-                          </div>
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__pMspu
-                          )}
-                        >
-                          <PlasmicImg__
-                            alt={""}
-                            className={classNames(sty.img__y4H9A)}
-                            displayHeight={"50px"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"50px"}
-                            loading={"lazy"}
-                            src={{
-                              src: "/plasmic/evangelisti/images/scalesPng.png",
-                              fullWidth: 43,
-                              fullHeight: 43,
-                              aspectRatio: undefined
-                            }}
-                          />
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__q4Roo
-                            )}
-                          >
-                            {
-                              "Sensitivity Applied. No Unnecessary \nProvocation of Your Business Partner"
-                            }
-                          </div>
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox___89Y2A
-                          )}
-                        >
-                          <PlasmicImg__
-                            alt={""}
-                            className={classNames(sty.img__uBc3K)}
-                            displayHeight={"50px"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"50px"}
-                            loading={"lazy"}
-                            src={{
-                              src: "/plasmic/evangelisti/images/speed1Png.png",
-                              fullWidth: 45,
-                              fullHeight: 45,
-                              aspectRatio: undefined
-                            }}
-                          />
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__liRwr
-                            )}
-                          >
-                            {
-                              "modular regimes (moderate \u2194 aggressive) \nto match Business Partner and situation."
-                            }
-                          </div>
-                        </div>
-                        <div
-                          className={classNames(
-                            projectcss.all,
-                            sty.freeBox__cipKq
-                          )}
-                        >
-                          <PlasmicImg__
-                            alt={""}
-                            className={classNames(sty.img__dsU7)}
-                            displayHeight={"50px"}
-                            displayMaxHeight={"none"}
-                            displayMaxWidth={"100%"}
-                            displayMinHeight={"0"}
-                            displayMinWidth={"0"}
-                            displayWidth={"50px"}
-                            loading={"lazy"}
-                            src={{
-                              src: "/plasmic/evangelisti/images/group62Png.png",
-                              fullWidth: 42,
-                              fullHeight: 47,
-                              aspectRatio: undefined
-                            }}
-                          />
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__bJw1U
-                            )}
-                          >
-                            {
-                              "Contracts scale with your company and\nserve as a reliable reference."
-                            }
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -7282,8 +7029,8 @@ const PlasmicDescendants = {
     "frame508",
     "frame509",
     "frame510",
-    "image1",
-    "image2",
+    "mijack",
+    "sectionBox",
     "section7",
     "_1stStep",
     "background2",
@@ -7457,8 +7204,8 @@ const PlasmicDescendants = {
     "frame508",
     "frame509",
     "frame510",
-    "image1",
-    "image2",
+    "mijack",
+    "sectionBox",
     "section7",
     "_1stStep",
     "background2",
@@ -7630,8 +7377,8 @@ const PlasmicDescendants = {
     "frame508",
     "frame509",
     "frame510",
-    "image1",
-    "image2",
+    "mijack",
+    "sectionBox",
     "section7",
     "_1stStep",
     "background2",
@@ -7990,8 +7737,8 @@ const PlasmicDescendants = {
     "frame508",
     "frame509",
     "frame510",
-    "image1",
-    "image2"
+    "mijack",
+    "sectionBox"
   ],
   forGermanMittelstand: ["forGermanMittelstand"],
   preheader4: ["preheader4"],
@@ -8001,8 +7748,8 @@ const PlasmicDescendants = {
   frame508: ["frame508"],
   frame509: ["frame509"],
   frame510: ["frame510"],
-  image1: ["image1", "image2"],
-  image2: ["image2"],
+  mijack: ["mijack"],
+  sectionBox: ["sectionBox"],
   section7: [
     "section7",
     "_1stStep",
@@ -8403,8 +8150,8 @@ type NodeDefaultElementType = {
   frame508: "div";
   frame509: "div";
   frame510: "div";
-  image1: "div";
-  image2: "div";
+  mijack: typeof Mijack;
+  sectionBox: typeof SectionBox;
   section7: "div";
   _1stStep: "div";
   background2: "div";
@@ -8665,8 +8412,8 @@ export const PlasmicHomepage = Object.assign(
     frame508: makeNodeComponent("frame508"),
     frame509: makeNodeComponent("frame509"),
     frame510: makeNodeComponent("frame510"),
-    image1: makeNodeComponent("image1"),
-    image2: makeNodeComponent("image2"),
+    mijack: makeNodeComponent("mijack"),
+    sectionBox: makeNodeComponent("sectionBox"),
     section7: makeNodeComponent("section7"),
     _1stStep: makeNodeComponent("_1stStep"),
     background2: makeNodeComponent("background2"),
