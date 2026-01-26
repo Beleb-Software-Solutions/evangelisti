@@ -486,6 +486,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     data-plasmic-name={"heroSection"}
                     data-plasmic-override={overrides.heroSection}
                     className={classNames(projectcss.all, sty.heroSection)}
+                    id={"home"}
                   >
                     <div
                       className={classNames(projectcss.all, sty.freeBox__mPeQq)}
@@ -1612,6 +1613,7 @@ function PlasmicHomepage__RenderFunc(props: {
                 >
                   <div
                     className={classNames(projectcss.all, sty.freeBox__fz2K9)}
+                    id={"golden-rules"}
                   >
                     <div
                       className={classNames(projectcss.all, sty.freeBox__kldG7)}
@@ -2040,6 +2042,7 @@ function PlasmicHomepage__RenderFunc(props: {
                         data-plasmic-name={"content3"}
                         data-plasmic-override={overrides.content3}
                         className={classNames(projectcss.all, sty.content3)}
+                        id={"ma"}
                       >
                         <div
                           className={classNames(
@@ -3143,6 +3146,7 @@ function PlasmicHomepage__RenderFunc(props: {
                   >
                     <div
                       className={classNames(projectcss.all, sty.freeBox__opJOq)}
+                      id={"mittelstand"}
                     >
                       <div
                         className={classNames(
@@ -3678,6 +3682,59 @@ function PlasmicHomepage__RenderFunc(props: {
                         data-plasmic-name={"mijack"}
                         data-plasmic-override={overrides.mijack}
                         className={classNames("__wab_instance", sty.mijack)}
+                        others={
+                          hasVariant(globalVariants, "screen", "tablet")
+                            ? (() => {
+                                try {
+                                  return "_12Th";
+                                } catch (e) {
+                                  if (
+                                    e instanceof TypeError ||
+                                    e?.plasmicType ===
+                                      "PlasmicUndefinedDataError"
+                                  ) {
+                                    return [];
+                                  }
+                                  throw e;
+                                }
+                              })()
+                            : (() => {
+                                try {
+                                  return $state.scroll >= 13250
+                                    ? "_11Th"
+                                    : $state.scroll >= 13170
+                                      ? "_10th"
+                                      : $state.scroll >= 13090
+                                        ? "_9th"
+                                        : $state.scroll >= 13010
+                                          ? "_8th"
+                                          : $state.scroll >= 12930
+                                            ? "_7th"
+                                            : $state.scroll >= 12850
+                                              ? "_6th"
+                                              : $state.scroll >= 12770
+                                                ? "_5th"
+                                                : $state.scroll >= 12690
+                                                  ? "_4th"
+                                                  : $state.scroll >= 12610
+                                                    ? "_3rd"
+                                                    : $state.scroll >= 12530
+                                                      ? "_2nd"
+                                                      : $state.scroll >= 12450
+                                                        ? "_1st"
+                                                        : "_12Th";
+                                } catch (e) {
+                                  if (
+                                    e instanceof TypeError ||
+                                    e?.plasmicType ===
+                                      "PlasmicUndefinedDataError"
+                                  ) {
+                                    return [];
+                                  }
+                                  throw e;
+                                }
+                              })()
+                        }
                       />
 
                       <div
@@ -3693,6 +3750,57 @@ function PlasmicHomepage__RenderFunc(props: {
                             "__wab_instance",
                             sty.sectionBox
                           )}
+                          others={
+                            hasVariant(globalVariants, "screen", "tablet")
+                              ? (() => {
+                                  try {
+                                    return "_11th";
+                                  } catch (e) {
+                                    if (
+                                      e instanceof TypeError ||
+                                      e?.plasmicType ===
+                                        "PlasmicUndefinedDataError"
+                                    ) {
+                                      return [];
+                                    }
+                                    throw e;
+                                  }
+                                })()
+                              : (() => {
+                                  try {
+                                    return $state.scroll > 13250
+                                      ? "_11Th"
+                                      : $state.scroll >= 13161
+                                        ? "_1st"
+                                        : $state.scroll >= 13072
+                                          ? "_2nd"
+                                          : $state.scroll >= 12983
+                                            ? "_3rd"
+                                            : $state.scroll >= 12894
+                                              ? "_4th"
+                                              : $state.scroll >= 12805
+                                                ? "_5th"
+                                                : $state.scroll >= 12716
+                                                  ? "_6th"
+                                                  : $state.scroll >= 12627
+                                                    ? "_7th"
+                                                    : $state.scroll >= 12538
+                                                      ? "_8th"
+                                                      : $state.scroll >= 12450
+                                                        ? "_9th"
+                                                        : "_10th";
+                                  } catch (e) {
+                                    if (
+                                      e instanceof TypeError ||
+                                      e?.plasmicType ===
+                                        "PlasmicUndefinedDataError"
+                                    ) {
+                                      return [];
+                                    }
+                                    throw e;
+                                  }
+                                })()
+                          }
                         />
                       </div>
                     </div>
@@ -3835,6 +3943,7 @@ function PlasmicHomepage__RenderFunc(props: {
                     </div>
                     <div
                       className={classNames(projectcss.all, sty.freeBox__qw2Qc)}
+                      id={"venture-capital"}
                     >
                       <div
                         className={classNames(
@@ -4345,6 +4454,7 @@ function PlasmicHomepage__RenderFunc(props: {
                       data-plasmic-name={"content4"}
                       data-plasmic-override={overrides.content4}
                       className={classNames(projectcss.all, sty.content4)}
+                      id={"startups"}
                     >
                       <div
                         className={classNames(
@@ -5422,6 +5532,7 @@ function PlasmicHomepage__RenderFunc(props: {
                           projectcss.all,
                           sty.freeBox__xao1D
                         )}
+                        id={"about-us"}
                       >
                         <div
                           className={classNames(

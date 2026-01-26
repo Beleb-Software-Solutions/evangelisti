@@ -84,7 +84,8 @@ export type PlasmicMijack__VariantMembers = {
     | "_9th"
     | "_10th"
     | "_11Th"
-    | "_12Th";
+    | "_12Th"
+    | "unnamedVariant";
 };
 export type PlasmicMijack__VariantsArgs = {
   others?: SingleChoiceArg<
@@ -100,6 +101,7 @@ export type PlasmicMijack__VariantsArgs = {
     | "_10th"
     | "_11Th"
     | "_12Th"
+    | "unnamedVariant"
   >;
 };
 type VariantPropType = keyof PlasmicMijack__VariantsArgs;
@@ -130,6 +132,7 @@ export interface DefaultMijackProps {
     | "_10th"
     | "_11Th"
     | "_12Th"
+    | "unnamedVariant"
   >;
   className?: string;
 }

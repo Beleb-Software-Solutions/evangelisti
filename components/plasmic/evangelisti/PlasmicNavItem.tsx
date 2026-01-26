@@ -261,7 +261,7 @@ function PlasmicNavItem__RenderFunc(props: {
             : hasVariant($state, "otherLinks", "venturecapital")
               ? "VENTURE CAPITAL"
               : hasVariant($state, "otherLinks", "mittlestand")
-                ? "MITTLESTAND"
+                ? "MITTelSTAND"
                 : hasVariant($state, "otherLinks", "mA")
                   ? "M&A"
                   : hasVariant($state, "otherLinks", "goldenRules")

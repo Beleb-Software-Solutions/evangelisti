@@ -14,7 +14,7 @@
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
-  column-gap: 22px;
+  column-gap: 16px;
   position: relative;
   cursor: pointer;
   transition-property: all;

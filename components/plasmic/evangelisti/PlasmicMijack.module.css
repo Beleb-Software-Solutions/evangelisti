@@ -7,7 +7,11 @@
   height: auto;
   max-width: 100%;
   position: relative;
+  transition-property: all;
+  transition-duration: 0.3s;
   min-width: 0;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: 0.3s;
   padding: 0px;
 }
 @media (max-width: 620px) {

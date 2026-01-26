@@ -231,7 +231,14 @@ function PlasmicSectionBox__RenderFunc(props: {
             className={classNames(
               projectcss.all,
               projectcss.__wab_text,
-              sty.text__n6Qrt
+              sty.text__n6Qrt,
+              {
+                [sty.textothers__11Th__n6Qrt2Kn3T]: hasVariant(
+                  $state,
+                  "others",
+                  "_11Th"
+                )
+              }
             )}
           >
             <React.Fragment>

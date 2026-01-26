@@ -150,7 +150,7 @@ function PlasmicCtaButton__RenderFunc(props: {
         data-plasmic-override={overrides.text}
         className={classNames(projectcss.all, projectcss.__wab_text, sty.text)}
       >
-        {"Contact us here"}
+        {"Book Intro Call"}
       </div>
       <div
         data-plasmic-name={"freeBox"}

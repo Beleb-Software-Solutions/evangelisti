@@ -328,51 +328,467 @@ function PlasmicNavbar__RenderFunc(props: {
                 [sty.navItemsContaineropen]: hasVariant($state, "open", "open")
               })}
             >
-              <NavItem
-                className={classNames("__wab_instance", sty.navItem___00P2K)}
-              />
+              <div
+                className={classNames(projectcss.all, sty.freeBox__s5Ohp)}
+                onClick={async event => {
+                  const $steps = {};
 
-              <NavItem
-                className={classNames("__wab_instance", sty.navItem___6JOup, {
-                  [sty.navItemopen___6JOupXbNt1]: hasVariant(
-                    $state,
-                    "open",
-                    "open"
-                  )
-                })}
-                noicon={true}
-                otherLinks={"goldenRules"}
-              />
+                  $steps["goToHome"] = true
+                    ? (() => {
+                        const actionArgs = { destination: "#home" };
+                        return (({ destination }) => {
+                          if (
+                            typeof destination === "string" &&
+                            destination.startsWith("#")
+                          ) {
+                            document
+                              .getElementById(destination.substr(1))
+                              .scrollIntoView({ behavior: "smooth" });
+                          } else {
+                            __nextRouter?.push(destination);
+                          }
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["goToHome"] != null &&
+                    typeof $steps["goToHome"] === "object" &&
+                    typeof $steps["goToHome"].then === "function"
+                  ) {
+                    $steps["goToHome"] = await $steps["goToHome"];
+                  }
 
-              <NavItem
-                className={classNames("__wab_instance", sty.navItem__pIpdz)}
-                noicon={true}
-                otherLinks={"mA"}
-              />
+                  $steps["updateOpen"] = true
+                    ? (() => {
+                        const actionArgs = { vgroup: "open", operation: 6 };
+                        return (({ vgroup, value }) => {
+                          if (typeof value === "string") {
+                            value = [value];
+                          }
 
-              <NavItem
-                className={classNames("__wab_instance", sty.navItem___4EGo5)}
-                noicon={true}
-                otherLinks={"mittlestand"}
-              />
+                          $stateSet($state, vgroup, false);
+                          return false;
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["updateOpen"] != null &&
+                    typeof $steps["updateOpen"] === "object" &&
+                    typeof $steps["updateOpen"].then === "function"
+                  ) {
+                    $steps["updateOpen"] = await $steps["updateOpen"];
+                  }
 
-              <NavItem
-                className={classNames("__wab_instance", sty.navItem__caIfL)}
-                noicon={true}
-                otherLinks={"venturecapital"}
-              />
+                  $steps["updateChanges"] = true
+                    ? (() => {
+                        const actionArgs = {
+                          vgroup: "changes",
+                          operation: 0,
+                          value: []
+                        };
+                        return (({ vgroup, value }) => {
+                          if (typeof value === "string") {
+                            value = [value];
+                          }
 
-              <NavItem
-                className={classNames("__wab_instance", sty.navItem__lgKwb)}
-                noicon={true}
-                otherLinks={"startups"}
-              />
+                          $stateSet($state, vgroup, value);
+                          return value;
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["updateChanges"] != null &&
+                    typeof $steps["updateChanges"] === "object" &&
+                    typeof $steps["updateChanges"].then === "function"
+                  ) {
+                    $steps["updateChanges"] = await $steps["updateChanges"];
+                  }
+                }}
+              >
+                <NavItem
+                  className={classNames("__wab_instance", sty.navItem___00P2K)}
+                />
+              </div>
+              <div
+                className={classNames(projectcss.all, sty.freeBox__oJkAu)}
+                onClick={async event => {
+                  const $steps = {};
 
-              <NavItem
-                className={classNames("__wab_instance", sty.navItem___0MPhn)}
-                noicon={true}
-                otherLinks={"aboutus"}
-              />
+                  $steps["goToPage"] = true
+                    ? (() => {
+                        const actionArgs = { destination: "#golden-rules" };
+                        return (({ destination }) => {
+                          if (
+                            typeof destination === "string" &&
+                            destination.startsWith("#")
+                          ) {
+                            document
+                              .getElementById(destination.substr(1))
+                              .scrollIntoView({ behavior: "smooth" });
+                          } else {
+                            __nextRouter?.push(destination);
+                          }
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["goToPage"] != null &&
+                    typeof $steps["goToPage"] === "object" &&
+                    typeof $steps["goToPage"].then === "function"
+                  ) {
+                    $steps["goToPage"] = await $steps["goToPage"];
+                  }
+
+                  $steps["updateOpen"] = true
+                    ? (() => {
+                        const actionArgs = { vgroup: "open", operation: 6 };
+                        return (({ vgroup, value }) => {
+                          if (typeof value === "string") {
+                            value = [value];
+                          }
+
+                          $stateSet($state, vgroup, false);
+                          return false;
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["updateOpen"] != null &&
+                    typeof $steps["updateOpen"] === "object" &&
+                    typeof $steps["updateOpen"].then === "function"
+                  ) {
+                    $steps["updateOpen"] = await $steps["updateOpen"];
+                  }
+
+                  $steps["updateVariant"] = true
+                    ? (() => {
+                        const actionArgs = {
+                          vgroup: "changes",
+                          operation: 0,
+                          value: []
+                        };
+                        return (({ vgroup, value }) => {
+                          if (typeof value === "string") {
+                            value = [value];
+                          }
+
+                          $stateSet($state, vgroup, value);
+                          return value;
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["updateVariant"] != null &&
+                    typeof $steps["updateVariant"] === "object" &&
+                    typeof $steps["updateVariant"].then === "function"
+                  ) {
+                    $steps["updateVariant"] = await $steps["updateVariant"];
+                  }
+                }}
+              >
+                <NavItem
+                  className={classNames("__wab_instance", sty.navItem___6JOup, {
+                    [sty.navItemopen___6JOupXbNt1]: hasVariant(
+                      $state,
+                      "open",
+                      "open"
+                    )
+                  })}
+                  noicon={true}
+                  otherLinks={"goldenRules"}
+                />
+              </div>
+              <div
+                className={classNames(projectcss.all, sty.freeBox__bvvK3)}
+                onClick={async event => {
+                  const $steps = {};
+
+                  $steps["goToMa"] = true
+                    ? (() => {
+                        const actionArgs = { destination: "#ma" };
+                        return (({ destination }) => {
+                          if (
+                            typeof destination === "string" &&
+                            destination.startsWith("#")
+                          ) {
+                            document
+                              .getElementById(destination.substr(1))
+                              .scrollIntoView({ behavior: "smooth" });
+                          } else {
+                            __nextRouter?.push(destination);
+                          }
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["goToMa"] != null &&
+                    typeof $steps["goToMa"] === "object" &&
+                    typeof $steps["goToMa"].then === "function"
+                  ) {
+                    $steps["goToMa"] = await $steps["goToMa"];
+                  }
+
+                  $steps["updateOpen"] = true
+                    ? (() => {
+                        const actionArgs = { vgroup: "open", operation: 6 };
+                        return (({ vgroup, value }) => {
+                          if (typeof value === "string") {
+                            value = [value];
+                          }
+
+                          $stateSet($state, vgroup, false);
+                          return false;
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["updateOpen"] != null &&
+                    typeof $steps["updateOpen"] === "object" &&
+                    typeof $steps["updateOpen"].then === "function"
+                  ) {
+                    $steps["updateOpen"] = await $steps["updateOpen"];
+                  }
+                }}
+              >
+                <NavItem
+                  className={classNames("__wab_instance", sty.navItem__pIpdz)}
+                  noicon={true}
+                  otherLinks={"mA"}
+                />
+              </div>
+              <div
+                className={classNames(projectcss.all, sty.freeBox__wvLcj)}
+                onClick={async event => {
+                  const $steps = {};
+
+                  $steps["goToMittelstand"] = true
+                    ? (() => {
+                        const actionArgs = { destination: "#mittelstand" };
+                        return (({ destination }) => {
+                          if (
+                            typeof destination === "string" &&
+                            destination.startsWith("#")
+                          ) {
+                            document
+                              .getElementById(destination.substr(1))
+                              .scrollIntoView({ behavior: "smooth" });
+                          } else {
+                            __nextRouter?.push(destination);
+                          }
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["goToMittelstand"] != null &&
+                    typeof $steps["goToMittelstand"] === "object" &&
+                    typeof $steps["goToMittelstand"].then === "function"
+                  ) {
+                    $steps["goToMittelstand"] = await $steps["goToMittelstand"];
+                  }
+
+                  $steps["updateOpen"] = true
+                    ? (() => {
+                        const actionArgs = { vgroup: "open", operation: 6 };
+                        return (({ vgroup, value }) => {
+                          if (typeof value === "string") {
+                            value = [value];
+                          }
+
+                          $stateSet($state, vgroup, false);
+                          return false;
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["updateOpen"] != null &&
+                    typeof $steps["updateOpen"] === "object" &&
+                    typeof $steps["updateOpen"].then === "function"
+                  ) {
+                    $steps["updateOpen"] = await $steps["updateOpen"];
+                  }
+                }}
+              >
+                <NavItem
+                  className={classNames("__wab_instance", sty.navItem___4EGo5)}
+                  noicon={true}
+                  otherLinks={"mittlestand"}
+                />
+              </div>
+              <div
+                className={classNames(projectcss.all, sty.freeBox__hWzL3)}
+                onClick={async event => {
+                  const $steps = {};
+
+                  $steps["goToVentureCapital"] = true
+                    ? (() => {
+                        const actionArgs = { destination: "#venture-capital" };
+                        return (({ destination }) => {
+                          if (
+                            typeof destination === "string" &&
+                            destination.startsWith("#")
+                          ) {
+                            document
+                              .getElementById(destination.substr(1))
+                              .scrollIntoView({ behavior: "smooth" });
+                          } else {
+                            __nextRouter?.push(destination);
+                          }
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["goToVentureCapital"] != null &&
+                    typeof $steps["goToVentureCapital"] === "object" &&
+                    typeof $steps["goToVentureCapital"].then === "function"
+                  ) {
+                    $steps["goToVentureCapital"] =
+                      await $steps["goToVentureCapital"];
+                  }
+
+                  $steps["updateOpen"] = true
+                    ? (() => {
+                        const actionArgs = { vgroup: "open", operation: 6 };
+                        return (({ vgroup, value }) => {
+                          if (typeof value === "string") {
+                            value = [value];
+                          }
+
+                          $stateSet($state, vgroup, false);
+                          return false;
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["updateOpen"] != null &&
+                    typeof $steps["updateOpen"] === "object" &&
+                    typeof $steps["updateOpen"].then === "function"
+                  ) {
+                    $steps["updateOpen"] = await $steps["updateOpen"];
+                  }
+                }}
+              >
+                <NavItem
+                  className={classNames("__wab_instance", sty.navItem__caIfL)}
+                  noicon={true}
+                  otherLinks={"venturecapital"}
+                />
+              </div>
+              <div
+                className={classNames(projectcss.all, sty.freeBox__gQRx)}
+                onClick={async event => {
+                  const $steps = {};
+
+                  $steps["goToStartups"] = true
+                    ? (() => {
+                        const actionArgs = { destination: "#startups" };
+                        return (({ destination }) => {
+                          if (
+                            typeof destination === "string" &&
+                            destination.startsWith("#")
+                          ) {
+                            document
+                              .getElementById(destination.substr(1))
+                              .scrollIntoView({ behavior: "smooth" });
+                          } else {
+                            __nextRouter?.push(destination);
+                          }
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["goToStartups"] != null &&
+                    typeof $steps["goToStartups"] === "object" &&
+                    typeof $steps["goToStartups"].then === "function"
+                  ) {
+                    $steps["goToStartups"] = await $steps["goToStartups"];
+                  }
+
+                  $steps["updateOpen"] = true
+                    ? (() => {
+                        const actionArgs = { vgroup: "open", operation: 6 };
+                        return (({ vgroup, value }) => {
+                          if (typeof value === "string") {
+                            value = [value];
+                          }
+
+                          $stateSet($state, vgroup, false);
+                          return false;
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["updateOpen"] != null &&
+                    typeof $steps["updateOpen"] === "object" &&
+                    typeof $steps["updateOpen"].then === "function"
+                  ) {
+                    $steps["updateOpen"] = await $steps["updateOpen"];
+                  }
+                }}
+              >
+                <NavItem
+                  className={classNames("__wab_instance", sty.navItem__lgKwb)}
+                  noicon={true}
+                  otherLinks={"startups"}
+                />
+              </div>
+              <div
+                className={classNames(projectcss.all, sty.freeBox__twYvj)}
+                onClick={async event => {
+                  const $steps = {};
+
+                  $steps["goToAboutUs"] = true
+                    ? (() => {
+                        const actionArgs = { destination: "#about-us" };
+                        return (({ destination }) => {
+                          if (
+                            typeof destination === "string" &&
+                            destination.startsWith("#")
+                          ) {
+                            document
+                              .getElementById(destination.substr(1))
+                              .scrollIntoView({ behavior: "smooth" });
+                          } else {
+                            __nextRouter?.push(destination);
+                          }
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["goToAboutUs"] != null &&
+                    typeof $steps["goToAboutUs"] === "object" &&
+                    typeof $steps["goToAboutUs"].then === "function"
+                  ) {
+                    $steps["goToAboutUs"] = await $steps["goToAboutUs"];
+                  }
+
+                  $steps["updateOpen"] = true
+                    ? (() => {
+                        const actionArgs = { vgroup: "open", operation: 6 };
+                        return (({ vgroup, value }) => {
+                          if (typeof value === "string") {
+                            value = [value];
+                          }
+
+                          $stateSet($state, vgroup, false);
+                          return false;
+                        })?.apply(null, [actionArgs]);
+                      })()
+                    : undefined;
+                  if (
+                    $steps["updateOpen"] != null &&
+                    typeof $steps["updateOpen"] === "object" &&
+                    typeof $steps["updateOpen"].then === "function"
+                  ) {
+                    $steps["updateOpen"] = await $steps["updateOpen"];
+                  }
+                }}
+              >
+                <NavItem
+                  className={classNames("__wab_instance", sty.navItem___0MPhn)}
+                  noicon={true}
+                  otherLinks={"aboutus"}
+                />
+              </div>
             </div>
             <div
               data-plasmic-name={"ctaButtonContainer"}

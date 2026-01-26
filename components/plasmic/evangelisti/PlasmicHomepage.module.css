@@ -5001,6 +5001,13 @@
   left: 0px;
   z-index: 1;
 }
+@media (max-width: 1023px) {
+  .mijack:global(.__wab_instance) {
+    position: relative;
+    left: auto;
+    top: auto;
+  }
+}
 @media (max-width: 620px) {
   .mijack:global(.__wab_instance) {
     top: auto;
@@ -5019,6 +5026,11 @@
   z-index: 2;
   min-width: 0;
   padding: 400px 0px 0px;
+}
+@media (max-width: 1023px) {
+  .freeBox__qdwTe {
+    padding-top: 100px;
+  }
 }
 .section7 {
   display: flex;
