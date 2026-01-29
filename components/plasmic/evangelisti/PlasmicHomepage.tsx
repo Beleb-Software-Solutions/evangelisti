@@ -1910,9 +1910,9 @@ function PlasmicHomepage__RenderFunc(props: {
                         }
                         loading={"lazy"}
                         src={{
-                          src: "/plasmic/evangelisti/images/hf20260120142904Ea0D8Eb604274A7AA00528Df0564Ccc41Svg.svg",
-                          fullWidth: 25320,
-                          fullHeight: 11022,
+                          src: "/plasmic/evangelisti/images/group16Png.png",
+                          fullWidth: 1626,
+                          fullHeight: 708,
                           aspectRatio: undefined
                         }}
                       />
