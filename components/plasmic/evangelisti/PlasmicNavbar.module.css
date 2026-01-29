@@ -121,15 +121,23 @@
   align-items: stretch;
   justify-content: flex-start;
   width: 100%;
-  height: auto;
+  height: 0px;
   max-width: 100%;
   min-width: 0;
-  padding: 8px;
+  flex-shrink: 0;
+  padding: 0px;
 }
 @media (max-width: 1023px) {
   .freeBox___3Op68 {
     width: auto;
     cursor: pointer;
+    height: auto;
+    padding: 8px;
+  }
+}
+@media (max-width: 1023px) {
+  .freeBoxopen___3Op68XbNt1 {
+    padding: 0px;
   }
 }
 .freeBox__c47Mb {
@@ -184,6 +192,11 @@
   padding: 8px;
 }
 @media (max-width: 1023px) {
+  .freeBox__bx9R2 {
+    display: none;
+  }
+}
+@media (max-width: 620px) {
   .freeBox__bx9R2 {
     display: none;
   }

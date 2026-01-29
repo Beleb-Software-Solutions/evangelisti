@@ -289,9 +289,11 @@ function PlasmicNavbar__RenderFunc(props: {
                 hasVariant($state, "open", "open") &&
                 hasVariant(globalVariants, "screen", "tablet")
                   ? true
-                  : hasVariant(globalVariants, "screen", "tablet")
+                  : hasVariant(globalVariants, "screen", "mobile")
                     ? true
-                    : false
+                    : hasVariant(globalVariants, "screen", "tablet")
+                      ? true
+                      : false
               ) ? (
                 <div
                   className={classNames(projectcss.all, sty.freeBox__bx9R2, {
@@ -796,6 +798,55 @@ function PlasmicNavbar__RenderFunc(props: {
               className={classNames(projectcss.all, sty.ctaButtonContainer, {
                 [sty.ctaButtonContaineropen]: hasVariant($state, "open", "open")
               })}
+              onClick={async event => {
+                const $steps = {};
+
+                $steps["goToCall"] = true
+                  ? (() => {
+                      const actionArgs = { destination: "#call" };
+                      return (({ destination }) => {
+                        if (
+                          typeof destination === "string" &&
+                          destination.startsWith("#")
+                        ) {
+                          document
+                            .getElementById(destination.substr(1))
+                            .scrollIntoView({ behavior: "smooth" });
+                        } else {
+                          __nextRouter?.push(destination);
+                        }
+                      })?.apply(null, [actionArgs]);
+                    })()
+                  : undefined;
+                if (
+                  $steps["goToCall"] != null &&
+                  typeof $steps["goToCall"] === "object" &&
+                  typeof $steps["goToCall"].then === "function"
+                ) {
+                  $steps["goToCall"] = await $steps["goToCall"];
+                }
+
+                $steps["updateOpen"] = true
+                  ? (() => {
+                      const actionArgs = { vgroup: "open", operation: 6 };
+                      return (({ vgroup, value }) => {
+                        if (typeof value === "string") {
+                          value = [value];
+                        }
+
+                        $stateSet($state, vgroup, false);
+                        return false;
+                      })?.apply(null, [actionArgs]);
+                    })()
+                  : undefined;
+                if (
+                  $steps["updateOpen"] != null &&
+                  typeof $steps["updateOpen"] === "object" &&
+                  typeof $steps["updateOpen"].then === "function"
+                ) {
+                  $steps["updateOpen"] = await $steps["updateOpen"];
+                }
+              }}
             >
               <CtaButton
                 data-plasmic-name={"ctaButton"}

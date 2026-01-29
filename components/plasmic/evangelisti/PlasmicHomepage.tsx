@@ -269,8 +269,6 @@ export type PlasmicHomepage__OverridesType = {
   group1321315509?: Flex__<"div">;
   frame270?: Flex__<"div">;
   frame268?: Flex__<"div">;
-  frame280?: Flex__<"div">;
-  frame281?: Flex__<"div">;
   frame273?: Flex__<"div">;
   frame269?: Flex__<"div">;
   frame274?: Flex__<"div">;
@@ -877,12 +875,53 @@ function PlasmicHomepage__RenderFunc(props: {
                               sty.freeBox__d7DAl
                             )}
                           >
-                            <CtaButton
+                            <div
                               className={classNames(
-                                "__wab_instance",
-                                sty.ctaButton__jjctq
+                                projectcss.all,
+                                sty.freeBox__srP2Z
                               )}
-                            />
+                              onClick={async event => {
+                                const $steps = {};
+
+                                $steps["goToCall"] = true
+                                  ? (() => {
+                                      const actionArgs = {
+                                        destination: "#call"
+                                      };
+                                      return (({ destination }) => {
+                                        if (
+                                          typeof destination === "string" &&
+                                          destination.startsWith("#")
+                                        ) {
+                                          document
+                                            .getElementById(
+                                              destination.substr(1)
+                                            )
+                                            .scrollIntoView({
+                                              behavior: "smooth"
+                                            });
+                                        } else {
+                                          __nextRouter?.push(destination);
+                                        }
+                                      })?.apply(null, [actionArgs]);
+                                    })()
+                                  : undefined;
+                                if (
+                                  $steps["goToCall"] != null &&
+                                  typeof $steps["goToCall"] === "object" &&
+                                  typeof $steps["goToCall"].then === "function"
+                                ) {
+                                  $steps["goToCall"] = await $steps["goToCall"];
+                                }
+                              }}
+                            >
+                              <CtaButton
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.ctaButton__jjctq
+                                )}
+                              />
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -5498,12 +5537,55 @@ function PlasmicHomepage__RenderFunc(props: {
                                 sty.freeBox__qs3Xd
                               )}
                             >
-                              <CtaButton
+                              <div
                                 className={classNames(
-                                  "__wab_instance",
-                                  sty.ctaButton__bik4I
+                                  projectcss.all,
+                                  sty.freeBox__ixftJ
                                 )}
-                              />
+                                onClick={async event => {
+                                  const $steps = {};
+
+                                  $steps["goToCall"] = true
+                                    ? (() => {
+                                        const actionArgs = {
+                                          destination: "#call"
+                                        };
+                                        return (({ destination }) => {
+                                          if (
+                                            typeof destination === "string" &&
+                                            destination.startsWith("#")
+                                          ) {
+                                            document
+                                              .getElementById(
+                                                destination.substr(1)
+                                              )
+                                              .scrollIntoView({
+                                                behavior: "smooth"
+                                              });
+                                          } else {
+                                            __nextRouter?.push(destination);
+                                          }
+                                        })?.apply(null, [actionArgs]);
+                                      })()
+                                    : undefined;
+                                  if (
+                                    $steps["goToCall"] != null &&
+                                    typeof $steps["goToCall"] === "object" &&
+                                    typeof $steps["goToCall"].then ===
+                                      "function"
+                                  ) {
+                                    $steps["goToCall"] =
+                                      await $steps["goToCall"];
+                                  }
+                                }}
+                              >
+                                <CtaButton
+                                  className={classNames(
+                                    "__wab_instance",
+                                    sty.ctaButton__bik4I
+                                  )}
+                                />
+                              </div>
                             </div>
                           </Reveal>
                         </div>
@@ -6361,6 +6443,7 @@ function PlasmicHomepage__RenderFunc(props: {
               >
                 <div
                   className={classNames(projectcss.all, sty.freeBox___0Tprf)}
+                  id={"call"}
                 >
                   <div
                     className={classNames(projectcss.all, sty.freeBox__ssy5R)}
@@ -6750,6 +6833,36 @@ function PlasmicHomepage__RenderFunc(props: {
                             data-plasmic-name={"frame268"}
                             data-plasmic-override={overrides.frame268}
                             className={classNames(projectcss.all, sty.frame268)}
+                            onClick={async event => {
+                              const $steps = {};
+
+                              $steps["goToHome"] = true
+                                ? (() => {
+                                    const actionArgs = { destination: "#home" };
+                                    return (({ destination }) => {
+                                      if (
+                                        typeof destination === "string" &&
+                                        destination.startsWith("#")
+                                      ) {
+                                        document
+                                          .getElementById(destination.substr(1))
+                                          .scrollIntoView({
+                                            behavior: "smooth"
+                                          });
+                                      } else {
+                                        __nextRouter?.push(destination);
+                                      }
+                                    })?.apply(null, [actionArgs]);
+                                  })()
+                                : undefined;
+                              if (
+                                $steps["goToHome"] != null &&
+                                typeof $steps["goToHome"] === "object" &&
+                                typeof $steps["goToHome"].then === "function"
+                              ) {
+                                $steps["goToHome"] = await $steps["goToHome"];
+                              }
+                            }}
                           >
                             <div
                               className={classNames(
@@ -6763,27 +6876,6 @@ function PlasmicHomepage__RenderFunc(props: {
                           </div>
                         </div>
                         <div
-                          data-plasmic-name={"frame280"}
-                          data-plasmic-override={overrides.frame280}
-                          className={classNames(projectcss.all, sty.frame280)}
-                        >
-                          <div
-                            data-plasmic-name={"frame281"}
-                            data-plasmic-override={overrides.frame281}
-                            className={classNames(projectcss.all, sty.frame281)}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                projectcss.__wab_text,
-                                sty.text__p19TS
-                              )}
-                            >
-                              {"STARTUPS"}
-                            </div>
-                          </div>
-                        </div>
-                        <div
                           data-plasmic-name={"frame273"}
                           data-plasmic-override={overrides.frame273}
                           className={classNames(projectcss.all, sty.frame273)}
@@ -6792,6 +6884,40 @@ function PlasmicHomepage__RenderFunc(props: {
                             data-plasmic-name={"frame269"}
                             data-plasmic-override={overrides.frame269}
                             className={classNames(projectcss.all, sty.frame269)}
+                            onClick={async event => {
+                              const $steps = {};
+
+                              $steps["goToGoldenRules"] = true
+                                ? (() => {
+                                    const actionArgs = {
+                                      destination: "#golden-rules"
+                                    };
+                                    return (({ destination }) => {
+                                      if (
+                                        typeof destination === "string" &&
+                                        destination.startsWith("#")
+                                      ) {
+                                        document
+                                          .getElementById(destination.substr(1))
+                                          .scrollIntoView({
+                                            behavior: "smooth"
+                                          });
+                                      } else {
+                                        __nextRouter?.push(destination);
+                                      }
+                                    })?.apply(null, [actionArgs]);
+                                  })()
+                                : undefined;
+                              if (
+                                $steps["goToGoldenRules"] != null &&
+                                typeof $steps["goToGoldenRules"] === "object" &&
+                                typeof $steps["goToGoldenRules"].then ===
+                                  "function"
+                              ) {
+                                $steps["goToGoldenRules"] =
+                                  await $steps["goToGoldenRules"];
+                              }
+                            }}
                           >
                             <div
                               className={classNames(
@@ -6813,6 +6939,36 @@ function PlasmicHomepage__RenderFunc(props: {
                             data-plasmic-name={"frame271"}
                             data-plasmic-override={overrides.frame271}
                             className={classNames(projectcss.all, sty.frame271)}
+                            onClick={async event => {
+                              const $steps = {};
+
+                              $steps["goToMa"] = true
+                                ? (() => {
+                                    const actionArgs = { destination: "#ma" };
+                                    return (({ destination }) => {
+                                      if (
+                                        typeof destination === "string" &&
+                                        destination.startsWith("#")
+                                      ) {
+                                        document
+                                          .getElementById(destination.substr(1))
+                                          .scrollIntoView({
+                                            behavior: "smooth"
+                                          });
+                                      } else {
+                                        __nextRouter?.push(destination);
+                                      }
+                                    })?.apply(null, [actionArgs]);
+                                  })()
+                                : undefined;
+                              if (
+                                $steps["goToMa"] != null &&
+                                typeof $steps["goToMa"] === "object" &&
+                                typeof $steps["goToMa"].then === "function"
+                              ) {
+                                $steps["goToMa"] = await $steps["goToMa"];
+                              }
+                            }}
                           >
                             <div
                               className={classNames(
@@ -6834,6 +6990,40 @@ function PlasmicHomepage__RenderFunc(props: {
                             data-plasmic-name={"frame272"}
                             data-plasmic-override={overrides.frame272}
                             className={classNames(projectcss.all, sty.frame272)}
+                            onClick={async event => {
+                              const $steps = {};
+
+                              $steps["goToMittelstand"] = true
+                                ? (() => {
+                                    const actionArgs = {
+                                      destination: "#mittelstand"
+                                    };
+                                    return (({ destination }) => {
+                                      if (
+                                        typeof destination === "string" &&
+                                        destination.startsWith("#")
+                                      ) {
+                                        document
+                                          .getElementById(destination.substr(1))
+                                          .scrollIntoView({
+                                            behavior: "smooth"
+                                          });
+                                      } else {
+                                        __nextRouter?.push(destination);
+                                      }
+                                    })?.apply(null, [actionArgs]);
+                                  })()
+                                : undefined;
+                              if (
+                                $steps["goToMittelstand"] != null &&
+                                typeof $steps["goToMittelstand"] === "object" &&
+                                typeof $steps["goToMittelstand"].then ===
+                                  "function"
+                              ) {
+                                $steps["goToMittelstand"] =
+                                  await $steps["goToMittelstand"];
+                              }
+                            }}
                           >
                             <div
                               className={classNames(
@@ -6842,7 +7032,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                 sty.text__coRkq
                               )}
                             >
-                              {"MITTLESTAND"}
+                              {"MITTELSTAND"}
                             </div>
                           </div>
                         </div>
@@ -6855,6 +7045,41 @@ function PlasmicHomepage__RenderFunc(props: {
                             data-plasmic-name={"frame277"}
                             data-plasmic-override={overrides.frame277}
                             className={classNames(projectcss.all, sty.frame277)}
+                            onClick={async event => {
+                              const $steps = {};
+
+                              $steps["goToVentureCapital"] = true
+                                ? (() => {
+                                    const actionArgs = {
+                                      destination: "#venture-capital"
+                                    };
+                                    return (({ destination }) => {
+                                      if (
+                                        typeof destination === "string" &&
+                                        destination.startsWith("#")
+                                      ) {
+                                        document
+                                          .getElementById(destination.substr(1))
+                                          .scrollIntoView({
+                                            behavior: "smooth"
+                                          });
+                                      } else {
+                                        __nextRouter?.push(destination);
+                                      }
+                                    })?.apply(null, [actionArgs]);
+                                  })()
+                                : undefined;
+                              if (
+                                $steps["goToVentureCapital"] != null &&
+                                typeof $steps["goToVentureCapital"] ===
+                                  "object" &&
+                                typeof $steps["goToVentureCapital"].then ===
+                                  "function"
+                              ) {
+                                $steps["goToVentureCapital"] =
+                                  await $steps["goToVentureCapital"];
+                              }
+                            }}
                           >
                             <div
                               className={classNames(
@@ -6876,6 +7101,40 @@ function PlasmicHomepage__RenderFunc(props: {
                             data-plasmic-name={"frame279"}
                             data-plasmic-override={overrides.frame279}
                             className={classNames(projectcss.all, sty.frame279)}
+                            onClick={async event => {
+                              const $steps = {};
+
+                              $steps["goToStartups"] = true
+                                ? (() => {
+                                    const actionArgs = {
+                                      destination: "#startups"
+                                    };
+                                    return (({ destination }) => {
+                                      if (
+                                        typeof destination === "string" &&
+                                        destination.startsWith("#")
+                                      ) {
+                                        document
+                                          .getElementById(destination.substr(1))
+                                          .scrollIntoView({
+                                            behavior: "smooth"
+                                          });
+                                      } else {
+                                        __nextRouter?.push(destination);
+                                      }
+                                    })?.apply(null, [actionArgs]);
+                                  })()
+                                : undefined;
+                              if (
+                                $steps["goToStartups"] != null &&
+                                typeof $steps["goToStartups"] === "object" &&
+                                typeof $steps["goToStartups"].then ===
+                                  "function"
+                              ) {
+                                $steps["goToStartups"] =
+                                  await $steps["goToStartups"];
+                              }
+                            }}
                           >
                             <div
                               className={classNames(
@@ -6897,6 +7156,39 @@ function PlasmicHomepage__RenderFunc(props: {
                             data-plasmic-name={"frame283"}
                             data-plasmic-override={overrides.frame283}
                             className={classNames(projectcss.all, sty.frame283)}
+                            onClick={async event => {
+                              const $steps = {};
+
+                              $steps["goToAboutUs"] = true
+                                ? (() => {
+                                    const actionArgs = {
+                                      destination: "#about-us"
+                                    };
+                                    return (({ destination }) => {
+                                      if (
+                                        typeof destination === "string" &&
+                                        destination.startsWith("#")
+                                      ) {
+                                        document
+                                          .getElementById(destination.substr(1))
+                                          .scrollIntoView({
+                                            behavior: "smooth"
+                                          });
+                                      } else {
+                                        __nextRouter?.push(destination);
+                                      }
+                                    })?.apply(null, [actionArgs]);
+                                  })()
+                                : undefined;
+                              if (
+                                $steps["goToAboutUs"] != null &&
+                                typeof $steps["goToAboutUs"] === "object" &&
+                                typeof $steps["goToAboutUs"].then === "function"
+                              ) {
+                                $steps["goToAboutUs"] =
+                                  await $steps["goToAboutUs"];
+                              }
+                            }}
                           >
                             <div
                               className={classNames(
@@ -6955,6 +7247,42 @@ function PlasmicHomepage__RenderFunc(props: {
                                   projectcss.all,
                                   sty.clipPathGroup
                                 )}
+                                onClick={async event => {
+                                  const $steps = {};
+
+                                  $steps["goToHome"] = true
+                                    ? (() => {
+                                        const actionArgs = {
+                                          destination: "#home"
+                                        };
+                                        return (({ destination }) => {
+                                          if (
+                                            typeof destination === "string" &&
+                                            destination.startsWith("#")
+                                          ) {
+                                            document
+                                              .getElementById(
+                                                destination.substr(1)
+                                              )
+                                              .scrollIntoView({
+                                                behavior: "smooth"
+                                              });
+                                          } else {
+                                            __nextRouter?.push(destination);
+                                          }
+                                        })?.apply(null, [actionArgs]);
+                                      })()
+                                    : undefined;
+                                  if (
+                                    $steps["goToHome"] != null &&
+                                    typeof $steps["goToHome"] === "object" &&
+                                    typeof $steps["goToHome"].then ===
+                                      "function"
+                                  ) {
+                                    $steps["goToHome"] =
+                                      await $steps["goToHome"];
+                                  }
+                                }}
                               >
                                 <Group2Icon
                                   className={classNames(
@@ -6990,6 +7318,40 @@ function PlasmicHomepage__RenderFunc(props: {
                                 projectcss.all,
                                 sty.clipPathGroup2
                               )}
+                              onClick={async event => {
+                                const $steps = {};
+
+                                $steps["goToHome"] = true
+                                  ? (() => {
+                                      const actionArgs = {
+                                        destination: "#home"
+                                      };
+                                      return (({ destination }) => {
+                                        if (
+                                          typeof destination === "string" &&
+                                          destination.startsWith("#")
+                                        ) {
+                                          document
+                                            .getElementById(
+                                              destination.substr(1)
+                                            )
+                                            .scrollIntoView({
+                                              behavior: "smooth"
+                                            });
+                                        } else {
+                                          __nextRouter?.push(destination);
+                                        }
+                                      })?.apply(null, [actionArgs]);
+                                    })()
+                                  : undefined;
+                                if (
+                                  $steps["goToHome"] != null &&
+                                  typeof $steps["goToHome"] === "object" &&
+                                  typeof $steps["goToHome"].then === "function"
+                                ) {
+                                  $steps["goToHome"] = await $steps["goToHome"];
+                                }
+                              }}
                             >
                               <Group3Icon
                                 className={classNames(
@@ -7212,8 +7574,6 @@ const PlasmicDescendants = {
     "group1321315509",
     "frame270",
     "frame268",
-    "frame280",
-    "frame281",
     "frame273",
     "frame269",
     "frame274",
@@ -7387,8 +7747,6 @@ const PlasmicDescendants = {
     "group1321315509",
     "frame270",
     "frame268",
-    "frame280",
-    "frame281",
     "frame273",
     "frame269",
     "frame274",
@@ -7560,8 +7918,6 @@ const PlasmicDescendants = {
     "group1321315509",
     "frame270",
     "frame268",
-    "frame280",
-    "frame281",
     "frame273",
     "frame269",
     "frame274",
@@ -8060,8 +8416,6 @@ const PlasmicDescendants = {
     "group1321315509",
     "frame270",
     "frame268",
-    "frame280",
-    "frame281",
     "frame273",
     "frame269",
     "frame274",
@@ -8095,8 +8449,6 @@ const PlasmicDescendants = {
     "group1321315509",
     "frame270",
     "frame268",
-    "frame280",
-    "frame281",
     "frame273",
     "frame269",
     "frame274",
@@ -8123,8 +8475,6 @@ const PlasmicDescendants = {
     "group1321315509",
     "frame270",
     "frame268",
-    "frame280",
-    "frame281",
     "frame273",
     "frame269",
     "frame274",
@@ -8140,8 +8490,6 @@ const PlasmicDescendants = {
   ],
   frame270: ["frame270", "frame268"],
   frame268: ["frame268"],
-  frame280: ["frame280", "frame281"],
-  frame281: ["frame281"],
   frame273: ["frame273", "frame269"],
   frame269: ["frame269"],
   frame274: ["frame274", "frame271"],
@@ -8333,8 +8681,6 @@ type NodeDefaultElementType = {
   group1321315509: "div";
   frame270: "div";
   frame268: "div";
-  frame280: "div";
-  frame281: "div";
   frame273: "div";
   frame269: "div";
   frame274: "div";
@@ -8620,8 +8966,6 @@ export const PlasmicHomepage = Object.assign(
     group1321315509: makeNodeComponent("group1321315509"),
     frame270: makeNodeComponent("frame270"),
     frame268: makeNodeComponent("frame268"),
-    frame280: makeNodeComponent("frame280"),
-    frame281: makeNodeComponent("frame281"),
     frame273: makeNodeComponent("frame273"),
     frame269: makeNodeComponent("frame269"),
     frame274: makeNodeComponent("frame274"),
