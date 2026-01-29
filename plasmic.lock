@@ -1018,14 +1018,14 @@
           "checksum": "9532991c8f21ac0f80611e8fdb2ac9fd"
         },
         {
-          "assetId": "psTfKC1KCEpawf41964R83",
-          "type": "projectCss",
-          "checksum": "8072357f1e4e259ff438440d379c7737"
-        },
-        {
           "type": "image",
           "assetId": "ceTh_j5yoN-U",
           "checksum": "63cef285fee1ff2e8636b9f108dc52df"
+        },
+        {
+          "assetId": "psTfKC1KCEpawf41964R83",
+          "type": "projectCss",
+          "checksum": "8072357f1e4e259ff438440d379c7737"
         }
       ],
       "codegenVersion": "0.0.2"
