@@ -156,7 +156,7 @@
   min-width: 0;
   padding: 8px 40px 8px 90px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .image1 {
     display: flex;
     flex-direction: column;
@@ -184,7 +184,7 @@
   left: auto;
   flex-shrink: 0;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .image2 {
     left: auto;
     top: auto;
@@ -209,7 +209,7 @@
   text-overflow: clip;
   max-width: 506px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .text__haIeN {
     max-width: none;
   }

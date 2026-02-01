@@ -23,6 +23,11 @@
   padding-bottom: 24px;
   column-gap: 0px;
 }
+@media (max-width: 620px) {
+  .frame515open {
+    padding-top: 35px;
+  }
+}
 .frame427321884 {
   animation: none;
   width: 100%;
@@ -144,7 +149,7 @@
   padding: 0px;
 }
 .freeBoxopen__gTdYp57Jjc {
-  height: 500px;
+  height: 520px;
   flex-shrink: 0;
 }
 @media (max-width: 620px) {

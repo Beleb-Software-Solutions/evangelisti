@@ -17,7 +17,7 @@
   padding: 0px 0px 0px 20px;
   border-bottom: 2px solid transparent;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .navContainer {
     background: #ffffff00;
   }
@@ -32,7 +32,7 @@
   border-bottom-color: #00000040;
   box-shadow: 0px 4px 12px 0px #00000026;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .navContaineropen {
     background: #ffffff;
   }
@@ -49,7 +49,7 @@
   min-width: 0;
   padding: 20px 10px 20px 50px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .navbar {
     padding-left: 30px;
     padding-right: 30px;
@@ -74,7 +74,7 @@
   min-width: 0;
   padding: 0px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .navContents {
     display: flex;
     flex-direction: column;
@@ -94,7 +94,7 @@
   align-items: center;
   padding: 0px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .logoContainer {
     width: 100%;
     display: flex;
@@ -127,7 +127,7 @@
   flex-shrink: 0;
   padding: 0px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .freeBox___3Op68 {
     width: auto;
     cursor: pointer;
@@ -135,7 +135,7 @@
     padding: 8px;
   }
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .freeBoxopen___3Op68XbNt1 {
     padding: 0px;
   }
@@ -152,7 +152,7 @@
   min-width: 0;
   padding: 8px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .freeBox__c47Mb {
     align-items: center;
     justify-content: center;
@@ -160,7 +160,7 @@
     padding: 0px;
   }
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .freeBoxopen__c47MbXbNt1 {
     display: none;
   }
@@ -174,7 +174,7 @@
   flex-shrink: 0;
   display: none;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .svg__u3EdK {
     display: block;
   }
@@ -191,7 +191,7 @@
   min-width: 0;
   padding: 8px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .freeBox__bx9R2 {
     display: none;
   }
@@ -201,7 +201,7 @@
     display: none;
   }
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .freeBoxopen__bx9R2XbNt1 {
     display: flex;
   }
@@ -215,7 +215,7 @@
   flex-shrink: 0;
   display: none;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .svg__l8ZcI {
     display: block;
   }
@@ -236,7 +236,7 @@
   -webkit-transition-duration: 0.4s;
   padding: 0px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .freeBox__qFxhv {
     display: flex;
     flex-direction: column;
@@ -250,7 +250,7 @@
     flex-shrink: 0;
   }
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .freeBoxopen__qFxhvXbNt1 {
     height: 80vh;
     row-gap: 16px;
@@ -271,7 +271,7 @@
   flex-shrink: 0;
   padding: 0px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .span {
     height: 0px;
     flex-shrink: 0;
@@ -288,7 +288,7 @@
   column-gap: 18px;
   padding: 0px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .navItemsContainer {
     display: flex;
     flex-direction: column;
@@ -311,7 +311,7 @@
   left: auto;
   padding: 0px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .freeBox__s5Ohp {
     top: auto;
     left: auto;
@@ -330,7 +330,7 @@
   position: relative;
   padding: 0px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .freeBox__oJkAu {
     left: auto;
     top: auto;
@@ -349,7 +349,7 @@
   left: auto;
   padding: 0px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .freeBox__bvvK3 {
     top: auto;
     left: auto;
@@ -368,7 +368,7 @@
   left: auto;
   padding: 0px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .freeBox__wvLcj {
     top: auto;
     left: auto;
@@ -387,7 +387,7 @@
   left: auto;
   padding: 0px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .freeBox__hWzL3 {
     top: auto;
     left: auto;
@@ -406,7 +406,7 @@
   left: auto;
   padding: 0px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .freeBox__gQRx {
     top: auto;
     left: auto;
@@ -425,7 +425,7 @@
   left: auto;
   padding: 0px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .freeBox__twYvj {
     top: auto;
     left: auto;
@@ -442,7 +442,7 @@
   align-items: center;
   padding: 0px;
 }
-@media (max-width: 1023px) {
+@media (max-width: 1350px) {
   .ctaButtonContaineropen {
     margin-top: 36px;
   }

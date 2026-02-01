@@ -44,10 +44,15 @@
   text-overflow: clip;
   transform: translate3d(0px, 0px, 0px);
   transition-property: all;
-  transition-duration: 0.2s;
+  transition-duration: 0.8s;
   min-width: 0;
   -webkit-transition-property: all;
-  -webkit-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.8s;
+}
+@media (max-width: 620px) {
+  .bigLawExperience {
+    font-size: 36px;
+  }
 }
 .bigLawExperienceothers__1st {
   color: var(--token-TRbwu9mFnlec);
@@ -117,10 +122,15 @@
   text-overflow: clip;
   transform: translate3d(0px, 0px, 0px);
   transition-property: all;
-  transition-duration: 0.2s;
+  transition-duration: 0.8s;
   min-width: 0;
   -webkit-transition-property: all;
-  -webkit-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.8s;
+}
+@media (max-width: 620px) {
+  .bigLawExperience2 {
+    font-size: 36px;
+  }
 }
 .bigLawExperience2others__4th {
   font-size: 52px;
@@ -166,10 +176,15 @@
   text-decoration-line: none;
   text-overflow: clip;
   transition-property: all;
-  transition-duration: 0.2s;
+  transition-duration: 0.8s;
   min-width: 0;
   -webkit-transition-property: all;
-  -webkit-transition-duration: 0.2s;
+  -webkit-transition-duration: 0.8s;
+}
+@media (max-width: 620px) {
+  .bigLawExperience3 {
+    font-size: 36px;
+  }
 }
 .bigLawExperience3others__8th {
   font-size: 52px;

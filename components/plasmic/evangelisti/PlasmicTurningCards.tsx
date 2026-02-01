@@ -209,6 +209,7 @@ function PlasmicTurningCards__RenderFunc(props: {
         styleTokensClassNames,
         sty.root,
         {
+          [sty.rootothers__1st]: hasVariant($state, "others", "_1st"),
           [sty.rootothers__2nd]: hasVariant($state, "others", "_2nd"),
           [sty.rootothers__3rd]: hasVariant($state, "others", "_3rd")
         }
@@ -417,91 +418,44 @@ function PlasmicTurningCards__RenderFunc(props: {
         </div>
       </div>
       <div
-        className={classNames(projectcss.all, sty.freeBox__tx2NQ, {
-          [sty.freeBoxopen__tx2NQ28Mpr]: hasVariant($state, "open", "open"),
-          [sty.freeBoxothers__1st__tx2NQfZMww]: hasVariant(
+        className={classNames(projectcss.all, sty.freeBox__ljrxL, {
+          [sty.freeBoxothers__1st__ljrxLfZMww]: hasVariant(
             $state,
             "others",
             "_1st"
           ),
-          [sty.freeBoxothers__2nd__tx2NQxhPVk]: hasVariant(
+          [sty.freeBoxothers__2nd__ljrxLxhPVk]: hasVariant(
             $state,
             "others",
             "_2nd"
           ),
-          [sty.freeBoxothers__3rd__tx2NQu390H]: hasVariant(
+          [sty.freeBoxothers__3rd__ljrxLu390H]: hasVariant(
             $state,
             "others",
             "_3rd"
           )
         })}
-        onMouseEnter={async event => {
-          const $steps = {};
-
-          $steps["updateOthers"] = true
-            ? (() => {
-                const actionArgs = {
-                  vgroup: "others",
-                  operation: 0,
-                  value: "_1st"
-                };
-                return (({ vgroup, value }) => {
-                  if (typeof value === "string") {
-                    value = [value];
-                  }
-
-                  $stateSet($state, vgroup, value);
-                  return value;
-                })?.apply(null, [actionArgs]);
-              })()
-            : undefined;
-          if (
-            $steps["updateOthers"] != null &&
-            typeof $steps["updateOthers"] === "object" &&
-            typeof $steps["updateOthers"].then === "function"
-          ) {
-            $steps["updateOthers"] = await $steps["updateOthers"];
-          }
-        }}
-        onMouseLeave={async event => {
-          const $steps = {};
-
-          $steps["updateOthers"] = true
-            ? (() => {
-                const actionArgs = {
-                  vgroup: "others",
-                  operation: 0,
-                  value: []
-                };
-                return (({ vgroup, value }) => {
-                  if (typeof value === "string") {
-                    value = [value];
-                  }
-
-                  $stateSet($state, vgroup, value);
-                  return value;
-                })?.apply(null, [actionArgs]);
-              })()
-            : undefined;
-          if (
-            $steps["updateOthers"] != null &&
-            typeof $steps["updateOthers"] === "object" &&
-            typeof $steps["updateOthers"].then === "function"
-          ) {
-            $steps["updateOthers"] = await $steps["updateOthers"];
-          }
-        }}
       >
         <div
-          data-plasmic-name={"_1st2"}
-          data-plasmic-override={overrides._1st2}
-          className={classNames(projectcss.all, sty._1St2, {
-            [sty._1St2open]: hasVariant($state, "open", "open"),
-            [sty._1St2others__1st]: hasVariant($state, "others", "_1st"),
-            [sty._1St2others__2nd]: hasVariant($state, "others", "_2nd"),
-            [sty._1St2others__3rd]: hasVariant($state, "others", "_3rd")
+          className={classNames(projectcss.all, sty.freeBox__tx2NQ, {
+            [sty.freeBoxopen__tx2NQ28Mpr]: hasVariant($state, "open", "open"),
+            [sty.freeBoxothers__1st__tx2NQfZMww]: hasVariant(
+              $state,
+              "others",
+              "_1st"
+            ),
+            [sty.freeBoxothers__2nd__tx2NQxhPVk]: hasVariant(
+              $state,
+              "others",
+              "_2nd"
+            ),
+            [sty.freeBoxothers__3rd__tx2NQu390H]: hasVariant(
+              $state,
+              "others",
+              "_3rd"
+            )
           })}
-          onClick={async event => {
+          onMouseEnter={async event => {
             const $steps = {};
 
             $steps["updateOthers"] = true
@@ -529,85 +483,7 @@ function PlasmicTurningCards__RenderFunc(props: {
               $steps["updateOthers"] = await $steps["updateOthers"];
             }
           }}
-        >
-          <div className={classNames(projectcss.all, sty.freeBox__okzeC)}>
-            <div
-              data-plasmic-name={"image24"}
-              data-plasmic-override={overrides.image24}
-              className={classNames(projectcss.all, sty.image24)}
-            />
-          </div>
-          <div
-            data-plasmic-name={"jetpackStudio5"}
-            data-plasmic-override={overrides.jetpackStudio5}
-            className={classNames(projectcss.all, sty.jetpackStudio5)}
-          >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__g3DPn
-              )}
-            >
-              {"Jetpack Studio"}
-            </div>
-          </div>
-          <div
-            data-plasmic-name={
-              "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5"
-            }
-            data-plasmic-override={
-              overrides.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5
-            }
-            className={classNames(
-              projectcss.all,
-              sty.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5
-            )}
-          >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__gjXfc,
-                {
-                  [sty.textopen__gjXfc28Mpr]: hasVariant(
-                    $state,
-                    "open",
-                    "open"
-                  ),
-                  [sty.textothers__1st__gjXfcfZMww]: hasVariant(
-                    $state,
-                    "others",
-                    "_1st"
-                  ),
-                  [sty.textothers__2nd__gjXfcxhPVk]: hasVariant(
-                    $state,
-                    "others",
-                    "_2nd"
-                  )
-                }
-              )}
-            >
-              {hasVariant($state, "open", "open")
-                ? "in connection with multiple investments such as Merlin Digital Solutions, Rooms Technologies, Glorya , NOBS Nutrition."
-                : hasVariant($state, "others", "_2nd")
-                  ? "in connection with multiple investments such as Merlin Digital Solutions, Rooms Technologies, Glorya , NOBS Nutrition."
-                  : hasVariant($state, "others", "_1st")
-                    ? "in connection with multiple investments such as Merlin Digital Solutions, Rooms Technologies, Glorya , NOBS Nutrition."
-                    : "in connection with multiple investments such as Merlin Digital Solutions, Rooms Technologies, Glorya , NOBS Nutrition."}
-            </div>
-          </div>
-        </div>
-        <div
-          data-plasmic-name={"_2nd2"}
-          data-plasmic-override={overrides._2nd2}
-          className={classNames(projectcss.all, sty._2Nd2, {
-            [sty._2Nd2open]: hasVariant($state, "open", "open"),
-            [sty._2Nd2others__1st]: hasVariant($state, "others", "_1st"),
-            [sty._2Nd2others__2nd]: hasVariant($state, "others", "_2nd"),
-            [sty._2Nd2others__3rd]: hasVariant($state, "others", "_3rd")
-          })}
-          onClick={async event => {
+          onMouseLeave={async event => {
             const $steps = {};
 
             $steps["updateOthers"] = true
@@ -615,7 +491,7 @@ function PlasmicTurningCards__RenderFunc(props: {
                   const actionArgs = {
                     vgroup: "others",
                     operation: 0,
-                    value: "_3rd"
+                    value: []
                   };
                   return (({ vgroup, value }) => {
                     if (typeof value === "string") {
@@ -637,162 +513,307 @@ function PlasmicTurningCards__RenderFunc(props: {
           }}
         >
           <div
-            data-plasmic-name={"image11"}
-            data-plasmic-override={overrides.image11}
-            className={classNames(projectcss.all, sty.image11, {
-              [sty.image11others__3rd]: hasVariant($state, "others", "_3rd")
+            data-plasmic-name={"_1st2"}
+            data-plasmic-override={overrides._1st2}
+            className={classNames(projectcss.all, sty._1St2, {
+              [sty._1St2open]: hasVariant($state, "open", "open"),
+              [sty._1St2others__1st]: hasVariant($state, "others", "_1st"),
+              [sty._1St2others__2nd]: hasVariant($state, "others", "_2nd"),
+              [sty._1St2others__3rd]: hasVariant($state, "others", "_3rd")
             })}
-          />
+            onClick={async event => {
+              const $steps = {};
 
-          <div
-            data-plasmic-name={"jetpackStudio6"}
-            data-plasmic-override={overrides.jetpackStudio6}
-            className={classNames(projectcss.all, sty.jetpackStudio6)}
-          >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__fX6Rd
-              )}
-            >
-              {"Marina Capital"}
-            </div>
-          </div>
-          <div
-            data-plasmic-name={
-              "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6"
-            }
-            data-plasmic-override={
-              overrides.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6
-            }
-            className={classNames(
-              projectcss.all,
-              sty.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6
-            )}
-          >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__juw08
-              )}
-            >
-              {
-                "on its bespoke founding investment in Rokksta\n- German mining Tech."
+              $steps["updateOthers"] = true
+                ? (() => {
+                    const actionArgs = {
+                      vgroup: "others",
+                      operation: 0,
+                      value: "_1st"
+                    };
+                    return (({ vgroup, value }) => {
+                      if (typeof value === "string") {
+                        value = [value];
+                      }
+
+                      $stateSet($state, vgroup, value);
+                      return value;
+                    })?.apply(null, [actionArgs]);
+                  })()
+                : undefined;
+              if (
+                $steps["updateOthers"] != null &&
+                typeof $steps["updateOthers"] === "object" &&
+                typeof $steps["updateOthers"].then === "function"
+              ) {
+                $steps["updateOthers"] = await $steps["updateOthers"];
               }
-            </div>
-          </div>
-        </div>
-        <div
-          data-plasmic-name={"_3rd2"}
-          data-plasmic-override={overrides._3rd2}
-          className={classNames(projectcss.all, sty._3Rd2, {
-            [sty._3Rd2open]: hasVariant($state, "open", "open"),
-            [sty._3Rd2others__1st]: hasVariant($state, "others", "_1st"),
-            [sty._3Rd2others__2nd]: hasVariant($state, "others", "_2nd"),
-            [sty._3Rd2others__3rd]: hasVariant($state, "others", "_3rd")
-          })}
-          onClick={async event => {
-            const $steps = {};
-
-            $steps["updateOthers"] = true
-              ? (() => {
-                  const actionArgs = {
-                    vgroup: "others",
-                    operation: 0,
-                    value: "_2nd"
-                  };
-                  return (({ vgroup, value }) => {
-                    if (typeof value === "string") {
-                      value = [value];
-                    }
-
-                    $stateSet($state, vgroup, value);
-                    return value;
-                  })?.apply(null, [actionArgs]);
-                })()
-              : undefined;
-            if (
-              $steps["updateOthers"] != null &&
-              typeof $steps["updateOthers"] === "object" &&
-              typeof $steps["updateOthers"].then === "function"
-            ) {
-              $steps["updateOthers"] = await $steps["updateOthers"];
-            }
-          }}
-        >
-          <div
-            data-plasmic-name={"image7"}
-            data-plasmic-override={overrides.image7}
-            className={classNames(projectcss.all, sty.image7)}
-          />
-
-          <div
-            data-plasmic-name={"jetpackStudio7"}
-            data-plasmic-override={overrides.jetpackStudio7}
-            className={classNames(projectcss.all, sty.jetpackStudio7)}
+            }}
           >
+            <div className={classNames(projectcss.all, sty.freeBox__okzeC)}>
+              <div
+                data-plasmic-name={"image24"}
+                data-plasmic-override={overrides.image24}
+                className={classNames(projectcss.all, sty.image24)}
+              />
+            </div>
             <div
+              data-plasmic-name={"jetpackStudio5"}
+              data-plasmic-override={overrides.jetpackStudio5}
+              className={classNames(projectcss.all, sty.jetpackStudio5)}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__g3DPn
+                )}
+              >
+                {"Jetpack Studio"}
+              </div>
+            </div>
+            <div
+              data-plasmic-name={
+                "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5"
+              }
+              data-plasmic-override={
+                overrides.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5
+              }
               className={classNames(
                 projectcss.all,
-                projectcss.__wab_text,
-                sty.text__ljplp,
-                {
-                  [sty.textopen__ljplp28Mpr]: hasVariant(
-                    $state,
-                    "open",
-                    "open"
-                  ),
-                  [sty.textothers__1st__ljplpfZMww]: hasVariant(
-                    $state,
-                    "others",
-                    "_1st"
-                  ),
-                  [sty.textothers__2nd__ljplpxhPVk]: hasVariant(
-                    $state,
-                    "others",
-                    "_2nd"
-                  ),
-                  [sty.textothers__3rd__ljplpU390H]: hasVariant(
-                    $state,
-                    "others",
-                    "_3rd"
-                  )
-                }
+                sty.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition5
               )}
             >
-              {hasVariant($state, "open", "open")
-                ? "Blue Pool Capital"
-                : hasVariant($state, "others", "_3rd")
-                  ? "Blue Pool Capital"
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__gjXfc,
+                  {
+                    [sty.textopen__gjXfc28Mpr]: hasVariant(
+                      $state,
+                      "open",
+                      "open"
+                    ),
+                    [sty.textothers__1st__gjXfcfZMww]: hasVariant(
+                      $state,
+                      "others",
+                      "_1st"
+                    ),
+                    [sty.textothers__2nd__gjXfcxhPVk]: hasVariant(
+                      $state,
+                      "others",
+                      "_2nd"
+                    )
+                  }
+                )}
+              >
+                {hasVariant($state, "open", "open")
+                  ? "in connection with multiple investments such as Merlin Digital Solutions, Rooms Technologies, Glorya , NOBS Nutrition."
                   : hasVariant($state, "others", "_2nd")
-                    ? "Blue Pool Capital"
+                    ? "in connection with multiple investments such as Merlin Digital Solutions, Rooms Technologies, Glorya , NOBS Nutrition."
                     : hasVariant($state, "others", "_1st")
-                      ? "Blue Pool Capital"
-                      : "blue pool capital"}
+                      ? "in connection with multiple investments such as Merlin Digital Solutions, Rooms Technologies, Glorya , NOBS Nutrition."
+                      : "in connection with multiple investments such as Merlin Digital Solutions, Rooms Technologies, Glorya , NOBS Nutrition."}
+              </div>
             </div>
           </div>
           <div
-            data-plasmic-name={
-              "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7"
-            }
-            data-plasmic-override={
-              overrides.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7
-            }
-            className={classNames(
-              projectcss.all,
-              sty.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7
-            )}
+            data-plasmic-name={"_2nd2"}
+            data-plasmic-override={overrides._2nd2}
+            className={classNames(projectcss.all, sty._2Nd2, {
+              [sty._2Nd2open]: hasVariant($state, "open", "open"),
+              [sty._2Nd2others__1st]: hasVariant($state, "others", "_1st"),
+              [sty._2Nd2others__2nd]: hasVariant($state, "others", "_2nd"),
+              [sty._2Nd2others__3rd]: hasVariant($state, "others", "_3rd")
+            })}
+            onClick={async event => {
+              const $steps = {};
+
+              $steps["updateOthers"] = true
+                ? (() => {
+                    const actionArgs = {
+                      vgroup: "others",
+                      operation: 0,
+                      value: "_3rd"
+                    };
+                    return (({ vgroup, value }) => {
+                      if (typeof value === "string") {
+                        value = [value];
+                      }
+
+                      $stateSet($state, vgroup, value);
+                      return value;
+                    })?.apply(null, [actionArgs]);
+                  })()
+                : undefined;
+              if (
+                $steps["updateOthers"] != null &&
+                typeof $steps["updateOthers"] === "object" &&
+                typeof $steps["updateOthers"].then === "function"
+              ) {
+                $steps["updateOthers"] = await $steps["updateOthers"];
+              }
+            }}
           >
             <div
+              data-plasmic-name={"image11"}
+              data-plasmic-override={overrides.image11}
+              className={classNames(projectcss.all, sty.image11, {
+                [sty.image11others__3rd]: hasVariant($state, "others", "_3rd")
+              })}
+            />
+
+            <div
+              data-plasmic-name={"jetpackStudio6"}
+              data-plasmic-override={overrides.jetpackStudio6}
+              className={classNames(projectcss.all, sty.jetpackStudio6)}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__fX6Rd
+                )}
+              >
+                {"Marina Capital"}
+              </div>
+            </div>
+            <div
+              data-plasmic-name={
+                "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6"
+              }
+              data-plasmic-override={
+                overrides.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6
+              }
               className={classNames(
                 projectcss.all,
-                projectcss.__wab_text,
-                sty.text___0BeK8
+                sty.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition6
               )}
             >
-              {"as Lead Investor in the\n\u20ac80m Series F of GYG"}
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__juw08
+                )}
+              >
+                {
+                  "on its bespoke founding investment in Rokksta\n- German mining Tech."
+                }
+              </div>
+            </div>
+          </div>
+          <div
+            data-plasmic-name={"_3rd2"}
+            data-plasmic-override={overrides._3rd2}
+            className={classNames(projectcss.all, sty._3Rd2, {
+              [sty._3Rd2open]: hasVariant($state, "open", "open"),
+              [sty._3Rd2others__1st]: hasVariant($state, "others", "_1st"),
+              [sty._3Rd2others__2nd]: hasVariant($state, "others", "_2nd"),
+              [sty._3Rd2others__3rd]: hasVariant($state, "others", "_3rd")
+            })}
+            onClick={async event => {
+              const $steps = {};
+
+              $steps["updateOthers"] = true
+                ? (() => {
+                    const actionArgs = {
+                      vgroup: "others",
+                      operation: 0,
+                      value: "_2nd"
+                    };
+                    return (({ vgroup, value }) => {
+                      if (typeof value === "string") {
+                        value = [value];
+                      }
+
+                      $stateSet($state, vgroup, value);
+                      return value;
+                    })?.apply(null, [actionArgs]);
+                  })()
+                : undefined;
+              if (
+                $steps["updateOthers"] != null &&
+                typeof $steps["updateOthers"] === "object" &&
+                typeof $steps["updateOthers"].then === "function"
+              ) {
+                $steps["updateOthers"] = await $steps["updateOthers"];
+              }
+            }}
+          >
+            <div
+              data-plasmic-name={"image7"}
+              data-plasmic-override={overrides.image7}
+              className={classNames(projectcss.all, sty.image7)}
+            />
+
+            <div
+              data-plasmic-name={"jetpackStudio7"}
+              data-plasmic-override={overrides.jetpackStudio7}
+              className={classNames(projectcss.all, sty.jetpackStudio7)}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__ljplp,
+                  {
+                    [sty.textopen__ljplp28Mpr]: hasVariant(
+                      $state,
+                      "open",
+                      "open"
+                    ),
+                    [sty.textothers__1st__ljplpfZMww]: hasVariant(
+                      $state,
+                      "others",
+                      "_1st"
+                    ),
+                    [sty.textothers__2nd__ljplpxhPVk]: hasVariant(
+                      $state,
+                      "others",
+                      "_2nd"
+                    ),
+                    [sty.textothers__3rd__ljplpU390H]: hasVariant(
+                      $state,
+                      "others",
+                      "_3rd"
+                    )
+                  }
+                )}
+              >
+                {hasVariant($state, "open", "open")
+                  ? "Blue Pool Capital"
+                  : hasVariant($state, "others", "_3rd")
+                    ? "Blue Pool Capital"
+                    : hasVariant($state, "others", "_2nd")
+                      ? "Blue Pool Capital"
+                      : hasVariant($state, "others", "_1st")
+                        ? "Blue Pool Capital"
+                        : "blue pool capital"}
+              </div>
+            </div>
+            <div
+              data-plasmic-name={
+                "gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7"
+              }
+              data-plasmic-override={
+                overrides.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7
+              }
+              className={classNames(
+                projectcss.all,
+                sty.gmbHInConnectionWithMultipleInvestmentsSuchAsMerlinDigitalSolutionsRoomsTechnologiesGloryaNobsNutrition7
+              )}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text___0BeK8
+                )}
+              >
+                {"as Lead Investor in the\n\u20ac80m Series F of GYG"}
+              </div>
             </div>
           </div>
         </div>

@@ -331,7 +331,13 @@ function PlasmicNavbar__RenderFunc(props: {
               })}
             >
               <div
-                className={classNames(projectcss.all, sty.freeBox__s5Ohp)}
+                className={classNames(projectcss.all, sty.freeBox__s5Ohp, {
+                  [sty.freeBoxchanges_scroll__s5OhPc5TU]: hasVariant(
+                    $state,
+                    "changes",
+                    "scroll"
+                  )
+                })}
                 onClick={async event => {
                   const $steps = {};
 
@@ -380,31 +386,6 @@ function PlasmicNavbar__RenderFunc(props: {
                   ) {
                     $steps["updateOpen"] = await $steps["updateOpen"];
                   }
-
-                  $steps["updateChanges"] = true
-                    ? (() => {
-                        const actionArgs = {
-                          vgroup: "changes",
-                          operation: 0,
-                          value: []
-                        };
-                        return (({ vgroup, value }) => {
-                          if (typeof value === "string") {
-                            value = [value];
-                          }
-
-                          $stateSet($state, vgroup, value);
-                          return value;
-                        })?.apply(null, [actionArgs]);
-                      })()
-                    : undefined;
-                  if (
-                    $steps["updateChanges"] != null &&
-                    typeof $steps["updateChanges"] === "object" &&
-                    typeof $steps["updateChanges"].then === "function"
-                  ) {
-                    $steps["updateChanges"] = await $steps["updateChanges"];
-                  }
                 }}
               >
                 <NavItem
@@ -412,7 +393,13 @@ function PlasmicNavbar__RenderFunc(props: {
                 />
               </div>
               <div
-                className={classNames(projectcss.all, sty.freeBox__oJkAu)}
+                className={classNames(projectcss.all, sty.freeBox__oJkAu, {
+                  [sty.freeBoxchanges_scroll__oJkAuc5TU]: hasVariant(
+                    $state,
+                    "changes",
+                    "scroll"
+                  )
+                })}
                 onClick={async event => {
                   const $steps = {};
 
@@ -461,35 +448,15 @@ function PlasmicNavbar__RenderFunc(props: {
                   ) {
                     $steps["updateOpen"] = await $steps["updateOpen"];
                   }
-
-                  $steps["updateVariant"] = true
-                    ? (() => {
-                        const actionArgs = {
-                          vgroup: "changes",
-                          operation: 0,
-                          value: []
-                        };
-                        return (({ vgroup, value }) => {
-                          if (typeof value === "string") {
-                            value = [value];
-                          }
-
-                          $stateSet($state, vgroup, value);
-                          return value;
-                        })?.apply(null, [actionArgs]);
-                      })()
-                    : undefined;
-                  if (
-                    $steps["updateVariant"] != null &&
-                    typeof $steps["updateVariant"] === "object" &&
-                    typeof $steps["updateVariant"].then === "function"
-                  ) {
-                    $steps["updateVariant"] = await $steps["updateVariant"];
-                  }
                 }}
               >
                 <NavItem
                   className={classNames("__wab_instance", sty.navItem___6JOup, {
+                    [sty.navItemchanges_scroll___6JOupc5TU]: hasVariant(
+                      $state,
+                      "changes",
+                      "scroll"
+                    ),
                     [sty.navItemopen___6JOupXbNt1]: hasVariant(
                       $state,
                       "open",
@@ -501,7 +468,13 @@ function PlasmicNavbar__RenderFunc(props: {
                 />
               </div>
               <div
-                className={classNames(projectcss.all, sty.freeBox__bvvK3)}
+                className={classNames(projectcss.all, sty.freeBox__bvvK3, {
+                  [sty.freeBoxchanges_scroll__bvvK3C5TU]: hasVariant(
+                    $state,
+                    "changes",
+                    "scroll"
+                  )
+                })}
                 onClick={async event => {
                   const $steps = {};
 
@@ -738,9 +711,9 @@ function PlasmicNavbar__RenderFunc(props: {
                 onClick={async event => {
                   const $steps = {};
 
-                  $steps["goToAboutUs"] = true
+                  $steps["goToRealaboutus"] = true
                     ? (() => {
-                        const actionArgs = { destination: "#about-us" };
+                        const actionArgs = { destination: "#realaboutus" };
                         return (({ destination }) => {
                           if (
                             typeof destination === "string" &&
@@ -756,11 +729,11 @@ function PlasmicNavbar__RenderFunc(props: {
                       })()
                     : undefined;
                   if (
-                    $steps["goToAboutUs"] != null &&
-                    typeof $steps["goToAboutUs"] === "object" &&
-                    typeof $steps["goToAboutUs"].then === "function"
+                    $steps["goToRealaboutus"] != null &&
+                    typeof $steps["goToRealaboutus"] === "object" &&
+                    typeof $steps["goToRealaboutus"].then === "function"
                   ) {
-                    $steps["goToAboutUs"] = await $steps["goToAboutUs"];
+                    $steps["goToRealaboutus"] = await $steps["goToRealaboutus"];
                   }
 
                   $steps["updateOpen"] = true
