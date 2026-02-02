@@ -61,7 +61,7 @@
   border-radius: 24px;
   padding: 30px;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .card10 {
     animation: none;
     width: 330px;
@@ -88,7 +88,7 @@
 .img__xsQ30 > picture > img {
   object-fit: cover;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .img__xsQ30 {
     animation: none;
   }
@@ -128,7 +128,7 @@
   text-overflow: clip;
   flex-shrink: 0;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .text__iWw9J {
     animation: none;
     font-size: 24px;
@@ -156,7 +156,7 @@
   min-width: 0;
   flex-shrink: 0;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .text__ioSGx {
     animation: none;
     font-size: 18px;
@@ -208,7 +208,7 @@
   border-radius: 24px;
   padding: 30px;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .card11 {
     animation: none;
     width: 330px;
@@ -235,7 +235,7 @@
 .img___48Gzq > picture > img {
   object-fit: cover;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .img___48Gzq {
     animation: none;
   }
@@ -275,7 +275,7 @@
   text-overflow: clip;
   flex-shrink: 0;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .text__mBf0 {
     animation: none;
     font-size: 24px;
@@ -303,7 +303,7 @@
   min-width: 0;
   flex-shrink: 0;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .text__xwuVy {
     animation: none;
     font-size: 18px;
@@ -356,7 +356,7 @@
   border-radius: 24px;
   padding: 30px;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .card12 {
     animation: none;
     width: 330px;
@@ -383,7 +383,7 @@
 .img__x7Yhu > picture > img {
   object-fit: cover;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .img__x7Yhu {
     animation: none;
   }
@@ -423,7 +423,7 @@
   text-overflow: clip;
   flex-shrink: 0;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .text__vvkaf {
     animation: none;
     font-size: 24px;
@@ -451,7 +451,7 @@
   min-width: 0;
   flex-shrink: 0;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .text__w87H {
     animation: none;
     font-size: 18px;
@@ -503,7 +503,7 @@
   border-radius: 24px;
   padding: 30px;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .card13 {
     animation: none;
     width: 330px;
@@ -530,7 +530,7 @@
 .img__giQeb > picture > img {
   object-fit: cover;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .img__giQeb {
     animation: none;
   }
@@ -570,7 +570,7 @@
   text-overflow: clip;
   flex-shrink: 0;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .text___6TD6X {
     animation: none;
     font-size: 24px;
@@ -598,7 +598,7 @@
   min-width: 0;
   flex-shrink: 0;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .text___3ZeQo {
     animation: none;
     font-size: 18px;
@@ -650,7 +650,7 @@
   border-radius: 24px;
   padding: 30px;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .card14 {
     animation: none;
     width: 330px;
@@ -677,7 +677,7 @@
 .img__obS81 > picture > img {
   object-fit: cover;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .img__obS81 {
     animation: none;
   }
@@ -717,7 +717,7 @@
   text-overflow: clip;
   flex-shrink: 0;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .text__p3Hj {
     animation: none;
     font-size: 24px;
@@ -745,7 +745,7 @@
   min-width: 0;
   flex-shrink: 0;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .text__qnDxr {
     animation: none;
     font-size: 18px;
@@ -797,7 +797,7 @@
   border-radius: 24px;
   padding: 30px;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .card15 {
     animation: none;
     width: 330px;
@@ -824,7 +824,7 @@
 .img__wvi0 > picture > img {
   object-fit: cover;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .img__wvi0 {
     animation: none;
   }
@@ -864,7 +864,7 @@
   text-overflow: clip;
   flex-shrink: 0;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .text__hsC {
     animation: none;
     font-size: 24px;
@@ -892,7 +892,7 @@
   min-width: 0;
   flex-shrink: 0;
 }
-@media (max-width: 1350px) {
+@media (max-width: 1024px) {
   .text__l5Cbe {
     animation: none;
     font-size: 18px;
