@@ -584,7 +584,13 @@ function PlasmicNavbar__RenderFunc(props: {
                 }}
               >
                 <NavItem
-                  className={classNames("__wab_instance", sty.navItem___4EGo5)}
+                  className={classNames("__wab_instance", sty.navItem___4EGo5, {
+                    [sty.navItemchanges_scroll___4EGo5C5TU]: hasVariant(
+                      $state,
+                      "changes",
+                      "scroll"
+                    )
+                  })}
                   noicon={true}
                   otherLinks={"mittlestand"}
                 />

@@ -7829,14 +7829,15 @@
   justify-content: flex-start;
   align-items: center;
   row-gap: 40px;
+  align-self: stretch;
   min-width: 0;
-  padding: 0px;
+  padding: 24px;
 }
 .geminiGeneratedImageM2R69Pm2R69Pm2R61 {
   animation: none;
   background: url("/plasmic/evangelisti/images/geminiGeneratedImageM2R69Pm2R69Pm2R62.png") center center / cover no-repeat;
   width: 251px;
-  height: 251px;
+  height: 203px;
   display: block;
   position: relative;
   top: auto;
@@ -7907,7 +7908,7 @@
   row-gap: 35px;
   min-width: 0;
   border-radius: 29.648502349853516px;
-  padding: 55px 40px 40px;
+  padding: 40px;
 }
 .img___0XlY3 {
   animation: none;
@@ -7933,9 +7934,9 @@
   max-width: 100%;
   justify-content: flex-start;
   align-items: center;
-  row-gap: 40px;
+  align-self: stretch;
   min-width: 0;
-  padding: 0px;
+  padding: 10px;
 }
 .geminiGeneratedImageDr2Ipcdr2Ipcdr2I1 {
   animation: none;
