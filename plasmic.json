@@ -56,20 +56,6 @@
           "componentType": "component"
         },
         {
-          "id": "ByEv9L-a4cG9",
-          "name": "New2",
-          "type": "managed",
-          "projectId": "psTfKC1KCEpawf41964R83",
-          "renderModuleFilePath": "plasmic/evangelisti/PlasmicNew2.tsx",
-          "importSpec": {
-            "modulePath": "../pages/new-2.tsx"
-          },
-          "cssFilePath": "plasmic/evangelisti/PlasmicNew2.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/new-2"
-        },
-        {
           "id": "XaC-VjV5Z764",
           "name": "CtaButton",
           "type": "managed",
@@ -159,20 +145,6 @@
           "cssFilePath": "plasmic/evangelisti/PlasmicSwitchingcards.module.css",
           "scheme": "blackbox",
           "componentType": "component"
-        },
-        {
-          "id": "K0YXB37e0bcf",
-          "name": "New3",
-          "type": "managed",
-          "projectId": "psTfKC1KCEpawf41964R83",
-          "renderModuleFilePath": "plasmic/evangelisti/PlasmicNew3.tsx",
-          "importSpec": {
-            "modulePath": "../pages/new-3.tsx"
-          },
-          "cssFilePath": "plasmic/evangelisti/PlasmicNew3.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/new-3"
         },
         {
           "id": "WRX8WwTCusqp",
@@ -277,20 +249,6 @@
           "cssFilePath": "plasmic/evangelisti/PlasmicPoppingScrollAnimation2.module.css",
           "scheme": "blackbox",
           "componentType": "component"
-        },
-        {
-          "id": "dFVNtjaaa5OX",
-          "name": "Homepage3",
-          "type": "managed",
-          "projectId": "psTfKC1KCEpawf41964R83",
-          "renderModuleFilePath": "plasmic/evangelisti/PlasmicHomepage3.tsx",
-          "importSpec": {
-            "modulePath": "../pages/new-page-3.tsx"
-          },
-          "cssFilePath": "plasmic/evangelisti/PlasmicHomepage3.module.css",
-          "scheme": "blackbox",
-          "componentType": "page",
-          "path": "/new-page-3"
         },
         {
           "id": "IWAG93DqZ671",
@@ -1677,6 +1635,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.355",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.355/dist/plasmic.schema.json"
+  "cliVersion": "0.1.356",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.356/dist/plasmic.schema.json"
 }

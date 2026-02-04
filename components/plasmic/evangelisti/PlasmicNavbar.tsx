@@ -229,6 +229,34 @@ function PlasmicNavbar__RenderFunc(props: {
               displayMinWidth={"0"}
               displayWidth={"212px"}
               loading={"lazy"}
+              onClick={async event => {
+                const $steps = {};
+
+                $steps["goToHome"] = true
+                  ? (() => {
+                      const actionArgs = { destination: "#home" };
+                      return (({ destination }) => {
+                        if (
+                          typeof destination === "string" &&
+                          destination.startsWith("#")
+                        ) {
+                          document
+                            .getElementById(destination.substr(1))
+                            .scrollIntoView({ behavior: "smooth" });
+                        } else {
+                          __nextRouter?.push(destination);
+                        }
+                      })?.apply(null, [actionArgs]);
+                    })()
+                  : undefined;
+                if (
+                  $steps["goToHome"] != null &&
+                  typeof $steps["goToHome"] === "object" &&
+                  typeof $steps["goToHome"].then === "function"
+                ) {
+                  $steps["goToHome"] = await $steps["goToHome"];
+                }
+              }}
               src={{
                 src: "/plasmic/evangelisti/images/asset13X82.png",
                 fullWidth: 2569,

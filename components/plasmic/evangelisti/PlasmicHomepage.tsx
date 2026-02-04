@@ -685,254 +685,6 @@ function PlasmicHomepage__RenderFunc(props: {
                           sty.freeBox__nsJut
                         )}
                       >
-                        <div
-                          data-plasmic-name={"content"}
-                          data-plasmic-override={overrides.content}
-                          className={classNames(projectcss.all, sty.content)}
-                        >
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              sty.freeBox__sQVd6
-                            )}
-                          >
-                            <div
-                              className={classNames(
-                                projectcss.all,
-                                sty.freeBox__avgCx
-                              )}
-                            >
-                              <div
-                                data-plasmic-name={"sectionHeader2"}
-                                data-plasmic-override={overrides.sectionHeader2}
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.sectionHeader2
-                                )}
-                              >
-                                <Reveal
-                                  className={classNames(
-                                    "__wab_instance",
-                                    sty.reveal__mUtAe
-                                  )}
-                                  direction={"up"}
-                                  triggerOnce={true}
-                                >
-                                  <div
-                                    data-plasmic-name={"sectionHeader"}
-                                    data-plasmic-override={
-                                      overrides.sectionHeader
-                                    }
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.sectionHeader
-                                    )}
-                                  >
-                                    <h3
-                                      className={classNames(
-                                        projectcss.all,
-                                        projectcss.h3,
-                                        projectcss.__wab_text,
-                                        sty.h3__lRvo9
-                                      )}
-                                    >
-                                      {
-                                        "The problem isn't the law\nit's how lawyers think."
-                                      }
-                                    </h3>
-                                  </div>
-                                </Reveal>
-                              </div>
-                              <Reveal
-                                className={classNames(
-                                  "__wab_instance",
-                                  sty.reveal__p639R
-                                )}
-                                delay={200}
-                                direction={"up"}
-                                triggerOnce={true}
-                              >
-                                <Step1
-                                  data-plasmic-name={"step1"}
-                                  data-plasmic-override={overrides.step1}
-                                  className={classNames(
-                                    "__wab_instance",
-                                    sty.step1
-                                  )}
-                                  others={(() => {
-                                    try {
-                                      return $state.scroll >= 1400
-                                        ? "_29th"
-                                        : $state.scroll >= 1370
-                                          ? "_28th"
-                                          : $state.scroll >= 1340
-                                            ? "_27th"
-                                            : $state.scroll >= 1310
-                                              ? "_26th"
-                                              : $state.scroll >= 1280
-                                                ? "_25th"
-                                                : $state.scroll >= 1250
-                                                  ? "_24th"
-                                                  : $state.scroll >= 1160
-                                                    ? "_23rd"
-                                                    : $state.scroll >= 1130
-                                                      ? "_22nd"
-                                                      : $state.scroll >= 1100
-                                                        ? "_21Th"
-                                                        : $state.scroll >= 1070
-                                                          ? "_20th"
-                                                          : $state.scroll >=
-                                                              1040
-                                                            ? "_19th"
-                                                            : $state.scroll >=
-                                                                1010
-                                                              ? "_18th"
-                                                              : $state.scroll >=
-                                                                  980
-                                                                ? "_17th"
-                                                                : $state.scroll >=
-                                                                    950
-                                                                  ? "_16th"
-                                                                  : $state.scroll >=
-                                                                      860
-                                                                    ? "_15th"
-                                                                    : $state.scroll >=
-                                                                        830
-                                                                      ? "_14th"
-                                                                      : $state.scroll >=
-                                                                          800
-                                                                        ? "_13Th"
-                                                                        : $state.scroll >=
-                                                                            770
-                                                                          ? "_12Th"
-                                                                          : $state.scroll >=
-                                                                              740
-                                                                            ? "_11Th"
-                                                                            : $state.scroll >=
-                                                                                710
-                                                                              ? "_10th"
-                                                                              : $state.scroll >=
-                                                                                  680
-                                                                                ? "_9th"
-                                                                                : $state.scroll >=
-                                                                                    650
-                                                                                  ? "_8th"
-                                                                                  : $state.scroll >=
-                                                                                      620
-                                                                                    ? "_7th"
-                                                                                    : $state.scroll >=
-                                                                                        590
-                                                                                      ? "_6th"
-                                                                                      : $state.scroll >=
-                                                                                          560
-                                                                                        ? "_5th"
-                                                                                        : $state.scroll >=
-                                                                                            530
-                                                                                          ? "_4th"
-                                                                                          : $state.scroll >=
-                                                                                              500
-                                                                                            ? "_3rd"
-                                                                                            : $state.scroll >=
-                                                                                                470
-                                                                                              ? "_2nd"
-                                                                                              : $state.scroll >=
-                                                                                                  440
-                                                                                                ? "_1st"
-                                                                                                : "_30th";
-                                    } catch (e) {
-                                      if (
-                                        e instanceof TypeError ||
-                                        e?.plasmicType ===
-                                          "PlasmicUndefinedDataError"
-                                      ) {
-                                        return "_7th";
-                                      }
-                                      throw e;
-                                    }
-                                  })()}
-                                />
-
-                                <Step1Mobile
-                                  data-plasmic-name={"step1Mobile"}
-                                  data-plasmic-override={overrides.step1Mobile}
-                                  className={classNames(
-                                    "__wab_instance",
-                                    sty.step1Mobile
-                                  )}
-                                />
-                              </Reveal>
-                              <div
-                                data-plasmic-name={"ctaButtonContainer"}
-                                data-plasmic-override={
-                                  overrides.ctaButtonContainer
-                                }
-                                className={classNames(
-                                  projectcss.all,
-                                  sty.ctaButtonContainer
-                                )}
-                              >
-                                <div
-                                  className={classNames(
-                                    projectcss.all,
-                                    sty.freeBox__d7DAl
-                                  )}
-                                >
-                                  <div
-                                    className={classNames(
-                                      projectcss.all,
-                                      sty.freeBox__srP2Z
-                                    )}
-                                    onClick={async event => {
-                                      const $steps = {};
-
-                                      $steps["goToCall"] = true
-                                        ? (() => {
-                                            const actionArgs = {
-                                              destination: "#call"
-                                            };
-                                            return (({ destination }) => {
-                                              if (
-                                                typeof destination ===
-                                                  "string" &&
-                                                destination.startsWith("#")
-                                              ) {
-                                                document
-                                                  .getElementById(
-                                                    destination.substr(1)
-                                                  )
-                                                  .scrollIntoView({
-                                                    behavior: "smooth"
-                                                  });
-                                              } else {
-                                                __nextRouter?.push(destination);
-                                              }
-                                            })?.apply(null, [actionArgs]);
-                                          })()
-                                        : undefined;
-                                      if (
-                                        $steps["goToCall"] != null &&
-                                        typeof $steps["goToCall"] ===
-                                          "object" &&
-                                        typeof $steps["goToCall"].then ===
-                                          "function"
-                                      ) {
-                                        $steps["goToCall"] =
-                                          await $steps["goToCall"];
-                                      }
-                                    }}
-                                  >
-                                    <CtaButton
-                                      className={classNames(
-                                        "__wab_instance",
-                                        sty.ctaButton__jjctq
-                                      )}
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
                         <PlasmicImg__
                           alt={""}
                           className={classNames(sty.img__mXnhj)}
@@ -950,6 +702,235 @@ function PlasmicHomepage__RenderFunc(props: {
                             aspectRatio: undefined
                           }}
                         />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    data-plasmic-name={"content"}
+                    data-plasmic-override={overrides.content}
+                    className={classNames(projectcss.all, sty.content)}
+                  >
+                    <div
+                      className={classNames(projectcss.all, sty.freeBox__sQVd6)}
+                    >
+                      <div
+                        className={classNames(
+                          projectcss.all,
+                          sty.freeBox__avgCx
+                        )}
+                      >
+                        <div
+                          data-plasmic-name={"sectionHeader2"}
+                          data-plasmic-override={overrides.sectionHeader2}
+                          className={classNames(
+                            projectcss.all,
+                            sty.sectionHeader2
+                          )}
+                        >
+                          <Reveal
+                            className={classNames(
+                              "__wab_instance",
+                              sty.reveal__mUtAe
+                            )}
+                            direction={"up"}
+                            triggerOnce={true}
+                          >
+                            <div
+                              data-plasmic-name={"sectionHeader"}
+                              data-plasmic-override={overrides.sectionHeader}
+                              className={classNames(
+                                projectcss.all,
+                                sty.sectionHeader
+                              )}
+                            >
+                              <h3
+                                className={classNames(
+                                  projectcss.all,
+                                  projectcss.h3,
+                                  projectcss.__wab_text,
+                                  sty.h3__lRvo9
+                                )}
+                              >
+                                {
+                                  "The problem isn't the law\nit's how lawyers think."
+                                }
+                              </h3>
+                            </div>
+                          </Reveal>
+                        </div>
+                        <Reveal
+                          className={classNames(
+                            "__wab_instance",
+                            sty.reveal__p639R
+                          )}
+                          delay={200}
+                          direction={"up"}
+                          triggerOnce={true}
+                        >
+                          <Step1
+                            data-plasmic-name={"step1"}
+                            data-plasmic-override={overrides.step1}
+                            className={classNames("__wab_instance", sty.step1)}
+                            others={(() => {
+                              try {
+                                return $state.scroll >= 1400
+                                  ? "_29th"
+                                  : $state.scroll >= 1370
+                                    ? "_28th"
+                                    : $state.scroll >= 1340
+                                      ? "_27th"
+                                      : $state.scroll >= 1310
+                                        ? "_26th"
+                                        : $state.scroll >= 1280
+                                          ? "_25th"
+                                          : $state.scroll >= 1250
+                                            ? "_24th"
+                                            : $state.scroll >= 1160
+                                              ? "_23rd"
+                                              : $state.scroll >= 1130
+                                                ? "_22nd"
+                                                : $state.scroll >= 1100
+                                                  ? "_21Th"
+                                                  : $state.scroll >= 1070
+                                                    ? "_20th"
+                                                    : $state.scroll >= 1040
+                                                      ? "_19th"
+                                                      : $state.scroll >= 1010
+                                                        ? "_18th"
+                                                        : $state.scroll >= 980
+                                                          ? "_17th"
+                                                          : $state.scroll >= 950
+                                                            ? "_16th"
+                                                            : $state.scroll >=
+                                                                860
+                                                              ? "_15th"
+                                                              : $state.scroll >=
+                                                                  830
+                                                                ? "_14th"
+                                                                : $state.scroll >=
+                                                                    800
+                                                                  ? "_13Th"
+                                                                  : $state.scroll >=
+                                                                      770
+                                                                    ? "_12Th"
+                                                                    : $state.scroll >=
+                                                                        740
+                                                                      ? "_11Th"
+                                                                      : $state.scroll >=
+                                                                          710
+                                                                        ? "_10th"
+                                                                        : $state.scroll >=
+                                                                            680
+                                                                          ? "_9th"
+                                                                          : $state.scroll >=
+                                                                              650
+                                                                            ? "_8th"
+                                                                            : $state.scroll >=
+                                                                                620
+                                                                              ? "_7th"
+                                                                              : $state.scroll >=
+                                                                                  590
+                                                                                ? "_6th"
+                                                                                : $state.scroll >=
+                                                                                    560
+                                                                                  ? "_5th"
+                                                                                  : $state.scroll >=
+                                                                                      530
+                                                                                    ? "_4th"
+                                                                                    : $state.scroll >=
+                                                                                        500
+                                                                                      ? "_3rd"
+                                                                                      : $state.scroll >=
+                                                                                          470
+                                                                                        ? "_2nd"
+                                                                                        : $state.scroll >=
+                                                                                            440
+                                                                                          ? "_1st"
+                                                                                          : "_30th";
+                              } catch (e) {
+                                if (
+                                  e instanceof TypeError ||
+                                  e?.plasmicType === "PlasmicUndefinedDataError"
+                                ) {
+                                  return "_7th";
+                                }
+                                throw e;
+                              }
+                            })()}
+                          />
+
+                          <Step1Mobile
+                            data-plasmic-name={"step1Mobile"}
+                            data-plasmic-override={overrides.step1Mobile}
+                            className={classNames(
+                              "__wab_instance",
+                              sty.step1Mobile
+                            )}
+                          />
+                        </Reveal>
+                        <div
+                          data-plasmic-name={"ctaButtonContainer"}
+                          data-plasmic-override={overrides.ctaButtonContainer}
+                          className={classNames(
+                            projectcss.all,
+                            sty.ctaButtonContainer
+                          )}
+                        >
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              sty.freeBox__d7DAl
+                            )}
+                          >
+                            <div
+                              className={classNames(
+                                projectcss.all,
+                                sty.freeBox__srP2Z
+                              )}
+                              onClick={async event => {
+                                const $steps = {};
+
+                                $steps["goToCall"] = true
+                                  ? (() => {
+                                      const actionArgs = {
+                                        destination: "#call"
+                                      };
+                                      return (({ destination }) => {
+                                        if (
+                                          typeof destination === "string" &&
+                                          destination.startsWith("#")
+                                        ) {
+                                          document
+                                            .getElementById(
+                                              destination.substr(1)
+                                            )
+                                            .scrollIntoView({
+                                              behavior: "smooth"
+                                            });
+                                        } else {
+                                          __nextRouter?.push(destination);
+                                        }
+                                      })?.apply(null, [actionArgs]);
+                                    })()
+                                  : undefined;
+                                if (
+                                  $steps["goToCall"] != null &&
+                                  typeof $steps["goToCall"] === "object" &&
+                                  typeof $steps["goToCall"].then === "function"
+                                ) {
+                                  $steps["goToCall"] = await $steps["goToCall"];
+                                }
+                              }}
+                            >
+                              <CtaButton
+                                className={classNames(
+                                  "__wab_instance",
+                                  sty.ctaButton__jjctq
+                                )}
+                              />
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -985,7 +966,6 @@ function PlasmicHomepage__RenderFunc(props: {
                               "__wab_instance",
                               sty.reveal__pqglz
                             )}
-                            direction={"up"}
                             triggerOnce={true}
                           >
                             <div
@@ -7058,6 +7038,34 @@ function PlasmicHomepage__RenderFunc(props: {
                               : "100%"
                           }
                           loading={"lazy"}
+                          onClick={async event => {
+                            const $steps = {};
+
+                            $steps["goToHome"] = true
+                              ? (() => {
+                                  const actionArgs = { destination: "#home" };
+                                  return (({ destination }) => {
+                                    if (
+                                      typeof destination === "string" &&
+                                      destination.startsWith("#")
+                                    ) {
+                                      document
+                                        .getElementById(destination.substr(1))
+                                        .scrollIntoView({ behavior: "smooth" });
+                                    } else {
+                                      __nextRouter?.push(destination);
+                                    }
+                                  })?.apply(null, [actionArgs]);
+                                })()
+                              : undefined;
+                            if (
+                              $steps["goToHome"] != null &&
+                              typeof $steps["goToHome"] === "object" &&
+                              typeof $steps["goToHome"].then === "function"
+                            ) {
+                              $steps["goToHome"] = await $steps["goToHome"];
+                            }
+                          }}
                           src={{
                             src: "/plasmic/evangelisti/images/group1321315465Png.png",
                             fullWidth: 434,
@@ -8254,15 +8262,7 @@ const PlasmicDescendants = {
     "step1Mobile",
     "ctaButtonContainer"
   ],
-  floatingBackground: [
-    "floatingBackground",
-    "content",
-    "sectionHeader2",
-    "sectionHeader",
-    "step1",
-    "step1Mobile",
-    "ctaButtonContainer"
-  ],
+  floatingBackground: ["floatingBackground"],
   content: [
     "content",
     "sectionHeader2",
