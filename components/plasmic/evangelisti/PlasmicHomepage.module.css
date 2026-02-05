@@ -2511,10 +2511,8 @@
   max-width: 100%;
   justify-content: flex-start;
   align-items: center;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  left: 0px;
+  top: 0px;
   background: #ffffff;
   row-gap: 0px;
   padding: 0px;
@@ -2526,10 +2524,10 @@
 }
 .img__jwVyz {
   object-fit: cover;
-  width: 100%;
+  width: 2056px;
   height: 913px;
-  max-width: 1486px;
-  min-width: 0;
+  max-width: 100%;
+  margin-right: 0px;
   flex-shrink: 0;
 }
 .img__jwVyz > picture > img {

@@ -1906,13 +1906,13 @@ function PlasmicHomepage__RenderFunc(props: {
                         className={classNames(sty.img__jwVyz)}
                         displayHeight={"913px"}
                         displayMaxHeight={"none"}
-                        displayMaxWidth={"1486px"}
+                        displayMaxWidth={"100%"}
                         displayMinHeight={"0"}
                         displayMinWidth={"0"}
                         displayWidth={
                           hasVariant(globalVariants, "screen", "tablet")
                             ? "300%"
-                            : "100%"
+                            : "2056px"
                         }
                         loading={"lazy"}
                         src={{
