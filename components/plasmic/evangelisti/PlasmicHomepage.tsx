@@ -1904,21 +1904,21 @@ function PlasmicHomepage__RenderFunc(props: {
                       <PlasmicImg__
                         alt={""}
                         className={classNames(sty.img__jwVyz)}
-                        displayHeight={"auto"}
+                        displayHeight={"913px"}
                         displayMaxHeight={"none"}
-                        displayMaxWidth={"none"}
+                        displayMaxWidth={"1486px"}
                         displayMinHeight={"0"}
                         displayMinWidth={"0"}
                         displayWidth={
                           hasVariant(globalVariants, "screen", "tablet")
                             ? "300%"
-                            : "140%"
+                            : "auto"
                         }
                         loading={"lazy"}
                         src={{
-                          src: "/plasmic/evangelisti/images/group16Png.png",
-                          fullWidth: 1626,
-                          fullHeight: 708,
+                          src: "/plasmic/evangelisti/images/backgroundGrayPng.png",
+                          fullWidth: 1531,
+                          fullHeight: 926,
                           aspectRatio: undefined
                         }}
                       />

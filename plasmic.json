@@ -1072,6 +1072,11 @@
           "id": "UMLcqjzfPgH0",
           "name": "Vector 4.png",
           "filePath": "../public/plasmic/evangelisti/images/vector4Png.png"
+        },
+        {
+          "id": "z3tQkCANQqZC",
+          "name": "background gray.png",
+          "filePath": "../public/plasmic/evangelisti/images/backgroundGrayPng.png"
         }
       ],
       "indirect": false,
