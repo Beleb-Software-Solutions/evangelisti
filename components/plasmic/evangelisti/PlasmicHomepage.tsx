@@ -1912,7 +1912,7 @@ function PlasmicHomepage__RenderFunc(props: {
                         displayWidth={
                           hasVariant(globalVariants, "screen", "tablet")
                             ? "300%"
-                            : "auto"
+                            : "100%"
                         }
                         loading={"lazy"}
                         src={{
