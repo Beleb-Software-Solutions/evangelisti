@@ -105,14 +105,14 @@
   }
 }
 .img {
-  object-fit: cover;
+  object-fit: fill;
   max-width: 100%;
   width: 212px;
   height: 42px;
   flex-shrink: 0;
 }
 .img > picture > img {
-  object-fit: cover;
+  object-fit: fill;
 }
 .freeBox___3Op68 {
   display: flex;

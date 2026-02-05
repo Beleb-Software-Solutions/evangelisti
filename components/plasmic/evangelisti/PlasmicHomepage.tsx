@@ -5082,7 +5082,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                     displayWidth={"222.4963836669922px"}
                                     loading={"lazy"}
                                     src={{
-                                      src: "/plasmic/evangelisti/images/image227Png.png",
+                                      src: "/plasmic/evangelisti/images/vector8Png.png",
                                       fullWidth: 182,
                                       fullHeight: 37,
                                       aspectRatio: undefined

@@ -1750,12 +1750,12 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 100%;
+  width: 1440px;
   height: auto;
   max-width: 100%;
   justify-content: flex-start;
   align-items: center;
-  min-width: 0;
+  background: none;
   padding: 0px;
 }
 .switchingLetters:global(.__wab_instance) {
@@ -1788,10 +1788,7 @@
   top: 0;
   right: 0;
   bottom: 0;
-  background:
-    linear-gradient(0deg, #ffffff00 0%, #ffffff00 54%, #ffffff 100%) 0% 0% /
-      100% 100% repeat,
-    url("/plasmic/evangelisti/images/rectangle14Png.png") top 50% left 50% / cover repeat;
+  background: none;
   padding: 0px;
 }
 .section4 {
@@ -3728,7 +3725,7 @@
 }
 .image18 {
   animation: none;
-  background: url("/plasmic/evangelisti/images/image18.png") 0px 0px / 214px 121px no-repeat;
+  background: url("/plasmic/evangelisti/images/vector5Png.png") 0px 0px / 100% 100% no-repeat;
   width: 220px;
   height: 90px;
   display: block;
@@ -3807,7 +3804,7 @@
 }
 .image21 {
   animation: none;
-  background: url("/plasmic/evangelisti/images/image21.png") 0px -66px / 215px 215px no-repeat;
+  background: url("/plasmic/evangelisti/images/vector6Png.png") top 0% left 0% / 100% 100% repeat;
   width: 207px;
   height: 80px;
   display: block;
@@ -3886,9 +3883,9 @@
 }
 .image19 {
   animation: none;
-  background: url("/plasmic/evangelisti/images/image19.png") 0px 0px / 151px 151px no-repeat;
+  background: url("/plasmic/evangelisti/images/vector7Png.png") 0px 0px / 151px 151px no-repeat;
   width: 152px;
-  height: 131px;
+  height: 149px;
   display: block;
   position: relative;
   top: auto;
@@ -6964,6 +6961,7 @@
   position: relative;
   top: auto;
   left: auto;
+  margin-bottom: 30px;
   flex-shrink: 0;
 }
 .img___12Ug > picture > img {

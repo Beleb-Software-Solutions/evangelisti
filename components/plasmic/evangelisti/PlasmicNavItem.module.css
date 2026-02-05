@@ -52,5 +52,6 @@
   -webkit-transition-duration: 0.3s;
 }
 .navItem:hover .text {
-  color: var(--token-DxfYAkV7QVUJ);
+  color: var(--token-RvPI6LyeIPmd);
+  font-weight: 700;
 }

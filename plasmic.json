@@ -1077,6 +1077,36 @@
           "id": "z3tQkCANQqZC",
           "name": "background gray.png",
           "filePath": "../public/plasmic/evangelisti/images/backgroundGrayPng.png"
+        },
+        {
+          "id": "BWLhxyYSGnpJ",
+          "name": "logo.png",
+          "filePath": "../public/plasmic/evangelisti/images/logoPng.png"
+        },
+        {
+          "id": "4wGM4lHqKxyz",
+          "name": "logo.png 2",
+          "filePath": "../public/plasmic/evangelisti/images/logoPng2.png"
+        },
+        {
+          "id": "OgZx-vHgGAUy",
+          "name": "Vector 5.png",
+          "filePath": "../public/plasmic/evangelisti/images/vector5Png.png"
+        },
+        {
+          "id": "Vtcjs8lURHDM",
+          "name": "Vector 6.png",
+          "filePath": "../public/plasmic/evangelisti/images/vector6Png.png"
+        },
+        {
+          "id": "CLH0XttdpdIp",
+          "name": "Vector 7.png",
+          "filePath": "../public/plasmic/evangelisti/images/vector7Png.png"
+        },
+        {
+          "id": "W1Lq18Hj0bHv",
+          "name": "Vector 8.png",
+          "filePath": "../public/plasmic/evangelisti/images/vector8Png.png"
         }
       ],
       "indirect": false,

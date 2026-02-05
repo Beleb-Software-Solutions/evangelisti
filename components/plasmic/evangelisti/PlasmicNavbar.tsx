@@ -221,7 +221,14 @@ function PlasmicNavbar__RenderFunc(props: {
               data-plasmic-name={"img"}
               data-plasmic-override={overrides.img}
               alt={"logo of evangelisti"}
-              className={classNames(sty.img)}
+              className={classNames(sty.img, {
+                [sty.imgchanges_scroll]: hasVariant(
+                  $state,
+                  "changes",
+                  "scroll"
+                ),
+                [sty.imgopen]: hasVariant($state, "open", "open")
+              })}
               displayHeight={"42px"}
               displayMaxHeight={"none"}
               displayMaxWidth={"100%"}
@@ -258,9 +265,9 @@ function PlasmicNavbar__RenderFunc(props: {
                 }
               }}
               src={{
-                src: "/plasmic/evangelisti/images/asset13X82.png",
-                fullWidth: 2569,
-                fullHeight: 509,
+                src: "/plasmic/evangelisti/images/logoPng2.png",
+                fullWidth: 212,
+                fullHeight: 42,
                 aspectRatio: undefined
               }}
             />
