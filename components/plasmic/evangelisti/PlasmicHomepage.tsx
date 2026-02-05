@@ -1916,9 +1916,9 @@ function PlasmicHomepage__RenderFunc(props: {
                         }
                         loading={"lazy"}
                         src={{
-                          src: "/plasmic/evangelisti/images/backgroundGrayPng.png",
-                          fullWidth: 1531,
-                          fullHeight: 926,
+                          src: "/plasmic/evangelisti/images/backgroundGray1920Png.png",
+                          fullWidth: 1920,
+                          fullHeight: 1161,
                           aspectRatio: undefined
                         }}
                       />
