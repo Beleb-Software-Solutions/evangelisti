@@ -634,6 +634,7 @@
   justify-content: flex-start;
   align-items: center;
   z-index: 1;
+  margin-top: 0px;
   min-width: 0;
   padding: 0px 70px;
 }
@@ -1788,7 +1789,12 @@
   top: 0;
   right: 0;
   bottom: 0;
-  background: none;
+  background: linear-gradient(
+      0deg,
+      var(--token-LN1YkB123lXQ) 77%,
+      var(--token-jgohepLVeKvh) 100%
+    )
+    0% 0% / contain;
   padding: 0px;
 }
 .section4 {
