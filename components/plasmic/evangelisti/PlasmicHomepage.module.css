@@ -839,6 +839,7 @@
   background: url("/plasmic/evangelisti/images/rectangle190.svg") top 50% left 50% / cover repeat;
   min-width: 0;
   border-radius: 30px;
+  border-width: 0%;
 }
 @media (max-width: 1024px) {
   .freeBox__va3EQ {
@@ -1776,7 +1777,7 @@
     display: flex;
   }
 }
-.freeBox__cI9 {
+.linearBackground {
   display: flex;
   flex-direction: column;
   position: absolute;
@@ -1791,8 +1792,8 @@
   bottom: 0;
   background: linear-gradient(
       0deg,
-      var(--token-Pxe4wDL2kJpb) 65%,
-      var(--token-jgohepLVeKvh) 91%
+      var(--token-Pxe4wDL2kJpb) 57%,
+      var(--token-zy6xhYnWF8Y7) 100%
     )
     0% 0% / contain;
   padding: 0px;

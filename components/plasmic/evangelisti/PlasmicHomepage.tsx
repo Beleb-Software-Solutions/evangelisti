@@ -152,6 +152,7 @@ export type PlasmicHomepage__OverridesType = {
   geminiGeneratedImageS36Syts36Syts36S15?: Flex__<"div">;
   switchingLetters?: Flex__<typeof SwitchingLetters>;
   switchingLettersMobile?: Flex__<typeof SwitchingLettersMobile>;
+  linearBackground?: Flex__<"div">;
   section4?: Flex__<"div">;
   theGoldenRulesOfStrategicLegalCounsel?: Flex__<"div">;
   everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities?: Flex__<"div">;
@@ -1648,7 +1649,9 @@ function PlasmicHomepage__RenderFunc(props: {
                     </div>
                   </div>
                   <div
-                    className={classNames(projectcss.all, sty.freeBox__cI9)}
+                    data-plasmic-name={"linearBackground"}
+                    data-plasmic-override={overrides.linearBackground}
+                    className={classNames(projectcss.all, sty.linearBackground)}
                   />
                 </div>
                 <div
@@ -7739,6 +7742,7 @@ const PlasmicDescendants = {
     "geminiGeneratedImageS36Syts36Syts36S15",
     "switchingLetters",
     "switchingLettersMobile",
+    "linearBackground",
     "section4",
     "theGoldenRulesOfStrategicLegalCounsel",
     "everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities",
@@ -7912,6 +7916,7 @@ const PlasmicDescendants = {
     "geminiGeneratedImageS36Syts36Syts36S15",
     "switchingLetters",
     "switchingLettersMobile",
+    "linearBackground",
     "section4",
     "theGoldenRulesOfStrategicLegalCounsel",
     "everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities",
@@ -8083,6 +8088,7 @@ const PlasmicDescendants = {
     "geminiGeneratedImageS36Syts36Syts36S15",
     "switchingLetters",
     "switchingLettersMobile",
+    "linearBackground",
     "section4",
     "theGoldenRulesOfStrategicLegalCounsel",
     "everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities",
@@ -8290,7 +8296,8 @@ const PlasmicDescendants = {
     "geminiGeneratedImageS36Syts36Syts36S14",
     "geminiGeneratedImageS36Syts36Syts36S15",
     "switchingLetters",
-    "switchingLettersMobile"
+    "switchingLettersMobile",
+    "linearBackground"
   ],
   content2: [
     "content2",
@@ -8340,6 +8347,7 @@ const PlasmicDescendants = {
   ],
   switchingLetters: ["switchingLetters"],
   switchingLettersMobile: ["switchingLettersMobile"],
+  linearBackground: ["linearBackground"],
   section4: [
     "section4",
     "theGoldenRulesOfStrategicLegalCounsel",
@@ -8846,6 +8854,7 @@ type NodeDefaultElementType = {
   geminiGeneratedImageS36Syts36Syts36S15: "div";
   switchingLetters: typeof SwitchingLetters;
   switchingLettersMobile: typeof SwitchingLettersMobile;
+  linearBackground: "div";
   section4: "div";
   theGoldenRulesOfStrategicLegalCounsel: "div";
   everyLegalStrategyIsABusinessStrategyThesePrinciplesGuideOurApproachToTransformingComplexChallengesIntoOpportunities: "div";
@@ -9095,6 +9104,7 @@ export const PlasmicHomepage = Object.assign(
     ),
     switchingLetters: makeNodeComponent("switchingLetters"),
     switchingLettersMobile: makeNodeComponent("switchingLettersMobile"),
+    linearBackground: makeNodeComponent("linearBackground"),
     section4: makeNodeComponent("section4"),
     theGoldenRulesOfStrategicLegalCounsel: makeNodeComponent(
       "theGoldenRulesOfStrategicLegalCounsel"
