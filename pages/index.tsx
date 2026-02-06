@@ -2,6 +2,7 @@
 // This file is owned by you, feel free to edit as you see fit.
 import * as React from "react";
 import { PageParamsProvider as PageParamsProvider__ } from "@plasmicapp/react-web/lib/host";
+import toast from 'react-hot-toast';
 
 import { PlasmicHomepage } from "../components/plasmic/evangelisti/PlasmicHomepage";
 import { useRouter } from "next/router";
@@ -27,14 +28,14 @@ function Homepage() {
 
       if (data.success) {
         setFormStatus('success');
-        alert('Thank you! Your message has been sent successfully.');
+        toast.success('Thank you! Your message has been sent successfully.');
       } else {
         setFormStatus('error');
-        alert('Sorry, something went wrong. Please try again later.');
+        toast.error('Sorry, something went wrong. Please try again later.');
       }
     } catch (error) {
       setFormStatus('error');
-      alert('Sorry, something went wrong. Please try again later.');
+      toast.error('Sorry, something went wrong. Please try again later.');
     }
   };
 
