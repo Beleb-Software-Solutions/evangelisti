@@ -6871,7 +6871,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                 sty.email
                               )}
                               label={null}
-                              name={"name"}
+                              name={"email"}
                             >
                               <div
                                 className={classNames(
@@ -6940,7 +6940,7 @@ function PlasmicHomepage__RenderFunc(props: {
                                 sty.message
                               )}
                               label={null}
-                              name={"name"}
+                              name={"message"}
                             >
                               <div
                                 className={classNames(
