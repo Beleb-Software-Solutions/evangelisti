@@ -39,17 +39,3 @@ a {
     color-scheme: dark;
   }
 }
-
-/* Contact form submit button hover fix */
-[data-plasmic-name="form3"] .ant-btn-primary:hover,
-[data-plasmic-name="form3"] .ant-btn-primary:focus {
-  background: linear-gradient(90deg, #53d8fb 0%, #daff7c 100%) !important;
-  filter: brightness(1.1);
-  transform: scale(1.02);
-  transition: all 0.2s ease;
-}
-
-[data-plasmic-name="form3"] .ant-btn-primary:hover span,
-[data-plasmic-name="form3"] .ant-btn-primary:focus span {
-  font-weight: 800 !important;
-}
