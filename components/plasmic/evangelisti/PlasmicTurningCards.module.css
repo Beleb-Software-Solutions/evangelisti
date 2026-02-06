@@ -726,6 +726,9 @@
   left: auto;
   flex-shrink: 0;
 }
+.image7others__1st {
+  background: url("/plasmic/evangelisti/images/bpcLogo11Png.png") center center / cover no-repeat;
+}
 .jetpackStudio7 {
   animation: none;
   position: relative;

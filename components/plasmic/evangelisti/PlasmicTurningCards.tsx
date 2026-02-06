@@ -554,7 +554,9 @@ function PlasmicTurningCards__RenderFunc(props: {
               <div
                 data-plasmic-name={"image24"}
                 data-plasmic-override={overrides.image24}
-                className={classNames(projectcss.all, sty.image24)}
+                className={classNames(projectcss.all, sty.image24, {
+                  [sty.image24others__1st]: hasVariant($state, "others", "_1st")
+                })}
               />
             </div>
             <div
@@ -660,6 +662,7 @@ function PlasmicTurningCards__RenderFunc(props: {
               data-plasmic-name={"image11"}
               data-plasmic-override={overrides.image11}
               className={classNames(projectcss.all, sty.image11, {
+                [sty.image11others__1st]: hasVariant($state, "others", "_1st"),
                 [sty.image11others__3rd]: hasVariant($state, "others", "_3rd")
               })}
             />
@@ -745,7 +748,9 @@ function PlasmicTurningCards__RenderFunc(props: {
             <div
               data-plasmic-name={"image7"}
               data-plasmic-override={overrides.image7}
-              className={classNames(projectcss.all, sty.image7)}
+              className={classNames(projectcss.all, sty.image7, {
+                [sty.image7others__1st]: hasVariant($state, "others", "_1st")
+              })}
             />
 
             <div
