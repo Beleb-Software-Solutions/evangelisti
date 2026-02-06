@@ -8930,7 +8930,7 @@
   background: url("/plasmic/evangelisti/images/rectangle2181Png.png") top 50% left 50% / cover repeat;
   row-gap: 450px;
   min-width: 0;
-  padding: 0px 0px 70px;
+  padding: 0px;
 }
 @media (max-width: 1024px) {
   .footer {
@@ -9256,6 +9256,7 @@
   width: 100%;
   height: auto;
   max-width: 1300px;
+  align-self: flex-end;
   min-width: 0;
   padding: 0px;
 }
@@ -9283,6 +9284,7 @@
   object-fit: cover;
   max-width: 250px;
   width: 100%;
+  align-self: auto;
   min-width: 0;
 }
 .img__eTgq > picture > img {
@@ -9323,6 +9325,10 @@
   line-height: 20px;
   color: rgba(13, 21, 53, 1);
   transform: translate(-0.001953125px, 0px);
+  align-self: auto;
+  position: relative;
+  left: auto;
+  top: auto;
 }
 .freeBox___6SXys {
   display: flex;
