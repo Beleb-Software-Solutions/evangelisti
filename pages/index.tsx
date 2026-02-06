@@ -7,17 +7,36 @@ import { PlasmicHomepage } from "../components/plasmic/evangelisti/PlasmicHomepa
 import { useRouter } from "next/router";
 
 function Homepage() {
-  // Use PlasmicHomepage to render this component as it was
-  // designed in Plasmic, by activating the appropriate variants,
-  // attaching the appropriate event handlers, etc.  You
-  // can also install whatever React hooks you need here to manage state or
-  // fetch data.
-  //
-  // Props you can pass into PlasmicHomepage are:
-  // 1. Variants you want to activate,
-  // 2. Contents for slots you want to fill,
-  // 3. Overrides for any named node in the component to attach behavior and data,
-  // 4. Props to set on the root node.
+  const [formStatus, setFormStatus] = React.useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
+
+  const handleFormSubmit = async (values: any) => {
+    setFormStatus('submitting');
+
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name: values.name || '',
+          email: values.email || '',
+          message: values.message || '',
+        }),
+      });
+
+      const data = await response.json();
+
+      if (data.success) {
+        setFormStatus('success');
+        alert('Thank you! Your message has been sent successfully.');
+      } else {
+        setFormStatus('error');
+        alert('Sorry, something went wrong. Please try again later.');
+      }
+    } catch (error) {
+      setFormStatus('error');
+      alert('Sorry, something went wrong. Please try again later.');
+    }
+  };
 
   return (
     <PageParamsProvider__
@@ -25,7 +44,11 @@ function Homepage() {
       params={useRouter()?.query}
       query={useRouter()?.query}
     >
-      <PlasmicHomepage />
+      <PlasmicHomepage
+        form3={{
+          onFinish: handleFormSubmit,
+        }}
+      />
     </PageParamsProvider__>
   );
 }
