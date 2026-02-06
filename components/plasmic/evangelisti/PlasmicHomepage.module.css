@@ -9090,7 +9090,7 @@
   position: relative;
   margin: 0px;
 }
-.formField__kDwkl:global(.__wab_instance) {
+.name:global(.__wab_instance) {
   animation: none;
   width: 100%;
   min-width: 0;
@@ -9119,7 +9119,7 @@
   position: relative;
   margin: 0px;
 }
-.formField___74YG4:global(.__wab_instance) {
+.email:global(.__wab_instance) {
   animation: none;
   width: 100%;
   min-width: 0;
@@ -9148,7 +9148,7 @@
   position: relative;
   margin: 0px;
 }
-.formField__a75Lp:global(.__wab_instance) {
+.message:global(.__wab_instance) {
   animation: none;
   width: 100%;
   min-width: 0;
