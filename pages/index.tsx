@@ -2,7 +2,7 @@
 // This file is owned by you, feel free to edit as you see fit.
 import * as React from "react";
 import { PageParamsProvider as PageParamsProvider__ } from "@plasmicapp/react-web/lib/host";
-import toast from 'react-hot-toast';
+import { toast } from 'sonner';
 
 import { PlasmicHomepage } from "../components/plasmic/evangelisti/PlasmicHomepage";
 import { useRouter } from "next/router";

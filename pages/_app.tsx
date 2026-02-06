@@ -5,19 +5,13 @@ import { PlasmicRootProvider } from "@plasmicapp/react-web";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import Link from "next/link";
-import { Toaster } from 'react-hot-toast';
+import { Toaster } from 'sonner';
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <PlasmicRootProvider Head={Head} Link={Link}>
       <Component {...pageProps} />
-      <Toaster
-        position="top-center"
-        containerStyle={{
-          top: '50%',
-          transform: 'translateY(-50%)',
-        }}
-      />
+      <Toaster position="top-center" richColors />
     </PlasmicRootProvider>
   );
 }
