@@ -991,7 +991,8 @@
 }
 @media (max-width: 1024px) {
   .geminiGeneratedImageS36Syts36Syts36S11 {
-    height: 250px;
+    height: 318px;
+    padding-bottom: 0px;
     flex-shrink: 0;
   }
 }
