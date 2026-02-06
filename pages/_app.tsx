@@ -11,7 +11,11 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <PlasmicRootProvider Head={Head} Link={Link}>
       <Component {...pageProps} />
-      <Toaster position="top-center" richColors />
+      <Toaster
+        position="top-center"
+        richColors
+        offset="45vh"
+      />
     </PlasmicRootProvider>
   );
 }
