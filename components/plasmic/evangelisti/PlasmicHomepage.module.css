@@ -1763,6 +1763,7 @@
 }
 .switchingLetters:global(.__wab_instance) {
   position: relative;
+  align-self: center;
 }
 @media (max-width: 620px) {
   .switchingLetters:global(.__wab_instance) {
@@ -5367,8 +5368,8 @@
   align-items: center;
   background: radial-gradient(
       ellipse 53% 53% at 53% 47%,
-      #ffffff 0%,
-      #ffffffb0 41%,
+      var(--token-zy6xhYnWF8Y7) 0%,
+      #ffffffb0 99%,
       #fdfeff4d 100%
     )
     0% 0% / 100% 100% repeat;
@@ -5412,7 +5413,7 @@
 }
 .asset13X87 {
   animation: none;
-  background: url("/plasmic/evangelisti/images/asset13X82.png") 1px 0px / 858px 170px no-repeat;
+  background: url("/plasmic/evangelisti/images/logWhiteJpgJpg.jpg") 1px 0px / cover no-repeat;
   width: 172px;
   height: 170px;
   display: block;

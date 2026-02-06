@@ -1112,6 +1112,21 @@
           "id": "Bpsw3de72zfb",
           "name": "background gray 1920.png",
           "filePath": "../public/plasmic/evangelisti/images/backgroundGray1920Png.png"
+        },
+        {
+          "id": "xfU6OL3kDSGN",
+          "name": "Vector 9.png",
+          "filePath": "../public/plasmic/evangelisti/images/vector9Png.png"
+        },
+        {
+          "id": "Fks53mjFjHr8",
+          "name": "Logo_White.png",
+          "filePath": "../public/plasmic/evangelisti/images/logoWhitePng.png"
+        },
+        {
+          "id": "64a8yIfYjirg",
+          "name": "Log_whiteJPG.jpg",
+          "filePath": "../public/plasmic/evangelisti/images/logWhiteJpgJpg.jpg"
         }
       ],
       "indirect": false,
