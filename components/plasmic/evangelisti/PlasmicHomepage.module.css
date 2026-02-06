@@ -1790,12 +1790,10 @@
   top: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-      0deg,
-      var(--token-Pxe4wDL2kJpb) 24%,
-      var(--token-zy6xhYnWF8Y7) 81%
-    )
-    0% 0% / contain;
+  background:
+    linear-gradient(0deg, #ffffff00 0%, #ffffff00 54%, #ffffff 100%) 0% 0% /
+      100% 100% repeat,
+    url("/plasmic/evangelisti/images/rectangle14Png.png") top 50% left 50% / cover repeat;
   padding: 0px;
 }
 .section4 {
