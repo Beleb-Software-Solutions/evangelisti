@@ -26,6 +26,11 @@ function Homepage() {
       return;
     }
 
+    if (email.includes(',')) {
+      toast.error('Please use a period (.) instead of a comma (,) in your email.');
+      return;
+    }
+
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
       toast.error('Please enter a valid email address.');
