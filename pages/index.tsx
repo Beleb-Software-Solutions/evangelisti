@@ -65,6 +65,8 @@ function Homepage() {
     }
   };
 
+  const dismissToast = () => toast.dismiss();
+
   return (
     <PageParamsProvider__
       route={useRouter()?.pathname}
@@ -74,6 +76,15 @@ function Homepage() {
       <PlasmicHomepage
         form3={{
           onFinish: handleFormSubmit,
+        }}
+        name={{
+          onFocus: dismissToast,
+        }}
+        email={{
+          onFocus: dismissToast,
+        }}
+        message={{
+          onFocus: dismissToast,
         }}
       />
     </PageParamsProvider__>
