@@ -11,6 +11,32 @@ function Homepage() {
   const [formStatus, setFormStatus] = React.useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
 
   const handleFormSubmit = async (values: any) => {
+    const name = values.name?.trim() || '';
+    const email = values.email?.trim() || '';
+    const message = values.message?.trim() || '';
+
+    // Validation
+    if (!name) {
+      toast.error('Please enter your name.');
+      return;
+    }
+
+    if (!email) {
+      toast.error('Please enter your email.');
+      return;
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      toast.error('Please enter a valid email address.');
+      return;
+    }
+
+    if (!message) {
+      toast.error('Please enter your message.');
+      return;
+    }
+
     setFormStatus('submitting');
 
     try {
@@ -18,9 +44,9 @@ function Homepage() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          name: values.name || '',
-          email: values.email || '',
-          message: values.message || '',
+          name,
+          email,
+          message,
         }),
       });
 
