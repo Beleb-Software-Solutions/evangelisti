@@ -1794,7 +1794,7 @@
   background:
     linear-gradient(0deg, #ffffff00 0%, #ffffff00 54%, #ffffff 100%) 0% 0% /
       100% 100% repeat,
-    url("/plasmic/evangelisti/images/rectangle14Png.png") top 50% left 50% / cover repeat;
+    url("/plasmic/evangelisti/images/rectangle14Png.png") top 50% left 50% / contain repeat;
   padding: 0px;
 }
 .section4 {
